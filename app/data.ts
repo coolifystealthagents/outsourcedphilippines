@@ -19,7 +19,7 @@ export const services = [
   {
     slug: 'operations-support',
     title: 'Operations Support',
-    desc: 'Operations Support for teams using outsourced Philippines staffing with clear SOPs, weekly review, and measurable handoffs.',
+    desc: 'Hire Filipino operations support for recurring admin work, vendor follow-up, SOP upkeep, and weekly reporting.',
     buyerProblem: 'Work keeps sitting with the owner because no one has turned repeat tasks into a clear handoff plan.',
     bestTasks: ['daily task board cleanup', 'vendor follow-up and reminders', 'SOP updates from recorded steps', 'weekly status reports'],
     controls: ['owner approval list for exceptions', 'sample-work review before more access', 'Friday scorecard for speed, accuracy, and blockers'],
@@ -32,7 +32,7 @@ export const services = [
   {
     slug: 'customer-support',
     title: 'Customer Support',
-    desc: 'Customer Support for teams using outsourced Philippines staffing with clear SOPs, weekly review, and measurable handoffs.',
+    desc: 'Build a Filipino customer support role around ticket triage, approved replies, order updates, and clear escalation rules.',
     buyerProblem: 'Tickets, chats, and follow-up messages need faster replies, but the team still needs clear rules for refunds, complaints, and edge cases.',
     bestTasks: ['ticket triage and tagging', 'first replies from approved macros', 'order-status updates', 'daily complaint and refund summary'],
     controls: ['approved answer bank', 'escalation rules for refunds and angry customers', 'QA review of first 20 replies'],
@@ -45,7 +45,7 @@ export const services = [
   {
     slug: 'admin-support',
     title: 'Admin Support',
-    desc: 'Admin Support for teams using outsourced Philippines staffing with clear SOPs, weekly review, and measurable handoffs.',
+    desc: 'Plan a Filipino admin support role for calendars, inboxes, CRM updates, meeting notes, and follow-up drafts.',
     buyerProblem: 'Calendar, inbox, document, and CRM tasks are small on their own, but together they pull leaders away from sales and client work.',
     bestTasks: ['calendar cleanup', 'inbox sorting', 'CRM data updates', 'meeting notes and follow-up drafts'],
     controls: ['private-email boundaries', 'send-draft approval rules', 'daily done-list with links to completed work'],
@@ -58,7 +58,7 @@ export const services = [
   {
     slug: 'reporting-and-qa',
     title: 'Reporting and QA',
-    desc: 'Reporting and QA for teams using outsourced Philippines staffing with clear SOPs, weekly review, and measurable handoffs.',
+    desc: 'Use Filipino reporting and QA support to prepare clean reports, check samples, and keep an issue log for manager review.',
     buyerProblem: 'Managers need clean numbers and quality checks, but they do not need another meeting or a complicated dashboard.',
     bestTasks: ['daily KPI pull', 'spreadsheet cleanup', 'call or ticket QA sampling', 'weekly issue log'],
     controls: ['source link for every number', 'QA checklist with pass/fail reasons', 'manager review before reports go to clients'],
@@ -73,29 +73,101 @@ export const services = [
 export const blogPosts = [
   {
     slug: 'outsourced-Philippines-staffing-planning',
-    title: 'Outsourced Philippines: What does it plan?',
-    excerpt: 'A plain-English guide to staffing details, scope, and hidden planning.',
+    title: 'How to plan outsourced staffing in the Philippines',
+    excerpt: 'Turn a loose task list into a role with clear hours, access limits, and a named reviewer.',
     minutes: 6,
   },
   {
     slug: 'outsourced-Philippines-staffing-tasks-to-outsource',
-    title: 'Outsourced Philippines: What tasks should you outsource first?',
+    title: 'Which tasks should you outsource to the Philippines first?',
     excerpt: 'Start with recurring work that has examples and clear review rules.',
     minutes: 7,
   },
   {
     slug: 'outsourced-Philippines-staffing-provider-questions',
-    title: 'Outsourced Philippines: Questions to ask before hiring',
+    title: 'Questions to ask a Philippines staffing provider',
     excerpt: 'Use these questions before you sign with a provider or freelancer.',
     minutes: 8,
   },
   {
     slug: 'outsourced-Philippines-staffing-onboarding-checklist',
-    title: 'Outsourced Philippines: First week onboarding checklist',
+    title: 'First-week checklist for a Filipino team member',
     excerpt: 'A simple checklist for tools, SOPs, calls, QA, and reporting.',
     minutes: 9,
   },
 ] as const;
+
+export const blogBasics = {
+  'outsourced-Philippines-staffing-planning': {
+    intro: 'A useful role brief says what the person will do, when the work happens, which tools they need, and who checks the result. Write those details before you compare candidates or providers.',
+    sections: [
+      {
+        title: 'Start with work that repeats',
+        paragraphs: [
+          'List the tasks that return every day or week. Add a finished example beside each one. If you cannot show what done looks like, keep the task with your manager until the process is clearer.',
+          'Group related tasks into one starting role. Calendar updates, inbox sorting, and meeting follow-up can fit an admin role. Ticket replies and order updates belong in a customer support role.',
+        ],
+        checks: ['Which tasks repeat each week?', 'What finished example can the new hire copy?', 'Who answers questions about the work?'],
+      },
+      {
+        title: 'Write the hours and decision limits',
+        paragraphs: [
+          'State the working hours in one time zone and note any overlap your team needs. Then list the decisions that stay with your manager, such as refunds, price changes, hiring choices, or payments.',
+          'Give access in small steps. The first tool list should include only the accounts needed for the first tasks, with an owner responsible for adding and removing permissions.',
+        ],
+        checks: ['Which hours need live coverage?', 'What always needs approval?', 'Who owns each account and permission?'],
+      },
+      {
+        title: 'Name the first reviewer',
+        paragraphs: ['One person should review early work, record corrections, and decide when the task is ready for less supervision. Without that owner, feedback gets scattered and the Filipino team member has to guess which comment matters.'],
+        checks: ['Who reviews the first five examples?', 'Where are corrections recorded?', 'When can the role take on another task?'],
+      },
+    ],
+  },
+  'outsourced-Philippines-staffing-tasks-to-outsource': {
+    intro: 'The best first tasks are easy to show, easy to check, and low risk when a mistake happens. Start there before handing over sensitive decisions or work that changes every day.',
+    sections: [
+      {
+        title: 'Choose visible, repeatable work',
+        paragraphs: [
+          'Good starting tasks include inbox sorting, CRM cleanup, ticket tagging, order updates, report preparation, and follow-up drafts. Each task can use a sample, checklist, or approved reply.',
+          'Keep work that depends on private judgment with your manager. Pricing exceptions, refunds, bank changes, legal decisions, and final hiring calls still need a clear approval line.',
+        ],
+        checks: ['Does the task have a finished example?', 'Can a manager check it quickly?', 'Can mistakes be corrected before they reach a customer?'],
+      },
+      {
+        title: 'Build one task lane at a time',
+        paragraphs: ['Give the Filipino team member a small group of related tasks and review the first attempts closely. Add more work after the output is steady, not because the job description still has empty space.'],
+        checks: ['Which task comes first?', 'How many samples will the manager review?', 'What must happen before another task is added?'],
+      },
+      {
+        title: 'Keep an exception list',
+        paragraphs: ['Write down the cases that come back to your team. A short exception list is more useful than telling someone to use good judgment without explaining where their authority ends.'],
+        checks: ['Which requests need approval?', 'Who handles urgent exceptions?', 'Where should the worker record a blocked task?'],
+      },
+    ],
+  },
+  'outsourced-Philippines-staffing-onboarding-checklist': {
+    intro: 'A first week should teach a narrow role, protect access, and give the new Filipino team member one clear source of feedback. The goal is clean early work, not a tour of every system in the company.',
+    sections: [
+      {
+        title: 'Prepare before the start date',
+        paragraphs: ['Choose the first tasks, gather finished examples, and create individual accounts. Write the working hours, contact list, and approval limits in the same brief.'],
+        checks: ['Are the first tasks listed in order?', 'Are sample files ready?', 'Does every tool have an account owner?'],
+      },
+      {
+        title: 'Review real work together',
+        paragraphs: ['Use live tasks during training. Check the first examples, explain corrections in one place, and ask the new hire to repeat the process in their own words. This catches gaps that a long orientation call can miss.'],
+        checks: ['Who checks the first work samples?', 'Where will corrections live?', 'How should the worker flag a question?'],
+      },
+      {
+        title: 'End the week with a decision',
+        paragraphs: ['Review accuracy, open questions, access needs, and any task that still returns to the manager. Keep the role narrow for another week if the basics are not steady. Add work only when the handoff is clear.'],
+        checks: ['Which tasks are ready for normal review?', 'What still needs close checking?', 'Should any access be added or removed?'],
+      },
+    ],
+  },
+} as const;
 
 export const blogDetails = {
   'outsourced-Philippines-staffing-provider-questions': {

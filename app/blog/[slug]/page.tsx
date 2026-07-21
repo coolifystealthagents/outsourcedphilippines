@@ -1,9 +1,10 @@
 import { Header, Footer, CTA, JsonLd } from '../../components';
-import { blogDetails, blogPosts, site } from '../../data';
+import { blogBasics, blogDetails, blogPosts, site } from '../../data';
 
 const baseUrl = 'https://outsourcedphilippines.com';
 
 type DetailSlug = keyof typeof blogDetails;
+type BasicSlug = keyof typeof blogBasics;
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -33,9 +34,10 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug) || blogPosts[0];
   const detail = blogDetails[post.slug as DetailSlug];
+  const basic = blogBasics[post.slug as BasicSlug];
   const articleUrl = `${baseUrl}/blog/${post.slug}`;
 
-  if (!detail) {
+  if (!detail && basic) {
     return (
       <>
         <Header />
@@ -44,24 +46,17 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <p className="eyebrow">{site.brand} guide</p>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
-            <div className="card">
-              <h2>The short answer</h2>
-              <p>Start with one role, a short task list, and a weekly scorecard. Do not outsource a messy process until examples and rules are clear.</p>
-              <h2>What to prepare</h2>
-              <ul>
-                <li>Task examples and sample replies</li>
-                <li>Tool access and permission rules</li>
-                <li>Daily output target</li>
-                <li>Escalation rules for anything sensitive</li>
-              </ul>
-              <h2>Questions to ask</h2>
-              <ul>
-                <li>Who screens the worker?</li>
-                <li>Who checks quality?</li>
-                <li>What happens if fit is poor?</li>
-                <li>How are passwords and customer data handled?</li>
-              </ul>
-            </div>
+            <p className="article-intro">{basic.intro}</p>
+            {basic.sections.map((section) => (
+              <section className="article-section" key={section.title}>
+                <h2>{section.title}</h2>
+                {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                <div className="check-panel">
+                  <h3>Questions to settle</h3>
+                  <ul>{section.checks.map((check) => <li key={check}>{check}</li>)}</ul>
+                </div>
+              </section>
+            ))}
           </article>
           <CTA />
         </main>
@@ -69,6 +64,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       </>
     );
   }
+
+  if (!detail) return null;
 
   const articleId = `${articleUrl}#article`;
   const faqId = `${articleUrl}#faq`;

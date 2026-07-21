@@ -91,7 +91,7 @@ export default function Home() {
 
       <section className="process-field" id="process">
         <div className="container process-grid">
-          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Four moves. No grand transformation speech.</h2><p>Get one lane working with Filipino talent, then decide whether the next lane is worth adding.</p></div>
+          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p></div>
           <div className="process-list">
             {staffingProcess.map((item) => <article key={item.step}><span>{item.step}</span><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}
           </div>

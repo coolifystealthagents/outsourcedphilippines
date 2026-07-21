@@ -93,7 +93,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
           <div className="container two">
             <div>
               <p className="eyebrow">{site.brand} service</p>
-              <h1>{s.title} for Filipino teams in the Philippines</h1>
+              <h1>{s.title} with Filipino talent from the Philippines</h1>
               <p className="lead">{s.desc}</p>
               <p>{s.buyerProblem}</p>
               <a className="btn" href="/contact">Plan this role</a>
@@ -142,11 +142,11 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
               <p className="eyebrow">Simple handoff rule</p>
               <h2>Give the role a small lane first.</h2>
               <p>
-                A Filipino hire works best when the first week has finished examples, clear approval rules, and one manager checking the work. Add more tasks after the first lane is steady.
+                Give the new Filipino team member finished examples, clear approval rules, and one manager who checks the first work. Add more tasks after the first lane is steady.
               </p>
             </div>
             <div className="card">
-              <p className="quote">"Do not hire a person into a foggy job. Write the lane, test the lane, then widen it."</p>
+              <p className="quote">Start with a written lane. Test it with real work, then widen it.</p>
             </div>
           </div>
         </section>
