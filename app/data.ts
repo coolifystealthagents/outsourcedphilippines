@@ -97,6 +97,114 @@ export const blogPosts = [
   },
 ] as const;
 
+export const blogDetails = {
+  'outsourced-Philippines-staffing-provider-questions': {
+    takeaways: [
+      'Ask who employs the worker, who manages the work, and who handles a poor fit. Those may be three different people.',
+      'Request a live example of the weekly report, quality check, and escalation path before you sign.',
+      'Agree on tool access, password handling, and the process for removing access when the work ends.',
+      'Put replacement terms, notice periods, fees, and data return rules in writing.',
+    ],
+    questionRows: [
+      {
+        question: 'Who is responsible for the worker?',
+        usefulAnswer: 'The provider names the employer, day-to-day manager, payroll owner, and the person you contact when attendance or quality slips.',
+        warning: 'Everyone helps with that, but no one person owns it.',
+      },
+      {
+        question: 'How do you check quality?',
+        usefulAnswer: 'You see the scorecard, sample size, review owner, and the exact steps used when work misses the mark.',
+        warning: 'We hire great people, so quality problems are rare.',
+      },
+      {
+        question: 'How is access controlled?',
+        usefulAnswer: 'Each worker gets an individual account, limited permissions, multi-factor authentication, and a written removal checklist.',
+        warning: 'The team shares a login because it is faster.',
+      },
+      {
+        question: 'What happens if the fit is poor?',
+        usefulAnswer: 'The agreement states the review period, correction plan, replacement process, fees, and expected handoff time.',
+        warning: 'We will work something out if that happens.',
+      },
+    ],
+    sections: [
+      {
+        title: 'Start with the service model',
+        paragraphs: [
+          'Two firms can both sell Philippines staffing while doing very different work. One may recruit a person and leave management to you. Another may employ the worker, track attendance, run quality checks, and provide backup. Neither model is automatically better. The right choice depends on how much management your team can handle.',
+          'Ask the provider to draw the working relationship on one page. The page should name the employer, your manager, the provider manager, the payroll owner, and the person who can approve a replacement. If the answer stays vague, the service will probably feel vague after launch too.',
+        ],
+        checks: ['Who signs the worker agreement?', 'Who approves leave and schedule changes?', 'Who gives daily task feedback?', 'Who owns a missed shift or repeated quality problem?'],
+      },
+      {
+        title: 'Ask to see the management system',
+        paragraphs: [
+          'A polished sales call tells you very little about the week after hiring. Ask for blank versions of the tools the provider says it uses: a weekly report, a quality scorecard, an attendance note, and an escalation record. Blank samples protect client details while showing whether a real process exists.',
+          'Use one sample task from your own business during the call. Ask how the provider would train it, check the first attempts, record corrections, and decide when the worker can handle it alone. You are listening for names and actions, not broad promises about talent.',
+        ],
+        checks: ['What does the first five-day plan include?', 'How many work samples are checked at the start?', 'Where are corrections recorded?', 'When does a manager step in?'],
+      },
+      {
+        title: 'Set access and data rules before day one',
+        paragraphs: [
+          'Write down which systems the role needs and which actions stay with your manager. A support worker may need to read an order but not issue a refund. An admin assistant may prepare an invoice but not change bank details. These limits matter more than a general promise that data is secure.',
+          'CISA recommends strong, unique passwords and multi-factor authentication. NIST also provides a privacy risk framework for identifying and managing data risk. Ask the provider how those ideas show up in the actual setup: individual accounts, limited permissions, access reviews, device rules, and removal of access at the end of the engagement.',
+        ],
+        checks: ['Does every worker have an individual account?', 'Is multi-factor authentication required where available?', 'Who reviews permissions?', 'How quickly is access removed after a role ends?'],
+      },
+      {
+        title: 'Read the exit terms before the price sheet',
+        paragraphs: [
+          'The monthly rate is only one part of the cost. Ask about setup charges, software seats, overtime, holiday coverage, replacement fees, notice periods, and any minimum term. Then ask what happens to your files, passwords, process notes, and unfinished work when the agreement ends.',
+          'A useful proposal makes the exit boring. It states who returns company property, who transfers work, how access is removed, when the final invoice is due, and whether a replacement changes the contract term. If those details are missing, request them before signing.',
+        ],
+        checks: ['What is included in the monthly price?', 'Which charges can change?', 'How does a replacement affect fees or term?', 'How are files and open tasks returned?'],
+      },
+    ],
+    callScript: [
+      'Please show us who owns recruiting, employment, payroll, daily management, quality checks, and replacement decisions.',
+      'Please send blank samples of the weekly report, scorecard, and escalation record you would use for this role.',
+      'For our first task, explain the training steps, review sample, approval limit, and rule for handing the task back to our manager.',
+      'Please list every fee, the notice period, replacement terms, and the steps used to return data and remove access when the work ends.',
+    ],
+    faqs: [
+      {
+        question: 'Should I choose a provider or hire a Philippines freelancer directly?',
+        answer: 'Choose based on the support you need. Direct hiring gives you more control but leaves recruiting, management, payroll setup, and replacement planning with your team. A provider may handle some or all of that work. Ask for the exact split in writing.',
+      },
+      {
+        question: 'What proof should a staffing provider share?',
+        answer: 'Ask for process proof rather than private client data. Blank scorecards, report templates, training checklists, security rules, and replacement terms show how the service works without exposing another client.',
+      },
+      {
+        question: 'How should I compare provider prices?',
+        answer: 'Compare the full monthly cost and the work included. Add setup fees, software, overtime, management, quality review, replacement charges, and contract limits. A lower rate may require more management from your team.',
+      },
+      {
+        question: 'What should happen before a worker receives tool access?',
+        answer: 'Confirm the task list, approval limits, individual account, permissions, multi-factor authentication, device rules, and access removal owner. Start with the least access needed for the first tasks.',
+      },
+    ],
+    sources: [
+      {
+        name: 'U.S. Small Business Administration: Hire and manage employees',
+        url: 'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees',
+        note: 'General employer planning, payroll, benefits, and employee management guidance.',
+      },
+      {
+        name: 'CISA: Use strong passwords',
+        url: 'https://www.cisa.gov/secure-our-world/use-strong-passwords',
+        note: 'Plain guidance on unique passwords, password managers, and multi-factor authentication.',
+      },
+      {
+        name: 'NIST Privacy Framework',
+        url: 'https://www.nist.gov/privacy-framework',
+        note: 'A framework for identifying and managing privacy risk.',
+      },
+    ],
+  },
+} as const;
+
 export const stats = [
   { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
   { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
