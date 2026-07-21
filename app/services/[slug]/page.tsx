@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const s = services.find((x) => x.slug === slug);
   return {
-    title: s ? `${s.title} | Philippines offshore staffing` : 'Service',
+    title: s ? `${s.title} | Filipino talent in the Philippines` : 'Service',
     description: s?.desc,
     alternates: s ? { canonical: `/services/${s.slug}` } : undefined,
   };
@@ -93,13 +93,13 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
           <div className="container two">
             <div>
               <p className="eyebrow">{site.brand} service</p>
-              <h1>{s.title} for Philippines offshore teams</h1>
+              <h1>{s.title} for Filipino teams in the Philippines</h1>
               <p className="lead">{s.desc}</p>
               <p>{s.buyerProblem}</p>
               <a className="btn" href="/contact">Plan this role</a>
             </div>
             <div className="hero-card">
-              <img src={site.serviceImage} alt={`${s.title} offshore service team`} />
+              <img src={site.serviceImage} alt="Colleagues discussing work around monitors in an open office" />
             </div>
           </div>
         </section>
@@ -142,7 +142,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
               <p className="eyebrow">Simple handoff rule</p>
               <h2>Give the role a small lane first.</h2>
               <p>
-                A Philippines hire works best when the first week has real examples, clear approval rules, and one manager checking the work. Add more tasks after the first lane is steady.
+                A Filipino hire works best when the first week has finished examples, clear approval rules, and one manager checking the work. Add more tasks after the first lane is steady.
               </p>
             </div>
             <div className="card">

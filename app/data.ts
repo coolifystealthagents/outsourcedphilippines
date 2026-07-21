@@ -3,16 +3,16 @@ export const site = {
   slug: 'outsourcedphilippines',
   brand: 'Outsourced Philippines',
   primary: 'outsourced Philippines staffing',
-  audience: 'companies hiring Philippines-based remote staff and managed teams',
-  angle: 'Philippines roles, planning, English communication, schedules, and quality systems',
-  style: 'Philippines talent story',
-  dark: '#06343b',
-  color: '#0891b2',
-  accent: '#f97316',
-  heroImage: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80',
-  serviceImage: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80',
-  alt: 'Philippines remote team working in business office',
-  badge: 'PH team',
+  audience: 'companies hiring Filipino talent based in the Philippines',
+  angle: 'Filipino roles, planning, working hours, access rules, and quality checks',
+  style: 'Philippines role room',
+  dark: '#16382f',
+  color: '#c7b8f7',
+  accent: '#e35f3e',
+  heroImage: '/philippines-team-workroom.jpg',
+  serviceImage: '/philippines-team-workroom.jpg',
+  alt: 'Colleagues discussing work around monitors in an open office',
+  badge: 'PH only',
 } as const;
 
 export const services = [
@@ -206,24 +206,24 @@ export const blogDetails = {
 } as const;
 
 export const stats = [
-  { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
-  { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
-  { label: 'Start with', value: '5-10 tasks', note: 'clear recurring tasks beat vague job descriptions' },
+  { label: 'Talent source', value: 'Philippines', note: 'the staffing model is limited to Filipino talent based in the Philippines' },
+  { label: 'Pilot shape', value: 'One role', note: 'a narrow first lane is easier to teach and review' },
+  { label: 'Start with', value: 'Clear tasks', note: 'finished examples beat a vague job description' },
 ] as const;
 
 export const staffingOffer = {
-  partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  partner: 'a Philippines staffing partner',
+  promise: 'Get a role brief built around the work you want a Filipino team member to handle.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
-    'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
+    'business owners who want Filipino talent but need help turning tasks into one clear role',
+    'teams that want onboarding notes, access limits, and a named review path',
+    'companies planning Philippines-based support for admin, operations, customer service, bookkeeping, development, or marketing work',
   ],
   included: [
-    'role planning call to turn your task list into a clear staffing scope',
-    'candidate matching based on skills, schedule, tools, and communication needs',
-    'onboarding guidance for SOPs, scorecards, reporting, and safe tool access',
-    'managed support so quality, attendance, and replacement questions do not sit only on the owner',
+    'a role brief that turns the task list into a focused starting scope',
+    'matching notes based on skills, working hours, tools, and communication needs',
+    'onboarding notes for examples, scorecards, reporting, and safe tool access',
+    'a review path so quality, attendance, and fit questions have a named owner',
   ],
   proof: [
     'clear task scope before hiring',
@@ -242,10 +242,10 @@ export const leadQuestions = [
 ] as const;
 
 export const staffingProcess = [
-  { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
-  { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
-  { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
+  { step: '1', title: 'Map the role', body: 'Turn the loose task list into one role with outcomes, tools, limits, and a first-week checklist.' },
+  { step: '2', title: 'Match Filipino talent', body: 'A Philippines staffing partner can compare the role with Filipino talent based on the work, hours, communication style, and skill level you need.' },
+  { step: '3', title: 'Launch with control', body: 'Start with examples, limited access, frequent review, and a short scorecard so quality is easy to see.' },
+  { step: '4', title: 'Widen the lane', body: 'Once the first tasks are steady, add more work only where the handoff still makes sense.' },
 ] as const;
 
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
+export const staffingFitNote = 'Every role depends on its tasks, working hours, skills, tools, and review needs. Send the details and a Philippines staffing partner can discuss Filipino talent that fits the brief.';

@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Site logo">
-  <rect width="96" height="96" rx="24" fill="#17324D"/>
-  <path d="M24 60V29h13l22 28V29h13v38H59L37 39v28H24z" fill="#FFF8EE"/>
-  <circle cx="70" cy="26" r="8" fill="#F27B3D"/>
-  <path d="M22 73c15-8 36-8 52 0" fill="none" stroke="#0F8F73" stroke-width="8" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Outsourced Philippines role desk mark</title>
+  <desc id="desc">An abstract folded role brief with the letters PH</desc>
+  <rect width="64" height="64" rx="16" fill="#16382f"/>
+  <path d="M15 13h26l8 8v30H15z" fill="#f5f0e4"/>
+  <path d="M41 13v9h8" fill="#c7b8f7"/>
+  <path d="M21 29h22M21 36h17M21 43h10" stroke="#e35f3e" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="45" cy="45" r="11" fill="#c7b8f7"/>
+  <text x="45" y="48.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="800" fill="#16382f">PH</text>
 </svg>
