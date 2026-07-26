@@ -1,5 +1,6 @@
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogBasics, blogDetails, blogPosts, site } from '../../data';
+import { PhilippinesRemoteAccessArticle, remoteAccessDescription, remoteAccessSlug, remoteAccessTitle, remoteAccessUrl } from './philippines-remote-access-article';
 
 const baseUrl = 'https://outsourcedphilippines.com';
 
@@ -12,6 +13,14 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === remoteAccessSlug) {
+    return {
+      title: remoteAccessTitle,
+      description: remoteAccessDescription,
+      alternates: { canonical: remoteAccessUrl },
+      openGraph: { title: remoteAccessTitle, description: remoteAccessDescription, url: remoteAccessUrl, siteName: site.brand, type: 'article' },
+    };
+  }
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) return { title: 'Guide' };
 
@@ -32,6 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === remoteAccessSlug) return <PhilippinesRemoteAccessArticle />;
   const post = blogPosts.find((item) => item.slug === slug) || blogPosts[0];
   const detail = blogDetails[post.slug as DetailSlug];
   const basic = blogBasics[post.slug as BasicSlug];

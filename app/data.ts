@@ -72,6 +72,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-remote-staff-data-access-checklist',
+    title: 'Philippines remote staff data access checklist',
+    excerpt: 'Set up named accounts, small permissions, manager approvals, and a clean access removal plan for Philippines-based remote staff.',
+    minutes: 12,
+  },
+  {
     slug: 'outsourced-Philippines-staffing-planning',
     title: 'How to plan outsourced staffing in the Philippines',
     excerpt: 'Turn a loose task list into a role with clear hours, access limits, and a named reviewer.',
