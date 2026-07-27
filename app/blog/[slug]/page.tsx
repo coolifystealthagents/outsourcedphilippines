@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogBasics, blogDetails, blogPosts, site } from '../../data';
 import { PhilippinesRemoteAccessArticle, remoteAccessDescription, remoteAccessSlug, remoteAccessTitle, remoteAccessUrl } from './philippines-remote-access-article';
@@ -42,7 +43,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   if (slug === remoteAccessSlug) return <PhilippinesRemoteAccessArticle />;
-  const post = blogPosts.find((item) => item.slug === slug) || blogPosts[0];
+  const post = blogPosts.find((item) => item.slug === slug);
+  if (!post) notFound();
   const detail = blogDetails[post.slug as DetailSlug];
   const basic = blogBasics[post.slug as BasicSlug];
   const articleUrl = `${baseUrl}/blog/${post.slug}`;

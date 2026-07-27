@@ -139,7 +139,7 @@ export function PhilippinesRemoteAccessArticle() {
             <p className="narrative">Practice with two or three examples from your own inbox. Show where the sender address appears, how to report the message in the mail tool, and which channel to use if the mailbox itself may be unsafe.</p>
           </section>
 
-          <Banner label="First-week setup" title="Teach one narrow work lane" body="Use examples, limited permissions, and one reviewer while the new team member learns the job." href="/blog/outsourced-Philippines-staffing-onboarding-checklist" link="Open the onboarding checklist" />
+          <Banner label="First-week setup" title="Teach one narrow work lane" body="Use examples, limited permissions, and one reviewer while the new team member learns the job." href="/blog" link="Open the onboarding checklist" />
 
           <section className="article-section" aria-labelledby="flow-title">
             <h2 id="flow-title">Use this four-step access path</h2>
@@ -196,7 +196,7 @@ export function PhilippinesRemoteAccessArticle() {
             <ul>
               <li><a href="/services/admin-support">See the admin support work lane</a></li>
               <li><a href="/services/reporting-and-qa">Plan reporting and QA checks</a></li>
-              <li><a href="/blog/outsourced-Philippines-staffing-tasks-to-outsource">Choose the first tasks to hand off</a></li>
+              <li><a href="/blog">Choose the first tasks to hand off</a></li>
               <li><a href="/blog/outsourced-Philippines-staffing-provider-questions">Ask a staffing provider about access and ownership</a></li>
             </ul>
           </section>

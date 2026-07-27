@@ -78,30 +78,11 @@ export const blogPosts = [
     minutes: 12,
   },
   {
-    slug: 'outsourced-Philippines-staffing-planning',
-    title: 'How to plan outsourced staffing in the Philippines',
-    excerpt: 'Turn a loose task list into a role with clear hours, access limits, and a named reviewer.',
-    minutes: 6,
-  },
-  {
-    slug: 'outsourced-Philippines-staffing-tasks-to-outsource',
-    title: 'Which tasks should you outsource to the Philippines first?',
-    excerpt: 'Start with recurring work that has examples and clear review rules.',
-    minutes: 7,
-  },
-  {
     slug: 'outsourced-Philippines-staffing-provider-questions',
     title: 'Questions to ask a Philippines staffing provider',
     excerpt: 'Use these questions before you sign with a provider or freelancer.',
     minutes: 8,
-  },
-  {
-    slug: 'outsourced-Philippines-staffing-onboarding-checklist',
-    title: 'First-week checklist for a Filipino team member',
-    excerpt: 'A simple checklist for tools, SOPs, calls, QA, and reporting.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export const blogBasics = {
   'outsourced-Philippines-staffing-planning': {
