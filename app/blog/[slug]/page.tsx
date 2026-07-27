@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogBasics, blogDetails, blogPosts, site } from '../../data';
 import { PhilippinesRemoteAccessArticle, remoteAccessDescription, remoteAccessSlug, remoteAccessTitle, remoteAccessUrl } from './philippines-remote-access-article';
+import { incidentResponseDescription, incidentResponseSlug, incidentResponseTitle, incidentResponseUrl, PhilippinesIncidentResponseArticle } from './philippines-incident-response-article';
 
 const baseUrl = 'https://outsourcedphilippines.com';
 
@@ -14,6 +15,14 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === incidentResponseSlug) {
+    return {
+      title: incidentResponseTitle,
+      description: incidentResponseDescription,
+      alternates: { canonical: incidentResponseUrl },
+      openGraph: { title: incidentResponseTitle, description: incidentResponseDescription, url: incidentResponseUrl, siteName: site.brand, type: 'article' },
+    };
+  }
   if (slug === remoteAccessSlug) {
     return {
       title: remoteAccessTitle,
@@ -42,6 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === incidentResponseSlug) return <PhilippinesIncidentResponseArticle />;
   if (slug === remoteAccessSlug) return <PhilippinesRemoteAccessArticle />;
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();

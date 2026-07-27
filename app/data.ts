@@ -72,6 +72,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-outsourced-support-incident-response-checklist',
+    title: 'Philippines outsourced support incident response checklist',
+    excerpt: 'Give Philippines-based support staff a clear first-report path while company managers keep security, recovery, privacy, and notice decisions.',
+    minutes: 13,
+  },
+  {
     slug: 'philippines-remote-staff-data-access-checklist',
     title: 'Philippines remote staff data access checklist',
     excerpt: 'Set up named accounts, small permissions, manager approvals, and a clean access removal plan for Philippines-based remote staff.',
