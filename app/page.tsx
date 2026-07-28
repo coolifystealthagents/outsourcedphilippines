@@ -43,8 +43,10 @@ export default function Home() {
             <p className="route-note">This is an independent guide. Requests may be sent to a Philippines staffing partner that can follow up on the role.</p>
           </div>
           <div className="hero-visual">
-            <div className="photo-shell">
-              <img src="/philippines-team-workroom.jpg" alt="Colleagues discussing work around monitors in an open office" />
+            <div className="photo-shell illustration-shell">
+              <object type="image/webp" data="/illustrations/aurora/team-celebration.webp" aria-label="A team celebrating together around a laptop">
+                <img src="/philippines-team-workroom.jpg" alt="Colleagues discussing work around monitors in an open office" width="1200" height="1200" />
+              </object>
             </div>
             <aside className="role-slip">
               <span>Role brief / 01</span>
@@ -61,9 +63,14 @@ export default function Home() {
 
       <section className="room-section" id="role-desk">
         <div className="container">
-          <div className="section-intro">
+          <div className="section-intro visual-intro">
             <div><p className="eyebrow">The role desk</p><h2>Turn a busy job into a clean handoff.</h2></div>
-            <p>Most hiring trouble starts before the interview. If the role covers everything, no candidate can know what good work looks like. Give the first month a smaller shape.</p>
+            <div className="intro-support">
+              <object type="image/webp" data="/illustrations/aurora/clean-handoff.webp" aria-label="Two coworkers confirming a clear handoff">
+                <img src="/illustrations/customer-support.svg" alt="Customer support work illustration" width="700" height="700" loading="lazy" />
+              </object>
+              <p>Most hiring trouble starts before the interview. If the role covers everything, no candidate can know what good work looks like. Give the first month a smaller shape.</p>
+            </div>
           </div>
           <div className="desk-grid">
             <article className="desk-main">
@@ -102,7 +109,7 @@ export default function Home() {
 
       <section className="process-field" id="process">
         <div className="container process-grid">
-          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p></div>
+          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p><object className="process-illustration" type="image/webp" data="/illustrations/aurora/one-lane-target.webp" aria-label="A hand placing one clear target at the center"><img src="/illustrations/operations-support.svg" alt="Operations support work illustration" width="700" height="700" loading="lazy" /></object></div>
           <div className="process-list">
             {staffingProcess.map((item) => <article key={item.step}><span>{item.step}</span><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}
           </div>
@@ -111,7 +118,7 @@ export default function Home() {
 
       <section className="room-section handoff-section">
         <div className="container">
-          <div className="section-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div>
+          <div className="section-intro visual-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><div className="intro-support"><object type="image/webp" data="/illustrations/aurora/working-documents.webp" aria-label="Coworkers reviewing a working document together"><img src="/illustrations/admin-support.svg" alt="Administrative support work illustration" width="700" height="700" loading="lazy" /></object><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div></div>
           <div className="handoff-grid">{handoffNotes.map((note, index) => <article key={note.label}><span>0{index + 1}</span><h3>{note.label}</h3><p>{note.text}</p></article>)}</div>
         </div>
       </section>
@@ -140,6 +147,7 @@ export default function Home() {
 
       <section className="container closing-card">
         <div><p className="eyebrow light">Put the role on paper</p><h2>Send the messy task list. Get a cleaner starting point.</h2><p>Tell us what repeats, what needs approval, and when the work must happen. The brief stays focused on Filipino talent from the Philippines.</p></div>
+        <object className="closing-illustration" type="image/webp" data="/illustrations/aurora/messy-to-clear.webp" aria-label="A team turning a stack of work into one clear next step"><img src="/illustrations/reporting-qa.svg" alt="Reporting and quality assurance work illustration" width="700" height="700" loading="lazy" /></object>
         <a className="btn lilac" href="/contact">Request a role brief</a>
       </section>
     </main>
