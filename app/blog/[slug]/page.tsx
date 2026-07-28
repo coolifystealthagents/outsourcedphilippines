@@ -6,6 +6,7 @@ import { incidentResponseDescription, incidentResponseSlug, incidentResponseTitl
 import { businessContinuityDescription, businessContinuitySlug, businessContinuityTitle, businessContinuityUrl, PhilippinesBusinessContinuityArticle } from './philippines-business-continuity-article';
 import { paymentChangeDescription, paymentChangeSlug, paymentChangeTitle, paymentChangeUrl, PhilippinesPaymentChangeArticle } from './philippines-payment-change-article';
 import { accountRecoveryDescription, accountRecoverySlug, accountRecoveryTitle, accountRecoveryUrl, PhilippinesAccountRecoveryArticle } from './philippines-account-recovery-article';
+import { topVirtualAssistantCompaniesDescription, topVirtualAssistantCompaniesSlug, topVirtualAssistantCompaniesTitle, topVirtualAssistantCompaniesUrl, TopVirtualAssistantCompaniesArticle } from './top-virtual-assistant-companies-article';
 
 const baseUrl = 'https://outsourcedphilippines.com';
 
@@ -24,6 +25,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: accountRecoveryDescription,
       alternates: { canonical: accountRecoveryUrl },
       openGraph: { title: accountRecoveryTitle, description: accountRecoveryDescription, url: accountRecoveryUrl, siteName: site.brand, type: 'article' },
+    };
+  }
+  if (slug === topVirtualAssistantCompaniesSlug) {
+    return {
+      title: topVirtualAssistantCompaniesTitle,
+      description: topVirtualAssistantCompaniesDescription,
+      alternates: { canonical: topVirtualAssistantCompaniesUrl },
+      openGraph: { title: topVirtualAssistantCompaniesTitle, description: topVirtualAssistantCompaniesDescription, url: topVirtualAssistantCompaniesUrl, siteName: site.brand, type: 'article' },
     };
   }
   if (slug === paymentChangeSlug) {
@@ -79,6 +88,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   if (slug === accountRecoverySlug) return <PhilippinesAccountRecoveryArticle />;
+  if (slug === topVirtualAssistantCompaniesSlug) return <TopVirtualAssistantCompaniesArticle />;
   if (slug === paymentChangeSlug) return <PhilippinesPaymentChangeArticle />;
   if (slug === businessContinuitySlug) return <PhilippinesBusinessContinuityArticle />;
   if (slug === incidentResponseSlug) return <PhilippinesIncidentResponseArticle />;

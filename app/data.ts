@@ -78,6 +78,12 @@ export const blogPosts = [
     minutes: 13,
   },
   {
+    slug: 'top-50-virtual-assistant-companies',
+    title: 'Top 50 virtual assistant companies for specialized remote support',
+    excerpt: 'Compare 50 VA companies by niche, useful services, and the kind of work each one is built to support.',
+    minutes: 24,
+  },
+  {
     slug: 'philippines-outsourced-staff-payment-change-verification-checklist',
     title: 'Philippines outsourced staff payment change verification checklist',
     excerpt: 'Hold and verify vendor, payroll, reimbursement, and bank-detail changes before money moves.',
