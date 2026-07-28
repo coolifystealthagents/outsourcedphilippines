@@ -14,6 +14,12 @@ const handoffNotes = [
   { label: 'Approval line', text: 'Write down what your Filipino team member can decide and what comes back to you.' },
   { label: 'Review rhythm', text: 'Check early work often, then ease off once the lane is steady.' },
 ];
+const confidenceItems = [
+  ['Filipino talent', '/icons/getillustrations/soft-color/filipino-talent.svg'],
+  ['Clear access rules', '/icons/getillustrations/soft-color/access-rules.svg'],
+  ['Named review owner', '/icons/getillustrations/soft-color/review-owner.svg'],
+  ['Practical first week', '/icons/getillustrations/soft-color/first-week-plan.svg'],
+];
 
 export default function Home() {
   const schema = {
@@ -26,7 +32,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="role-room" data-design="philippines-role-room-2026-07">
+    <main className="role-room" data-design="philippines-role-room-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
       <section className="room-hero">
         <div className="hero-loop loop-one" aria-hidden="true" />
@@ -43,10 +49,8 @@ export default function Home() {
             <p className="route-note">This is an independent guide. Requests may be sent to a Philippines staffing partner that can follow up on the role.</p>
           </div>
           <div className="hero-visual">
-            <div className="photo-shell illustration-shell">
-              <object type="image/webp" data="/illustrations/aurora/team-celebration.webp" aria-label="A team celebrating together around a laptop">
-                <img src="/philippines-team-workroom.jpg" alt="Colleagues discussing work around monitors in an open office" width="1200" height="1200" />
-              </object>
+            <div className="photo-shell">
+              <img src="/illustrations/getillustrations/goodle-team/filipino-team-collaboration.svg" alt="Illustrated Filipino team collaborating at their desks" />
             </div>
             <aside className="role-slip">
               <span>Role brief / 01</span>
@@ -57,7 +61,7 @@ export default function Home() {
           </div>
         </div>
         <div className="container confidence-row" aria-label="Staffing approach">
-          <span>Filipino talent</span><span>Clear access rules</span><span>Named review owner</span><span>Practical first week</span>
+          {confidenceItems.map(([label, icon]) => <span key={label}><img src={icon} alt="" aria-hidden="true" />{label}</span>)}
         </div>
       </section>
 
@@ -84,6 +88,7 @@ export default function Home() {
               </div>
             </article>
             <aside className="desk-side">
+              <img className="supporting-illustration" src="/illustrations/getillustrations/inkdex-team/role-handoff.svg" alt="Team securely sharing a role document" />
               <p className="eyebrow light">Before access</p>
               <h3>Draw the boundary.</h3>
               <ul><li>Individual account</li><li>Smallest useful permission set</li><li>Approval rule for exceptions</li><li>Access removal owner</li></ul>
