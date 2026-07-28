@@ -1,5 +1,6 @@
 import { Header, Footer, JsonLd } from './components';
 import { services, staffingProcess } from './data';
+import { roleGallery } from './role-gallery-data';
 
 const roles = services.slice(0, 4);
 const roleIllustrations = [
@@ -112,6 +113,28 @@ export default function Home() {
         <div className="container">
           <div className="section-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div>
           <div className="handoff-grid">{handoffNotes.map((note, index) => <article key={note.label}><span>0{index + 1}</span><h3>{note.label}</h3><p>{note.text}</p></article>)}</div>
+        </div>
+      </section>
+
+      <section className="role-atlas-section" aria-labelledby="role-atlas-title">
+        <div className="container">
+          <div className="role-atlas-head">
+            <div>
+              <p className="eyebrow">The wider role map</p>
+              <h2 id="role-atlas-title">There is more than one way to shape a useful role.</h2>
+            </div>
+            <div>
+              <p>Browse more work themes from the Philippines role desk. Start with the tasks your team can explain, check, and hand back.</p>
+              <span>Swipe or scroll sideways through all 46 themes <b aria-hidden="true">→</b></span>
+            </div>
+          </div>
+          <div className="role-atlas-window" tabIndex={0} aria-label="More occupation and work illustrations">
+            {roleGallery.map((item, index) => <figure className="role-atlas-card" key={item.src}>
+              <img src={item.src} alt={`${item.label} work theme`} width="320" height="320" loading="lazy" />
+              <figcaption><span>{String(index + 5).padStart(2, '0')}</span><strong>{item.label}</strong></figcaption>
+            </figure>)}
+          </div>
+          <p className="role-atlas-note">These pictures show ways to think about work. A role brief still needs clear tasks, access rules, hours, and one review owner.</p>
         </div>
       </section>
 
