@@ -72,6 +72,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-outsourced-staff-payment-change-verification-checklist',
+    title: 'Philippines outsourced staff payment change verification checklist',
+    excerpt: 'Hold and verify vendor, payroll, reimbursement, and bank-detail changes before money moves.',
+    minutes: 13,
+  },
+  {
     slug: 'philippines-remote-team-business-continuity-checklist',
     title: 'Philippines remote team business continuity checklist',
     excerpt: 'Keep remote work moving through power, internet, tool, or contact interruptions with a tested Philippines team handoff plan.',
