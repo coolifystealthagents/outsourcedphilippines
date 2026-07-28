@@ -72,6 +72,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-outsourced-customer-support-account-recovery-checklist',
+    title: 'Philippines outsourced customer support account recovery checklist',
+    excerpt: 'Help locked-out customers through clear identity checks, manager approvals, safe account changes, and separate recovery notices.',
+    minutes: 13,
+  },
+  {
     slug: 'philippines-outsourced-staff-payment-change-verification-checklist',
     title: 'Philippines outsourced staff payment change verification checklist',
     excerpt: 'Hold and verify vendor, payroll, reimbursement, and bank-detail changes before money moves.',

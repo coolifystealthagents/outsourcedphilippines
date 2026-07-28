@@ -5,6 +5,7 @@ import { PhilippinesRemoteAccessArticle, remoteAccessDescription, remoteAccessSl
 import { incidentResponseDescription, incidentResponseSlug, incidentResponseTitle, incidentResponseUrl, PhilippinesIncidentResponseArticle } from './philippines-incident-response-article';
 import { businessContinuityDescription, businessContinuitySlug, businessContinuityTitle, businessContinuityUrl, PhilippinesBusinessContinuityArticle } from './philippines-business-continuity-article';
 import { paymentChangeDescription, paymentChangeSlug, paymentChangeTitle, paymentChangeUrl, PhilippinesPaymentChangeArticle } from './philippines-payment-change-article';
+import { accountRecoveryDescription, accountRecoverySlug, accountRecoveryTitle, accountRecoveryUrl, PhilippinesAccountRecoveryArticle } from './philippines-account-recovery-article';
 
 const baseUrl = 'https://outsourcedphilippines.com';
 
@@ -17,6 +18,14 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === accountRecoverySlug) {
+    return {
+      title: accountRecoveryTitle,
+      description: accountRecoveryDescription,
+      alternates: { canonical: accountRecoveryUrl },
+      openGraph: { title: accountRecoveryTitle, description: accountRecoveryDescription, url: accountRecoveryUrl, siteName: site.brand, type: 'article' },
+    };
+  }
   if (slug === paymentChangeSlug) {
     return {
       title: paymentChangeTitle,
@@ -69,6 +78,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === accountRecoverySlug) return <PhilippinesAccountRecoveryArticle />;
   if (slug === paymentChangeSlug) return <PhilippinesPaymentChangeArticle />;
   if (slug === businessContinuitySlug) return <PhilippinesBusinessContinuityArticle />;
   if (slug === incidentResponseSlug) return <PhilippinesIncidentResponseArticle />;
