@@ -2,6 +2,12 @@ import { Header, Footer, JsonLd } from './components';
 import { services, staffingProcess } from './data';
 
 const roles = services.slice(0, 4);
+const roleIllustrations = [
+  '/illustrations/operations-support.svg',
+  '/illustrations/customer-support.svg',
+  '/illustrations/admin-support.svg',
+  '/illustrations/reporting-qa.svg',
+];
 const handoffNotes = [
   { label: 'Work sample', text: 'Show one finished example before the first task is assigned.' },
   { label: 'Approval line', text: 'Write down what your Filipino team member can decide and what comes back to you.' },
@@ -83,7 +89,11 @@ export default function Home() {
           <div className="library-head"><div><p className="eyebrow">Starting lanes</p><h2>Choose work that can be seen, checked, and handed back.</h2></div><p>These are sensible places to begin with a Filipino team member. The service pages spell out the first tasks and the controls to keep.</p></div>
           <div className="role-grid">
             {roles.map((role, index) => <a className="role-card" href={`/services/${role.slug}`} key={role.slug}>
-              <span>{String(index + 1).padStart(2, '0')}</span><h3>{role.title}</h3><p>{role.buyerProblem}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
+              <span className="role-card-number">{String(index + 1).padStart(2, '0')}</span>
+              <span className="role-card-art" aria-hidden="true">
+                <img src={roleIllustrations[index]} alt="" />
+              </span>
+              <h3>{role.title}</h3><p>{role.buyerProblem}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
             </a>)}
           </div>
         </div>
