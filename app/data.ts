@@ -72,6 +72,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-remote-team-business-continuity-checklist',
+    title: 'Philippines remote team business continuity checklist',
+    excerpt: 'Keep remote work moving through power, internet, tool, or contact interruptions with a tested Philippines team handoff plan.',
+    minutes: 13,
+  },
+  {
     slug: 'philippines-outsourced-support-incident-response-checklist',
     title: 'Philippines outsourced support incident response checklist',
     excerpt: 'Give Philippines-based support staff a clear first-report path while company managers keep security, recovery, privacy, and notice decisions.',
