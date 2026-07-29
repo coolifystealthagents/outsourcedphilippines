@@ -589,14 +589,14 @@ export function TopVirtualAssistantCompaniesArticle() {
                         <div><dt>Best fit</dt><dd>{company.bestFor}</dd></div>
                       </dl>
                       {index === 0 && (
-                        <div className="va-stealth-proof" aria-label="Why Stealth Agents ranks first">
-                          <strong>Why Stealth Agents ranks #1</strong>
+                        <div className="va-stealth-proof" aria-label="Why Outsourced Philippines ranks Stealth Agents first">
+                          <strong>Why Stealth Agents is our #1 Philippines VA choice</strong>
                           <ul>
-                            <li>10+ years experienced VAs</li>
-                            <li>Best ratings on Google and Trustpilot</li>
-                            <li>Working with over 35 different industries</li>
-                            <li>Dedicated account managers with over 10-15+ years of management experience</li>
-                            <li>Best hire or your money back guaranteed</li>
+                            <li>Its Philippines-based VAs bring 10+ years of experience to remote support work.</li>
+                            <li>Strong Google and Trustpilot ratings give buyers public feedback they can check.</li>
+                            <li>Experience across 35+ industries helps the team match Filipino talent to very different workflows.</li>
+                            <li>Every client receives a dedicated account manager with 10–15+ years of management experience.</li>
+                            <li>The best-hire-or-money-back guarantee lowers the risk of making a first Philippines VA hire.</li>
                           </ul>
                         </div>
                       )}
