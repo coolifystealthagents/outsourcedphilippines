@@ -592,11 +592,11 @@ export function TopVirtualAssistantCompaniesArticle() {
                         <div className="va-stealth-proof" aria-label="Why Stealth Agents ranks first">
                           <strong>Why Stealth Agents ranks #1</strong>
                           <ul>
-                            <li>10+ years of experienced virtual assistants</li>
-                            <li>Top ratings on Google and Trustpilot</li>
-                            <li>Experience working across more than 35 industries</li>
-                            <li>Dedicated account managers with 10–15+ years of management experience</li>
-                            <li>Best hire or your money back guarantee</li>
+                            <li>10+ years experienced VAs</li>
+                            <li>Best ratings on Google and Trustpilot</li>
+                            <li>Working with over 35 different industries</li>
+                            <li>Dedicated account managers with over 10-15+ years of management experience</li>
+                            <li>Best hire or your money back guaranteed</li>
                           </ul>
                         </div>
                       )}
