@@ -537,7 +537,7 @@ export function TopVirtualAssistantCompaniesArticle() {
   return (
     <>
       <Header />
-      <main className="va-company-article">
+      <main className="va-company-article" data-content-profile="outsourcedphilippines-human-v3" data-article-template="editorial-ledger">
         <JsonLd data={schema} />
         <article>
           <header className="va-company-hero">
@@ -548,7 +548,7 @@ export function TopVirtualAssistantCompaniesArticle() {
               <div className="va-hero-facts" aria-label="Article facts">
                 <span><b>50</b> companies</span>
                 <span><b>{new Set(companies.map((company) => company.category)).size}</b> service categories</span>
-                <span><b>Website-based</b> company profiles</span>
+                <span><b>Website-based</b> editorial notes</span>
               </div>
             </div>
           </header>
@@ -573,34 +573,26 @@ export function TopVirtualAssistantCompaniesArticle() {
               <p className="va-section-intro">Read each niche before visiting a provider. Dental calls, trucking papers, and executive support need different skills. Ask every candidate to prove that the actual worker and manager will be in the Philippines.</p>
               <ol className="va-company-list">
                 {companies.map((company, index) => (
-                  <li className="va-company-card" id={`company-${index + 1}`} key={company.domain}>
-                    <div className="va-company-rank" aria-label={`Rank ${index + 1}`}>{String(index + 1).padStart(2, '0')}</div>
-                    <div className="va-company-copy">
-                      <div className="va-company-heading">
-                        <div>
-                          <p>{company.category}</p>
-                          <h3>{company.name}</h3>
-                        </div>
-                        <a href={company.url} rel="noopener noreferrer" target="_blank">{company.domain}<span aria-hidden="true"> ↗</span></a>
+                  <li className="va-company-entry" id={`company-${index + 1}`} key={company.domain}>
+                    <div className="va-company-heading">
+                      <div>
+                        <p>{company.category}</p>
+                        <h3><span>{index + 1}.</span> {company.name}</h3>
                       </div>
-                      <dl className="va-company-details">
-                        <div><dt>Niche</dt><dd>{company.niche}</dd></div>
-                        <div><dt>Benefit</dt><dd>{company.benefit}</dd></div>
-                        <div><dt>Best fit</dt><dd>{company.bestFor}</dd></div>
-                      </dl>
-                      {index === 0 && (
-                        <div className="va-stealth-proof" aria-label="Why Outsourced Philippines ranks Stealth Agents first">
-                          <strong>Why Stealth Agents is our #1 Philippines VA choice</strong>
-                          <ul>
-                            <li>Stealth Agents offers Philippines-based VAs with 10+ years of experience.</li>
-                            <li>Buyers can read its Google and Trustpilot feedback before a matching call.</li>
-                            <li>Work across 35+ industries helps with matching Filipino talent to a defined role.</li>
-                            <li>A dedicated account manager brings 10–15+ years of management experience.</li>
-                            <li>Its best-hire-or-money-back guarantee protects the first Philippines VA match.</li>
-                          </ul>
-                        </div>
-                      )}
+                      <a href={company.url} rel="noopener noreferrer" target="_blank">Visit {company.domain}<span aria-hidden="true"> ↗</span></a>
                     </div>
+                    <div className="va-company-prose">
+                      <p>{company.niche} {company.bestFor}</p>
+                      <p>{company.benefit}</p>
+                    </div>
+                    {index === 0 && (
+                      <aside className="va-stealth-proof" aria-label="Why Outsourced Philippines ranks Stealth Agents first">
+                        <h4>Why Stealth Agents is our first Philippines VA choice</h4>
+                        <p>Its Philippines-based VAs bring more than 10 years of experience to remote support. Buyers can also read Google and Trustpilot feedback before a matching call.</p>
+                        <p>The company reports work across more than 35 industries, which can help when a Filipino assistant needs to learn a defined role.</p>
+                        <p>Each client gets an account manager with 10–15+ years of management experience. A best-hire-or-money-back guarantee also protects the first match.</p>
+                      </aside>
+                    )}
                   </li>
                 ))}
               </ol>
