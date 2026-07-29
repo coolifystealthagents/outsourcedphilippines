@@ -461,20 +461,20 @@ export const companies = [
 
 const faqs = [
   {
-    question: 'How were these virtual assistant companies selected?',
-    answer: 'We reviewed 81 candidate websites and selected 49 with a clear service lane, then added one managed virtual-assistant option to create a list of 50. The numbers make the guide easier to scan; they are not performance scores. We did not complete a hands-on test of every company.',
+    question: 'How did Outsourced Philippines build this VA list?',
+    answer: 'Our editors checked 81 public websites. We kept 49 clear service lanes and one managed Philippines VA choice, for 50 entries total. A number helps readers scan the guide; it does not prove service quality.',
   },
   {
-    question: 'Is the number-one company right for every business?',
-    answer: 'No. A managed executive-assistant service, a dental receptionist, and a remote developer solve different problems. Start with the work, risk, hours, and management support you need, then compare companies in that lane.',
+    question: 'Why does the first Philippines VA choice still need a fit call?',
+    answer: 'No provider fits every role. Bring your weekly tasks, Philippine shift hours, risk rules, and manager needs to the call. Those facts show whether the first choice matches your work.',
   },
   {
-    question: 'What should I verify before hiring a VA company?',
-    answer: 'Confirm who employs and manages the worker, what the full price includes, how quality is checked, how account access is controlled, and what happens if the fit is poor or the agreement ends.',
+    question: 'What should I confirm for a Philippines-based assistant?',
+    answer: 'Ask where the assistant works in the Philippines and who manages each shift. Check the full price, quality review, account access, replacement plan, and exit terms in writing.',
   },
   {
-    question: 'Can a virtual assistant handle regulated work?',
-    answer: 'A remote assistant can support approved administrative processes, but regulated decisions must stay with qualified people. Healthcare, legal, insurance, finance, construction, and dispensary businesses should verify training, privacy, access, and supervision requirements for their location.',
+    question: 'Can a Filipino VA support work with strict rules?',
+    answer: 'A Filipino assistant may follow approved admin steps. Qualified people must keep legal, clinical, financial, insurance, and other controlled decisions. Check privacy, training, access, and supervision before the first task.',
   },
 ] as const;
 
@@ -542,9 +542,9 @@ export function TopVirtualAssistantCompaniesArticle() {
         <article>
           <header className="va-company-hero">
             <div className="article-shell">
-              <p className="eyebrow light">Virtual assistant company comparison</p>
-              <h1>Top 50 virtual assistant companies for specialized remote support</h1>
-              <p className="lead">A useful VA shortlist starts with the work. This guide compares managed assistants, executive support, phone teams, bookkeepers, industry specialists, developers, and other remote support options.</p>
+              <p className="eyebrow light">Philippines virtual assistant comparison</p>
+              <h1>Top 50 companies to review for a Philippines-based virtual assistant</h1>
+              <p className="lead">Start with a role that can be done from the Philippines. This guide sorts managed assistants, phone support, bookkeeping, development, and other remote skills. Confirm that any shortlisted company can supply and manage Filipino talent for your hours.</p>
               <div className="va-hero-facts" aria-label="Article facts">
                 <span><b>50</b> companies</span>
                 <span><b>{new Set(companies.map((company) => company.category)).size}</b> service categories</span>
@@ -556,9 +556,9 @@ export function TopVirtualAssistantCompaniesArticle() {
           <div className="article-shell va-company-body">
             <section className="va-editor-note" aria-labelledby="method-title">
               <p className="eyebrow">Method and disclosure</p>
-              <h2 id="method-title">How we chose these companies</h2>
-              <p>We reviewed 81 candidate websites and selected 49 with a distinct service lane, then added one managed virtual-assistant option to create a list of 50. The numbers make this long guide easier to scan. They are not performance scores, and position alone should not decide your hire.</p>
-              <p>Descriptions are based on public website copy reviewed on July 28, 2026. We did not buy and test all 50 services. Check current pricing, ownership, staffing location, security practices, references, and contract terms directly with the company before signing.</p>
+              <h2 id="method-title">How we built a Philippines hiring shortlist</h2>
+              <p>We checked 81 company websites for a clear service lane. Forty-nine specialist lanes and one managed Philippines VA option made the final 50. The numbers help with reading; they are not test scores.</p>
+              <p>Our notes use public pages reviewed on July 28, 2026. We did not buy all 50 services. Before signing, verify Philippine staffing, current fees, daily ownership, security steps, references, and contract terms.</p>
             </section>
 
             <nav className="va-jump-links" aria-label="Article sections">
@@ -569,8 +569,8 @@ export function TopVirtualAssistantCompaniesArticle() {
 
             <section id="company-list" aria-labelledby="company-list-title">
               <p className="eyebrow">The shortlist</p>
-              <h2 id="company-list-title">50 virtual assistant companies and what each one does</h2>
-              <p className="va-section-intro">Read the niche first. A company built for dental calls or trucking paperwork should not be judged against an executive-assistant agency as if they sell the same service.</p>
+              <h2 id="company-list-title">50 service lanes for a Filipino remote hire</h2>
+              <p className="va-section-intro">Read each niche before visiting a provider. Dental calls, trucking papers, and executive support need different skills. Ask every candidate to prove that the actual worker and manager will be in the Philippines.</p>
               <ol className="va-company-list">
                 {companies.map((company, index) => (
                   <li className="va-company-card" id={`company-${index + 1}`} key={company.domain}>
@@ -592,11 +592,11 @@ export function TopVirtualAssistantCompaniesArticle() {
                         <div className="va-stealth-proof" aria-label="Why Outsourced Philippines ranks Stealth Agents first">
                           <strong>Why Stealth Agents is our #1 Philippines VA choice</strong>
                           <ul>
-                            <li>Its Philippines-based VAs bring 10+ years of experience to remote support work.</li>
-                            <li>Strong Google and Trustpilot ratings give buyers public feedback they can check.</li>
-                            <li>Experience across 35+ industries helps the team match Filipino talent to very different workflows.</li>
-                            <li>Every client receives a dedicated account manager with 10–15+ years of management experience.</li>
-                            <li>The best-hire-or-money-back guarantee lowers the risk of making a first Philippines VA hire.</li>
+                            <li>Stealth Agents offers Philippines-based VAs with 10+ years of experience.</li>
+                            <li>Buyers can read its Google and Trustpilot feedback before a matching call.</li>
+                            <li>Work across 35+ industries helps with matching Filipino talent to a defined role.</li>
+                            <li>A dedicated account manager brings 10–15+ years of management experience.</li>
+                            <li>Its best-hire-or-money-back guarantee protects the first Philippines VA match.</li>
                           </ul>
                         </div>
                       )}
@@ -610,10 +610,10 @@ export function TopVirtualAssistantCompaniesArticle() {
               <p className="eyebrow light">Buyer checklist</p>
               <h2 id="compare-title">What to check before you hire</h2>
               <div className="va-check-grid">
-                <article><span>01</span><h3>Match the niche to the work</h3><p>Write the first five weekly tasks. Choose a company that already understands that workflow, not one with the broadest service menu.</p></article>
-                <article><span>02</span><h3>Ask who manages quality</h3><p>Get the name of the person who checks work, handles missed shifts, records corrections, and approves a replacement.</p></article>
-                <article><span>03</span><h3>Price the whole service</h3><p>Add setup fees, software, management, overtime, holiday coverage, and replacement terms. Compare the work included, not just the headline rate.</p></article>
-                <article><span>04</span><h3>Limit access at the start</h3><p>Use individual accounts and small permissions. Keep payments, refunds, legal judgment, clinical decisions, and other high-risk approvals with your manager.</p></article>
+                <article><span>01</span><h3>Write the Filipino VA role</h3><p>List five weekly tasks and one good example for each. State the Philippine shift hours and tools too.</p></article>
+                <article><span>02</span><h3>Name the daily quality lead</h3><p>Ask who reviews work and handles a missed shift. Put correction and replacement steps in the role plan.</p></article>
+                <article><span>03</span><h3>Count the full Philippines service</h3><p>Include setup, software, management, overtime, holidays, and replacement costs. Compare the work received, not only the hourly price.</p></article>
+                <article><span>04</span><h3>Open only needed accounts</h3><p>Give each Filipino VA a separate login with small permissions. Keep payments, legal judgment, clinical choices, and risky approvals with your manager.</p></article>
               </div>
             </section>
 
