@@ -1,0 +1,92 @@
+{
+  "siteKey": "outsourcedphilippines",
+  "positions": {
+    "top": [
+      {
+        "id": "role-plan",
+        "eyebrow": "Philippines role planning",
+        "title": "Plan one Philippines outsourcing role around real work",
+        "body": "Start with customer messages, admin queues, and record updates. Your manager keeps priorities, exceptions, and final approval.",
+        "cta": "Request a role plan",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "task-scope",
+        "eyebrow": "Scope the work first",
+        "title": "Turn customer messages, admin queues, and record updates into a clear task lane",
+        "body": "We can help you define a Philippines-based Philippines outsourcing scope while your team keeps priorities, exceptions, and final approval.",
+        "cta": "Map the task lane",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "brief-review",
+        "eyebrow": "Before candidate matching",
+        "title": "Write a practical Philippines outsourcing brief",
+        "body": "Name the tools, examples, and review owner for customer messages, admin queues, and record updates. Keep priorities, exceptions, and final approval with your team.",
+        "cta": "Review my role brief",
+        "href": "/contact",
+        "weight": 3
+      }
+    ],
+    "middle": [
+      {
+        "id": "handoff-check",
+        "eyebrow": "Handoff check",
+        "title": "Set the review line for customer messages, admin queues, and record updates",
+        "body": "A Filipino Philippines outsourcing can follow the written lane. Your named manager still owns priorities, exceptions, and final approval.",
+        "cta": "Check my handoff",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "candidate-compare",
+        "eyebrow": "Make interviews useful",
+        "title": "Compare candidates against the same task sample",
+        "body": "For a Philippines-based team, use one example from customer messages, admin queues, and record updates and one written quality check. Keep priorities, exceptions, and final approval outside the test task.",
+        "cta": "Plan candidate review",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "access-plan",
+        "eyebrow": "Access and approval plan",
+        "title": "Give the Philippines outsourcing only the access the task needs",
+        "body": "Match access to customer messages, admin queues, and record updates, then route priorities, exceptions, and final approval to a named person on your team.",
+        "cta": "Plan safe access",
+        "href": "/contact",
+        "weight": 3
+      }
+    ],
+    "bottom": [
+      {
+        "id": "staff-task-list",
+        "eyebrow": "Ready to staff the work?",
+        "title": "Bring us your Philippines outsourcing task list",
+        "body": "Share the queue, tools, and schedule for customer messages, admin queues, and record updates. We will keep priorities, exceptions, and final approval in the client-owned lane.",
+        "cta": "Discuss Philippines staffing",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "first-month",
+        "eyebrow": "Plan the first month",
+        "title": "Build a measured start for a Filipino Philippines outsourcing",
+        "body": "Begin with customer messages, admin queues, and record updates, a review owner, and a short feedback loop. Your team keeps priorities, exceptions, and final approval.",
+        "cta": "Plan the first 30 days",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "scope-call",
+        "eyebrow": "Turn the guide into a next step",
+        "title": "Talk through your Philippines outsourcing scope",
+        "body": "Bring one real example of customer messages, admin queues, and record updates. We will separate repeatable support from priorities, exceptions, and final approval.",
+        "cta": "Request a scope call",
+        "href": "/contact",
+        "weight": 3
+      }
+    ]
+  }
+}
