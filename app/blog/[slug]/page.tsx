@@ -108,6 +108,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <p className="eyebrow">{site.brand} guide</p>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
+            <img src={site.heroImage} alt={site.alt} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
             {basic.sections.map((section) => (
               <section className="article-section" key={section.title}>
@@ -119,6 +120,14 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 </div>
               </section>
             ))}
+            <section className="source-box" aria-labelledby="daily-guide-sources">
+              <h2 id="daily-guide-sources">Sources and next steps</h2>
+              <p>Use the <a href="/services/operations-support">operations support work lane</a> as a practical starting point, then compare the <a href="/research">research library</a> before expanding the role.</p>
+              <ul>
+                <li><a href="https://www.ilo.org/data" rel="noreferrer">International Labour Organization data</a></li>
+                <li><a href="https://www.dti.gov.ph/archives/msme-statistics/" rel="noreferrer">Philippine DTI MSME statistics</a></li>
+              </ul>
+            </section>
           </article>
           <CTA />
         </main>
