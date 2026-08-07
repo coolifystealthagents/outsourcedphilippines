@@ -1,3 +1,5 @@
+import { dailyBlogBasics, dailyBlogPosts } from './blog/daily-blog-batch';
+
 export const site = {
   domain: 'OutsourcedPhilippines.com',
   slug: 'outsourcedphilippines',
@@ -70,7 +72,7 @@ export const services = [
   },
 ] as const;
 
-export const blogPosts = [
+const legacyBlogPosts = [
   {
     slug: 'philippines-outsourced-customer-support-account-recovery-checklist',
     title: 'Philippines outsourced customer support account recovery checklist',
@@ -114,7 +116,9 @@ export const blogPosts = [
     minutes: 8,
   },] as const;
 
-export const blogBasics = {
+export const blogPosts = [...legacyBlogPosts, ...dailyBlogPosts] as const;
+
+const legacyBlogBasics = {
   'outsourced-Philippines-staffing-planning': {
     intro: 'A useful role brief says what the person will do, when the work happens, which tools they need, and who checks the result. Write those details before you compare candidates or providers.',
     sections: [
@@ -293,6 +297,8 @@ export const blogDetails = {
     ],
   },
 } as const;
+
+export const blogBasics = { ...legacyBlogBasics, ...dailyBlogBasics };
 
 export const stats = [
   { label: 'Talent source', value: 'Philippines', note: 'the staffing model is limited to Filipino talent based in the Philippines' },
