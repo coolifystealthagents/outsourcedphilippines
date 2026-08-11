@@ -1,0 +1,31 @@
+{
+  "schemaVersion":1,
+  "contract":"sites3-aug10-public-date-v6",
+  "targetDate":"2026-08-10",
+  "family":"research",
+  "domain":"outsourcedphilippines.com",
+  "repository":"coolifystealthagents/outsourcedphilippines",
+  "branch":"main",
+  "minimum":10,
+  "priorRunId":"30ce5c78-bb85-4a8b-958d-cd8fc56cbd6a",
+  "priorIssueId":"0adf79d7-e7a5-4dc8-8044-7ff381ecc70a",
+  "validationCommands":["git remote -v","git fetch origin main","git diff 6d0a1cd^ 6d0a1cd -- app/fleet-content.ts","npm run build","npm run validate:aug10-research","git rev-parse origin/main"],
+  "cleanBuildPassed":true,
+  "existingCompliancePassed":true,
+  "indexNewestFirstPassed":true,
+  "entries":[
+    {"slug":"philippines-work-queue-design-research","route":"/research/philippines-work-queue-design-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-document-control-research","route":"/research/philippines-document-control-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-customer-service-qa-research","route":"/research/philippines-customer-service-qa-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-purchase-order-support-research","route":"/research/philippines-purchase-order-support-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-crm-data-hygiene-research","route":"/research/philippines-crm-data-hygiene-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-calendar-follow-up-research","route":"/research/philippines-calendar-follow-up-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-knowledge-transfer-research","route":"/research/philippines-knowledge-transfer-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-return-refund-operations-research","route":"/research/philippines-return-refund-operations-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-vendor-documentation-research","route":"/research/philippines-vendor-documentation-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-content-source-review-research","route":"/research/philippines-content-source-review-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-service-reporting-research","route":"/research/philippines-service-reporting-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"philippines-operations-escalation-research","route":"/research/philippines-operations-escalation-research","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"6d0a1cd1559684970fcee2532ff499e23bcffbe1","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"}
+  ]
+}
+

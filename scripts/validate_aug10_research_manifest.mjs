@@ -1,0 +1,43 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+
+const root = process.cwd();
+const manifest = JSON.parse(fs.readFileSync(path.join(root, '.paperclip/aug10-2026/research.json'), 'utf8'));
+const fail = (message) => { throw new Error(message); };
+manifest.entries.length >= manifest.minimum || fail('accepted count is below minimum');
+manifest.family === 'research' || fail('manifest family is not research');
+manifest.targetDate === '2026-08-10' || fail('manifest target date is wrong');
+manifest.branch === 'main' || fail('manifest branch is wrong');
+const seen = new Set();
+for (const entry of manifest.entries) {
+  seen.has(entry.slug) && fail(`duplicate slug: ${entry.slug}`); seen.add(entry.slug);
+  entry.route === `/research/${entry.slug}` || fail(`wrong route: ${entry.slug}`);
+  entry.route.startsWith('/research/') || fail(`non-Research route: ${entry.slug}`);
+  fs.existsSync(path.join(root, entry.sourcePath)) || fail(`missing source: ${entry.sourcePath}`);
+  entry.sourceDate === '2026-08-10' && entry.renderedDate === '2026-08-10' || fail(`wrong date: ${entry.slug}`);
+  entry.sourceDateField === 'published' || fail(`wrong source date field: ${entry.slug}`);
+  entry.renderedDateFields.includes('datePublished') || fail(`missing JSON-LD date field: ${entry.slug}`);
+  entry.provenance === 'original-aug10-batch' || fail(`unexpected provenance: ${entry.slug}`);
+  entry.introducedByCommit === '6d0a1cd1559684970fcee2532ff499e23bcffbe1' || fail(`wrong introducing commit: ${entry.slug}`);
+  const parentText = execFileSync('git', ['show', `${entry.introducedByCommit}^:${entry.sourcePath}`], {encoding: 'utf8'});
+  const introducedText = execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], {encoding: 'utf8'});
+  parentText.includes(`makeResearch('${entry.slug}'`) && fail(`slug existed before introducing commit: ${entry.slug}`);
+  introducedText.includes(`makeResearch('${entry.slug}'`) || fail(`slug absent at introducing commit: ${entry.slug}`);
+}
+const source = fs.readFileSync(path.join(root, 'app/fleet-content.ts'), 'utf8');
+for (const entry of manifest.entries) source.includes(`makeResearch('${entry.slug}'`) || fail(`missing source record: ${entry.slug}`);
+const route = fs.readFileSync(path.join(root, 'app/research/[slug]/page.tsx'), 'utf8');
+route.includes('datePublished:post.published') || fail('route does not emit JSON-LD datePublished');
+route.includes('post.published') || fail('route does not expose visible date');
+route.includes('alternates:{canonical:') || fail('route metadata does not expose canonical URL');
+const sitemap = fs.readFileSync(path.join(root, 'app/sitemap.xml/route.ts'), 'utf8');
+sitemap.includes('researchPosts.map') || fail('Research routes are not sitemap eligible');
+const index = fs.readFileSync(path.join(root, 'app/research/page.tsx'), 'utf8');
+index.includes('b.published.localeCompare(a.published)') || fail('Research index is not newest-first');
+const builtRoot = path.join(root, '.next/server/app/research');
+fs.existsSync(builtRoot) || fail('production build output is missing');
+const builtText = fs.readdirSync(builtRoot, { recursive: true }).map((file) => { const full = path.join(builtRoot, file); return fs.statSync(full).isFile() ? fs.readFileSync(full, 'utf8') : ''; }).join('\n');
+for (const entry of manifest.entries) builtText.includes(entry.slug) || fail(`built route missing slug: ${entry.slug}`);
+builtText.includes('2026-08-10') || fail('built routes do not expose target date');
+console.log(`August 10 Research manifest PASS (${manifest.entries.length} entries)`);
