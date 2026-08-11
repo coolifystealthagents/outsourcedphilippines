@@ -18,12 +18,15 @@ for (const entry of manifest.entries) {
   entry.sourceDate === '2026-08-10' && entry.renderedDate === '2026-08-10' || fail(`wrong date: ${entry.slug}`);
   entry.sourceDateField === 'published' || fail(`wrong source date field: ${entry.slug}`);
   entry.renderedDateFields.includes('datePublished') || fail(`missing JSON-LD date field: ${entry.slug}`);
-  entry.provenance === 'original-aug10-batch' || fail(`unexpected provenance: ${entry.slug}`);
-  entry.introducedByCommit === '6d0a1cd1559684970fcee2532ff499e23bcffbe1' || fail(`wrong introducing commit: ${entry.slug}`);
+  entry.provenance === 'repair-replacement' || fail(`unexpected provenance: ${entry.slug}`);
+  entry.introducedByCommit === '773b3a084662ebe6ebf1e7d59ae865415899e1a7' || fail(`wrong introducing commit: ${entry.slug}`);
   const parentText = execFileSync('git', ['show', `${entry.introducedByCommit}^:${entry.sourcePath}`], {encoding: 'utf8'});
   const introducedText = execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], {encoding: 'utf8'});
-  parentText.includes(`makeResearch('${entry.slug}'`) && fail(`slug existed before introducing commit: ${entry.slug}`);
-  introducedText.includes(`makeResearch('${entry.slug}'`) || fail(`slug absent at introducing commit: ${entry.slug}`);
+  parentText.includes(`makeResearch('${entry.slug}'`) || fail(`slug absent from repair parent: ${entry.slug}`);
+  introducedText.includes(`makeResearch('${entry.slug}'`) || fail(`slug absent at repair commit: ${entry.slug}`);
+  parentText.includes("{published:'2026-08-10'}") && fail(`target date field existed before repair: ${entry.slug}`);
+  const recordLine = introducedText.split('\n').find((line) => line.includes(`makeResearch('${entry.slug}'`));
+  recordLine?.includes("{published:'2026-08-10'}") || fail(`explicit target date field absent at repair: ${entry.slug}`);
 }
 const source = fs.readFileSync(path.join(root, 'app/fleet-content.ts'), 'utf8');
 for (const entry of manifest.entries) source.includes(`makeResearch('${entry.slug}'`) || fail(`missing source record: ${entry.slug}`);
