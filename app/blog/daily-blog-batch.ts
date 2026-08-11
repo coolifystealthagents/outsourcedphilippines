@@ -69,37 +69,37 @@ const topics: BatchTopic[] = [
   return { slug, title, excerpt, focus, tasks, checks };
 });
 
-export const aug10BlogSlugs = new Set([
-  'philippines-operations-support-daily-priorities',
-  'philippines-virtual-assistant-inbox-escalation',
-  'philippines-outsourced-customer-support-macro-review',
-  'philippines-remote-team-work-queue-aging',
-  'philippines-outsourced-calendar-conflict-review',
-  'philippines-virtual-assistant-document-formatting',
-  'philippines-outsourced-crm-lead-routing',
-  'philippines-remote-staff-weekly-one-on-one-prep',
-  'philippines-outsourced-project-status-summary',
-  'philippines-virtual-assistant-spreadsheet-cleanup',
-  'philippines-outsourced-appointment-confirmation',
-  'philippines-remote-team-blocker-log',
-  'philippines-outsourced-competitor-research-workflow',
-  'philippines-virtual-assistant-quote-request-coordination',
-  'philippines-outsourced-returns-support-process',
-  'philippines-remote-staff-access-offboarding',
-  'philippines-outsourced-sop-version-control',
-  'philippines-virtual-assistant-feedback-tracker',
-  'philippines-outsourced-client-onboarding-coordination',
-  'philippines-remote-team-month-end-admin-close',
-  'philippines-outsourced-service-request-intake',
-  'philippines-virtual-assistant-knowledge-transfer',
-]);
+export const aug10BlogDates: Record<string, string> = {
+  'philippines-operations-support-daily-priorities': '2026-08-10',
+  'philippines-virtual-assistant-inbox-escalation': '2026-08-10',
+  'philippines-outsourced-customer-support-macro-review': '2026-08-10',
+  'philippines-remote-team-work-queue-aging': '2026-08-10',
+  'philippines-outsourced-calendar-conflict-review': '2026-08-10',
+  'philippines-virtual-assistant-document-formatting': '2026-08-10',
+  'philippines-outsourced-crm-lead-routing': '2026-08-10',
+  'philippines-remote-staff-weekly-one-on-one-prep': '2026-08-10',
+  'philippines-outsourced-project-status-summary': '2026-08-10',
+  'philippines-virtual-assistant-spreadsheet-cleanup': '2026-08-10',
+  'philippines-outsourced-appointment-confirmation': '2026-08-10',
+  'philippines-remote-team-blocker-log': '2026-08-10',
+  'philippines-outsourced-competitor-research-workflow': '2026-08-10',
+  'philippines-virtual-assistant-quote-request-coordination': '2026-08-10',
+  'philippines-outsourced-returns-support-process': '2026-08-10',
+  'philippines-remote-staff-access-offboarding': '2026-08-10',
+  'philippines-outsourced-sop-version-control': '2026-08-10',
+  'philippines-virtual-assistant-feedback-tracker': '2026-08-10',
+  'philippines-outsourced-client-onboarding-coordination': '2026-08-10',
+  'philippines-remote-team-month-end-admin-close': '2026-08-10',
+  'philippines-outsourced-service-request-intake': '2026-08-10',
+  'philippines-virtual-assistant-knowledge-transfer': '2026-08-10',
+};
 
 export const dailyBlogPosts = topics.map(({ slug, title, excerpt }) => ({
   slug,
   title,
   excerpt,
   minutes: 10,
-  publishedAt: aug10BlogSlugs.has(slug) ? '2026-08-10' : undefined,
+  publishedAt: aug10BlogDates[slug],
 }));
 
 export const dailyBlogBasics = Object.fromEntries(topics.map(({ slug, focus, tasks, checks }) => [slug, {
