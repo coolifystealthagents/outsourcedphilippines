@@ -6,6 +6,7 @@ const root = process.cwd();
 const fail = (message) => { throw new Error(message); };
 const git = (...args) => execFileSync('git', args, {encoding:'utf8'}).trim();
 const frozen = ['philippines-appointment-setting-research','philippines-ecommerce-customer-care-research','philippines-executive-travel-support-research','philippines-finance-reconciliation-support-research','philippines-healthcare-privacy-admin-research','philippines-legal-records-admin-research','philippines-project-status-reporting-research','philippines-real-estate-transaction-admin-research','philippines-recruitment-sourcing-research','philippines-sales-development-research','philippines-social-media-operations-research','philippines-sop-audit-research'];
+const introductionCommit = '516c78f1dfe83d5929a024c1c28317ba2462f4b9';
 const manifest = JSON.parse(fs.readFileSync(path.join(root, '.paperclip/aug10-2026/research.json'), 'utf8'));
 const topKeys = ['schemaVersion','contract','targetDate','family','domain','repository','branch','minimum','priorRunId','priorIssueId','validationCommands','cleanBuildPassed','existingCompliancePassed','indexNewestFirstPassed','entries'];
 JSON.stringify(Object.keys(manifest)) === JSON.stringify(topKeys) || fail('manifest top-level keys are not exact');
@@ -13,11 +14,11 @@ manifest.schemaVersion === 1 && manifest.contract === 'sites3-aug10-public-date-
 manifest.entries.length === 12 && frozen.every((slug, i) => manifest.entries[i].slug === slug) || fail('frozen entry identity/order is wrong');
 manifest.cleanBuildPassed === true && manifest.existingCompliancePassed === true && manifest.indexNewestFirstPassed === true || fail('manifest validation flags are not true');
 const source = fs.readFileSync(path.join(root, 'app/fleet-content.ts'), 'utf8');
-const parent = git('show', '6d0a1cd1559684970fcee2532ff499e23bcffbe1^:app/fleet-content.ts');
+const parent = git('show', `${introductionCommit}^:app/fleet-content.ts`);
 for (const entry of manifest.entries) {
   const keys = ['slug','route','sourcePath','provenance','introducedByCommit','sourceDateField','sourceDate','renderedDateFields','renderedDate'];
   JSON.stringify(Object.keys(entry)) === JSON.stringify(keys) || fail(`entry keys are not exact: ${entry.slug}`);
-  entry.route === `/research/${entry.slug}` && entry.sourcePath === 'app/fleet-content.ts' && entry.provenance === 'original-aug10-batch' && entry.introducedByCommit === '6d0a1cd1559684970fcee2532ff499e23bcffbe1' && entry.sourceDateField === 'published' && entry.sourceDate === '2026-08-10' && entry.renderedDate === '2026-08-10' && entry.renderedDateFields.length > 0 && entry.renderedDateFields.every((x) => ['datePublished','article:published_time','time[datetime]'].includes(x)) || fail(`entry contract mismatch: ${entry.slug}`);
+  entry.route === `/research/${entry.slug}` && entry.sourcePath === 'app/fleet-content.ts' && entry.provenance === 'original-aug10-batch' && entry.introducedByCommit === introductionCommit && entry.sourceDateField === 'published' && entry.sourceDate === '2026-08-10' && entry.renderedDate === '2026-08-10' && entry.renderedDateFields.length > 0 && entry.renderedDateFields.every((x) => ['datePublished','article:published_time','time[datetime]'].includes(x)) || fail(`entry contract mismatch: ${entry.slug}`);
   source.includes(`makeResearch('${entry.slug}'`) || fail(`source identity missing: ${entry.slug}`);
   parent.includes(`makeResearch('${entry.slug}'`) && fail(`frozen identity existed before introduction: ${entry.slug}`);
 }
