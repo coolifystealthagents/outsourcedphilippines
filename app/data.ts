@@ -116,7 +116,11 @@ const legacyBlogPosts = [
     minutes: 8,
   },] as const;
 
-export const blogPosts = [...legacyBlogPosts, ...dailyBlogPosts] as const;
+export const blogPosts = [...legacyBlogPosts, ...dailyBlogPosts].sort((a, b) => {
+  const aDate = 'publishedAt' in a && a.publishedAt ? a.publishedAt : '';
+  const bDate = 'publishedAt' in b && b.publishedAt ? b.publishedAt : '';
+  return bDate.localeCompare(aDate);
+});
 
 const legacyBlogBasics = {
   'outsourced-Philippines-staffing-planning': {

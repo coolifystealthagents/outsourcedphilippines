@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "blog",
+  "domain": "outsourcedphilippines.com",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "branch": "main",
+  "minimum": 22,
+  "priorRunId": "ee49144b-0abe-4e67-a30f-bf79b83fe5bb",
+  "priorIssueId": "47fa9342-a6c3-46b7-b301-da2930d64769",
+  "validationCommands": [
+    "git remote -v",
+    "git fetch origin main",
+    "git diff 141e227^ 141e227 -- app/blog/daily-blog-batch.ts",
+    "npm run build",
+    "node scripts/validate_aug10_blog_manifest.mjs",
+    "python3 scripts/audit_account_recovery_article.py",
+    "python3 scripts/audit_business_continuity_article.py",
+    "python3 scripts/audit_incident_response_article.py",
+    "python3 scripts/audit_payment_change_article.py",
+    "python3 scripts/audit_remote_access_article.py",
+    "git rev-parse origin/main"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {
+      "slug": "philippines-operations-support-daily-priorities",
+      "route": "/blog/philippines-operations-support-daily-priorities",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-virtual-assistant-inbox-escalation",
+      "route": "/blog/philippines-virtual-assistant-inbox-escalation",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-customer-support-macro-review",
+      "route": "/blog/philippines-outsourced-customer-support-macro-review",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-team-work-queue-aging",
+      "route": "/blog/philippines-remote-team-work-queue-aging",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-calendar-conflict-review",
+      "route": "/blog/philippines-outsourced-calendar-conflict-review",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-virtual-assistant-document-formatting",
+      "route": "/blog/philippines-virtual-assistant-document-formatting",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-crm-lead-routing",
+      "route": "/blog/philippines-outsourced-crm-lead-routing",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-staff-weekly-one-on-one-prep",
+      "route": "/blog/philippines-remote-staff-weekly-one-on-one-prep",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-project-status-summary",
+      "route": "/blog/philippines-outsourced-project-status-summary",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-virtual-assistant-spreadsheet-cleanup",
+      "route": "/blog/philippines-virtual-assistant-spreadsheet-cleanup",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-appointment-confirmation",
+      "route": "/blog/philippines-outsourced-appointment-confirmation",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-team-blocker-log",
+      "route": "/blog/philippines-remote-team-blocker-log",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-competitor-research-workflow",
+      "route": "/blog/philippines-outsourced-competitor-research-workflow",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-virtual-assistant-quote-request-coordination",
+      "route": "/blog/philippines-virtual-assistant-quote-request-coordination",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-returns-support-process",
+      "route": "/blog/philippines-outsourced-returns-support-process",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-staff-access-offboarding",
+      "route": "/blog/philippines-remote-staff-access-offboarding",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-sop-version-control",
+      "route": "/blog/philippines-outsourced-sop-version-control",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-virtual-assistant-feedback-tracker",
+      "route": "/blog/philippines-virtual-assistant-feedback-tracker",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-client-onboarding-coordination",
+      "route": "/blog/philippines-outsourced-client-onboarding-coordination",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-team-month-end-admin-close",
+      "route": "/blog/philippines-remote-team-month-end-admin-close",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-service-request-intake",
+      "route": "/blog/philippines-outsourced-service-request-intake",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-virtual-assistant-knowledge-transfer",
+      "route": "/blog/philippines-virtual-assistant-knowledge-transfer",
+      "sourcePath": "app/blog/daily-blog-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "141e227303f6c23e849e12353d8f0897b3b0f5d6",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    }
+  ]
+}

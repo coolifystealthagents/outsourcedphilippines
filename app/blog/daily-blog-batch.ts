@@ -69,7 +69,38 @@ const topics: BatchTopic[] = [
   return { slug, title, excerpt, focus, tasks, checks };
 });
 
-export const dailyBlogPosts = topics.map(({ slug, title, excerpt }) => ({ slug, title, excerpt, minutes: 10 }));
+export const aug10BlogSlugs = new Set([
+  'philippines-operations-support-daily-priorities',
+  'philippines-virtual-assistant-inbox-escalation',
+  'philippines-outsourced-customer-support-macro-review',
+  'philippines-remote-team-work-queue-aging',
+  'philippines-outsourced-calendar-conflict-review',
+  'philippines-virtual-assistant-document-formatting',
+  'philippines-outsourced-crm-lead-routing',
+  'philippines-remote-staff-weekly-one-on-one-prep',
+  'philippines-outsourced-project-status-summary',
+  'philippines-virtual-assistant-spreadsheet-cleanup',
+  'philippines-outsourced-appointment-confirmation',
+  'philippines-remote-team-blocker-log',
+  'philippines-outsourced-competitor-research-workflow',
+  'philippines-virtual-assistant-quote-request-coordination',
+  'philippines-outsourced-returns-support-process',
+  'philippines-remote-staff-access-offboarding',
+  'philippines-outsourced-sop-version-control',
+  'philippines-virtual-assistant-feedback-tracker',
+  'philippines-outsourced-client-onboarding-coordination',
+  'philippines-remote-team-month-end-admin-close',
+  'philippines-outsourced-service-request-intake',
+  'philippines-virtual-assistant-knowledge-transfer',
+]);
+
+export const dailyBlogPosts = topics.map(({ slug, title, excerpt }) => ({
+  slug,
+  title,
+  excerpt,
+  minutes: 10,
+  publishedAt: aug10BlogSlugs.has(slug) ? '2026-08-10' : undefined,
+}));
 
 export const dailyBlogBasics = Object.fromEntries(topics.map(({ slug, focus, tasks, checks }) => [slug, {
   intro: `A useful ${focus} role starts with a small, visible task lane. Give the Philippines-based team member examples, a named reviewer, and written limits before adding more work.`,
