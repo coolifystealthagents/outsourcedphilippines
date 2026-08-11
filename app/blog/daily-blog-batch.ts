@@ -94,6 +94,42 @@ export const aug10BlogDates: Record<string, string> = {
   'philippines-virtual-assistant-knowledge-transfer': '2026-08-10',
 };
 
+// August 11, 2026 campaign records. Each article owns its literal publication
+// date here; do not replace these bindings with a shared campaign constant.
+export const aug11BlogPosts = [
+  { slug: 'philippines-outsourced-admin-backlog-reduction', title: 'Philippines outsourced admin backlog reduction plan', excerpt: 'Reduce a growing admin backlog with clear intake, aging rules, and a practical review lane.', minutes: 11, publishedAt: '2026-08-11' },
+  { slug: 'philippines-virtual-assistant-contact-list-maintenance', title: 'Philippines virtual assistant contact list maintenance guide', excerpt: 'Keep contact records dependable with field ownership, source checks, and a safe correction queue.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-client-follow-up-tracker', title: 'Philippines outsourced client follow-up tracker', excerpt: 'Give client follow-up a visible home with next actions, due dates, and manager-owned exceptions.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-remote-team-weekly-planning', title: 'Philippines remote team weekly planning checklist', excerpt: 'Start each week with a realistic work plan, ownership notes, and a short list of unresolved decisions.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-document-request-tracking', title: 'Philippines outsourced document request tracking workflow', excerpt: 'Track requested documents without losing source context, due dates, or privacy boundaries.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-virtual-assistant-presentation-preparation', title: 'Philippines virtual assistant presentation preparation checklist', excerpt: 'Prepare presentation files with approved content, consistent formatting, and a clear final review.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-customer-feedback-categorization', title: 'Philippines outsourced customer feedback categorization guide', excerpt: 'Turn customer comments into consistent categories while keeping interpretation with the business owner.', minutes: 11, publishedAt: '2026-08-11' },
+  { slug: 'philippines-remote-staff-time-off-coordination', title: 'Philippines remote staff time-off coordination workflow', excerpt: 'Coordinate time-off requests with coverage notes, approval boundaries, and an accurate team calendar.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-sales-data-hygiene', title: 'Philippines outsourced sales data hygiene checklist', excerpt: 'Keep sales records usable with required fields, evidence links, and a review path for uncertain changes.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-virtual-assistant-survey-response-review', title: 'Philippines virtual assistant survey response review', excerpt: 'Prepare survey response summaries with transparent categories, source counts, and open questions.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-appointment-rescheduling', title: 'Philippines outsourced appointment rescheduling process', excerpt: 'Handle rescheduling requests with approved options, calendar checks, and a clear owner for exceptions.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-remote-team-holiday-coverage-plan', title: 'Philippines remote team holiday coverage plan', excerpt: 'Prepare holiday coverage with named backups, priority work, and a documented escalation route.', minutes: 11, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-product-catalog-updates', title: 'Philippines outsourced product catalog update workflow', excerpt: 'Update product catalog records from approved sources while protecting descriptions, media, and restricted fields.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-virtual-assistant-webinar-coordination', title: 'Philippines virtual assistant webinar coordination checklist', excerpt: 'Coordinate webinar guests, reminders, assets, and follow-up drafts around one event owner.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-document-review-queue', title: 'Philippines outsourced document review queue', excerpt: 'Create a review queue that separates completeness checks from legal, financial, or policy decisions.', minutes: 11, publishedAt: '2026-08-11' },
+  { slug: 'philippines-remote-team-status-meeting-prep', title: 'Philippines remote team status meeting preparation', excerpt: 'Prepare a focused status meeting from milestones, blockers, evidence, and decisions still waiting on an owner.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-order-entry-controls', title: 'Philippines outsourced order entry controls', excerpt: 'Enter approved orders accurately with source matching, required fields, and a hold process for exceptions.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-virtual-assistant-email-template-library', title: 'Philippines virtual assistant email template library guide', excerpt: 'Maintain useful email templates with approved language, ownership, examples, and retirement rules.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-research-source-checking', title: 'Philippines outsourced research source-checking workflow', excerpt: 'Make research handoffs easier to trust by recording source dates, links, scope, and unresolved conflicts.', minutes: 11, publishedAt: '2026-08-11' },
+  { slug: 'philippines-remote-staff-work-sample-review', title: 'Philippines remote staff work-sample review guide', excerpt: 'Review early work samples against concrete examples before expanding a Philippines-based role.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-outsourced-recurring-task-calendar', title: 'Philippines outsourced recurring task calendar', excerpt: 'Turn recurring business tasks into a calendar with owners, evidence, review dates, and exception notes.', minutes: 10, publishedAt: '2026-08-11' },
+  { slug: 'philippines-virtual-assistant-client-intake-notes', title: 'Philippines virtual assistant client intake notes', excerpt: 'Capture client intake details consistently while keeping scope, commitments, and sensitive decisions with the owner.', minutes: 10, publishedAt: '2026-08-11' },
+] as const;
+
+const aug11BlogBasics = Object.fromEntries(aug11BlogPosts.map((post) => [post.slug, {
+  intro: `A dependable ${post.title.replace(/^Philippines (outsourced|virtual assistant|remote team|remote staff) /i, '').replace(/ guide| checklist| workflow| process| plan| setup| queue| calendar$/i, '')} lane starts with clear inputs, a named reviewer, and an exception path. Keep the Philippines-based role focused on preparation and follow-through while the business owner keeps consequential decisions.`,
+  sections: [
+    { title: 'Define the work lane', paragraphs: [`Write down the request or record that starts this work, the fields that must be present, and the finished example a reviewer will use. Keep the first handoff narrow enough to check in one sitting.`, 'Separate information gathering and preparation from approvals, commitments, payments, policy decisions, and changes that affect a customer or employee. The role can flag an issue and prepare a draft for the owner.'], checks: ['What starts the task?', 'Which fields or documents are required?', 'What does a finished example look like?'] },
+    { title: 'Make ownership visible', paragraphs: ['Use one source-of-truth list with an owner, due date, current status, and link to supporting evidence. Record a short note when an item is blocked instead of leaving the next person to guess.', 'Give access only to the systems needed for this lane. Use named accounts and a clear owner for changes or removal.'], checks: ['Who reviews the work?', 'Where is supporting evidence stored?', 'What happens when information is missing?'] },
+    { title: 'Review and improve', paragraphs: ['Sample the first completed items against the same checklist. Turn repeated corrections into an example or a short instruction, and keep unusual cases in an exception list for the manager.', 'After the first review cycle, decide whether the lane is ready for normal oversight, needs a narrower scope, or needs a new approval rule.'], checks: ['Which errors recur?', 'Who decides an exception?', 'What evidence supports expanding the role?'] },
+  ],
+}])) as Record<string, { intro: string; sections: { title: string; paragraphs: string[]; checks: string[] }[] }>;
+
 export const dailyBlogPosts = topics.map(({ slug, title, excerpt }) => ({
   slug,
   title,
@@ -101,6 +137,8 @@ export const dailyBlogPosts = topics.map(({ slug, title, excerpt }) => ({
   minutes: 10,
   publishedAt: aug10BlogDates[slug],
 }));
+
+export const allDailyBlogPosts = [...dailyBlogPosts, ...aug11BlogPosts];
 
 export const dailyBlogBasics = Object.fromEntries(topics.map(({ slug, focus, tasks, checks }) => [slug, {
   intro: `A useful ${focus} role starts with a small, visible task lane. Give the Philippines-based team member examples, a named reviewer, and written limits before adding more work.`,
@@ -110,3 +148,5 @@ export const dailyBlogBasics = Object.fromEntries(topics.map(({ slug, focus, tas
     { title: 'Improve after the first week', paragraphs: ['At the end of the first week, compare accuracy, completeness, timeliness, and open questions. Turn repeated corrections into a short SOP or example. This keeps the role useful without making the brief vague.', 'Keep a decision log for exceptions and update the review owner when responsibility changes. A clear escalation path protects both the business and the Philippines-based worker.'], checks: [...checks, 'What evidence supports adding another task?'] },
   ],
 }]));
+
+export const allDailyBlogBasics = { ...dailyBlogBasics, ...aug11BlogBasics };

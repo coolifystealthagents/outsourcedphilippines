@@ -1,4 +1,4 @@
-import { dailyBlogBasics, dailyBlogPosts } from './blog/daily-blog-batch';
+import { allDailyBlogBasics, allDailyBlogPosts } from './blog/daily-blog-batch';
 
 export const site = {
   domain: 'OutsourcedPhilippines.com',
@@ -116,7 +116,7 @@ const legacyBlogPosts = [
     minutes: 8,
   },] as const;
 
-export const blogPosts = [...legacyBlogPosts, ...dailyBlogPosts].sort((a, b) => {
+export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts].sort((a, b) => {
   const aDate = 'publishedAt' in a && a.publishedAt ? a.publishedAt : '';
   const bDate = 'publishedAt' in b && b.publishedAt ? b.publishedAt : '';
   return bDate.localeCompare(aDate);
@@ -302,7 +302,7 @@ export const blogDetails = {
   },
 } as const;
 
-export const blogBasics = { ...legacyBlogBasics, ...dailyBlogBasics };
+export const blogBasics = { ...legacyBlogBasics, ...allDailyBlogBasics };
 
 export const stats = [
   { label: 'Talent source', value: 'Philippines', note: 'the staffing model is limited to Filipino talent based in the Philippines' },
