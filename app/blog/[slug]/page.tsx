@@ -7,6 +7,8 @@ import { businessContinuityDescription, businessContinuitySlug, businessContinui
 import { paymentChangeDescription, paymentChangeSlug, paymentChangeTitle, paymentChangeUrl, PhilippinesPaymentChangeArticle } from './philippines-payment-change-article';
 import { accountRecoveryDescription, accountRecoverySlug, accountRecoveryTitle, accountRecoveryUrl, PhilippinesAccountRecoveryArticle } from './philippines-account-recovery-article';
 import { topVirtualAssistantCompaniesDescription, topVirtualAssistantCompaniesSlug, topVirtualAssistantCompaniesTitle, topVirtualAssistantCompaniesUrl, TopVirtualAssistantCompaniesArticle } from './top-virtual-assistant-companies-article';
+const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const formatReaderDate = (value: string) => readerDate.format(new Date(`${value}T00:00:00Z`));
 
 const baseUrl = 'https://outsourcedphilippines.com';
 
@@ -110,7 +112,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <p className="eyebrow">{site.brand} guide</p>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
-            {publishedAt && <time dateTime={publishedAt}>Published {publishedAt}</time>}
+            {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
             <img src="/research-batch-thumbnail.jpg" alt="Colleagues discussing work around monitors in an open office" width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
             {basic.sections.map((section) => (
@@ -213,7 +215,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <p className="eyebrow">Provider checklist</p>
               <h1>{post.title}</h1>
               <p className="lead">{post.excerpt}</p>
-              {publishedAt && <time dateTime={publishedAt}>Published {publishedAt}</time>}
+              {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
               <p className="article-intro">A provider should be able to explain who owns the worker relationship, how work is checked, and what happens when something goes wrong. Use this guide to move the sales call past promises and into the details you will rely on after hiring.</p>
             </div>
           </header>
