@@ -61,7 +61,7 @@ export default function Home() {
           </div>
         </div>
         <div className="container confidence-row" aria-label="Staffing approach">
-          {confidenceItems.map(([label, icon]) => <span key={label}><img src={icon} alt="" aria-hidden="true" />{label}</span>)}
+          {confidenceItems.map(([label, icon]) => <span key={label}><img src={icon} alt={`${label} icon`} />{label}</span>)}
         </div>
       </section>
 
@@ -101,10 +101,10 @@ export default function Home() {
         <div className="container">
           <div className="library-head"><div><p className="eyebrow">Starting lanes</p><h2>Choose work that can be seen, checked, and handed back.</h2></div><p>These are sensible places to begin with a Filipino team member. The service pages spell out the first tasks and the controls to keep.</p></div>
           <div className="role-grid">
-            {roles.map((role, index) => <a className="role-card" href={`/services/${role.slug}`} key={role.slug}>
+            {roles.map((role, index) => <a className="role-card" href="/services" key={role.slug}>
               <span className="role-card-number">{String(index + 1).padStart(2, '0')}</span>
-              <span className="role-card-art" aria-hidden="true">
-                <img src={roleIllustrations[index]} alt="" />
+              <span className="role-card-art">
+                <img src={roleIllustrations[index]} alt={`${role.title} support illustration`} />
               </span>
               <h3>{role.title}</h3><p>{role.buyerProblem}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
             </a>)}
