@@ -119,7 +119,7 @@ const legacyBlogPosts = [
 export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts].sort((a, b) => {
   const aDate = 'publishedAt' in a && a.publishedAt ? a.publishedAt : '';
   const bDate = 'publishedAt' in b && b.publishedAt ? b.publishedAt : '';
-  return bDate.localeCompare(aDate);
+  return bDate.localeCompare(aDate) || a.slug.localeCompare(b.slug);
 });
 
 const legacyBlogBasics = {
