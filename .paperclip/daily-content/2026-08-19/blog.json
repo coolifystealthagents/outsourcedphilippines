@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/philippines-outsourcing-intake-source-register",
+      "source": "content/blog/philippines-outsourcing-intake-source-register.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-approval-evidence-matrix",
+      "source": "content/blog/philippines-outsourcing-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-exception-queue-triage",
+      "source": "content/blog/philippines-outsourcing-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-quality-review-cadence",
+      "source": "content/blog/philippines-outsourcing-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-handoff-acceptance-log",
+      "source": "content/blog/philippines-outsourcing-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-access-recertification-review",
+      "source": "content/blog/philippines-outsourcing-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-weekly-decision-brief",
+      "source": "content/blog/philippines-outsourcing-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-source-of-truth-map",
+      "source": "content/blog/philippines-outsourcing-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-change-control-record",
+      "source": "content/blog/philippines-outsourcing-change-control-record.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-work-queue-ownership",
+      "source": "content/blog/philippines-outsourcing-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-escalation-path-design",
+      "source": "content/blog/philippines-outsourcing-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/philippines-outsourcing-launch-readiness-review",
+      "source": "content/blog/philippines-outsourcing-launch-readiness-review.md"
+    }
+  ]
+}

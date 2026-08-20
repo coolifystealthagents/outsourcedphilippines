@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/philippines-outsourcing-source-quality-evidence-research",
+      "source": "content/research/philippines-outsourcing-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/philippines-outsourcing-exception-aging-patterns-research",
+      "source": "content/research/philippines-outsourcing-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/philippines-outsourcing-review-consistency-research",
+      "source": "content/research/philippines-outsourcing-review-consistency-research.md"
+    },
+    {
+      "route": "/research/philippines-outsourcing-access-governance-research",
+      "source": "content/research/philippines-outsourcing-access-governance-research.md"
+    },
+    {
+      "route": "/research/philippines-outsourcing-handoff-reliability-research",
+      "source": "content/research/philippines-outsourcing-handoff-reliability-research.md"
+    }
+  ]
+}
