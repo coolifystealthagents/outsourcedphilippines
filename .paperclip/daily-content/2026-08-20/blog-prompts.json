@@ -1,0 +1,18 @@
+{
+  "family": "blog",
+  "campaignDate": "2026-08-20",
+  "prompts": {
+    "philippines-outsourced-article-brief-approval-workflow": "Editorial desk with an approved article brief, source cards, and a clear review stamp; warm green and coral palette; no readable text; editorial illustration.",
+    "philippines-virtual-assistant-editorial-research-queue": "Remote researcher organizing source cards into a focused queue with evidence links; warm violet and green palette; no readable text; editorial illustration.",
+    "philippines-remote-content-review-comment-routing": "Distributed editorial team routing color-coded review comments toward clear owners; warm blue and coral palette; no readable text; editorial illustration.",
+    "philippines-outsourced-content-calendar-dependency-map": "Content calendar connected to research, draft, review, and publishing milestones; warm green and gold palette; no readable text; editorial illustration.",
+    "philippines-virtual-assistant-content-update-inventory": "Virtual assistant reviewing a library of article cards with update flags and source folders; warm violet and coral palette; no readable text; editorial illustration.",
+    "philippines-outsourced-blog-metadata-quality-check": "Article page surrounded by aligned title, date, canonical, and image quality markers; warm green and blue palette; no readable text; editorial illustration.",
+    "philippines-remote-content-team-publishing-handoff": "Careful publishing handoff between two remote workstations with route checklist and approval boundary; warm coral and navy palette; no readable text; editorial illustration.",
+    "philippines-outsourced-content-image-briefs": "Creative brief showing distinct editorial image concepts arranged around a route card; warm gold and violet palette; no readable text; editorial illustration.",
+    "philippines-virtual-assistant-article-formatting-checklist": "Virtual assistant formatting a clean article layout with headings, links, and a preview panel; warm green and coral palette; no readable text; editorial illustration.",
+    "philippines-outsourced-blog-analytics-annotation-routine": "Reporting desk annotating a modest article chart with source notes and date markers; warm blue and gold palette; no readable text; editorial illustration.",
+    "philippines-remote-article-ownership-register": "Remote team ownership register connecting articles to editors, service owners, and review dates; warm violet and green palette; no readable text; editorial illustration.",
+    "philippines-outsourced-content-brief-backlog-triage": "Content coordinator sorting article brief cards into ready, waiting, and deferred lanes; warm coral and green palette; no readable text; editorial illustration."
+  }
+}

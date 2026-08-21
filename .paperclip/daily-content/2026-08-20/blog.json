@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/philippines-outsourced-article-brief-approval-workflow","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-virtual-assistant-editorial-research-queue","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-remote-content-review-comment-routing","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-content-calendar-dependency-map","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-virtual-assistant-content-update-inventory","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-blog-metadata-quality-check","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-remote-content-team-publishing-handoff","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-content-image-briefs","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-virtual-assistant-article-formatting-checklist","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-blog-analytics-annotation-routine","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-remote-article-ownership-register","sourcePaths":["app/blog/aug20-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-content-brief-backlog-triage","sourcePaths":["app/blog/aug20-blog-batch.ts"]}
+  ]
+}
