@@ -1,7 +1,7 @@
 {
   "campaignDate": "2026-08-21",
   "family": "blog",
-  "status": "blocked_pending_distinct_hero_assets",
+  "status": "ready_for_validation",
   "entries": [
     {"route":"/blog/philippines-outsourcing-workload-capacity-review","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-workload-capacity-review.webp"},
     {"route":"/blog/philippines-outsourcing-quality-calibration-session","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-quality-calibration-session.webp"},
