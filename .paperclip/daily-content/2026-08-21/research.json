@@ -1,0 +1,7 @@
+[
+  {"route":"/research/philippines-outsourcing-access-review-evidence-research","sourcePaths":["app/aug21-research-batch.ts"],"hero":"public/aug21-research-heroes/access-review-evidence.png"},
+  {"route":"/research/philippines-outsourcing-exception-aging-research","sourcePaths":["app/aug21-research-batch.ts"],"hero":"public/aug21-research-heroes/exception-aging.png"},
+  {"route":"/research/philippines-outsourcing-invoice-source-matching-research","sourcePaths":["app/aug21-research-batch.ts"],"hero":"public/aug21-research-heroes/invoice-reconciliation.png"},
+  {"route":"/research/philippines-outsourcing-project-dependency-evidence-research","sourcePaths":["app/aug21-research-batch.ts"],"hero":"public/aug21-research-heroes/project-dependencies.png"},
+  {"route":"/research/philippines-outsourcing-feedback-sampling-research","sourcePaths":["app/aug21-research-batch.ts"],"hero":"public/aug21-research-heroes/feedback-sampling.png"}
+]
