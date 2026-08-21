@@ -1,5 +1,6 @@
 type BatchTopic = { slug: string; title: string; excerpt: string; focus: string; tasks: string[]; checks: string[] };
 import { aug20BlogBasics, aug20BlogPosts } from './aug20-blog-batch';
+import { aug21BlogBasics, aug21BlogPosts } from './aug21-blog-batch';
 
 const topics: BatchTopic[] = [
   ['philippines-operations-support-sop-handoff', 'Philippines operations support SOP handoff guide', 'Turn recurring operations work into a clear handoff for a Philippines-based support role.', 'SOP handoffs', ['record the current process', 'name the review owner', 'log exceptions'], ['Can a new person follow the example?', 'Who approves exceptions?', 'Where is the current SOP stored?']],
@@ -268,7 +269,7 @@ export const dailyBlogPosts = topics.map(({ slug, title, excerpt }) => ({
   publishedAt: aug10BlogDates[slug],
 }));
 
-export const allDailyBlogPosts = [...dailyBlogPosts, ...aug11BlogPosts, ...aug13BlogPosts, ...aug14BlogPosts, ...aug17BlogPosts, ...aug20BlogPosts];
+export const allDailyBlogPosts = [...dailyBlogPosts, ...aug11BlogPosts, ...aug13BlogPosts, ...aug14BlogPosts, ...aug17BlogPosts, ...aug20BlogPosts, ...aug21BlogPosts.slice(0, 12)];
 
 export const dailyBlogBasics = Object.fromEntries(topics.map(({ slug, focus, tasks, checks }) => [slug, {
   intro: `A useful ${focus} role starts with a small, visible task lane. Give the Philippines-based team member examples, a named reviewer, and written limits before adding more work.`,
@@ -279,4 +280,4 @@ export const dailyBlogBasics = Object.fromEntries(topics.map(({ slug, focus, tas
   ],
 }]));
 
-export const allDailyBlogBasics = { ...dailyBlogBasics, ...aug11BlogBasics, ...aug13BlogBasics, ...aug14BlogBasics, ...aug17BlogBasics, ...aug20BlogBasics };
+export const allDailyBlogBasics = { ...dailyBlogBasics, ...aug11BlogBasics, ...aug13BlogBasics, ...aug14BlogBasics, ...aug17BlogBasics, ...aug20BlogBasics, ...Object.fromEntries(Object.entries(aug21BlogBasics).slice(0, 12)) };

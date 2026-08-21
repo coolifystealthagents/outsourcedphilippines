@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "generator": "Gemini image generation retry",
+  "entries": [
+    {"route":"/blog/philippines-outsourcing-workload-capacity-review","prompt":"Original editorial illustration about a Philippines-based outsourcing workload capacity review; wide 3:2; forest green, coral, lavender, cream; no text, logos, flags, watermark.","result":"generated"},
+    {"route":"/blog/philippines-outsourcing-quality-calibration-session","prompt":"Original editorial illustration about a Philippines-based outsourcing quality calibration session; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-knowledge-transfer-capture","prompt":"Original editorial illustration about a Philippines-based outsourcing knowledge-transfer capture plan; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-backlog-reduction-triage","prompt":"Original editorial illustration about Philippines outsourcing backlog triage; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-process-exception-register","prompt":"Original editorial illustration about a Philippines outsourcing process exception register; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-onboarding-access-sequence","prompt":"Original editorial illustration about a Philippines outsourcing onboarding access sequence; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-client-intake-quality-gate","prompt":"Original editorial illustration about a Philippines outsourcing client intake quality gate; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-approval-evidence-packet","prompt":"Original editorial illustration about a Philippines outsourcing approval evidence packet; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-weekly-queue-health-check","prompt":"Original editorial illustration about a Philippines outsourcing weekly queue health check; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-role-boundary-workshop","prompt":"Original editorial illustration about a Philippines outsourcing role-boundary workshop; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-source-change-monitoring","prompt":"Original editorial illustration about Philippines outsourcing source-change monitoring; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"},
+    {"route":"/blog/philippines-outsourcing-handoff-completeness-score","prompt":"Original editorial illustration about a Philippines outsourcing handoff completeness score; wide 3:2; no text, logos, flags, watermark.","result":"retry_pending"}
+  ]
+}

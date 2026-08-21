@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "status": "blocked_pending_distinct_hero_assets",
+  "entries": [
+    {"route":"/blog/philippines-outsourcing-workload-capacity-review","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-workload-capacity-review.webp"},
+    {"route":"/blog/philippines-outsourcing-quality-calibration-session","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-quality-calibration-session.webp"},
+    {"route":"/blog/philippines-outsourcing-knowledge-transfer-capture","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-knowledge-transfer-capture.webp"},
+    {"route":"/blog/philippines-outsourcing-backlog-reduction-triage","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-backlog-reduction-triage.webp"},
+    {"route":"/blog/philippines-outsourcing-process-exception-register","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-process-exception-register.webp"},
+    {"route":"/blog/philippines-outsourcing-onboarding-access-sequence","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-onboarding-access-sequence.webp"},
+    {"route":"/blog/philippines-outsourcing-client-intake-quality-gate","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-client-intake-quality-gate.webp"},
+    {"route":"/blog/philippines-outsourcing-approval-evidence-packet","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-approval-evidence-packet.webp"},
+    {"route":"/blog/philippines-outsourcing-weekly-queue-health-check","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-weekly-queue-health-check.webp"},
+    {"route":"/blog/philippines-outsourcing-role-boundary-workshop","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-role-boundary-workshop.webp"},
+    {"route":"/blog/philippines-outsourcing-source-change-monitoring","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-source-change-monitoring.webp"},
+    {"route":"/blog/philippines-outsourcing-handoff-completeness-score","sourcePaths":["app/blog/aug21-blog-batch.ts"],"hero":"/blog/aug21-outsourcing-handoff-completeness-score.webp"}
+  ]
+}
