@@ -1,7 +1,7 @@
 [
-  {"route":"/research/philippines-outsourcing-handoff-evidence-research","sourcePaths":["app/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/aug20-handoff-records.png"},
-  {"route":"/research/philippines-outsourcing-invoice-reconciliation-research","sourcePaths":["app/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/aug20-invoice-reconciliation.png"},
-  {"route":"/research/philippines-outsourcing-knowledge-transfer-research","sourcePaths":["app/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/aug20-knowledge-transfer.png"},
-  {"route":"/research/philippines-outsourcing-customer-feedback-evidence-research","sourcePaths":["app/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/aug20-feedback-analysis.png"},
-  {"route":"/research/philippines-outsourcing-vendor-records-research","sourcePaths":["app/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/aug20-vendor-records.png"}
+  {"route":"/research/philippines-outsourcing-handoff-evidence-research","sourcePaths":["content/research/philippines-outsourcing-handoff-evidence-research.md"],"imagePath":"public/aug20-research-heroes/aug20-handoff-records.png"},
+  {"route":"/research/philippines-outsourcing-invoice-reconciliation-research","sourcePaths":["content/research/philippines-outsourcing-invoice-reconciliation-research.md"],"imagePath":"public/aug20-research-heroes/aug20-invoice-reconciliation.png"},
+  {"route":"/research/philippines-outsourcing-knowledge-transfer-research","sourcePaths":["content/research/philippines-outsourcing-knowledge-transfer-research.md"],"imagePath":"public/aug20-research-heroes/aug20-knowledge-transfer.png"},
+  {"route":"/research/philippines-outsourcing-customer-feedback-evidence-research","sourcePaths":["content/research/philippines-outsourcing-customer-feedback-evidence-research.md"],"imagePath":"public/aug20-research-heroes/aug20-feedback-analysis.png"},
+  {"route":"/research/philippines-outsourcing-vendor-records-research","sourcePaths":["content/research/philippines-outsourcing-vendor-records-research.md"],"imagePath":"public/aug20-research-heroes/aug20-vendor-records.png"}
 ]
