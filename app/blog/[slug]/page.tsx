@@ -104,6 +104,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
   if (!detail && basic) {
     const heroImage = 'heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : '/research-batch-thumbnail.jpg';
+    const omitHero = publishedAt === '2026-08-23' && !('heroImage' in post);
     return (
       <>
         <Header />
@@ -114,11 +115,11 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
             {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
-            <img src={heroImage} alt="Illustration of a remote content workflow" width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
+            {!omitHero && <img src={heroImage} alt="Illustration of a remote content workflow" width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />}
             <p className="article-intro">{basic.intro}</p>
             {Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) && <section className="article-section" aria-labelledby="route-local-guide">
               <h2 id="route-local-guide">The route-local operating guide</h2>
-              {(basic as unknown as { routeBody: readonly string[] }).routeBody.map((paragraph: string) => <p key={paragraph}>{paragraph}</p>)}
+              {(basic as unknown as { routeBody: readonly string[] }).routeBody.filter((paragraph: string) => !paragraph.startsWith('Route-local closeout.')).map((paragraph: string) => <p key={paragraph}>{paragraph}</p>)}
             </section>}
             {basic.sections.map((section) => (
               <section className="article-section" key={section.title}>
