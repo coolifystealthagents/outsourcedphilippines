@@ -24,34 +24,51 @@ const checks = (r: typeof records[number]) => [
   `What is the safe hold when the ${r.focus} case does not fit?`,
 ];
 
-function sections(r: typeof records[number]): Section[] {
+const sectionPlans = [
+  ['The morning brief', 'A source-led working file', 'Draft assembly', 'The owner checkpoint', 'Measure the lane', 'The next-day handoff'],
+  ['Turn an idea into a decision', 'Reject ambiguity early', 'Build the evidence brief', 'Release only the bounded version', 'Test the intake rule', 'Leave a useful question'],
+  ['Claim inventory', 'Source comparison', 'Support strength', 'Editorial judgment', 'Measure support', 'Evidence note'],
+  ['Queue admission', 'Order the review work', 'Return with a reason', 'Age and escalation', 'Read queue signals', 'Close the loop'],
+  ['Calendar authority', 'Topic collision check', 'Capacity and spacing', 'Change the plan deliberately', 'Review calendar evidence', 'Record the decision'],
+  ['Format acceptance', 'Meaning before polish', 'Component-level checks', 'Accessibility and links', 'Sample the finished page', 'Final visual handoff'],
+  ['Research ledger', 'Observation versus inference', 'Freshness and scope', 'Open contradiction', 'Track source health', 'Citation handback'],
+  ['Cross-time-zone handoff', 'What the next writer needs', 'Examples and exclusions', 'Questions that cannot wait', 'Check transfer quality', 'Resume without guessing'],
+  ['Update candidate', 'What changed', 'Old claims at risk', 'Rewrite or retire', 'Compare before and after', 'Republish review'],
+  ['Read the signal carefully', 'Context behind the number', 'Useful comparison', 'Avoiding performance claims', 'Choose a useful sample', 'Decision note'],
+  ['Approval packet anatomy', 'Material claims', 'The one decision', 'Safe hold', 'Check completeness', 'Release record'],
+  ['When the normal path breaks', 'Exception facts', 'Temporary permission', 'Durable rule', 'Look for recurrence', 'Review the rule'],
+] as const;
+
+function sections(r: typeof records[number], variant: number): Section[] {
+  const titles = sectionPlans[variant];
+  const sharedChecks = checks(r);
   return [
-    { title: 'Start with a bounded request', paragraphs: [
+    { title: titles[0], paragraphs: [
       `${r.scenario}. Begin by recording the reader, intended decision, required format, and the point at which the work becomes ready for review. A Philippines-based contributor works more reliably when the first task has a visible finish line instead of a broad instruction to create something useful.`,
       `The request should name the source material, the expected route or artifact, and the questions that are deliberately out of scope. That small amount of planning protects the ${r.focus} lane from absorbing unrelated work. It also gives a reviewer something concrete to inspect when the work returns across a time-zone boundary.`,
-    ], checks: checks(r) },
-    { title: 'Make the source trail usable', paragraphs: [
+    ], checks: sharedChecks },
+    { title: titles[1], paragraphs: [
       `For ${r.focus}, evidence is part of the deliverable rather than a note added after the prose looks finished. Record the source name, location, access or review date, relevant field or passage, and any limitation that changes how confidently it can support the article. Keep source facts separate from a recommendation written for the reader.`,
       `When two records disagree, preserve the disagreement and route a narrow question. Do not select the version that makes the draft easier to complete. A support contributor can compare sources, identify the difference, and explain what work is affected; an accountable owner must decide which instruction, definition, or public statement governs.`,
     ], checks: ['Can a reviewer reach every important source?', 'What is observed rather than inferred?', 'Who resolves a source conflict?'] },
-    { title: 'Design the working sequence', paragraphs: [
+    { title: titles[2], paragraphs: [
       `Break the work into stages that can be checked independently: request readiness, research or preparation, draft assembly, review, correction, and closeout. Each stage needs an owner, a next action, and a reason for waiting. This is especially important for ${r.focus}, because a finished-looking item may still be blocked on a decision that only the owner can make.`,
       `Use a small example to teach the sequence. Show the input, the action permitted at that point, the evidence produced, and the status after the action. If the example includes a sensitive claim or a public-facing change, show the escalation rather than pretending the ordinary path covers it. Good examples make boundaries easier to follow than abstract warnings.`,
     ], checks: ['What proves that this stage is complete?', 'Where does the work wait?', 'Which example should a new contributor follow?'] },
-    { title: 'Protect review and publication', paragraphs: [
+    { title: titles[3], paragraphs: [
       `${r.risk}. Put the review gate where that risk becomes visible, not only at the end. Check the thesis, audience, source support, route, date, links, and public wording according to the artifact in scope. A formatting correction may be routine; a changed claim, date, or promise is a decision and must be routed accordingly.`,
       `A reviewer should be able to approve, return, or hold the item with a short reason. Record corrections against the draft rather than scattering them through private messages. When the owner is unavailable, preserve the current state and the permitted preparation work. An overdue item is not permission to skip a control simply because the calendar is full.`,
     ], checks: ['Which fields must be reviewed together?', 'What makes a return actionable?', 'What can continue during a hold?'] },
-    { title: 'Use measures as questions', paragraphs: [
+    { title: titles[4], paragraphs: [
       `Track ${r.measure}. Define each field before counting it and attach a small sample to any conclusion. A number can reveal where to look, but it cannot by itself prove quality, productivity, customer satisfaction, or a commercial result. Keep the underlying examples available so the owner can distinguish a process issue from a one-off case.`,
       `Review patterns after several cycles and choose one controlled improvement. It may be a better brief field, a clearer source rule, a different review window, or a new example. Note what changed, who approved it, and when it will be checked. This turns the ${r.focus} routine into an operating practice without promising an outcome the evidence cannot support.`,
     ], checks: ['What does the measure actually describe?', 'Which sample supports the observation?', 'Who approves a process change?'] },
-    { title: 'Close with a safe handoff', paragraphs: [
+    { title: titles[5], paragraphs: [
       `${r.handoff} Include the current status even when the status is blocked. A precise hold is useful information: it tells the next person what has been checked, what is missing, and which response would let the work move. Avoid vague language such as “please review” when the reviewer needs to answer one defined question.`,
       `${r.boundary} Before closing the item, confirm that the visible artifact matches the approved source, that dates and route details are consistent, and that unresolved questions remain visible. The next cycle should begin from a traceable record rather than from memory or an informal promise made during a busy handoff.`,
     ], checks: ['What is the next permitted action?', 'Who owns the unresolved decision?', 'What record proves closeout?'] },
   ];
 }
 
-export const aug23BlogPosts: Post[] = records.map((r) => ({ slug: r.slug, title: r.title, excerpt: r.excerpt, minutes: 13, publishedAt: r.publishedAt, intro: `${r.focus[0].toUpperCase()}${r.focus.slice(1)} matters when ${r.reader}. The routine below keeps the niche central: practical work with Philippines-based staff, clear evidence, and a manager-owned decision boundary.`, routeBody: r.routeBody, sections: sections(r) }));
+export const aug23BlogPosts: Post[] = records.map((r, variant) => ({ slug: r.slug, title: r.title, excerpt: r.excerpt, minutes: 13, publishedAt: r.publishedAt, intro: `${r.focus[0].toUpperCase()}${r.focus.slice(1)} matters when ${r.reader}. In this guide, ${r.scenario}. Keep the niche central: practical work with Philippines-based staff, clear evidence, and a manager-owned decision boundary.`, routeBody: r.routeBody, sections: sections(r, variant) }));
 export const aug23BlogBasics = Object.fromEntries(aug23BlogPosts.map((post) => [post.slug, { intro: post.intro, routeBody: post.routeBody, sections: post.sections }]));
