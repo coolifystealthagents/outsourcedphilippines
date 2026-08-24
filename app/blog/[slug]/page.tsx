@@ -116,6 +116,10 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
             <img src={heroImage} alt="Illustration of a remote content workflow" width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
+            {Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) && <section className="article-section" aria-labelledby="route-local-guide">
+              <h2 id="route-local-guide">The route-local operating guide</h2>
+              {(basic as unknown as { routeBody: readonly string[] }).routeBody.map((paragraph: string) => <p key={paragraph}>{paragraph}</p>)}
+            </section>}
             {basic.sections.map((section) => (
               <section className="article-section" key={section.title}>
                 <h2>{section.title}</h2>
