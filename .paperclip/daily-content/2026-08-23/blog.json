@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "imageStatus": "BLOCKED_GEMINI_UNAVAILABLE_NO_GEMINI_PROVIDER_EXPOSED",
+  "imageReceipts": [],
+  "entries": [
+    {"route":"/blog/philippines-outsourced-daily-article-production-routine","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-virtual-assistant-content-brief-intake","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-editorial-source-checking","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-remote-content-review-queue","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-blog-calendar-governance","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-virtual-assistant-article-formatting-qa","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-content-research-evidence-log","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-remote-writer-handoff-checklist","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-blog-update-review","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-virtual-assistant-content-performance-notes","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-content-approval-packet","sourcePaths":["app/blog/aug23-blog-batch.ts"]},
+    {"route":"/blog/philippines-remote-editorial-exception-register","sourcePaths":["app/blog/aug23-blog-batch.ts"]}
+  ]
+}
