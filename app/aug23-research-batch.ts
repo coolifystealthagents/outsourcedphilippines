@@ -21,7 +21,7 @@ export const aug23ResearchPosts: readonly ResearchPost[] = [
     slug:'philippines-content-source-freshness-research',
     title:'Philippines Content Research: Does Source Freshness Improve Daily Article Decisions?',
     excerpt:'A source-freshness study for Philippines-based content operations, focused on dated evidence, change detection, and review ownership.',
-    published:'2026-08-23',
+    published:'2026-08-24',
     statistic:'PSA, ILO, World Bank, and OECD data services publish information with different reference periods, definitions, and revision practices; those metadata differences are operationally relevant when a content queue is refreshed each day.',
     methodology:'This desk review compares the documentation and data conventions of four public institutions, then derives a testable hypothesis for a Philippines-based article research lane. It treats source metadata as a research observation, not as a publishing KPI. Facts are statements about the linked institutions; analysis is the proposed queue design. The scope does not measure a vendor, writer, or article ranking.',
     body:[
@@ -46,7 +46,7 @@ export const aug23ResearchPosts: readonly ResearchPost[] = [
     slug:'philippines-article-brief-completeness-research',
     title:'Philippines Article Briefs: Which Fields Predict a Reviewable First Draft?',
     excerpt:'A research-backed way to test whether article briefs give Philippines-based writers enough scope, evidence, and decision boundaries.',
-    published:'2026-08-23',
+    published:'2026-08-24',
     statistic:'Public labor, digital-development, and data-governance resources define their units and periods explicitly; that discipline offers a useful comparison for article briefs that must define an audience, evidence scope, and finish line.',
     methodology:'This review examines public statistical documentation and applies its definition discipline to article briefing for Outsourced Philippines. It does not claim that a brief field causes writing quality. The proposed method compares a dated sample of briefs with first-review findings, separating observed defects from the hypothesis that missing fields create avoidable rework.',
     body:[
@@ -71,7 +71,7 @@ export const aug23ResearchPosts: readonly ResearchPost[] = [
     slug:'philippines-editorial-review-sampling-research',
     title:'Philippines Editorial QA: How Should a Daily Article Sample Be Designed?',
     excerpt:'A sampling study for article QA that separates volume, first-pass quality, source defects, and owner decisions in a distributed support lane.',
-    published:'2026-08-23',
+    published:'2026-08-24',
     statistic:'ILO, OECD, World Bank, and PSA materials demonstrate the importance of defining a population, observation period, and denominator before interpreting a rate; the same logic applies to editorial sampling.',
     methodology:'This desk study uses public guidance on statistical definitions as a lens for designing a small editorial QA sample. It proposes categories and decision rules, but does not claim a universal sample size or a causal relationship between sampling and article performance. The evidence scope is research and review operations for Outsourced Philippines articles.',
     body:[
@@ -96,7 +96,7 @@ export const aug23ResearchPosts: readonly ResearchPost[] = [
     slug:'philippines-content-handoff-research',
     title:'Philippines Content Handoffs: What Makes an Article Ready for the Next Reviewer?',
     excerpt:'A handoff research note on article state, unresolved questions, evidence, and ownership across Philippines-based publishing work.',
-    published:'2026-08-23',
+    published:'2026-08-24',
     statistic:'The public data resources cited in this review attach definitions, dates, and metadata to evidence; those same fields help a content handoff survive a change of reviewer or working window.',
     methodology:'This study reviews public evidence practices and maps them to a bounded article-handoff hypothesis. It focuses on reconstructability: whether the next authorized reviewer can understand the article state from the record. It does not measure productivity, time-zone performance, or any individual specialist.',
     body:[
@@ -121,7 +121,7 @@ export const aug23ResearchPosts: readonly ResearchPost[] = [
     slug:'philippines-content-exception-aging-research',
     title:'Philippines Content Operations: What Does Exception Age Reveal About a Daily Queue?',
     excerpt:'An evidence-led study of stalled source checks, approvals, and route decisions in Philippines-based article operations.',
-    published:'2026-08-23',
+    published:'2026-08-24',
     statistic:'ILO, OECD, World Bank, and PSA resources distinguish observations by period and definition; an editorial queue likewise needs dated states before exception age can be interpreted.',
     methodology:'This research note examines exception aging as a queue signal, not as a worker score. It uses public data-definition practices to frame a test for daily article operations: classify holds, timestamp state changes, and inspect the owner decision behind each aging item. The method does not establish causation or a universal service-level target.',
     body:[
