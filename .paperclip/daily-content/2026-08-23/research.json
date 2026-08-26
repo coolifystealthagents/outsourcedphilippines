@@ -1,0 +1,7 @@
+[
+  {"route":"/research/philippines-content-source-freshness-research","sourcePaths":["app/aug23-research-batch.ts"],"imagePath":"public/aug23-research-heroes/content-source-freshness.png"},
+  {"route":"/research/philippines-article-brief-completeness-research","sourcePaths":["app/aug23-research-batch.ts"],"imagePath":"public/aug23-research-heroes/article-brief-completeness.png"},
+  {"route":"/research/philippines-editorial-review-sampling-research","sourcePaths":["app/aug23-research-batch.ts"],"imagePath":"public/aug23-research-heroes/editorial-review-sampling.png"},
+  {"route":"/research/philippines-content-handoff-research","sourcePaths":["app/aug23-research-batch.ts"],"imagePath":"public/aug23-research-heroes/content-handoff.png"},
+  {"route":"/research/philippines-content-exception-aging-research","sourcePaths":["app/aug23-research-batch.ts"],"imagePath":"public/aug23-research-heroes/content-exception-aging.png"}
+]
