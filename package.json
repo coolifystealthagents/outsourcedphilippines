@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
-    "lint": "next lint",
+    "lint": "tsc --noEmit",
     "validate:aug10-blog": "node scripts/validate_aug10_blog_manifest.mjs",
     "validate:aug10-research": "node scripts/validate_aug10_research_manifest.mjs"
   },
