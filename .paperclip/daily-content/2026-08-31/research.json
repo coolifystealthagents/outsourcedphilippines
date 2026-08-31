@@ -1,0 +1,7 @@
+[
+  {"route":"/research/philippines-ecommerce-chargeback-evidence-packets-research","sourcePaths":["app/aug31-research-batch.ts"],"imagePath":"public/aug31-research-heroes/ecommerce-chargeback-evidence.png"},
+  {"route":"/research/philippines-property-deadline-control-research","sourcePaths":["app/aug31-research-batch.ts"],"imagePath":"public/aug31-research-heroes/property-deadline-control.png"},
+  {"route":"/research/philippines-healthcare-minimum-necessary-view-research","sourcePaths":["app/aug31-research-batch.ts"],"imagePath":"public/aug31-research-heroes/healthcare-minimum-necessary-view.png"},
+  {"route":"/research/philippines-legal-intake-conflict-routing-research","sourcePaths":["app/aug31-research-batch.ts"],"imagePath":"public/aug31-research-heroes/legal-intake-conflict-routing.png"},
+  {"route":"/research/philippines-bookkeeping-close-cutoff-research","sourcePaths":["app/aug31-research-batch.ts"],"imagePath":"public/aug31-research-heroes/bookkeeping-close-cutoff.png"}
+]

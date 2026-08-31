@@ -1,6 +1,7 @@
 import { aug20ResearchPosts } from './aug20-research-batch';
 import { aug21ResearchPosts } from './aug21-research-batch';
 import { aug23ResearchPosts } from './aug23-research-batch';
+import { aug31ResearchPosts } from './aug31-research-batch';
 
 export const fleetServices = [
   {
@@ -462,7 +463,7 @@ export const researchPosts: ReadonlyArray<ResearchPost> = ([
  makeResearch('philippines-translation-qa-research','Philippines Translation QA: Designing a Consistent Review Loop','Translation QA should separate glossary preparation, first-pass review, issue logging, and final approval so language decisions remain visible.','ILO data catalogues provide standardized indicators and definitions, demonstrating why review work benefits from a shared terminology base.','translation operations, terminology, and review sampling','2026-08-10'),
  makeResearch('philippines-website-content-audit-research','Philippines Website Content Audits: Evidence for a Safer Update Queue','Website-content audits become actionable when each finding has a URL, evidence note, priority, owner, and approval state.','The PSA OpenSTAT key-indicator matrix contains monthly data through May 2026, showing why audit observations should carry a date.','content auditing, evidence capture, and release control','2026-08-10'),
  makeResearch('philippines-training-coordination-research','Philippines Training Coordination: Making Learning Operations Reviewable','Training support can own scheduling, attendance records, materials, and follow-up while curriculum and performance decisions remain with the accountable owner.','The OECD Data Explorer provides skills indicators with definitions and metadata, useful context for designing role-specific learning records.','training operations, records, and learning feedback','2026-08-10'),
-]).filter(p=>!['philippines-back-office-qa-sampling-research','philippines-data-entry-error-research','philippines-ecommerce-catalog-research','philippines-workload-queue-research','philippines-shift-handoff-research','philippines-vendor-master-data-research','philippines-support-knowledge-retrieval-research','philippines-hr-access-request-research','philippines-project-dependency-research','philippines-receivables-records-research'].includes(p.slug)).concat(aug20ResearchPosts,aug21ResearchPosts,aug23ResearchPosts);
+]).filter(p=>!['philippines-back-office-qa-sampling-research','philippines-data-entry-error-research','philippines-ecommerce-catalog-research','philippines-workload-queue-research','philippines-shift-handoff-research','philippines-vendor-master-data-research','philippines-support-knowledge-retrieval-research','philippines-hr-access-request-research','philippines-project-dependency-research','philippines-receivables-records-research'].includes(p.slug)).concat(aug20ResearchPosts,aug21ResearchPosts,aug23ResearchPosts,aug31ResearchPosts);
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
