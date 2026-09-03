@@ -1,0 +1,12 @@
+{
+  "provider":"Gemini",
+  "status":"unavailable",
+  "reason":"No Gemini image-generation tool or credential is available in this execution environment. The authorized text-complete fallback applies; no stock or substitute images were created.",
+  "routes":[
+    "/research/philippines-customer-support-contact-reason-drift-research",
+    "/research/philippines-customer-support-knowledge-retrieval-evidence-research",
+    "/research/philippines-customer-support-qa-sample-stratification-research",
+    "/research/philippines-customer-support-escalation-packet-completeness-research",
+    "/research/philippines-customer-support-backlog-age-mix-research"
+  ]
+}

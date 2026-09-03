@@ -1,0 +1,7 @@
+[
+  {"route":"/research/philippines-customer-support-contact-reason-drift-research","sourcePaths":["app/sep3-research-batch.ts"]},
+  {"route":"/research/philippines-customer-support-knowledge-retrieval-evidence-research","sourcePaths":["app/sep3-research-batch.ts"]},
+  {"route":"/research/philippines-customer-support-qa-sample-stratification-research","sourcePaths":["app/sep3-research-batch.ts"]},
+  {"route":"/research/philippines-customer-support-escalation-packet-completeness-research","sourcePaths":["app/sep3-research-batch.ts"]},
+  {"route":"/research/philippines-customer-support-backlog-age-mix-research","sourcePaths":["app/sep3-research-batch.ts"]}
+]
