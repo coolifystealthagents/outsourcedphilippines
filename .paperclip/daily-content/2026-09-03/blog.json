@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "blog",
+  "imageStatus": "BLOCKED_GEMINI_UNAVAILABLE_NO_GEMINI_PROVIDER_EXPOSED",
+  "imageReceipts": [],
+  "entries": [
+    {"route":"/blog/philippines-content-assistant-morning-brief","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-source-freshness-watch","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-editorial-backlog-capacity-board","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-virtual-assistant-internal-link-review","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-subject-matter-question-routing","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-content-approval-service-window","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-editorial-qa-sampling-plan","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-cms-staging-release-check","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-editorial-voice-reference","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-blog-performance-annotation-log","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-content-archive-decision-record","sourcePaths":["app/blog/sep3-blog-batch.ts"]},
+    {"route":"/blog/philippines-editorial-publishing-incident-review","sourcePaths":["app/blog/sep3-blog-batch.ts"]}
+  ]
+}
