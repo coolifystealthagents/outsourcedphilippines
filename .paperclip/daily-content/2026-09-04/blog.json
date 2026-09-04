@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-09-04",
+  "family": "blog",
+  "imageStatus": "EXISTING_APPROVED_INVENTORY",
+  "image": "/research-batch-thumbnail.jpg",
+  "entries": [
+    {"route":"/blog/philippines-customer-support-shift-opening-check","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-customer-support-refund-evidence-packet","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-ecommerce-order-exception-handoff","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-bookkeeping-bank-feed-exception-queue","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-executive-assistant-calendar-conflict-brief","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-sales-development-prospect-research-note","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-healthcare-admin-appointment-record-check","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-real-estate-maintenance-intake-log","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-legal-admin-deadline-docket-check","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-marketing-operations-campaign-utm-register","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-project-coordinator-dependency-check-in","sourcePaths":["app/blog/sep4-blog-batch.ts"]},
+    {"route":"/blog/philippines-content-operations-publication-proof-log","sourcePaths":["app/blog/sep4-blog-batch.ts"]}
+  ]
+}

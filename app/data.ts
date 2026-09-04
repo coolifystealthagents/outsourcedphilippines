@@ -3,6 +3,7 @@ import { aug31BlogBasics, aug31BlogPosts } from './blog/aug31-blog-batch';
 import { sep1BlogBasics, sep1BlogPosts } from './blog/sep1-blog-batch';
 import { sep2BlogBasics, sep2BlogPosts } from './blog/sep2-blog-batch';
 import { sep3BlogBasics, sep3BlogPosts } from './blog/sep3-blog-batch';
+import { sep4BlogBasics, sep4BlogPosts } from './blog/sep4-blog-batch';
 
 export const site = {
   domain: 'OutsourcedPhilippines.com',
@@ -120,7 +121,7 @@ const legacyBlogPosts = [
     minutes: 8,
   },] as const;
 
-export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts, ...aug31BlogPosts, ...sep1BlogPosts, ...sep2BlogPosts, ...sep3BlogPosts].sort((a, b) => {
+export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts, ...aug31BlogPosts, ...sep1BlogPosts, ...sep2BlogPosts, ...sep3BlogPosts, ...sep4BlogPosts].sort((a, b) => {
   const aDate = 'publishedAt' in a && a.publishedAt ? a.publishedAt : '';
   const bDate = 'publishedAt' in b && b.publishedAt ? b.publishedAt : '';
   return bDate.localeCompare(aDate) || a.slug.localeCompare(b.slug);
@@ -306,7 +307,7 @@ export const blogDetails = {
   },
 } as const;
 
-export const blogBasics = { ...legacyBlogBasics, ...allDailyBlogBasics, ...aug31BlogBasics, ...sep1BlogBasics, ...sep2BlogBasics, ...sep3BlogBasics };
+export const blogBasics = { ...legacyBlogBasics, ...allDailyBlogBasics, ...aug31BlogBasics, ...sep1BlogBasics, ...sep2BlogBasics, ...sep3BlogBasics, ...sep4BlogBasics };
 
 export const stats = [
   { label: 'Talent source', value: 'Philippines', note: 'the staffing model is limited to Filipino talent based in the Philippines' },
