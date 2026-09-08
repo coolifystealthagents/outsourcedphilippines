@@ -83,7 +83,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url,
       siteName: site.brand,
       type: 'article',
+      images: [{ url: `${baseUrl}/research-batch-thumbnail.jpg`, width: 1200, height: 630, alt: post.title }],
     },
+    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt, images: [`${baseUrl}/research-batch-thumbnail.jpg`] },
   };
 }
 
