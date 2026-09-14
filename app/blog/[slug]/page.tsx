@@ -116,7 +116,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <p className="eyebrow">{site.brand} guide</p>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
-            {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
+            {publishedAt && <time dateTime={publishedAt}>Published: {formatReaderDate(publishedAt)}</time>}
             {!omitHero && <img src={heroImage} alt="Illustration of a remote content workflow" width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />}
             <p className="article-intro">{basic.intro}</p>
             {Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) && <section className="article-section" aria-labelledby="route-local-guide">
@@ -223,7 +223,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <p className="eyebrow">Provider checklist</p>
               <h1>{post.title}</h1>
               <p className="lead">{post.excerpt}</p>
-              {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
+              {publishedAt && <time dateTime={publishedAt}>Published: {formatReaderDate(publishedAt)}</time>}
               <p className="article-intro">A provider should be able to explain who owns the worker relationship, how work is checked, and what happens when something goes wrong. Use this guide to move the sales call past promises and into the details you will rely on after hiring.</p>
             </div>
           </header>
