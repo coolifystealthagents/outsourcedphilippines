@@ -23,7 +23,7 @@ This map covers the ten generated Philippines-only service pages in `app/fleet-c
 | `/services/bookkeeping-support` | `/research/philippines-bookkeeping-close-cutoff-research` | Which month-end exceptions can be prepared before financial approval stays with the reviewer? | Existing route-specific handoff: `Plan bookkeeping support` | Do not add another handoff. The source route keeps recognition, tax, and presentation decisions with the reviewer. |
 | `/services/customer-experience` | `/research/philippines-customer-support-outsourcing-data` | What evidence should a support queue show before a manager handles complaints, refunds, or exceptions? | Existing route-specific handoff: `Plan customer experience support` | Do not add another handoff. The source route keeps responses, refunds, and policy exceptions with the accountable owner. |
 | `/services/digital-marketing-operations` | `/research/philippines-marketing-operations-research` | Which campaign preparation and QA tasks can proceed before a brand owner approves publication? | Existing route-specific handoff: `Plan digital marketing operations support` | Do not add another handoff. The source route keeps publication and change approval with the brand owner. |
-| `/services/sales-development-support` | `/research/philippines-sales-development-support-research` | Which prospecting and record-hygiene tasks can be measured without making sales claims? | No route-specific handoff recorded | Review a sales-development-support handoff only after confirming no equivalent target link exists. |
+| `/services/sales-development-support` | `/research/philippines-sales-development-support-research` | Which prospecting and record-hygiene tasks can be measured without making sales claims? | Locally verified route-specific handoff: `Plan sales development support`; public verification pending | Do not add another handoff. Recheck the saved route after an authorized rollout. |
 | `/services/project-coordination` | `/research/philippines-project-coordination-research` | How can a manager define a project queue, review owner, and exception path? | Existing route-specific handoff: `Plan Philippines project coordination support` | Do not add another handoff. Recheck the existing source and target only if the renderer changes. |
 
 ## Artifact gate before a reader-facing change
@@ -32,3 +32,9 @@ This map covers the ten generated Philippines-only service pages in `app/fleet-c
 2. Build the site and inspect the source H1, target H1, source canonical, and both sitemap `<loc>` records.
 3. Confirm the source has no equivalent service href and that the old or generic target is absent when replacing one.
 4. For a public edit, use the repository deployment path and cache-bust verify the exact marker, href, H1, canonical, and sitemap on apex and `www`.
+
+## Delivery status — 2026-09-15
+
+- Rendered source: e2754344704aefcc7fa5f629a808f26ce6a72fb3. Local production artifact: the research route has the expected H1 and canonical, exactly one route-local `/services/sales-development-support` href, the `Plan sales development support` marker, Article `datePublished` 2026-08-09, Article `dateModified` 2026-09-15, and the canonical sitemap `<loc>`; this sitemap intentionally has no `<lastmod>`.
+- Cache-busted apex and `www` responses each returned `200 text/html` with the expected H1 and apex canonical, but omitted the marker, service href, and modified-time metadata. The route is `deployment_pending_public_verification / public_stale`; no repository-approved deployment target or workflow was found, so none was inferred or triggered.
+- Preserve rendered-source commit e2754344704aefcc7fa5f629a808f26ce6a72fb3. This status-only record must not lead to a duplicate CTA.
