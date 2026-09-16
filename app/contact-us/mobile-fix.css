@@ -1,0 +1,3 @@
+.mobile-menu:not([open]) nav {
+  display: none;
+}
