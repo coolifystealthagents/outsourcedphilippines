@@ -5,6 +5,11 @@
   "contentCommit": "86c232d33f24253798663dfca797a1be2e7b1f5f",
   "productionBranch": "main",
   "deploymentResource": "Coolify3",
+  "status": "blocked_deployment_not_observed",
+  "verifiedCount": 0,
+  "remoteShaAtCheck": "faa66416d0a63227ce753d92c44bf12a4c90f4c9",
+  "verificationTime": null,
+  "deploymentEvidence": "The configured Coolify application o11m2cg4a0civ2pz4wngl0mb and resource l13ylpiz5n7x3du8pnr1cdlx redirect authenticated API requests to login. The configured deployment branch is master, while the repository exposes only main. At 2026-09-18T14:18:58Z the public site was reachable, but all 12 intended article routes returned HTTP 404 and the production sitemap omitted them. Local validation passed and a clean production build generated all 12 routes.",
   "entries": [
     {"slug":"philippines-executive-assistant-shared-inbox-delegation-matrix","source":"https://www.cisa.gov/secure-our-world/use-strong-passwords","contentHash":"sha256:59ccdb6adebca485bbb9d3aaf3184e0f9a6f7c6152ee7a980a14e20e1710cec8","liveUrl":"https://outsourcedphilippines.com/blog/philippines-executive-assistant-shared-inbox-delegation-matrix"},
     {"slug":"philippines-customer-support-cancellation-request-evidence-pack","source":"https://www.ftc.gov/business-guidance","contentHash":"sha256:5b275bc283fd986737da742cab5d8ef493e39da310d52210c0a7029cba22c9df","liveUrl":"https://outsourcedphilippines.com/blog/philippines-customer-support-cancellation-request-evidence-pack"},
