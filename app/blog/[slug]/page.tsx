@@ -137,7 +137,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <h2 id="daily-guide-sources">Sources and next steps</h2>
               <p>Use the <a href="/services/operations-support">operations support work lane</a> as a practical starting point, then review <a href="/blog/outsourced-Philippines-staffing-onboarding-checklist">the onboarding checklist</a> before expanding the role.</p>
               <ul>
-                <li><a href="https://www.ilo.org/data" rel="noreferrer">International Labour Organization data</a></li>
+                {('sources' in basic && Array.isArray(basic.sources) ? basic.sources : [{ name: 'International Labour Organization data', url: 'https://www.ilo.org/data' }]).map((source) => (
+                  <li key={source.url}><a href={source.url} rel="noreferrer">{source.name}</a></li>
+                ))}
               </ul>
             </section>
             <section className="related-box" aria-labelledby="daily-guide-related">
