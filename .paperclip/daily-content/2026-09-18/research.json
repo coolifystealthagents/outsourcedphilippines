@@ -1,0 +1,13 @@
+{
+  "family": "research",
+  "required": 5,
+  "publicationDate": "2026-09-18",
+  "status": "prepared_pending_build_deploy_live_verification",
+  "articles": [
+    {"slug":"philippines-recurring-calendar-timezone-integrity-research","topic":"Recurring calendar timezone and recurrence integrity","sources":["https://www.rfc-editor.org/info/rfc5545/","https://www.nist.gov/director/nist-information-quality-standards"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-recurring-calendar-timezone-integrity-research"},
+    {"slug":"philippines-ecommerce-variant-identity-reconciliation-research","topic":"Ecommerce variant identity reconciliation","sources":["https://www.gs1.org/1/gtinrules/en/","https://ref.gs1.org/standards/genspecs/24.0.0/","https://www.nist.gov/director/nist-information-quality-standards"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-ecommerce-variant-identity-reconciliation-research"},
+    {"slug":"philippines-customer-support-knowledge-accessibility-research","topic":"Customer support knowledge accessibility review","sources":["https://www.w3.org/TR/WCAG22/","https://www.w3.org/WAI/tips/writing/"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-customer-support-knowledge-accessibility-research"},
+    {"slug":"philippines-marketing-suppression-register-reconciliation-research","topic":"Marketing suppression register reconciliation","sources":["https://privacy.gov.ph/wp-content/uploads/2023/11/NPC-Circular-No.-2023-04_Guidelines-on-Consent_07Nov2023.pdf","https://privacy.gov.ph/right-to-object/","https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-marketing-suppression-register-reconciliation-research"},
+    {"slug":"philippines-project-schedule-dependency-logic-research","topic":"Project schedule dependency logic audit","sources":["https://www.gao.gov/products/gao-16-89g","https://www.nist.gov/director/nist-information-quality-standards"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-project-schedule-dependency-logic-research"}
+  ]
+}
