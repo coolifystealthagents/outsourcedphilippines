@@ -5,23 +5,191 @@
   "contentCommit": "86c232d33f24253798663dfca797a1be2e7b1f5f",
   "productionBranch": "main",
   "deploymentResource": "Coolify3",
-  "status": "blocked_deployment_not_observed",
-  "verifiedCount": 0,
-  "remoteShaAtCheck": "faa66416d0a63227ce753d92c44bf12a4c90f4c9",
-  "verificationTime": null,
-  "deploymentEvidence": "The configured Coolify application o11m2cg4a0civ2pz4wngl0mb and resource l13ylpiz5n7x3du8pnr1cdlx redirect authenticated API requests to login. The configured deployment branch is master, while the repository exposes only main. At 2026-09-18T14:18:58Z the public site was reachable, but all 12 intended article routes returned HTTP 404 and the production sitemap omitted them. Local validation passed and a clean production build generated all 12 routes.",
+  "status": "verified",
+  "verifiedCount": 12,
+  "remoteShaAtCheck": "325ff708ca56d78c960bda61b99d1e9692d5f75c",
+  "verificationTime": "2026-09-18T18:06:13Z",
+  "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
   "entries": [
-    {"slug":"philippines-executive-assistant-shared-inbox-delegation-matrix","source":"https://www.cisa.gov/secure-our-world/use-strong-passwords","contentHash":"sha256:59ccdb6adebca485bbb9d3aaf3184e0f9a6f7c6152ee7a980a14e20e1710cec8","liveUrl":"https://outsourcedphilippines.com/blog/philippines-executive-assistant-shared-inbox-delegation-matrix"},
-    {"slug":"philippines-customer-support-cancellation-request-evidence-pack","source":"https://www.ftc.gov/business-guidance","contentHash":"sha256:5b275bc283fd986737da742cab5d8ef493e39da310d52210c0a7029cba22c9df","liveUrl":"https://outsourcedphilippines.com/blog/philippines-customer-support-cancellation-request-evidence-pack"},
-    {"slug":"philippines-ecommerce-return-exception-intake","source":"https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law","contentHash":"sha256:e25ed9b2a0e3b5a9515f935b01e9421ca18559a9e1e036c6a83bd82716742a7c","liveUrl":"https://outsourcedphilippines.com/blog/philippines-ecommerce-return-exception-intake"},
-    {"slug":"philippines-bookkeeping-month-end-close-evidence-queue","source":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping","contentHash":"sha256:5c80b98a97b9ebbe0a0e4e38ae751ec839ea1af3ff72d3b1fb6e1c42a887b17d","liveUrl":"https://outsourcedphilippines.com/blog/philippines-bookkeeping-month-end-close-evidence-queue"},
-    {"slug":"philippines-recruitment-reference-check-authorization","source":"https://www.eeoc.gov/employers/small-business/3-who-protected-employment-discrimination","contentHash":"sha256:d8aaf215a3bc2e940f7cb22b29e5d9e1eddd5e5ab35067a10f098b353a696907","liveUrl":"https://outsourcedphilippines.com/blog/philippines-recruitment-reference-check-authorization"},
-    {"slug":"philippines-real-estate-vendor-insurance-expiry-watch","source":"https://www.sba.gov/business-guide/manage-your-business/prepare-emergencies","contentHash":"sha256:ca9de3ab0645e87d3fe188c320fc6ef91dc38c439f0bca1cb95084c0510efb26","liveUrl":"https://outsourcedphilippines.com/blog/philippines-real-estate-vendor-insurance-expiry-watch"},
-    {"slug":"philippines-healthcare-admin-waitlist-outreach-control","source":"https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html","contentHash":"sha256:aee23141c75bde2e07ce2a156d114eb6de7c6d896ab1fec99b7a6026143a7e16","liveUrl":"https://outsourcedphilippines.com/blog/philippines-healthcare-admin-waitlist-outreach-control"},
-    {"slug":"philippines-sales-operations-stale-opportunity-review","source":"https://www.ftc.gov/business-guidance/privacy-security","contentHash":"sha256:a3b3b6de4ec129666bcdeb257d7d3ca681046b4f4f5925366c2aaaa6deb6837b","liveUrl":"https://outsourcedphilippines.com/blog/philippines-sales-operations-stale-opportunity-review"},
-    {"slug":"philippines-legal-admin-document-production-index","source":"https://www.nist.gov/privacy-framework","contentHash":"sha256:39e03e4a770a460d271f5788a156947d339f0245a5898e6b826b6a0c6b90a921","liveUrl":"https://outsourcedphilippines.com/blog/philippines-legal-admin-document-production-index"},
-    {"slug":"philippines-marketing-testimonial-claim-approval","source":"https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews","contentHash":"sha256:76d2b7744c2ab1ccd5dc1ab9465a9a3571bc442520432ac0904014f982825323","liveUrl":"https://outsourcedphilippines.com/blog/philippines-marketing-testimonial-claim-approval"},
-    {"slug":"philippines-it-saas-offboarding-verification","source":"https://pages.nist.gov/800-63-4/sp800-63b.html","contentHash":"sha256:e1fb78e5bc00ce02bb0ec8e3df0528df61cc3b0eebc1f4ba38c757354e63df0b","liveUrl":"https://outsourcedphilippines.com/blog/philippines-it-saas-offboarding-verification"},
-    {"slug":"philippines-operations-vendor-renewal-calendar","source":"https://www.cisa.gov/resources-tools/resources/secure-cloud-business-applications-scuba-project","contentHash":"sha256:4f49b8d22ffe1c982a297e6e8089412f3adba57e6dbf2fcfb553e7cf328da8fa","liveUrl":"https://outsourcedphilippines.com/blog/philippines-operations-vendor-renewal-calendar"}
+    {
+      "slug": "philippines-executive-assistant-shared-inbox-delegation-matrix",
+      "contentHash": "sha256:59ccdb6adebca485bbb9d3aaf3184e0f9a6f7c6152ee7a980a14e20e1710cec8",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-executive-assistant-shared-inbox-delegation-matrix",
+      "family": "blog",
+      "topic": "How to build a shared-inbox delegation matrix for a Philippines executive assistant",
+      "sources": [
+        "https://www.cisa.gov/secure-our-world/use-strong-passwords"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-customer-support-cancellation-request-evidence-pack",
+      "contentHash": "sha256:5b275bc283fd986737da742cab5d8ef493e39da310d52210c0a7029cba22c9df",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-customer-support-cancellation-request-evidence-pack",
+      "family": "blog",
+      "topic": "A cancellation-request evidence pack for Philippines customer support",
+      "sources": [
+        "https://www.ftc.gov/business-guidance"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-ecommerce-return-exception-intake",
+      "contentHash": "sha256:e25ed9b2a0e3b5a9515f935b01e9421ca18559a9e1e036c6a83bd82716742a7c",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-ecommerce-return-exception-intake",
+      "family": "blog",
+      "topic": "Designing a return-exception intake for Philippines ecommerce support",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-bookkeeping-month-end-close-evidence-queue",
+      "contentHash": "sha256:5c80b98a97b9ebbe0a0e4e38ae751ec839ea1af3ff72d3b1fb6e1c42a887b17d",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-bookkeeping-month-end-close-evidence-queue",
+      "family": "blog",
+      "topic": "A month-end close evidence queue for Philippines bookkeeping support",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-recruitment-reference-check-authorization",
+      "contentHash": "sha256:d8aaf215a3bc2e940f7cb22b29e5d9e1eddd5e5ab35067a10f098b353a696907",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-recruitment-reference-check-authorization",
+      "family": "blog",
+      "topic": "A reference-check authorization workflow for Philippines recruitment coordination",
+      "sources": [
+        "https://www.eeoc.gov/employers/small-business/3-who-protected-employment-discrimination"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-real-estate-vendor-insurance-expiry-watch",
+      "contentHash": "sha256:ca9de3ab0645e87d3fe188c320fc6ef91dc38c439f0bca1cb95084c0510efb26",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-real-estate-vendor-insurance-expiry-watch",
+      "family": "blog",
+      "topic": "A vendor insurance expiry watch for Philippines real estate administration",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/prepare-emergencies"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-healthcare-admin-waitlist-outreach-control",
+      "contentHash": "sha256:aee23141c75bde2e07ce2a156d114eb6de7c6d896ab1fec99b7a6026143a7e16",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-healthcare-admin-waitlist-outreach-control",
+      "family": "blog",
+      "topic": "A waitlist outreach control for Philippines healthcare administration",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-sales-operations-stale-opportunity-review",
+      "contentHash": "sha256:a3b3b6de4ec129666bcdeb257d7d3ca681046b4f4f5925366c2aaaa6deb6837b",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-sales-operations-stale-opportunity-review",
+      "family": "blog",
+      "topic": "A stale-opportunity review for Philippines sales operations",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/privacy-security"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-legal-admin-document-production-index",
+      "contentHash": "sha256:39e03e4a770a460d271f5788a156947d339f0245a5898e6b826b6a0c6b90a921",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-legal-admin-document-production-index",
+      "family": "blog",
+      "topic": "A document-production index for Philippines legal administrative support",
+      "sources": [
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-marketing-testimonial-claim-approval",
+      "contentHash": "sha256:76d2b7744c2ab1ccd5dc1ab9465a9a3571bc442520432ac0904014f982825323",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-marketing-testimonial-claim-approval",
+      "family": "blog",
+      "topic": "A testimonial-claim approval lane for Philippines marketing operations",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-it-saas-offboarding-verification",
+      "contentHash": "sha256:e1fb78e5bc00ce02bb0ec8e3df0528df61cc3b0eebc1f4ba38c757354e63df0b",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-it-saas-offboarding-verification",
+      "family": "blog",
+      "topic": "SaaS offboarding verification for a Philippines IT support specialist",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63b.html"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    },
+    {
+      "slug": "philippines-operations-vendor-renewal-calendar",
+      "contentHash": "sha256:4f49b8d22ffe1c982a297e6e8089412f3adba57e6dbf2fcfb553e7cf328da8fa",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-operations-vendor-renewal-calendar",
+      "family": "blog",
+      "topic": "A vendor-renewal calendar for Philippines operations support",
+      "sources": [
+        "https://www.cisa.gov/resources-tools/resources/secure-cloud-business-applications-scuba-project"
+      ],
+      "actualPublicationDate": "2026-09-18",
+      "commitSha": "86c232d33f24253798663dfca797a1be2e7b1f5f",
+      "deploymentEvidence": "Public transition verification observed all 12 final URLs at HTTP 200 on 2026-09-18; each returned its intended H1 and unique article body, self-referencing canonical, visible September 18, 2026 date, datePublished 2026-09-18 structured data, reachable image asset, Blog index discovery, and sitemap entry. The configured Coolify API remained unavailable (HTTP 302 to login), so deployment identity was established through remote main SHA plus bounded public verification.",
+      "liveVerified": true,
+      "verificationTime": "2026-09-18T18:06:13Z"
+    }
   ]
 }
