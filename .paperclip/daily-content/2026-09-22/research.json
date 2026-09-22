@@ -1,0 +1,21 @@
+{
+  "family": "research",
+  "required": 5,
+  "publicationDate": "2026-09-22",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/daily-research-2026-09-22-bf875115",
+  "baseRemoteSha": "eb1d769307b331c47affcfe765ff442111d61f63",
+  "commitSha": null,
+  "deploymentResource": "configured Coolify3 application",
+  "deploymentEvidence": null,
+  "verifiedCount": 0,
+  "articles": [
+    {"slug":"philippines-structured-interview-scoring-consistency-research","topic":"Structured interview scoring consistency","contentHash":null,"sources":["https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews/","https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews/guide.pdf"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-structured-interview-scoring-consistency-research","liveVerified":false,"verificationTime":null},
+    {"slug":"philippines-accounts-payable-duplicate-candidate-review-research","topic":"Accounts payable duplicate candidate review","contentHash":null,"sources":["https://www.gao.gov/greenbook","https://www.gao.gov/assets/a76199.html"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-accounts-payable-duplicate-candidate-review-research","liveVerified":false,"verificationTime":null},
+    {"slug":"philippines-recurring-report-spreadsheet-formula-assurance-research","topic":"Recurring report spreadsheet formula assurance","contentHash":null,"sources":["https://www.nist.gov/document/npl-best-practice-guide-no-7-testing-spreadsheet-applications-dec2006pdf","https://www.gao.gov/greenbook"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-recurring-report-spreadsheet-formula-assurance-research","liveVerified":false,"verificationTime":null},
+    {"slug":"philippines-ecommerce-cancellation-refund-state-research","topic":"Ecommerce cancellation and refund state reconciliation","contentHash":null,"sources":["https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://www.ftc.gov/business-guidance/resources/selling-internet-prompt-delivery-rules"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-ecommerce-cancellation-refund-state-research","liveVerified":false,"verificationTime":null},
+    {"slug":"philippines-customer-complaint-disposition-consistency-research","topic":"Customer complaint disposition consistency","contentHash":null,"sources":["https://www.consumerfinance.gov/data-research/consumer-complaints/","https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/"],"liveUrl":"https://outsourcedphilippines.com/research/philippines-customer-complaint-disposition-consistency-research","liveVerified":false,"verificationTime":null}
+  ]
+}
