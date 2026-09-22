@@ -5,11 +5,11 @@
   "contentCommit": "efa947f9fc1b2d0799dc992ef225b54bfdb425d5",
   "productionBranch": "main",
   "deploymentResource": "Coolify3 o11m2cg4a0civ2pz4wngl0mb",
-  "status": "pending-deployment",
+  "status": "blocked-deployment",
   "verifiedCount": 0,
-  "remoteShaAtCheck": null,
-  "verificationTime": null,
-  "deploymentEvidence": null,
+  "remoteShaAtCheck": "b58bddb40f7a50401b5e1dfd94496593bc6a4019",
+  "verificationTime": "2026-09-22T16:09:01Z",
+  "deploymentEvidence": "Content and ledger reached remote main at b58bddb40f7a50401b5e1dfd94496593bc6a4019 after a clean production build and route validation. Coolify3 resource o11m2cg4a0civ2pz4wngl0mb could not be authenticated: the configured API returned HTTP 302 to login. Public transition checks through 2026-09-22T16:09:01Z did not find the first new route, while the existing September 18 route remained healthy. The configured COOLIFY_BRANCH is master, but the repository exposes only main. No article is counted as published. Recovery owner: Coolify/Git deployment administrator; restore API authorization and configure resource o11m2cg4a0civ2pz4wngl0mb to deploy main, then redeploy b58bddb40f7a50401b5e1dfd94496593bc6a4019 and run all 12 public verification checks."
   "entries": [
     {"slug":"philippines-executive-assistant-travel-expense-substantiation","topic":"A travel-expense substantiation workflow for a Philippines executive assistant","sources":["https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"],"contentHash":"sha256:c46c42592b427a0d403e82006e1eb61ddfeacef82c3f8b8f68f18589d3e868a7"},
     {"slug":"philippines-customer-support-account-ownership-change","topic":"How to control an account-ownership change in Philippines customer support","sources":["https://pages.nist.gov/800-63-4/sp800-63b.html"],"contentHash":"sha256:0bb4fa54e72f769086ffd321803a2bb9d7b902bb2315cba7f1f87127afec4f55"},
