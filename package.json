@@ -9,6 +9,7 @@
     "validate:aug10-blog": "node scripts/validate_aug10_blog_manifest.mjs",
     "validate:aug10-research": "node scripts/validate_aug10_research_manifest.mjs",
     "validate:sep18-blog": "node scripts/validate_sep18_blog.mjs",
+    "validate:sep22-blog": "node scripts/validate_sep22_blog.mjs",
     "validate:sep18-research": "node scripts/validate_sep18_research.mjs"
   },
   "dependencies": {
@@ -18,9 +19,9 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
-    "@types/react": "^19.0.7",
+    "@types/node": "20.17.6",
+    "@types/react": "19.3.0",
     "@types/react-dom": "^19.0.3",
-    "typescript": "^5.7.3"
+    "typescript": "5.8.2"
   }
 }
