@@ -1,0 +1,27 @@
+{
+  "publicationDate": "2026-09-22",
+  "family": "blog",
+  "requiredCount": 12,
+  "contentCommit": "efa947f9fc1b2d0799dc992ef225b54bfdb425d5",
+  "productionBranch": "main",
+  "deploymentResource": "Coolify3 o11m2cg4a0civ2pz4wngl0mb",
+  "status": "pending-deployment",
+  "verifiedCount": 0,
+  "remoteShaAtCheck": null,
+  "verificationTime": null,
+  "deploymentEvidence": null,
+  "entries": [
+    {"slug":"philippines-executive-assistant-travel-expense-substantiation","topic":"A travel-expense substantiation workflow for a Philippines executive assistant","sources":["https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"],"contentHash":"sha256:c46c42592b427a0d403e82006e1eb61ddfeacef82c3f8b8f68f18589d3e868a7"},
+    {"slug":"philippines-customer-support-account-ownership-change","topic":"How to control an account-ownership change in Philippines customer support","sources":["https://pages.nist.gov/800-63-4/sp800-63b.html"],"contentHash":"sha256:0bb4fa54e72f769086ffd321803a2bb9d7b902bb2315cba7f1f87127afec4f55"},
+    {"slug":"philippines-ecommerce-chargeback-evidence-assembly","topic":"Chargeback evidence assembly for Philippines ecommerce operations","sources":["https://www.ftc.gov/business-guidance/privacy-security"],"contentHash":"sha256:480f603cc21b05649bb2c11d80a698a042620e2b32d59e9456b75565d75681a3"},
+    {"slug":"philippines-bookkeeping-vendor-bank-change-control","topic":"Vendor bank-change control for Philippines bookkeeping support","sources":["https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks"],"contentHash":"sha256:71993ccae3431a35ceb56753869cf758bb5ad00ab5a05f5de517dbc3d5ae54d8"},
+    {"slug":"philippines-recruitment-interview-no-show-recovery","topic":"An interview no-show recovery lane for Philippines recruitment coordination","sources":["https://www.eeoc.gov/employers/small-business/3-who-protected-employment-discrimination"],"contentHash":"sha256:f77b5414dfc6214e59e0b3792a7cc899c82ac2c5c7bd732585cf8026d45e4e9d"},
+    {"slug":"philippines-real-estate-maintenance-work-order-closeout","topic":"A maintenance work-order closeout for Philippines real estate administration","sources":["https://www.epa.gov/mold/mold-course-chapter-9"],"contentHash":"sha256:b98310b93f0183afe246db75c0521d1dab88262f7e595ea854e99cf448e2cd7a"},
+    {"slug":"philippines-healthcare-referral-missing-document-queue","topic":"A missing-document queue for Philippines healthcare referral administration","sources":["https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"],"contentHash":"sha256:caeb48f6ae3558e9e0255294d83f16ba6a1e9b8a0ccb18371b31bd3f45cdd230"},
+    {"slug":"philippines-sales-operations-territory-reassignment-audit","topic":"A territory-reassignment audit for Philippines sales operations","sources":["https://www.ftc.gov/business-guidance/privacy-security"],"contentHash":"sha256:f8c36642959330a4bfe1b8e8f7901dfb3559d6f7220d933bc530e6b9051b633e"},
+    {"slug":"philippines-legal-admin-deadline-confirmation-register","topic":"A deadline-confirmation register for Philippines legal administrative support","sources":["https://www.americanbar.org/groups/professional_responsibility/resources/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/"],"contentHash":"sha256:d666c300da89b2066fc7b22c7849b24ebcad56b5c821693d81b6dc6ff2e2a951"},
+    {"slug":"philippines-marketing-utm-governance-register","topic":"A UTM governance register for Philippines marketing operations","sources":["https://support.google.com/analytics/answer/10917952"],"contentHash":"sha256:6e9a20561286415d992b52bbf50c96ecc283141bd6fc3a251767cc9ecffebc44"},
+    {"slug":"philippines-it-dns-change-request-control","topic":"DNS change-request control for a Philippines IT support specialist","sources":["https://www.cisa.gov/resources-tools/resources/cybersecurity-guidance-small-businesses"],"contentHash":"sha256:fe404eb6952c8fe0f0bef267ec01573533555ad553cf6a4f77c8a1b1f4233b66"},
+    {"slug":"philippines-operations-data-retention-deletion-queue","topic":"A data-retention deletion queue for Philippines operations support","sources":["https://www.nist.gov/privacy-framework"],"contentHash":"sha256:e633e49c843399d3463bf75a49c302f387c32df1db20f35faddd399342d2a9e9"}
+  ]
+}
