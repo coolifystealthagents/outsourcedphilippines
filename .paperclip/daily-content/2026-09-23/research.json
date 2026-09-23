@@ -1,0 +1,89 @@
+{
+  "family": "research",
+  "required": 5,
+  "publicationDate": "2026-09-23",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "research-2026-09-23-run",
+  "baseRemoteSha": "176a935d92d5b46dc7b0f35c88c5f00146e276cd",
+  "commitSha": null,
+  "remoteSha": null,
+  "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb",
+  "deploymentEvidence": null,
+  "buildResult": "pass: Next.js production build, 619/619 static pages generated",
+  "validationResult": "pass: batch validator, TypeScript, rendered H1/canonical/datePublished, and sitemap checks",
+  "verifiedCount": 0,
+  "articles": [
+    {
+      "family": "research",
+      "slug": "philippines-healthcare-prior-authorization-evidence-research",
+      "topic": "Healthcare prior-authorization evidence tracking",
+      "contentHash": "0cca3c8853eae897e0d803e64d021b3eb6e0ff06c9285e7519db27e20a764944",
+      "sources": [
+        "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+        "https://www.cms.gov/priorities/key-initiatives/burden-reduction/interoperability/policies-and-regulations/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-healthcare-prior-authorization-evidence-research",
+      "liveVerified": false,
+      "publicationDate": null,
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "slug": "philippines-customer-communication-aid-request-research",
+      "topic": "Customer communication-aid request tracking",
+      "contentHash": "631b470c228f1d589d5c7870a7781e4dd0c1b45de96b95dad998ea14716e7601",
+      "sources": [
+        "https://www.ada.gov/resources/effective-communication/",
+        "https://www.ada.gov/topics/effective-communication/"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-customer-communication-aid-request-research",
+      "liveVerified": false,
+      "publicationDate": null,
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "slug": "philippines-bookkeeping-incompatible-duty-review-research",
+      "topic": "Bookkeeping incompatible-duty review",
+      "contentHash": "04be5b2a9de629d631e52f2b86099a624f27763586b8dcb69f55b7666fdad767",
+      "sources": [
+        "https://www.gao.gov/greenbook",
+        "https://www.gao.gov/products/gao-23-104975"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-bookkeeping-incompatible-duty-review-research",
+      "liveVerified": false,
+      "publicationDate": null,
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "slug": "philippines-real-estate-listing-change-evidence-research",
+      "topic": "Real-estate listing change evidence",
+      "contentHash": "9241fc0035415216c1b492b2f2b829cf985815a1c677e240723cf460079b20d3",
+      "sources": [
+        "https://www.nist.gov/director/nist-information-quality-standards",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-real-estate-listing-change-evidence-research",
+      "liveVerified": false,
+      "publicationDate": null,
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "slug": "philippines-commercial-email-release-evidence-research",
+      "topic": "Commercial-email release evidence",
+      "contentHash": "5250f27a5fe079965489761e412094e4bda8459d477d4ae5a340124afdf244a2",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.ftc.gov/legal-library/browse/rules/can-spam-rule"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-commercial-email-release-evidence-research",
+      "liveVerified": false,
+      "publicationDate": null,
+      "verificationTime": null
+    }
+  ]
+}
