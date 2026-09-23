@@ -7,13 +7,13 @@
   "productionBranch": "main",
   "sourceBranch": "research-2026-09-23-run",
   "baseRemoteSha": "e5d9eb84b92b4f475b8b34d5e3c3d7e38e9c6179",
-  "commitSha": "25746a7afa244c17967bbffef0202e3d1c807161",
-  "remoteSha": null,
+  "commitSha": "b8d17627ba3ffb93574b7ace22064ed9e72f2aa4",
+  "remoteSha": "b8d17627ba3ffb93574b7ace22064ed9e72f2aa4",
   "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb",
-  "deploymentEvidence": null,
+  "deploymentEvidence": "Coolify3 deployment t8vprljpxwfl9wgevu21brsv finished at 2026-09-23T19:49:58Z for combined production SHA b8d17627ba3ffb93574b7ace22064ed9e72f2aa4; 5/5 final public URLs verified HTTP 200 with unique H1, exact canonical, visible/datePublished 2026-09-23, reachable hero asset, and sitemap entry.",
   "buildResult": "pass: Next.js production build, 619/619 static pages generated",
   "validationResult": "pass: batch validator, TypeScript, rendered H1/canonical/datePublished, and sitemap checks",
-  "verifiedCount": 0,
+  "verifiedCount": 5,
   "articles": [
     {
       "family": "research",
@@ -25,9 +25,11 @@
         "https://www.cms.gov/priorities/key-initiatives/burden-reduction/interoperability/policies-and-regulations/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-healthcare-prior-authorization-evidence-research",
-      "liveVerified": false,
-      "publicationDate": null,
-      "verificationTime": null
+      "liveVerified": true,
+      "publicationDate": "2026-09-23",
+      "verificationTime": "2026-09-23T19:54:21Z",
+      "commitSha": "b8d17627ba3ffb93574b7ace22064ed9e72f2aa4",
+      "deploymentEvidence": "Coolify3 t8vprljpxwfl9wgevu21brsv finished; live HTTP/canonical/date/asset/sitemap verified"
     },
     {
       "family": "research",
@@ -39,9 +41,11 @@
         "https://www.ada.gov/topics/effective-communication/"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-customer-communication-aid-request-research",
-      "liveVerified": false,
-      "publicationDate": null,
-      "verificationTime": null
+      "liveVerified": true,
+      "publicationDate": "2026-09-23",
+      "verificationTime": "2026-09-23T19:54:21Z",
+      "commitSha": "b8d17627ba3ffb93574b7ace22064ed9e72f2aa4",
+      "deploymentEvidence": "Coolify3 t8vprljpxwfl9wgevu21brsv finished; live HTTP/canonical/date/asset/sitemap verified"
     },
     {
       "family": "research",
@@ -53,9 +57,11 @@
         "https://www.gao.gov/products/gao-23-104975"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-bookkeeping-incompatible-duty-review-research",
-      "liveVerified": false,
-      "publicationDate": null,
-      "verificationTime": null
+      "liveVerified": true,
+      "publicationDate": "2026-09-23",
+      "verificationTime": "2026-09-23T19:54:21Z",
+      "commitSha": "b8d17627ba3ffb93574b7ace22064ed9e72f2aa4",
+      "deploymentEvidence": "Coolify3 t8vprljpxwfl9wgevu21brsv finished; live HTTP/canonical/date/asset/sitemap verified"
     },
     {
       "family": "research",
@@ -67,9 +73,11 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-real-estate-listing-change-evidence-research",
-      "liveVerified": false,
-      "publicationDate": null,
-      "verificationTime": null
+      "liveVerified": true,
+      "publicationDate": "2026-09-23",
+      "verificationTime": "2026-09-23T19:54:21Z",
+      "commitSha": "b8d17627ba3ffb93574b7ace22064ed9e72f2aa4",
+      "deploymentEvidence": "Coolify3 t8vprljpxwfl9wgevu21brsv finished; live HTTP/canonical/date/asset/sitemap verified"
     },
     {
       "family": "research",
@@ -81,9 +89,11 @@
         "https://www.ftc.gov/legal-library/browse/rules/can-spam-rule"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-commercial-email-release-evidence-research",
-      "liveVerified": false,
-      "publicationDate": null,
-      "verificationTime": null
+      "liveVerified": true,
+      "publicationDate": "2026-09-23",
+      "verificationTime": "2026-09-23T19:54:21Z",
+      "commitSha": "b8d17627ba3ffb93574b7ace22064ed9e72f2aa4",
+      "deploymentEvidence": "Coolify3 t8vprljpxwfl9wgevu21brsv finished; live HTTP/canonical/date/asset/sitemap verified"
     }
   ]
 }
