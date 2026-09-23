@@ -10,6 +10,7 @@
     "validate:aug10-research": "node scripts/validate_aug10_research_manifest.mjs",
     "validate:sep18-blog": "node scripts/validate_sep18_blog.mjs",
     "validate:sep22-blog": "node scripts/validate_sep22_blog.mjs",
+    "validate:sep23-blog": "node scripts/validate_sep23_blog.mjs",
     "validate:sep18-research": "node scripts/validate_sep18_research.mjs",
     "validate:sep22-research": "node scripts/validate_sep22_research.mjs"
   },
