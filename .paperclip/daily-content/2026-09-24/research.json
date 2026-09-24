@@ -1,0 +1,99 @@
+{
+  "family": "research",
+  "required": 5,
+  "publicationDate": "2026-09-24",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/research-2026-09-24-out72",
+  "baseRemoteSha": "b830933110b946e10f482ebaa859e90c09cdc599",
+  "commitSha": null,
+  "remoteSha": null,
+  "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb",
+  "deploymentEvidence": "pending",
+  "buildResult": "pass: Next.js production build, 637/637 static pages generated",
+  "validationResult": "pass: batch validator, TypeScript, rendered canonical, visible date, datePublished, service links, and sitemap generation",
+  "verifiedCount": 0,
+  "articles": [
+    {
+      "family": "research",
+      "slug": "philippines-ecommerce-recall-listing-reconciliation-research",
+      "topic": "Ecommerce product-recall listing reconciliation",
+      "contentHash": "9a7c810fcd356e6f7bc3e08119e7e530a9e63fb65e0f87c2b2278198c935ee8c",
+      "sources": [
+        "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance",
+        "https://www.cpsc.gov/Recalls"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-ecommerce-recall-listing-reconciliation-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-24",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "pending"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-recruiting-accommodation-request-routing-research",
+      "topic": "Applicant accommodation request routing",
+      "contentHash": "e7f19273c637e1d871c31d14b32444bd851813bc04a630da317fd57e79c57cdb",
+      "sources": [
+        "https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada",
+        "https://www.eeoc.gov/publications/ada-your-responsibilities-employer"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-recruiting-accommodation-request-routing-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-24",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "pending"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-marketing-endorsement-disclosure-evidence-research",
+      "topic": "Marketing endorsement disclosure evidence",
+      "contentHash": "69844f3fdfa63e72ba8cbf02842572b7dd24ae3f93310ad3ff05039dfe1c3f04",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers",
+        "https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-marketing-endorsement-disclosure-evidence-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-24",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "pending"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-executive-delegated-account-access-review-research",
+      "topic": "Executive delegated-account access review",
+      "contentHash": "34eaae310b0ae04998515a5a245791c06f25272e4a9db8e913017a2cbe64ffe0",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63b.html",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-executive-delegated-account-access-review-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-24",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "pending"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-project-requirements-traceability-research",
+      "topic": "Project requirements traceability",
+      "contentHash": "d815bdee98bf384c4d8665a5d793d2513aa599b1c32c816450ca6063660296d8",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-590g",
+        "https://www.gao.gov/products/gao-16-89g"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-project-requirements-traceability-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-24",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "pending"
+    }
+  ]
+}
