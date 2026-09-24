@@ -1,12 +1,12 @@
 # Service-led topical-authority link ledger
 
-_Last reconciled: 2026-09-23. This is a planning record, not a claim that a public link has shipped._
+_Last reconciled: 2026-09-24. This is a delivery record, not a claim that the rendered route is public._
 
 ## Finance support cluster
 
 | Status | Existing source route | Reader's next question | Existing service destination | Fresh artifact evidence | Authority boundary | Next implementation step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Verified absent — ready for a separate data-owned handoff | `/research/philippines-bookkeeping-support-research` — “Philippines Bookkeeping Support: Controls for Distributed Finance Work” | “How can I turn the record and reconciliation controls in this research into a bounded Philippines-based bookkeeping support lane?” | `/services/bookkeeping-support` — “Bookkeeping Support” | The 2026-09-23 production build contains both routes with their own canonical URLs and sitemap `<loc>` entries. The research route’s `<main>` has `0` links to `/services/bookkeeping-support`. | Philippines-based support may prepare source records, reconcile approved rules, and route unmatched items. The authorized client owner keeps accounting judgments, payment approval, settlement, credit, collection, and legal decisions. | Add one optional `serviceHandoff` to the existing research record, using the generic research renderer. Keep the publication date unchanged; refresh only a real record-level modified date and prove the route-local link, Article/OG metadata, and sitemap contract before release. |
+| Delivered locally — public verification unavailable | `/research/philippines-bookkeeping-support-research` — “Philippines Bookkeeping Support: Controls for Distributed Finance Work” | “How can I turn the record and reconciliation controls in this research into a bounded Philippines-based bookkeeping support lane?” | `/services/bookkeeping-support` — “Bookkeeping Support” | Rendered source: `deec4b383ab9bd8df69681a98225decb53152498`. A fresh production build found the research route's `<main>` contains one `/services/bookkeeping-support` link; both routes have their own canonical URLs and sitemap `<loc>` entries. Article dates are `datePublished=2026-08-09` and `dateModified=2026-09-24`; sitemap has no `<lastmod>` by repository contract. | Philippines-based support may prepare source records, reconcile approved rules, and route unmatched items. The authorized client owner keeps accounting judgments, payment approval, settlement, credit, collection, and legal decisions. | Preserve rendered-source commit `deec4b383ab9bd8df69681a98225decb53152498`. Cache-busted apex, `www`, and both sitemap probes returned `403 text/plain` with no parseable HTML/XML; classify `deployment_pending_public_verification / public_unavailable`. No repository-approved deployment target or workflow was available, so none was inferred or triggered. |
 
 ## Guardrail
 
