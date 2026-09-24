@@ -7,9 +7,9 @@
   "repository": "coolifystealthagents/outsourcedphilippines",
   "productionBranch": "main",
   "contentCommit": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-  "remoteShaAtCheck": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
+  "remoteShaAtCheck": "cce966b5c7d3fa4bedf9715e10618ff65ddf7f2c",
   "deploymentResource": "o11m2cg4a0civ2pz4wngl0mb",
-  "deploymentEvidence": "Pending production deployment",
+  "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
   "verificationTime": null,
   "entries": [
     {
@@ -22,7 +22,7 @@
       "contentHash": "sha256:a50c1b63f7904087422b866530a8fa6bbbd9bb2384ca80ee4d070fca23004529",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-customer-support-refund-authority-matrix",
       "verificationTime": null
     },
@@ -36,7 +36,7 @@
       "contentHash": "sha256:bd9871bbc9286d341a093349c977244bc99c184925f12bb3de46b016bf9438e0",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-ecommerce-product-catalog-change-queue",
       "verificationTime": null
     },
@@ -50,7 +50,7 @@
       "contentHash": "sha256:633ef5b20470eb2db7f3ca6355e3d1eefbcb8f8e86a0d64f3042b0e196b67c5e",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-executive-assistant-business-travel-brief",
       "verificationTime": null
     },
@@ -64,7 +64,7 @@
       "contentHash": "sha256:a9288aee6107958453889e3c6eaf7905606ed9338d334d5c573afd7948b3b52c",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-property-maintenance-vendor-dispatch",
       "verificationTime": null
     },
@@ -78,7 +78,7 @@
       "contentHash": "sha256:bb091569fc01b80cc68ccadc412a2db94b66cdc70a0053cf1db0af34dece2695",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-accounts-receivable-follow-up-workflow",
       "verificationTime": null
     },
@@ -92,7 +92,7 @@
       "contentHash": "sha256:62351b81df791347c2cdaed8c2b217d0a86d5e3971cb655e7f9ed423688a8431",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-recruitment-interview-scheduling-workflow",
       "verificationTime": null
     },
@@ -106,7 +106,7 @@
       "contentHash": "sha256:cf9b4a459ec0c4fc40d000fdd851c0814615fb6d3c408463e215eab493c3eb55",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-crm-lead-routing-rules",
       "verificationTime": null
     },
@@ -120,7 +120,7 @@
       "contentHash": "sha256:8c6f78a06ff5a5b38d3d033205dde04ecf7cb1541bb2012ad8018129157fcfa5",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-social-media-comment-moderation-playbook",
       "verificationTime": null
     },
@@ -134,7 +134,7 @@
       "contentHash": "sha256:cf4d6289933118c1e3173bdd3313c6b3ee300c8f15c90b4a413c8ad20ef01893",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-saas-customer-onboarding-queue",
       "verificationTime": null
     },
@@ -148,7 +148,7 @@
       "contentHash": "sha256:90f4489ce931f6493154e8d40d362315fc0b399698f4f1aeeb8ca9ee4a970c9e",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-legal-intake-conflict-check-preparation",
       "verificationTime": null
     },
@@ -162,7 +162,7 @@
       "contentHash": "sha256:5cfcdfab263f6c1438f1a5cebcb6106cf0c73fe358101704990b5ef349ec395e",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-insurance-claim-document-index",
       "verificationTime": null
     },
@@ -176,7 +176,7 @@
       "contentHash": "sha256:a9aca19ad5162cf20ffe95d2b9e3caa60028335e13e7ca46922460b49064f8ac",
       "publicationDate": "2026-09-24",
       "commitSha": "c7073619c9a8c4f8f9534e460f26932733fa2b84",
-      "deploymentEvidence": "Pending production deployment",
+      "deploymentEvidence": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned HTTP 401; three bounded public checks returned HTTP 404 for new routes",
       "liveUrl": "https://outsourcedphilippines.com/blog/philippines-operations-recurring-task-retirement-review",
       "verificationTime": null
     }
