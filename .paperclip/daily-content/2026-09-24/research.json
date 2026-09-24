@@ -7,11 +7,11 @@
   "productionBranch": "main",
   "sourceBranch": "routine/research-2026-09-24-out72",
   "baseRemoteSha": "b830933110b946e10f482ebaa859e90c09cdc599",
-  "commitSha": null,
-  "remoteSha": null,
+  "commitSha": "7634991fd28b5f133497ea658edfc4a50e83f979",
+  "remoteSha": "7634991fd28b5f133497ea658edfc4a50e83f979",
   "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb",
-  "deploymentEvidence": "pending",
-  "buildResult": "pass: Next.js production build, 637/637 static pages generated",
+  "deploymentEvidence": "Production content commit 7634991fd28b5f133497ea658edfc4a50e83f979 is present on origin/main. Coolify3 application o11m2cg4a0civ2pz4wngl0mb API returned Unauthenticated for the configured credential. Bounded public transition checks through 2026-09-24T15:34:04Z returned HTTP 404 for all 5 final URLs; live verification remains pending.",
+  "buildResult": "pass: clean post-rebase Next.js production build, 649/649 static pages generated",
   "validationResult": "pass: batch validator, TypeScript, rendered canonical, visible date, datePublished, service links, and sitemap generation",
   "verifiedCount": 0,
   "articles": [
@@ -28,8 +28,8 @@
       "liveVerified": false,
       "publicationDate": "2026-09-24",
       "verificationTime": null,
-      "commitSha": null,
-      "deploymentEvidence": "pending"
+      "commitSha": "7634991fd28b5f133497ea658edfc4a50e83f979",
+      "deploymentEvidence": "origin/main confirmed; public HTTP 404 at 2026-09-24T15:34:04Z; Coolify3 API authentication unavailable"
     },
     {
       "family": "research",
@@ -44,8 +44,8 @@
       "liveVerified": false,
       "publicationDate": "2026-09-24",
       "verificationTime": null,
-      "commitSha": null,
-      "deploymentEvidence": "pending"
+      "commitSha": "7634991fd28b5f133497ea658edfc4a50e83f979",
+      "deploymentEvidence": "origin/main confirmed; public HTTP 404 at 2026-09-24T15:34:04Z; Coolify3 API authentication unavailable"
     },
     {
       "family": "research",
@@ -60,8 +60,8 @@
       "liveVerified": false,
       "publicationDate": "2026-09-24",
       "verificationTime": null,
-      "commitSha": null,
-      "deploymentEvidence": "pending"
+      "commitSha": "7634991fd28b5f133497ea658edfc4a50e83f979",
+      "deploymentEvidence": "origin/main confirmed; public HTTP 404 at 2026-09-24T15:34:04Z; Coolify3 API authentication unavailable"
     },
     {
       "family": "research",
@@ -76,8 +76,8 @@
       "liveVerified": false,
       "publicationDate": "2026-09-24",
       "verificationTime": null,
-      "commitSha": null,
-      "deploymentEvidence": "pending"
+      "commitSha": "7634991fd28b5f133497ea658edfc4a50e83f979",
+      "deploymentEvidence": "origin/main confirmed; public HTTP 404 at 2026-09-24T15:34:04Z; Coolify3 API authentication unavailable"
     },
     {
       "family": "research",
@@ -92,8 +92,8 @@
       "liveVerified": false,
       "publicationDate": "2026-09-24",
       "verificationTime": null,
-      "commitSha": null,
-      "deploymentEvidence": "pending"
+      "commitSha": "7634991fd28b5f133497ea658edfc4a50e83f979",
+      "deploymentEvidence": "origin/main confirmed; public HTTP 404 at 2026-09-24T15:34:04Z; Coolify3 API authentication unavailable"
     }
   ]
 }
