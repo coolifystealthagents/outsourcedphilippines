@@ -1,0 +1,99 @@
+{
+  "family": "research",
+  "required": 5,
+  "publicationDate": "2026-09-25",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/research-2026-09-25-out74",
+  "baseRemoteSha": "35cb54aafde7ea50f9b1644d6c00e2127b09cdd4",
+  "commitSha": "2febfed38bb8b5a6a3b9ca02d7f98277f4cdc426",
+  "remoteSha": null,
+  "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb (deployment owned by Blog/browser operator)",
+  "deploymentEvidence": "Not deployed by Research. Awaiting same-cycle Blog integration and the single combined production release.",
+  "buildResult": "pass: clean Next.js production build, 654/654 static pages generated (one existing autoprefixer warning)",
+  "validationResult": "pass: exact-count/new-slug/source-date/1200-word batch validator and TypeScript",
+  "verifiedCount": 0,
+  "articles": [
+    {
+      "family": "research",
+      "slug": "philippines-sales-email-suppression-evidence-research",
+      "topic": "Sales commercial-email suppression evidence",
+      "contentHash": "a4f8673840d701e2460caabec0f1197dabf998bf9a4c93b2cfb30e29c6a3d143",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.ftc.gov/legal-library/browse/rules/can-spam-rule"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-sales-email-suppression-evidence-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-25",
+      "verificationTime": null,
+      "commitSha": "2febfed38bb8b5a6a3b9ca02d7f98277f4cdc426",
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-healthcare-record-amendment-routing-research",
+      "topic": "Healthcare record-amendment request routing",
+      "contentHash": "413a71280e456080a6c0f835065c5ccede33411656fcd7db3efdc9b25bf02ec5",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "https://aspe.hhs.gov/reports/standards-privacy-individually-identifiable-health-information-regulation-text"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-healthcare-record-amendment-routing-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-25",
+      "verificationTime": null,
+      "commitSha": "2febfed38bb8b5a6a3b9ca02d7f98277f4cdc426",
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-legal-preservation-notice-intake-research",
+      "topic": "Legal preservation-notice intake",
+      "contentHash": "bebc9ae79804d9396b4c5c861419c913a6aa7e12c8c293987d6f4dbc604356c3",
+      "sources": [
+        "https://www.uscourts.gov/forms-rules/current-rules-practice-procedure/federal-rules-civil-procedure",
+        "https://www.uscourts.gov/forms-rules/current-rules-practice-procedure"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-legal-preservation-notice-intake-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-25",
+      "verificationTime": null,
+      "commitSha": "2febfed38bb8b5a6a3b9ca02d7f98277f4cdc426",
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-bookkeeping-vendor-master-change-research",
+      "topic": "Bookkeeping vendor-master change evidence",
+      "contentHash": "5f1216adf3829b51dc6b8f2040e9deda180f955ec2e6e7503c8a90ef06beaf15",
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721",
+        "https://www.gao.gov/assets/890/882014.pdf"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-bookkeeping-vendor-master-change-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-25",
+      "verificationTime": null,
+      "commitSha": "2febfed38bb8b5a6a3b9ca02d7f98277f4cdc426",
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-mortgage-servicing-error-intake-research",
+      "topic": "Mortgage-servicing error notice intake",
+      "contentHash": "306dfb829d90e0b9a2b15ce56f05c906e2472e800270b1d98f9c9d8a778eb09c",
+      "sources": [
+        "https://www.consumerfinance.gov/rules-policy/regulations/1024/35/",
+        "https://www.consumerfinance.gov/consumer-tools/mortgages/your-mortgage-servicer-must-comply-with-federal-rules/"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-mortgage-servicing-error-intake-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-25",
+      "verificationTime": null,
+      "commitSha": "2febfed38bb8b5a6a3b9ca02d7f98277f4cdc426",
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    }
+  ]
+}
