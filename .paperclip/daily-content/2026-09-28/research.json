@@ -1,0 +1,100 @@
+{
+  "family": "research",
+  "required": 5,
+  "publicationDate": "2026-09-28",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/research-2026-09-28-out76",
+  "baseRemoteSha": "7d07146c2ac5765f6b4b6c4a758b0499453dd10d",
+  "commitSha": null,
+  "integratedByBlog": false,
+  "remoteSha": null,
+  "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb (deployment owned by Blog/browser operator)",
+  "deploymentEvidence": "Not deployed by Research. Awaiting same-cycle Blog integration and the single combined production release.",
+  "buildResult": "pending",
+  "validationResult": "pending",
+  "verifiedCount": 0,
+  "articles": [
+    {
+      "family": "research",
+      "slug": "philippines-ecommerce-delayed-shipment-consent-research",
+      "topic": "Can ecommerce teams prove consent to a delayed shipment?",
+      "contentHash": "bcd77999da45223978684e4add0c66193a99855d41d95ce5844aacc00a721246",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-ecommerce-delayed-shipment-consent-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-28",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-recruiting-record-retention-evidence-research",
+      "topic": "How should recruiting teams preserve applicant record evidence?",
+      "contentHash": "49cb067064ebbda8634196ffafcee124e2a54d7b27523c72801605100a920b1e",
+      "sources": [
+        "https://www.eeoc.gov/employers/summary-selected-recordkeeping-obligations-29-cfr-part-1602",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-recruiting-record-retention-evidence-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-28",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-marketing-consumer-review-provenance-research",
+      "topic": "Can marketing teams trace consumer-review provenance?",
+      "contentHash": "10be39561551f3dbd95523329eb7a444ce009500de6cba7e638fda03896e813a",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+        "https://www.ftc.gov/legal-library/browse/rules/rulemaking-use-consumer-reviews-testimonials"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-marketing-consumer-review-provenance-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-28",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-customer-robotext-revocation-routing-research",
+      "topic": "How should customer teams route robotext revocations?",
+      "contentHash": "67a87e6082566d7f6b11f12905128e67672d3406b39b71b1c1b611a1f5112597",
+      "sources": [
+        "https://docs.fcc.gov/public/attachments/FCC-24-24A1.pdf",
+        "https://docs.fcc.gov/public/attachments/DOC-408396A1.pdf"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-customer-robotext-revocation-routing-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-28",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    },
+    {
+      "family": "research",
+      "slug": "philippines-executive-meeting-decision-record-research",
+      "topic": "What makes an executive meeting decision record reliable?",
+      "contentHash": "f2cc7638702c43c966110ef5da240ec4b7175a929acc1449318f589368aea1bc",
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "liveUrl": "https://outsourcedphilippines.com/research/philippines-executive-meeting-decision-record-research",
+      "liveVerified": false,
+      "publicationDate": "2026-09-28",
+      "verificationTime": null,
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
+    }
+  ]
+}
