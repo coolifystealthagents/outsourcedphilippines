@@ -1,0 +1,97 @@
+{
+  "family": "blog",
+  "cycleLabel": "September28",
+  "publicationDate": "2026-09-28",
+  "timezone": "UTC",
+  "baselineSha": "7d07146c2ac5765f6b4b6c4a758b0499453dd10d",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/blog-2026-09-28-out77",
+  "requiredCount": 12,
+  "topics": [
+    {
+      "slug": "philippines-executive-inbox-delegation-rules",
+      "pillar": "admin-support",
+      "topic": "Executive inbox delegation rules",
+      "decision": "Which messages may be sorted, drafted, sent, held, or escalated by a Philippines-based executive assistant?",
+      "source": "https://www.cisa.gov/secure-our-world/use-strong-passwords"
+    },
+    {
+      "slug": "philippines-customer-support-sla-breach-triage",
+      "pillar": "customer-support",
+      "topic": "Customer-support SLA breach triage",
+      "decision": "How should a remote support team prioritize at-risk tickets without making unsupported customer promises?",
+      "source": "https://www.ftc.gov/business-guidance/advertising-marketing"
+    },
+    {
+      "slug": "philippines-ecommerce-product-listing-qa-checklist",
+      "pillar": "ecommerce-operations",
+      "topic": "Ecommerce product-listing quality assurance",
+      "decision": "What evidence should be checked before a Philippines ecommerce specialist publishes or updates a product listing?",
+      "source": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business"
+    },
+    {
+      "slug": "philippines-real-estate-transaction-deadline-tracker",
+      "pillar": "real-estate-administration",
+      "topic": "Real-estate transaction deadline tracking",
+      "decision": "How can administrative support track contract milestones while licensed and legal decisions stay with accountable owners?",
+      "source": "https://www.consumerfinance.gov/owning-a-home/close/"
+    },
+    {
+      "slug": "philippines-healthcare-referral-intake-workflow",
+      "pillar": "healthcare-administration",
+      "topic": "Healthcare referral intake workflow",
+      "decision": "How should a healthcare administrator check and route a referral without making a clinical or coverage decision?",
+      "source": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+    },
+    {
+      "slug": "philippines-candidate-interview-reschedule-workflow",
+      "pillar": "recruiting-coordination",
+      "topic": "Candidate interview rescheduling",
+      "decision": "How can recruiting coordination recover a disrupted interview without changing selection criteria or candidate status?",
+      "source": "https://www.eeoc.gov/prohibited-employment-policiespractices"
+    },
+    {
+      "slug": "philippines-bookkeeping-close-document-chase",
+      "pillar": "bookkeeping-support",
+      "topic": "Month-end close document collection",
+      "decision": "Which missing-document follow-ups can bookkeeping support own, and which accounting judgments require the client?",
+      "source": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+    },
+    {
+      "slug": "philippines-property-maintenance-dispatch-queue",
+      "pillar": "property-management-support",
+      "topic": "Property maintenance dispatch queue",
+      "decision": "How should remote property support capture urgency, access, vendor, and resident evidence before dispatch?",
+      "source": "https://www.hud.gov/housing-counseling"
+    },
+    {
+      "slug": "philippines-sales-lead-enrichment-source-log",
+      "pillar": "sales-development-support",
+      "topic": "Sales lead enrichment source logging",
+      "decision": "How can a sales-support specialist enrich records without turning inference into a verified buyer fact?",
+      "source": "https://www.ftc.gov/business-guidance/privacy-security"
+    },
+    {
+      "slug": "philippines-legal-client-intake-conflict-routing",
+      "pillar": "legal-administration",
+      "topic": "Legal client-intake conflict routing",
+      "decision": "What may legal administrative support collect and route while conflict analysis and representation decisions remain with counsel?",
+      "source": "https://www.americanbar.org/groups/professional_responsibility/resources/model_rules_of_professional_conduct/"
+    },
+    {
+      "slug": "philippines-certificate-of-insurance-tracking",
+      "pillar": "operations-support",
+      "topic": "Certificate-of-insurance tracking",
+      "decision": "How can operations support monitor document status without interpreting coverage or accepting risk?",
+      "source": "https://content.naic.org/consumer"
+    },
+    {
+      "slug": "philippines-qa-defect-recheck-sampling-plan",
+      "pillar": "reporting-and-qa",
+      "topic": "QA defect recheck sampling",
+      "decision": "How should a Philippines QA specialist verify corrections and report residual defects without overstating the sample?",
+      "source": "https://www.itl.nist.gov/div898/handbook/"
+    }
+  ]
+}
