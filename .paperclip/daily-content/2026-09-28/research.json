@@ -7,13 +7,13 @@
   "productionBranch": "main",
   "sourceBranch": "routine/research-2026-09-28-out76",
   "baseRemoteSha": "7d07146c2ac5765f6b4b6c4a758b0499453dd10d",
-  "commitSha": null,
+  "commitSha": "c5bd9ee7fb5809185f4fceaef203c4d9f673af14",
   "integratedByBlog": false,
   "remoteSha": null,
   "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb (deployment owned by Blog/browser operator)",
   "deploymentEvidence": "Not deployed by Research. Awaiting same-cycle Blog integration and the single combined production release.",
-  "buildResult": "pending",
-  "validationResult": "pending",
+  "buildResult": "pass: clean Next.js production build, 672/672 static pages generated (one existing autoprefixer warning)",
+  "validationResult": "pass: exact count, new slugs, source dates, body-only word counts 1590/1581/1565/1548/1549, maximum pairwise five-word-shingle Jaccard 0.4749, TypeScript",
   "verifiedCount": 0,
   "articles": [
     {
@@ -29,7 +29,7 @@
       "liveVerified": false,
       "publicationDate": "2026-09-28",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "c5bd9ee7fb5809185f4fceaef203c4d9f673af14",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -45,7 +45,7 @@
       "liveVerified": false,
       "publicationDate": "2026-09-28",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "c5bd9ee7fb5809185f4fceaef203c4d9f673af14",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -61,7 +61,7 @@
       "liveVerified": false,
       "publicationDate": "2026-09-28",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "c5bd9ee7fb5809185f4fceaef203c4d9f673af14",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -77,7 +77,7 @@
       "liveVerified": false,
       "publicationDate": "2026-09-28",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "c5bd9ee7fb5809185f4fceaef203c4d9f673af14",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -93,7 +93,7 @@
       "liveVerified": false,
       "publicationDate": "2026-09-28",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "c5bd9ee7fb5809185f4fceaef203c4d9f673af14",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     }
   ]
