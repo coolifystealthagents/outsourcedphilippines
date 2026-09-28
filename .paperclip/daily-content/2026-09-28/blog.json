@@ -1,0 +1,211 @@
+{
+  "family": "blog",
+  "cycleLabel": "September28",
+  "publicationDate": "2026-09-28",
+  "timezone": "UTC",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "status": "awaiting_combined_release",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/blog-2026-09-28-out77",
+  "baseRemoteSha": "7d07146c2ac5765f6b4b6c4a758b0499453dd10d",
+  "contentCommit": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+  "remoteSha": null,
+  "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb (browser operator owns deployment)",
+  "deploymentEvidence": "Not deployed. Awaiting the sole combined production push and browser-operator deployment.",
+  "verificationTime": null,
+  "validation": {
+    "bodyOnlyWordCounts": {
+      "philippines-executive-inbox-delegation-rules": 3213,
+      "philippines-customer-support-sla-breach-triage": 3359,
+      "philippines-ecommerce-product-listing-qa-checklist": 3745,
+      "philippines-real-estate-transaction-deadline-tracker": 3535,
+      "philippines-healthcare-referral-intake-workflow": 3289,
+      "philippines-candidate-interview-reschedule-workflow": 3474,
+      "philippines-bookkeeping-close-document-chase": 3564,
+      "philippines-property-maintenance-dispatch-queue": 3780,
+      "philippines-sales-lead-enrichment-source-log": 3669,
+      "philippines-legal-client-intake-conflict-routing": 3409,
+      "philippines-certificate-of-insurance-tracking": 3462,
+      "philippines-qa-defect-recheck-sampling-plan": 3575
+    },
+    "maximumFiveWordShingleJaccard": {
+      "percent": 37.36,
+      "pair": [
+        "philippines-healthcare-referral-intake-workflow",
+        "philippines-legal-client-intake-conflict-routing"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "Executive inbox delegation rules",
+      "slug": "philippines-executive-inbox-delegation-rules",
+      "sources": [
+        "https://www.cisa.gov/secure-our-world/use-strong-passwords"
+      ],
+      "contentHash": "86e50a505b17ba555fc2197da78875010258f3fd63877f206fe0d9712879e885",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-executive-inbox-delegation-rules",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Customer-support SLA breach triage",
+      "slug": "philippines-customer-support-sla-breach-triage",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing"
+      ],
+      "contentHash": "bdffa86d19316d9e44bd9dd4c446fe37144fa0a51ea6b82ac1c0a544852b9745",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-customer-support-sla-breach-triage",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Ecommerce product-listing quality assurance",
+      "slug": "philippines-ecommerce-product-listing-qa-checklist",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business"
+      ],
+      "contentHash": "c1816b1b58c850c309bed47174ffcf65efff897cc834aa192b1e9086196394e6",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-ecommerce-product-listing-qa-checklist",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Real-estate transaction deadline tracking",
+      "slug": "philippines-real-estate-transaction-deadline-tracker",
+      "sources": [
+        "https://www.consumerfinance.gov/owning-a-home/close/"
+      ],
+      "contentHash": "a52e85a253bb6b5adb3c1fc5f125978e21874822b2ba7eee43a5dda33d3baf65",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-real-estate-transaction-deadline-tracker",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Healthcare referral intake workflow",
+      "slug": "philippines-healthcare-referral-intake-workflow",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+      ],
+      "contentHash": "2f9e2b88ba72342e98542a53083c897c37771a4e2dd92be1bb239146f7dc6381",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-healthcare-referral-intake-workflow",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Candidate interview rescheduling",
+      "slug": "philippines-candidate-interview-reschedule-workflow",
+      "sources": [
+        "https://www.eeoc.gov/prohibited-employment-policiespractices"
+      ],
+      "contentHash": "21e9bed1cc1e98a0ce998f29a2d0a7fb8d89fcf5910880796fef6fd886f6b7ab",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-candidate-interview-reschedule-workflow",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Month-end close document collection",
+      "slug": "philippines-bookkeeping-close-document-chase",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "dc0fddaf1bb0ffd363f3765f1154dcce66a61c74dbeabde492cdd57a1b5f0cdb",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-bookkeeping-close-document-chase",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Property maintenance dispatch queue",
+      "slug": "philippines-property-maintenance-dispatch-queue",
+      "sources": [
+        "https://www.hud.gov/housing-counseling"
+      ],
+      "contentHash": "d5f21f17aef0cb9bb6308335de80693eb4358c58ec9a74e5e36f6c3017535c10",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-property-maintenance-dispatch-queue",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Sales lead enrichment source logging",
+      "slug": "philippines-sales-lead-enrichment-source-log",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/privacy-security"
+      ],
+      "contentHash": "773c256e7e4539dc9934934100858054114ad776f952852bb4cc1dc1899538a6",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-sales-lead-enrichment-source-log",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Legal client-intake conflict routing",
+      "slug": "philippines-legal-client-intake-conflict-routing",
+      "sources": [
+        "https://www.americanbar.org/groups/professional_responsibility/resources/model_rules_of_professional_conduct/"
+      ],
+      "contentHash": "d0425300d5f022b0734612807c06bc8f6b5c891d2bbcb2c85aff64e883ea3967",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-legal-client-intake-conflict-routing",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Certificate-of-insurance tracking",
+      "slug": "philippines-certificate-of-insurance-tracking",
+      "sources": [
+        "https://content.naic.org/consumer"
+      ],
+      "contentHash": "99dfd0a5295381432736e763d9bdb0e82900b17752ff9dea7dba8bbd3df9230d",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-certificate-of-insurance-tracking",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "QA defect recheck sampling",
+      "slug": "philippines-qa-defect-recheck-sampling-plan",
+      "sources": [
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "contentHash": "8db379e176e244de11d961bc21fcf898765d1ba4b87430a4e9f5192a4121c018",
+      "publicationDate": "2026-09-28",
+      "commitSha": "fcca162b9e4e54c062edd55f769b5118b5246e55",
+      "deploymentEvidence": "Awaiting combined release",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-qa-defect-recheck-sampling-plan",
+      "verificationTime": null
+    }
+  ]
+}
