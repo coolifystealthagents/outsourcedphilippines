@@ -28,6 +28,15 @@ const currentModule={exports:{}};
 new Function('exports','module','require',compile(source))(currentModule.exports,currentModule,()=>priorModule.exports);
 const rendered=currentModule.exports.oct2ResearchPosts;
 if(rendered.length!==5)fail(`rendered count ${rendered.length}`);
+if(source.includes('buildArticle('))fail('shared article generator remains in October 2 source');
+const paragraphCounts=rendered.map(article=>article.body.length);
+if(new Set(paragraphCounts).size!==5)fail(`article structures are not independently varied: ${paragraphCounts.join('/')}`);
+const paragraphOwners=new Map();
+for(const article of rendered)for(const paragraph of article.body){
+ const normalized=paragraph.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+ if(paragraphOwners.has(normalized))fail(`exact substantive paragraph repeated across ${paragraphOwners.get(normalized)} and ${article.slug}`);
+ paragraphOwners.set(normalized,article.slug);
+}
 const words=text=>text.toLowerCase().match(/[a-z0-9]+/g)??[];
 const shingles=text=>{const tokens=words(text),set=new Set();for(let i=0;i<=tokens.length-5;i++)set.add(tokens.slice(i,i+5).join(' '));return set};
 const counts=[];
@@ -47,6 +56,6 @@ for(const article of manifest.articles){
  const renderedArticle=rendered.find(a=>a.slug===article.slug)??fail(`unrendered manifest slug ${article.slug}`);
  article.contentHash=crypto.createHash('sha256').update(JSON.stringify(renderedArticle)).digest('hex');
 }
-manifest.validationResult=`pass: exact count, new slugs, source dates, body-only word counts ${counts.join('/')}, maximum pairwise five-word-shingle Jaccard ${maxOverlap.toFixed(4)}`;
+manifest.validationResult=`pass: exact count, new slugs, source dates, independently varied paragraph counts ${paragraphCounts.join('/')}, zero repeated substantive paragraphs, body-only word counts ${counts.join('/')}, maximum pairwise five-word-shingle Jaccard ${maxOverlap.toFixed(4)}`;
 fs.writeFileSync(manifestPath,JSON.stringify(manifest,null,2)+'\n');
 console.log(`validated 5 new research articles for 2026-10-02; body words ${counts.join(', ')}; maximum five-word-shingle Jaccard ${maxOverlap.toFixed(4)}`);

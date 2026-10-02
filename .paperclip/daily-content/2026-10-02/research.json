@@ -13,14 +13,14 @@
   "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb (deployment owned by Blog/browser operator)",
   "deploymentEvidence": "Not deployed by Research. Awaiting same-cycle Blog integration and the single combined production release.",
   "buildResult": "pass: clean Next.js production build, 689/689 static pages generated (one existing autoprefixer warning)",
-  "validationResult": "pass: exact count, new slugs, source dates, body-only word counts 1563/1544/1547/1536/1551, maximum pairwise five-word-shingle Jaccard 0.4788",
+  "validationResult": "pass: exact count, new slugs, source dates, independently varied paragraph counts 9/10/11/12/13, zero repeated substantive paragraphs, body-only word counts 1257/1213/1284/1285/1383, maximum pairwise five-word-shingle Jaccard 0.0011",
   "verifiedCount": 0,
   "articles": [
     {
       "family": "research",
       "slug": "philippines-healthcare-referral-closure-evidence-research",
       "topic": "Can healthcare referral teams prove loop closure?",
-      "contentHash": "2524df388f1e5add3c9c7eab13869e3ef1dd5973cdca9e057431340e6b91478f",
+      "contentHash": "fd925c734923cc1239256bfd113ad2383ce1c1e7a0d68562f00b6d0a5eb9a3a5",
       "sources": [
         "https://www.ahrq.gov/patient-safety/settings/ambulatory/referral-management.html",
         "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
@@ -36,7 +36,7 @@
       "family": "research",
       "slug": "philippines-property-maintenance-vendor-dispatch-research",
       "topic": "How reliable is a property maintenance dispatch record?",
-      "contentHash": "42c83ebf4c25c1c498d54ae532d75ea8a6537d3ee4dd1f2d2766d8258476e3c8",
+      "contentHash": "5bb66b249bd4168a78b1193481f6fda078e439df02373ed4a66da15beb61c6eb",
       "sources": [
         "https://www.hud.gov/hud-partners/reac-nspire",
         "https://www.osha.gov/safety-management"
@@ -52,7 +52,7 @@
       "family": "research",
       "slug": "philippines-finance-vendor-bank-change-verification-research",
       "topic": "Can finance teams verify vendor bank-detail changes?",
-      "contentHash": "380db8278121bd9f7a62cd0e3fab81425de2bc279b600bfb7296398e2034adba",
+      "contentHash": "2e8a0a38fca594329c6ee43dda2fa7a8ccebf4dda9552944fec798417bfd68c8",
       "sources": [
         "https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/business-email-compromise",
         "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
@@ -68,7 +68,7 @@
       "family": "research",
       "slug": "philippines-legal-litigation-hold-acknowledgement-research",
       "topic": "How should legal teams track litigation-hold acknowledgements?",
-      "contentHash": "8eedbe221081bfd505f8dd4b28bc9f3ebae62fa9c26095e1f30c664b9c1081af",
+      "contentHash": "53b3cd5d5fe2f823541da3dedd3efb583284ae694dd3a815c4c1648c74def068",
       "sources": [
         "https://www.law.cornell.edu/rules/frcp/rule_37",
         "https://www.archives.gov/records-mgmt"
@@ -84,7 +84,7 @@
       "family": "research",
       "slug": "philippines-customer-support-identity-proofing-escalation-research",
       "topic": "When should customer support escalate identity proofing?",
-      "contentHash": "ec4b1f05114c1719e3db62f76bf0d7407ea54fdd63c577a03a274f7f5fcadc88",
+      "contentHash": "0017574dd7a02c540ce332466cfc2c9db18763addcc99ffe691359dabf2aad9f",
       "sources": [
         "https://pages.nist.gov/800-63-4/sp800-63a.html",
         "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/identity-theft"

@@ -21,3 +21,13 @@ The prior inventory through September 28 was audited before drafting. This batch
 - TypeScript: PASS
 - Clean production build: PASS, `689/689` static pages; one existing autoprefixer warning
 - Content commit: `62d51154c09b15f8865eba2adbf7411a09d7b29a`
+
+## Independent rewrite
+
+After Blog's qualitative audit, all five bodies were rewritten without the shared article generator. Their argument structures, methodology, evidence flow, data sections, FAQs, and paragraph counts are independently defined.
+
+- Independently varied substantive paragraph counts: `9 / 10 / 11 / 12 / 13`
+- Exact repeated substantive paragraphs across the family: `0`
+- Rewritten body-only words: `1257 / 1213 / 1284 / 1285 / 1383`
+- Rewritten maximum pairwise five-word-shingle Jaccard: `0.0011`
+- TypeScript and clean `689/689` production build: PASS
