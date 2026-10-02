@@ -2,8 +2,8 @@
 slug: "philippines-business-insurance-renewal-document-tracker"
 title: "Build a Business-Insurance Renewal Document Tracker with Philippines Support"
 description: "Track renewal requests, submissions, insurer questions, policy documents, and owner decisions without treating document collection as coverage advice."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

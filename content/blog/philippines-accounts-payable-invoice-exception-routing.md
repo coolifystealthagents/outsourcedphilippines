@@ -2,8 +2,8 @@
 slug: "philippines-accounts-payable-invoice-exception-routing"
 title: "Accounts Payable Invoice Exception Routing for Philippines-Based Support"
 description: "A practical way to separate invoice intake, evidence checks, exception ownership, approval, and payment authority."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

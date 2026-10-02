@@ -2,8 +2,8 @@
 slug: "philippines-nonprofit-donor-acknowledgment-review"
 title: "Nonprofit Donor Acknowledgment Review with Philippines Support"
 description: "Prepare acknowledgment records from authoritative gift data while routing valuation, restriction, return-benefit, and tax questions to qualified owners."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

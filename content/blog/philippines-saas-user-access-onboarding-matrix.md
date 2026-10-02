@@ -2,8 +2,8 @@
 slug: "philippines-saas-user-access-onboarding-matrix"
 title: "How to Build a SaaS User-Access Onboarding Matrix for a Philippines-Based Team"
 description: "A practical guide to scoping, approving, provisioning, verifying, and reviewing SaaS access for Philippines-based support staff."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

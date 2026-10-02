@@ -15,6 +15,8 @@
     "validate:sep25-blog": "node scripts/validate_sep25_blog.mjs",
     "validate:sep28-blog": "node scripts/validate_sep28_blog.mjs",
     "generate:oct2-blog": "node scripts/generate_oct2_blog.mjs",
+    "finalize:oct2-blog": "node scripts/finalize_oct2_blog.mjs",
+    "validate:oct2-blog": "node scripts/validate_oct2_blog.mjs",
     "validate:sep18-research": "node scripts/validate_sep18_research.mjs",
     "validate:sep22-research": "node scripts/validate_sep22_research.mjs",
     "validate:sep23-research": "node scripts/validate_sep23_research.mjs",

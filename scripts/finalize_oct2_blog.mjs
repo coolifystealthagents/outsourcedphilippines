@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const date=process.env.RELEASE_DATE;
+if(!/^\d{4}-\d{2}-\d{2}$/.test(date||''))throw new Error('RELEASE_DATE=YYYY-MM-DD required');
+const path='.paperclip/daily-content/2026-10-02/blog-topics.json';
+const inventory=JSON.parse(fs.readFileSync(path,'utf8'));
+inventory.publicationDate=date;
+const words=s=>(s.match(/[A-Za-z0-9][A-Za-z0-9’'-]*/g)||[]).length;
+const articles=inventory.topics.map(t=>{const raw=fs.readFileSync(`content/blog/${t.slug}.md`,'utf8');const body=raw.slice(raw.indexOf('\n# ')+1);return {family:'blog',topic:t.topic,slug:t.slug,sources:t.sources,contentHash:crypto.createHash('sha256').update(body).digest('hex'),bodyWords:words(body),publicationDate:date,commitSha:'a6b587ead1320a01423c14c686f890ddec724c10',deploymentEvidence:'Awaiting browser-operator deployment of sole combined push',liveUrl:`https://outsourcedphilippines.com/blog/${t.slug}`,verificationTime:null,liveVerified:false}});
+const manifest={family:'blog',cycleLabel:'2026-10-02',publicationDate:date,timezone:'UTC',requiredCount:12,verifiedCount:0,status:'awaiting_combined_release',repository:inventory.repository,productionBranch:inventory.productionBranch,sourceBranch:inventory.sourceBranch,baseRemoteSha:inventory.baseRemoteSha,contentCommit:'a6b587ead1320a01423c14c686f890ddec724c10',remoteSha:null,deploymentResource:'Coolify3 application o11m2cg4a0civ2pz4wngl0mb (browser operator owns deployment)',deploymentEvidence:'Not deployed. Awaiting browser operator after sole combined push.',articles};
+fs.writeFileSync(path,JSON.stringify(inventory,null,2)+'\n');
+fs.writeFileSync('.paperclip/daily-content/2026-10-02/blog.json',JSON.stringify(manifest,null,2)+'\n');
+console.log(`finalized ${articles.length} Blog ledger entries for ${date}`);

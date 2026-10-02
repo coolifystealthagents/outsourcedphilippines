@@ -2,8 +2,8 @@
 slug: "philippines-ecommerce-return-disposition-workflow"
 title: "Design an Ecommerce Return-Disposition Workflow with Philippines Support"
 description: "A practical return workflow covering receipt, inspection evidence, policy decisions, refunds, inventory disposition, and customer updates."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

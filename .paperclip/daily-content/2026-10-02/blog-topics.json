@@ -1,7 +1,7 @@
 {
   "family": "blog",
   "cycleLabel": "2026-10-02",
-  "publicationDate": null,
+  "publicationDate": "2026-10-02",
   "timezone": "UTC",
   "requiredCount": 12,
   "repository": "coolifystealthagents/outsourcedphilippines",
@@ -21,7 +21,9 @@
       "pillar": "IT and administrative support",
       "readerOutcome": "Design a least-privilege onboarding lane with named approvals, evidence, and timely exception routing.",
       "servicePath": "/services/executive-administration",
-      "sources": ["https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"]
+      "sources": [
+        "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"
+      ]
     },
     {
       "slug": "philippines-accounts-payable-invoice-exception-routing",
@@ -29,7 +31,9 @@
       "pillar": "Bookkeeping and finance operations",
       "readerOutcome": "Separate invoice intake, validation, approval, and exception ownership without allowing support staff to authorize payments.",
       "servicePath": "/services/bookkeeping-support",
-      "sources": ["https://www.gao.gov/products/gao-25-107721"]
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721"
+      ]
     },
     {
       "slug": "philippines-crm-duplicate-record-merge-review",
@@ -37,7 +41,9 @@
       "pillar": "Sales support and data quality",
       "readerOutcome": "Create safe match, hold, merge, and rollback rules that preserve source history and sales ownership.",
       "servicePath": "/services/sales-development-support",
-      "sources": ["https://www.nist.gov/privacy-framework"]
+      "sources": [
+        "https://www.nist.gov/privacy-framework"
+      ]
     },
     {
       "slug": "philippines-ecommerce-return-disposition-workflow",
@@ -45,7 +51,9 @@
       "pillar": "Ecommerce operations",
       "readerOutcome": "Route received returns through inspection evidence, policy checks, refund approval, and inventory disposition.",
       "servicePath": "/services/ecommerce-operations",
-      "sources": ["https://www.ftc.gov/business-guidance/resources/selling-internet-prompt-delivery-rules"]
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/selling-internet-prompt-delivery-rules"
+      ]
     },
     {
       "slug": "philippines-podcast-production-handoff-checklist",
@@ -53,7 +61,9 @@
       "pillar": "Content and marketing support",
       "readerOutcome": "Move an episode from approved recording through edit review, rights checks, show notes, publication, and correction control.",
       "servicePath": "/services/digital-marketing-operations",
-      "sources": ["https://www.copyright.gov/circs/circ01.pdf"]
+      "sources": [
+        "https://www.copyright.gov/circs/circ01.pdf"
+      ]
     },
     {
       "slug": "philippines-business-insurance-renewal-document-tracker",
@@ -61,7 +71,9 @@
       "pillar": "Back-office administration",
       "readerOutcome": "Track renewal requests and evidence while keeping coverage decisions with licensed or accountable owners.",
       "servicePath": "/services/executive-administration",
-      "sources": ["https://content.naic.org/consumer"]
+      "sources": [
+        "https://content.naic.org/consumer"
+      ]
     },
     {
       "slug": "philippines-procurement-quote-comparison-workflow",
@@ -69,7 +81,9 @@
       "pillar": "Procurement administration",
       "readerOutcome": "Normalize vendor quotes, surface exclusions and conflicts, and preserve the accountable buyer's decision trail.",
       "servicePath": "/services/project-coordination",
-      "sources": ["https://www.gao.gov/products/gao-25-107721"]
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721"
+      ]
     },
     {
       "slug": "philippines-customer-cancellation-save-desk-routing",
@@ -77,7 +91,9 @@
       "pillar": "Customer support",
       "readerOutcome": "Triage cancellation requests consistently without hiding intent, inventing authority, or delaying a valid exit.",
       "servicePath": "/services/customer-experience",
-      "sources": ["https://www.ftc.gov/business-guidance/resources/click-cancel-ftcs-amended-negative-option-rule-and-what-it-means-your-business"]
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/click-cancel-ftcs-amended-negative-option-rule-and-what-it-means-your-business"
+      ]
     },
     {
       "slug": "philippines-webinar-attendee-follow-up-operations",
@@ -85,7 +101,9 @@
       "pillar": "Marketing operations",
       "readerOutcome": "Segment consented attendees, route questions, control claims, and verify suppression before follow-up.",
       "servicePath": "/services/digital-marketing-operations",
-      "sources": ["https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"]
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+      ]
     },
     {
       "slug": "philippines-proof-of-delivery-reconciliation-queue",
@@ -93,7 +111,9 @@
       "pillar": "Logistics back office",
       "readerOutcome": "Reconcile delivery evidence against orders and exceptions without treating an image or scan as automatic acceptance.",
       "servicePath": "/services/ecommerce-operations",
-      "sources": ["https://www.nist.gov/privacy-framework"]
+      "sources": [
+        "https://www.nist.gov/privacy-framework"
+      ]
     },
     {
       "slug": "philippines-construction-submittal-register-control",
@@ -101,7 +121,9 @@
       "pillar": "Project administration",
       "readerOutcome": "Maintain versions, reviewer states, due dates, and resubmissions while leaving technical approval with the project authority.",
       "servicePath": "/services/project-coordination",
-      "sources": ["https://www.archives.gov/records-mgmt"]
+      "sources": [
+        "https://www.archives.gov/records-mgmt"
+      ]
     },
     {
       "slug": "philippines-nonprofit-donor-acknowledgment-review",
@@ -109,7 +131,9 @@
       "pillar": "Nonprofit administration",
       "readerOutcome": "Prepare timely acknowledgment records from authoritative gift data while routing valuation and tax questions to qualified owners.",
       "servicePath": "/services/bookkeeping-support",
-      "sources": ["https://www.irs.gov/charities-non-profits/substantiating-charitable-contributions"]
+      "sources": [
+        "https://www.irs.gov/charities-non-profits/substantiating-charitable-contributions"
+      ]
     }
   ]
 }

@@ -1,0 +1,211 @@
+{
+  "family": "blog",
+  "cycleLabel": "2026-10-02",
+  "publicationDate": "2026-10-02",
+  "timezone": "UTC",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "status": "awaiting_combined_release",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/blog-2026-10-02-out79",
+  "baseRemoteSha": "7c2c2ec73af2b2dbf6a669db4fb4436ab0874b12",
+  "contentCommit": "a6b587ead1320a01423c14c686f890ddec724c10",
+  "remoteSha": null,
+  "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb (browser operator owns deployment)",
+  "deploymentEvidence": "Not deployed. Awaiting browser operator after sole combined push.",
+  "articles": [
+    {
+      "family": "blog",
+      "topic": "SaaS user-access onboarding matrix",
+      "slug": "philippines-saas-user-access-onboarding-matrix",
+      "sources": [
+        "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"
+      ],
+      "contentHash": "a90ce97c972b99cedc86b3cdd1575d02c599ba5a980a3fd0bdd621498a3e8709",
+      "bodyWords": 1569,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-saas-user-access-onboarding-matrix",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Accounts-payable invoice exception routing",
+      "slug": "philippines-accounts-payable-invoice-exception-routing",
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721"
+      ],
+      "contentHash": "8e7cba682bf64955b7dea232d67a7ac987de1961e46a779286efd4d7204d3fd1",
+      "bodyWords": 1210,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-accounts-payable-invoice-exception-routing",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "CRM duplicate-record merge review",
+      "slug": "philippines-crm-duplicate-record-merge-review",
+      "sources": [
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "34dd9899a4f63476110be4522be263b2027e5830d9164c99a41d7133a8368d1c",
+      "bodyWords": 1190,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-crm-duplicate-record-merge-review",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Ecommerce return disposition workflow",
+      "slug": "philippines-ecommerce-return-disposition-workflow",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/selling-internet-prompt-delivery-rules"
+      ],
+      "contentHash": "dd4051a1997ffec2226c7447d1606e6d75a943715b7d39b1a58474af5507a0f6",
+      "bodyWords": 1100,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-ecommerce-return-disposition-workflow",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Podcast production handoff checklist",
+      "slug": "philippines-podcast-production-handoff-checklist",
+      "sources": [
+        "https://www.copyright.gov/circs/circ01.pdf"
+      ],
+      "contentHash": "5a4744c92f4f865520dedae72a6eb1db7330bbd8fd50c705a31bdd748b85694f",
+      "bodyWords": 1140,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-podcast-production-handoff-checklist",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Business-insurance renewal document tracker",
+      "slug": "philippines-business-insurance-renewal-document-tracker",
+      "sources": [
+        "https://content.naic.org/consumer"
+      ],
+      "contentHash": "d4d1fe75f9b9b350fd8591cc6a08d62da76d2cd4458fde766e028731f8ccd773",
+      "bodyWords": 1019,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-business-insurance-renewal-document-tracker",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Procurement quote comparison workflow",
+      "slug": "philippines-procurement-quote-comparison-workflow",
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721"
+      ],
+      "contentHash": "a81b3c55fca9badc3e837e602556057a98fdb5ab95766303ca4726a0b9670638",
+      "bodyWords": 1000,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-procurement-quote-comparison-workflow",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Customer cancellation save-desk routing",
+      "slug": "philippines-customer-cancellation-save-desk-routing",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/click-cancel-ftcs-amended-negative-option-rule-and-what-it-means-your-business"
+      ],
+      "contentHash": "4c727b08c62debd9b4e56302834bc575db847c21a673d5d74b8f5b00fb7c6fcc",
+      "bodyWords": 1026,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-customer-cancellation-save-desk-routing",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Webinar attendee follow-up operations",
+      "slug": "philippines-webinar-attendee-follow-up-operations",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+      ],
+      "contentHash": "60706e4de259301fa291ac6b5323a2b20cd69de3a6397a6d84a2b9d7cdae3ecb",
+      "bodyWords": 1004,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-webinar-attendee-follow-up-operations",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Proof-of-delivery reconciliation queue",
+      "slug": "philippines-proof-of-delivery-reconciliation-queue",
+      "sources": [
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "2188068515e014d5ebe8848737109c798f633935887394cd2f7f972bda62a509",
+      "bodyWords": 938,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-proof-of-delivery-reconciliation-queue",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Construction submittal register control",
+      "slug": "philippines-construction-submittal-register-control",
+      "sources": [
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "5df942e0fcd58afa7bad9d1ee73f2850d580daec59cde58ed273d01ba0ff57de",
+      "bodyWords": 936,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-construction-submittal-register-control",
+      "verificationTime": null,
+      "liveVerified": false
+    },
+    {
+      "family": "blog",
+      "topic": "Nonprofit donor acknowledgment review",
+      "slug": "philippines-nonprofit-donor-acknowledgment-review",
+      "sources": [
+        "https://www.irs.gov/charities-non-profits/substantiating-charitable-contributions"
+      ],
+      "contentHash": "38f7ff53ac77b27bc1ce73212b057440845340d156697328e8f02cf54d57b25a",
+      "bodyWords": 966,
+      "publicationDate": "2026-10-02",
+      "commitSha": "a6b587ead1320a01423c14c686f890ddec724c10",
+      "deploymentEvidence": "Awaiting browser-operator deployment of sole combined push",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-nonprofit-donor-acknowledgment-review",
+      "verificationTime": null,
+      "liveVerified": false
+    }
+  ]
+}

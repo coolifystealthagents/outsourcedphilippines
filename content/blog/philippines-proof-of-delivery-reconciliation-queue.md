@@ -2,8 +2,8 @@
 slug: "philippines-proof-of-delivery-reconciliation-queue"
 title: "Proof-of-Delivery Reconciliation with Philippines-Based Support"
 description: "Reconcile orders, carrier events, delivery evidence, shortages, damage, and customer disputes without treating a scan as automatic acceptance."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

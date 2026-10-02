@@ -2,8 +2,8 @@
 slug: "philippines-crm-duplicate-record-merge-review"
 title: "A Safer CRM Duplicate-Record Merge Review for Philippines Sales Support"
 description: "How to investigate possible CRM duplicates, preserve provenance, route uncertain matches, and verify merges without damaging sales history."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

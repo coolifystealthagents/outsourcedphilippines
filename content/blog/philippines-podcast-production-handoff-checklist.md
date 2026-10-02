@@ -2,8 +2,8 @@
 slug: "philippines-podcast-production-handoff-checklist"
 title: "A Podcast Production Handoff Checklist for Philippines-Based Support"
 description: "Move a podcast episode from approved recording through editing, rights review, show notes, publishing, and corrections without losing ownership."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

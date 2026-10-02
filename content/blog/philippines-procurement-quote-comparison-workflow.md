@@ -2,8 +2,8 @@
 slug: "philippines-procurement-quote-comparison-workflow"
 title: "A Procurement Quote-Comparison Workflow for Philippines-Based Support"
 description: "Normalize vendor quotes, surface exclusions and dependencies, preserve conflicts, and prepare a decision-ready comparison without choosing the supplier."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

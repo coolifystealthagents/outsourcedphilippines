@@ -2,8 +2,8 @@
 slug: "philippines-webinar-attendee-follow-up-operations"
 title: "Webinar Attendee Follow-Up Operations with a Philippines-Based Team"
 description: "Segment webinar records, route unanswered questions, control claims, honor communication choices, and verify follow-up across marketing systems."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

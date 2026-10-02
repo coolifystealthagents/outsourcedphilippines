@@ -2,8 +2,8 @@
 slug: "philippines-construction-submittal-register-control"
 title: "Construction Submittal Register Control with Philippines Project Support"
 description: "Maintain versions, reviewer states, due dates, resubmissions, and distribution evidence while technical approval stays with project authorities."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"

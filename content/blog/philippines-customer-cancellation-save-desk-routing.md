@@ -2,8 +2,8 @@
 slug: "philippines-customer-cancellation-save-desk-routing"
 title: "Customer Cancellation Save-Desk Routing with Philippines Support"
 description: "Handle cancellation requests clearly, preserve customer intent, route authorized retention options, and verify account closure without creating exit friction."
-datePublished: null
-publishedAt: null
+datePublished: "2026-10-02"
+publishedAt: "2026-10-02"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 featuredImage: "/blog/philippines-outsourcing-team.webp"
