@@ -135,9 +135,11 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             ))}
             <section className="source-box" aria-labelledby="daily-guide-sources">
               <h2 id="daily-guide-sources">Sources and next steps</h2>
-              <p>Use the <a href="/services/operations-support">operations support work lane</a> as a practical starting point, then review <a href="/blog/outsourced-Philippines-staffing-onboarding-checklist">the onboarding checklist</a> before expanding the role.</p>
+              {'servicePath' in basic && typeof basic.servicePath === 'string'
+                ? <p>Continue with <a href={basic.servicePath}>{'serviceLabel' in basic && typeof basic.serviceLabel === 'string' ? basic.serviceLabel : 'the relevant service lane'}</a>, then confirm scope, authority, and review ownership before expanding the role.</p>
+                : <p>Use the <a href="/services/operations-support">operations support work lane</a> as a practical starting point, then review <a href="/blog/outsourced-Philippines-staffing-onboarding-checklist">the onboarding checklist</a> before expanding the role.</p>}
               <ul>
-                {('sources' in basic && Array.isArray(basic.sources) ? basic.sources : [{ name: 'International Labour Organization data', url: 'https://www.ilo.org/data' }]).map((source) => (
+                {(('sources' in basic && Array.isArray(basic.sources) ? basic.sources : [{ name: 'International Labour Organization data', url: 'https://www.ilo.org/data' }]) as readonly { name: string; url: string }[]).map((source) => (
                   <li key={source.url}><a href={source.url} rel="noreferrer">{source.name}</a></li>
                 ))}
               </ul>
