@@ -11,3 +11,13 @@
 - Production/deployment: prohibited for Research; Blog integrates the local handoff and the browser operator owns deployment.
 
 The prior inventory through September 28 was audited before drafting. This batch adds five new, service-aligned decision questions covering healthcare referral closure, property maintenance dispatch, vendor bank-change verification, litigation-hold acknowledgement, and customer identity-proofing escalation. Earlier-cycle items are excluded and no September 28 article is republished.
+
+## Validation
+
+- Exact count and prior-inventory collision check: PASS
+- Body-only words: `1563 / 1544 / 1547 / 1536 / 1551`
+- Maximum pairwise five-word-shingle Jaccard: `0.4788`
+- Source records and October 2 checked dates: PASS
+- TypeScript: PASS
+- Clean production build: PASS, `689/689` static pages; one existing autoprefixer warning
+- Content commit: `62d51154c09b15f8865eba2adbf7411a09d7b29a`
