@@ -26,6 +26,14 @@ This map covers the ten generated Philippines-only service pages in `app/fleet-c
 | `/services/sales-development-support` | `/research/philippines-sales-development-support-research` | Which prospecting and record-hygiene tasks can be measured without making sales claims? | Locally verified route-specific handoff: `Plan sales development support`; public verification pending | Do not add another handoff. Recheck the saved route after an authorized rollout. |
 | `/services/project-coordination` | `/research/philippines-project-coordination-research` | How can a manager define a project queue, review owner, and exception path? | Existing route-specific handoff: `Plan Philippines project coordination support` | Do not add another handoff. Recheck the existing source and target only if the renderer changes. |
 
+## Registration prerequisite — recruiting records
+
+| Existing research route | Current linked destination | Artifact finding | Controlled next action |
+| --- | --- | --- | --- |
+| `/research/philippines-recruiting-record-retention-evidence-research` | `/services/recruiting-coordination` | The research record declares a recruiting-coordination handoff, but `recruiting-coordination` is not one of the generated `fleetServices` pillars. It therefore has no self-canonical service artifact or sitemap location. | Do not add, replace, or duplicate a CTA. First establish an approved Philippines-only recruiting service pillar through the site’s data and sitemap model, or revise the research record only after selecting an existing destination that matches its reader decision and controlled authority boundary. |
+
+This is a source-only prerequisite record. It does not claim that the broken target is published, and it does not authorize a substitute service link.
+
 ## Artifact gate before a reader-facing change
 
 1. Confirm the service slug in `fleetServices` and the research slug in `researchPosts`.
