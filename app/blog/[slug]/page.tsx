@@ -147,7 +147,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <section className="related-box" aria-labelledby="daily-guide-related">
               <h2 id="daily-guide-related">Related Articles</h2>
               <ul>
-                <li><a href="/blog/philippines-outsourced-customer-support-ticket-triage">Customer support ticket triage</a></li>
+                <li><a href="/blog/philippines-customer-complaint-escalation-packet">Customer complaint escalation packets</a></li>
                 <li><a href="/blog/philippines-remote-team-quality-assurance-scorecard">Remote team quality assurance scorecard</a></li>
                 <li><a href="/blog/philippines-remote-staff-password-access-review">Remote staff access review</a></li>
               </ul>

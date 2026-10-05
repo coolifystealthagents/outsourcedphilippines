@@ -148,10 +148,10 @@
       "topic": "Employee offboarding access checklist",
       "slug": "philippines-employee-offboarding-access-checklist",
       "sources": [
-        "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"
+        "https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf"
       ],
-      "bodyWords": 918,
-      "contentHash": "e20e12a279a274d69c6064082fb27442b94bb7c78d89c06b1bbe20fe877b7407",
+      "bodyWords": 920,
+      "contentHash": "362b38d29a33d723f8792e875f53a2ed734cc053fd3a7f90b0075cdf3dcd0bef",
       "publicationDate": "2026-10-05",
       "commitSha": null,
       "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",

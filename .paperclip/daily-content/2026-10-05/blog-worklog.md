@@ -52,3 +52,15 @@ The repository inventory, sitemap implementation, Blog listing, dynamic article 
 - `philippines-marketing-campaign-link-qa`: 1,060 substantive body words; distinct test sequence covering frozen inventories, destination meaning, parameter handling, failure paths, reproducible defect records, and production retest.
 - `philippines-customer-complaint-escalation-packet`: 1,021 substantive body words; distinct case sequence covering the customer's source statement, event timeline, applicable policy, open decision, remedy authority, and verified closure.
 - Current maximum Blog pairwise five-word-shingle overlap across eight drafts remains 2.08%; no repeated substantive paragraph, example, or argument sequence found.
+
+## Local corrective release candidate
+
+- Configured timezone and reconciled publication date: UTC / 2026-10-05.
+- Replaced the October 5 employee-offboarding article's broken CISA page citation with the verified current primary CISA PDF and regenerated its route, content hash, and ledger entry.
+- Repaired four contextual links found by the expanded 17-route HTTP audit: one shared Blog related link and three October 5 Research related links. Research validation refreshed the three affected hashes.
+- Locked install: pass (`npm ci --ignore-scripts`). Dependency audit: pass, zero vulnerabilities. Typecheck: pass. Repository tests-if-present: pass. Research validator: pass. Clean production build: pass, 720/720 static pages; existing autoprefixer warning only.
+- Ordered full source-to-render paragraph parity: pass for 12 Blog plus 5 Research routes.
+- Local HTTP: pass for all 17 routes, their corrected contextual internal destinations, date metadata, and the shared rendered image. Image response is JPEG, has the JPEG signature, and decodes successfully.
+- Authoritative CISA PDF: HTTP pass. Several other government destinations return 403 to automated curl clients; these were recorded as bot-restricted rather than reported as 200.
+- Blog family maximum five-word-shingle overlap: 3.89%, below the 50% rewrite threshold. Prior-corpus exact paragraph matches were citation bullets only; no substantive paragraph, worked example, or argument sequence was duplicated.
+- This candidate is local only. Production SHA `fb9e8b14228f59c84e75d3339eb852af471c80d6` remains frozen and must not be deployed. No corrective push is authorized yet.

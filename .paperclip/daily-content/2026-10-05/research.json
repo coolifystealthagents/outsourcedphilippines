@@ -36,7 +36,7 @@
       "family": "research",
       "slug": "philippines-project-change-control-evidence-research",
       "topic": "Project change-control evidence chain",
-      "contentHash": "58ef23e439bddea0454e696c4754a7fd5012bb04ea0a098f543ab8a8a82c1747",
+      "contentHash": "410569236b89f3586efc8bc0e3ca71f401b53afc899e2d0648b0379f7e6ac8d1",
       "sources": [
         "https://csrc.nist.gov/pubs/sp/800/128/upd1/final",
         "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-128.pdf"
@@ -68,7 +68,7 @@
       "family": "research",
       "slug": "philippines-executive-travel-disruption-evidence-research",
       "topic": "Executive air-travel disruption evidence",
-      "contentHash": "364625310e9adacf4711b7b7949e218d22a5faf60133c2692b1bb311203ffd95",
+      "contentHash": "25116b42156583842010d0ae3f43292c1dc6f4e041e7396e5ace0d16f120b821",
       "sources": [
         "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds",
         "https://www.transportation.gov/airconsumer/airline-cancellation-delay-dashboard"
@@ -84,7 +84,7 @@
       "family": "research",
       "slug": "philippines-bookkeeping-expense-substantiation-research",
       "topic": "Expense reimbursement substantiation evidence",
-      "contentHash": "b6e4afaae123a6ae7b5dc6ee13c10bfd9b11f40275b4face775bbb3e8898dadb",
+      "contentHash": "d2930a6016db38119d64f8a2383f01b1714a3f025a6d30c00ce21871fad103c9",
       "sources": [
         "https://www.irs.gov/publications/p463",
         "https://www.irs.gov/pub/irs-pdf/p463.pdf"

@@ -790,8 +790,8 @@ export const oct5BlogBasics={
     ],
     "sources": [
       {
-        "name": "CISA: Identity and Access Management recommended best practices",
-        "url": "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"
+        "name": "CISA: Identity and Access Management Recommended Best Practices for Administrators",
+        "url": "https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf"
       }
     ],
     "servicePath": "/services/executive-administration",
