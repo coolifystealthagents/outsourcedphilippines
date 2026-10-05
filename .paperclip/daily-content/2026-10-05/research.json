@@ -7,7 +7,7 @@
   "productionBranch": "main",
   "sourceBranch": "routine/research-2026-10-05-out81",
   "baseRemoteSha": "3e92c65fb8f890642e228d3c641efc4021e446a2",
-  "commitSha": null,
+  "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
   "integratedByBlog": false,
   "remoteSha": null,
   "deploymentResource": "Coolify3 application o11m2cg4a0civ2pz4wngl0mb (deployment owned by Blog/browser operator)",
@@ -29,7 +29,7 @@
       "liveVerified": false,
       "publicationDate": "2026-10-05",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -45,7 +45,7 @@
       "liveVerified": false,
       "publicationDate": "2026-10-05",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -61,7 +61,7 @@
       "liveVerified": false,
       "publicationDate": "2026-10-05",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -77,7 +77,7 @@
       "liveVerified": false,
       "publicationDate": "2026-10-05",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     },
     {
@@ -93,7 +93,7 @@
       "liveVerified": false,
       "publicationDate": "2026-10-05",
       "verificationTime": null,
-      "commitSha": null,
+      "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
     }
   ]

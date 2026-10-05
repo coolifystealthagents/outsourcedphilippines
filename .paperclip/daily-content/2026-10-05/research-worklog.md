@@ -24,3 +24,4 @@ Audited live-aligned production inventory, earlier local worktrees, October 2 ma
 - Rendered routes: PASS for full H1/title, visible date, `datePublished`, self-canonical, body paragraphs, service and related links, and sitemap entry on all five routes
 - Shared image asset: PASS; `/research-batch-thumbnail.jpg` is referenced by all five rendered pages. Local binary signature/decoder verification recorded before handoff.
 - Public verification: not performed because Research is local-handoff only; `verifiedCount` remains `0` until the combined release is deployed and checked.
+- Content commit: `24144e61b9995f387642c72df7ac8d40eef2efa0`
