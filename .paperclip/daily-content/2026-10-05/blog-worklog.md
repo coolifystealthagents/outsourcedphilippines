@@ -25,3 +25,10 @@ The repository inventory, sitemap implementation, Blog listing, dynamic article 
 - Production push: not attempted
 - Deployment: not attempted; browser operator only
 - Publication date: deliberately unset; cycle label is not used as a public date
+
+## Drafting increment 1
+
+- `philippines-customer-onboarding-document-readiness`: 1,369 substantive body words
+- `philippines-month-end-close-support-checklist`: 1,282 substantive body words
+- Current maximum pairwise five-word-shingle overlap: 0.08%
+- Both drafts passed the embedded humanizer scan and have distinct structures, examples, argument sequences, and reader outcomes.
