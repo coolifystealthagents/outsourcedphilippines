@@ -23,7 +23,8 @@
     "validate:sep24-research": "node scripts/validate_sep24_research.mjs",
     "validate:sep25-research": "node scripts/validate_sep25_research.mjs",
     "validate:sep28-research": "node scripts/validate_sep28_research.mjs",
-    "validate:oct2-research": "node scripts/validate_oct2_research.mjs"
+    "validate:oct2-research": "node scripts/validate_oct2_research.mjs",
+    "validate:oct5-research": "node scripts/validate_oct5_research.mjs"
   },
   "dependencies": {
     "@next/third-parties": "15.5.24",
