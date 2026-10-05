@@ -1,0 +1,115 @@
+{
+  "family": "blog",
+  "cycleLabel": "2026-10-05",
+  "publicationDate": null,
+  "timezone": "UTC",
+  "requiredCount": 12,
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "sourceBranch": "routine/blog-2026-10-05-out82",
+  "baseRemoteSha": "3e92c65fb8f890642e228d3c641efc4021e446a2",
+  "publicationRule": "Set the date only when the combined release first becomes publicly reachable and passes live verification. The October 5 cycle label is not permission to backdate.",
+  "researchDependency": {
+    "issue": "OUTAAAAAAAAAAAAAA-81",
+    "run": "0b0a1a56-649e-493a-b010-d67eb053da91",
+    "status": "awaiting durable five-article handoff"
+  },
+  "topics": [
+    {
+      "slug": "philippines-customer-onboarding-document-readiness",
+      "topic": "Customer onboarding document readiness",
+      "pillar": "Customer experience",
+      "readerOutcome": "Build a readiness gate that moves complete onboarding packets forward while routing identity, contract, and policy decisions to accountable owners.",
+      "servicePath": "/services/customer-experience",
+      "source": "https://www.nist.gov/privacy-framework"
+    },
+    {
+      "slug": "philippines-month-end-close-support-checklist",
+      "topic": "Month-end close support checklist",
+      "pillar": "Bookkeeping support",
+      "readerOutcome": "Separate source collection, reconciliation preparation, exception follow-up, accounting judgment, and close approval.",
+      "servicePath": "/services/bookkeeping-support",
+      "source": "https://www.gao.gov/products/gao-25-107721"
+    },
+    {
+      "slug": "philippines-sales-lead-routing-sla",
+      "topic": "Sales lead routing and response SLA",
+      "pillar": "Sales development support",
+      "readerOutcome": "Define evidence-based routing, clock starts, reassignment, and exception rules without letting support staff infer buyer intent.",
+      "servicePath": "/services/sales-development-support",
+      "source": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+    },
+    {
+      "slug": "philippines-executive-meeting-preparation-brief",
+      "topic": "Executive meeting preparation brief",
+      "pillar": "Executive administration",
+      "readerOutcome": "Turn scattered calendar, agenda, decision, and pre-read inputs into a reviewable brief while preserving executive judgment.",
+      "servicePath": "/services/executive-administration",
+      "source": "https://www.archives.gov/records-mgmt"
+    },
+    {
+      "slug": "philippines-project-action-item-recovery",
+      "topic": "Overdue project action-item recovery",
+      "pillar": "Project coordination",
+      "readerOutcome": "Recover aging actions with evidence, dependency checks, and owner escalation rather than cosmetic due-date resets.",
+      "servicePath": "/services/project-coordination",
+      "source": "https://www.gao.gov/products/gao-25-107721"
+    },
+    {
+      "slug": "philippines-ecommerce-catalog-change-review",
+      "topic": "Ecommerce catalog change review",
+      "pillar": "Ecommerce operations",
+      "readerOutcome": "Control product-data changes through source evidence, preview checks, approval, publication, and rollback.",
+      "servicePath": "/services/ecommerce-operations",
+      "source": "https://www.ftc.gov/business-guidance/advertising-marketing"
+    },
+    {
+      "slug": "philippines-marketing-campaign-link-qa",
+      "topic": "Marketing campaign link and tracking QA",
+      "pillar": "Digital marketing operations",
+      "readerOutcome": "Test destinations, consent-sensitive parameters, redirects, and analytics evidence before a campaign owner approves launch.",
+      "servicePath": "/services/digital-marketing-operations",
+      "source": "https://www.ftc.gov/business-guidance/privacy-security"
+    },
+    {
+      "slug": "philippines-customer-complaint-escalation-packet",
+      "topic": "Customer complaint escalation packet",
+      "pillar": "Customer experience",
+      "readerOutcome": "Preserve the customer request, timeline, policy evidence, prior actions, and open decision so an authorized owner can respond consistently.",
+      "servicePath": "/services/customer-experience",
+      "source": "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law"
+    },
+    {
+      "slug": "philippines-vendor-onboarding-record-control",
+      "topic": "Vendor onboarding record control",
+      "pillar": "Administrative and finance operations",
+      "readerOutcome": "Collect and verify defined vendor records without granting support staff authority to approve suppliers or payment changes.",
+      "servicePath": "/services/bookkeeping-support",
+      "source": "https://www.gao.gov/products/gao-25-107721"
+    },
+    {
+      "slug": "philippines-employee-offboarding-access-checklist",
+      "topic": "Employee offboarding access checklist",
+      "pillar": "Executive administration",
+      "readerOutcome": "Coordinate timely revocation evidence across systems while HR, IT, and business owners retain their distinct decisions.",
+      "servicePath": "/services/executive-administration",
+      "source": "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"
+    },
+    {
+      "slug": "philippines-content-approval-version-control",
+      "topic": "Content approval and version control",
+      "pillar": "Digital marketing operations",
+      "readerOutcome": "Keep source copy, claims review, asset rights, approver comments, and published version aligned through correction-ready records.",
+      "servicePath": "/services/digital-marketing-operations",
+      "source": "https://www.copyright.gov/circs/circ01.pdf"
+    },
+    {
+      "slug": "philippines-recruiting-interview-scheduling-operations",
+      "topic": "Recruiting interview scheduling operations",
+      "pillar": "Administrative support",
+      "readerOutcome": "Coordinate availability, candidate communications, accommodations routing, and interviewer evidence without making selection decisions.",
+      "servicePath": "/services/executive-administration",
+      "source": "https://www.eeoc.gov/employers/small-business/4-what-cant-i-ask-when-hiring"
+    }
+  ]
+}
