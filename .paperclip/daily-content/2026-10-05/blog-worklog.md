@@ -32,3 +32,11 @@ The repository inventory, sitemap implementation, Blog listing, dynamic article 
 - `philippines-month-end-close-support-checklist`: 1,282 substantive body words
 - Current maximum pairwise five-word-shingle overlap: 0.08%
 - Both drafts passed the embedded humanizer scan and have distinct structures, examples, argument sequences, and reader outcomes.
+
+## Research integration and drafting increment 2
+
+- Cherry-picked exact Research handoff commits `24144e61b9995f387642c72df7ac8d40eef2efa0` and `bd32ed23950f97de94c0c1cbf84132441ead8ffe`.
+- Research validator passes: five articles, body words 1,423 / 1,453 / 1,318 / 1,290 / 1,414; maximum pairwise five-word-shingle Jaccard 0.0015.
+- `philippines-sales-lead-routing-sla`: 1,057 substantive body words
+- `philippines-executive-meeting-preparation-brief`: 1,060 substantive body words
+- Current maximum Blog pairwise five-word-shingle overlap across four drafts: 0.10%.
