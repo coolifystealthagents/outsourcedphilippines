@@ -1,0 +1,192 @@
+{
+  "family": "blog",
+  "cycleLabel": "2026-10-05",
+  "publicationDate": "2026-10-05",
+  "timezone": "UTC",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "productionBranch": "main",
+  "articles": [
+    {
+      "family": "blog",
+      "topic": "Customer onboarding document readiness",
+      "slug": "philippines-customer-onboarding-document-readiness",
+      "sources": [
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "bodyWords": 1341,
+      "contentHash": "465e8b78fa6905f5df37dc7ff86cb506fee2585eb14c1cce7300e271759e2dae",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-customer-onboarding-document-readiness",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Month-end close support checklist",
+      "slug": "philippines-month-end-close-support-checklist",
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721"
+      ],
+      "bodyWords": 1258,
+      "contentHash": "107e58da3fa029ef054b983ede5fa756b3ba6911462041af33a24546b8bd8018",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-month-end-close-support-checklist",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Sales lead routing and response SLA",
+      "slug": "philippines-sales-lead-routing-sla",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+      ],
+      "bodyWords": 1038,
+      "contentHash": "050ce8e9f339c56788a8e39e9adf08b8b1d5ae604c8d358e4213a6a38f8f2646",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-sales-lead-routing-sla",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Executive meeting preparation brief",
+      "slug": "philippines-executive-meeting-preparation-brief",
+      "sources": [
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "bodyWords": 1038,
+      "contentHash": "95f0d014e28e703ee5a9d7a652d0cf90513848fa9e5c5bfba2a401c77c4b6992",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-executive-meeting-preparation-brief",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Overdue project action-item recovery",
+      "slug": "philippines-project-action-item-recovery",
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721"
+      ],
+      "bodyWords": 952,
+      "contentHash": "9dcaa7614b9f8cb6d1912a0041053c0a84ac25028b7c8c197f378c22bae62e8d",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-project-action-item-recovery",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Ecommerce catalog change review",
+      "slug": "philippines-ecommerce-catalog-change-review",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing"
+      ],
+      "bodyWords": 901,
+      "contentHash": "dca5b1daab3eaa3be1c25399fe09c0a10f0b3835758d9a562e180ff9af9fb713",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-ecommerce-catalog-change-review",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Marketing campaign link and tracking QA",
+      "slug": "philippines-marketing-campaign-link-qa",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/privacy-security"
+      ],
+      "bodyWords": 1038,
+      "contentHash": "b8057eb77c9e608669dd07ef2c07ec0a2adee297b1a50911f22bd57fde88f1ba",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-marketing-campaign-link-qa",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Customer complaint escalation packet",
+      "slug": "philippines-customer-complaint-escalation-packet",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law"
+      ],
+      "bodyWords": 1001,
+      "contentHash": "24f61998b9f56418d4b9e4e254aa1a4c53aa1f7ac5d3819d6b55c0833409e8b1",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-customer-complaint-escalation-packet",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Vendor onboarding record control",
+      "slug": "philippines-vendor-onboarding-record-control",
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721"
+      ],
+      "bodyWords": 976,
+      "contentHash": "6ebc7a76dca457387017cf03c77cf8ccb176f57b5bdf270c11242d488ea96ef1",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-vendor-onboarding-record-control",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Employee offboarding access checklist",
+      "slug": "philippines-employee-offboarding-access-checklist",
+      "sources": [
+        "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"
+      ],
+      "bodyWords": 918,
+      "contentHash": "e20e12a279a274d69c6064082fb27442b94bb7c78d89c06b1bbe20fe877b7407",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-employee-offboarding-access-checklist",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Content approval and version control",
+      "slug": "philippines-content-approval-version-control",
+      "sources": [
+        "https://www.copyright.gov/circs/circ01.pdf"
+      ],
+      "bodyWords": 939,
+      "contentHash": "4be1a6b47e9a8602b72ae9552e5e4af1fd71d81e6a2212c5eaec26c187268601",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-content-approval-version-control",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Recruiting interview scheduling operations",
+      "slug": "philippines-recruiting-interview-scheduling-operations",
+      "sources": [
+        "https://www.eeoc.gov/employers/small-business/4-what-cant-i-ask-when-hiring"
+      ],
+      "bodyWords": 901,
+      "contentHash": "cabbf36759bba247b044959729648ac8e087dd4ed213bcde1565c9f1b75d6ef2",
+      "publicationDate": "2026-10-05",
+      "commitSha": null,
+      "deploymentEvidence": "Awaiting sole combined push and browser-operator deployment",
+      "liveUrl": "https://outsourcedphilippines.com/blog/philippines-recruiting-interview-scheduling-operations",
+      "verificationTime": null
+    }
+  ]
+}
