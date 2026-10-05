@@ -40,3 +40,9 @@ The repository inventory, sitemap implementation, Blog listing, dynamic article 
 - `philippines-sales-lead-routing-sla`: 1,057 substantive body words
 - `philippines-executive-meeting-preparation-brief`: 1,060 substantive body words
 - Current maximum Blog pairwise five-word-shingle overlap across four drafts: 0.10%.
+
+## Drafting increment 3
+
+- `philippines-project-action-item-recovery`: 970 substantive body words; distinct recovery sequence built around reconstruction, dependencies, reminders, escalation, date integrity, and destination verification.
+- `philippines-ecommerce-catalog-change-review`: 922 substantive body words; distinct catalog sequence built around field provenance, advertising claims, variant relationships, storefront preview, rollback, and outcome sampling.
+- Current maximum Blog pairwise five-word-shingle overlap across six drafts: 2.08%; manual paragraph/example/argument review passed.
