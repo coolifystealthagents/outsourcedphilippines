@@ -46,3 +46,9 @@ The repository inventory, sitemap implementation, Blog listing, dynamic article 
 - `philippines-project-action-item-recovery`: 970 substantive body words; distinct recovery sequence built around reconstruction, dependencies, reminders, escalation, date integrity, and destination verification.
 - `philippines-ecommerce-catalog-change-review`: 922 substantive body words; distinct catalog sequence built around field provenance, advertising claims, variant relationships, storefront preview, rollback, and outcome sampling.
 - Current maximum Blog pairwise five-word-shingle overlap across six drafts: 2.08%; manual paragraph/example/argument review passed.
+
+## Drafting increment 4
+
+- `philippines-marketing-campaign-link-qa`: 1,060 substantive body words; distinct test sequence covering frozen inventories, destination meaning, parameter handling, failure paths, reproducible defect records, and production retest.
+- `philippines-customer-complaint-escalation-packet`: 1,021 substantive body words; distinct case sequence covering the customer's source statement, event timeline, applicable policy, open decision, remedy authority, and verified closure.
+- Current maximum Blog pairwise five-word-shingle overlap across eight drafts remains 2.08%; no repeated substantive paragraph, example, or argument sequence found.
