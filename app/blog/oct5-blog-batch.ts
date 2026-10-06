@@ -5,7 +5,7 @@ export const oct5BlogPosts=[
     "title": "Customer Onboarding Document Readiness for Philippines-Based Support",
     "excerpt": "A practical readiness gate for onboarding records, missing evidence, approvals, and customer follow-up.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -13,7 +13,7 @@ export const oct5BlogPosts=[
     "title": "Month-End Close Support Checklist for a Philippines-Based Team",
     "excerpt": "A close-support workflow that separates source collection, reconciliation preparation, exceptions, judgment, and approval.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -21,7 +21,7 @@ export const oct5BlogPosts=[
     "title": "Sales Lead Routing SLAs for Philippines-Based Support",
     "excerpt": "Set a defensible clock, ownership rules, and evidence trail for inbound lead routing without guessing buyer intent.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -29,7 +29,7 @@ export const oct5BlogPosts=[
     "title": "Executive Meeting Preparation Briefs with Philippines-Based Support",
     "excerpt": "Turn scattered agendas, decisions, pre-reads, and calendar changes into a brief an executive can review quickly.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -37,7 +37,7 @@ export const oct5BlogPosts=[
     "title": "Recovering Overdue Project Actions with Philippines-Based Support",
     "excerpt": "A practical recovery lane for aging actions, missing evidence, dependencies, ownership, and truthful due dates.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -45,7 +45,7 @@ export const oct5BlogPosts=[
     "title": "Ecommerce Catalog Change Review for Philippines-Based Support",
     "excerpt": "Control product titles, claims, pricing inputs, images, variants, and publication through a traceable review workflow.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -53,7 +53,7 @@ export const oct5BlogPosts=[
     "title": "Marketing Campaign Link QA with Philippines-Based Support",
     "excerpt": "Test campaign destinations, redirects, tracking parameters, consent-sensitive data, and post-launch evidence before defects spread.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -61,7 +61,7 @@ export const oct5BlogPosts=[
     "title": "Customer Complaint Escalation Packets for Philippines-Based Support",
     "excerpt": "Give decision owners the customer's request, timeline, policy evidence, prior actions, and open question without rewriting the story.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -69,7 +69,7 @@ export const oct5BlogPosts=[
     "title": "Vendor Onboarding Record Control with Philippines-Based Support",
     "excerpt": "Collect vendor records, expose conflicts, and preserve approval boundaries before purchasing or payment begins.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -77,7 +77,7 @@ export const oct5BlogPosts=[
     "title": "Employee Offboarding Access Checklists with Philippines-Based Support",
     "excerpt": "Coordinate access removal evidence across systems without collapsing HR, IT, security, and business decisions into one checkbox.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -85,7 +85,7 @@ export const oct5BlogPosts=[
     "title": "Content Approval and Version Control with Philippines-Based Support",
     "excerpt": "Keep source copy, claims, asset rights, reviewer comments, and the published version connected through corrections.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   },
   {
@@ -93,7 +93,7 @@ export const oct5BlogPosts=[
     "title": "Recruiting Interview Scheduling with Philippines-Based Support",
     "excerpt": "Coordinate availability, candidate communications, accommodations routing, and interview evidence without making selection decisions.",
     "minutes": 10,
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-06",
     "heroImage": "/research-batch-thumbnail.jpg"
   }
 ] as const;

@@ -7,7 +7,7 @@ export const oct5ResearchPosts:ReadonlyArray<ResearchPost>=[
  slug:'philippines-sales-do-not-call-screening-research',
  title:'Can a Sales Team Prove Do-Not-Call Screening Before Outreach?',
  excerpt:'A sales-development study of campaign scope, registry access, entity suppression, permission evidence, list versions, call release, and post-call exceptions.',
- published:'2026-10-05',hero,
+ published:'2026-10-06',hero,
  statistic:'FTC guidance says sellers and telemarketers generally must access the National Do Not Call Registry for the area codes they call and must also honor seller-specific do-not-call requests.',
  methodology:'This desk study reviewed the Federal Trade Commission Telemarketing Sales Rule guide and its Do Not Call questions on October 5, 2026. It models a controlled pre-call screening lane around one seller, one campaign, one frozen list version, and one release decision. It distinguishes observed list evidence from legal classification and does not decide whether a particular call is permitted.',
  body:[
@@ -31,7 +31,7 @@ export const oct5ResearchPosts:ReadonlyArray<ResearchPost>=[
  serviceHandoff:{slug:'sales-development-support',label:'Plan sales development support',text:'Pilot one seller and campaign with frozen list versions, authorized screening, entity-specific suppression precedence, and a compliance-owned release gate.'}
 },
 {
- slug:'philippines-project-change-control-evidence-research',title:'Can Project Coordination Preserve Change-Control Evidence?',excerpt:'A project-coordination study of baseline identity, change requests, impact evidence, authority, implementation, testing, rollback, communication, and closure.',published:'2026-10-05',hero,
+ slug:'philippines-project-change-control-evidence-research',title:'Can Project Coordination Preserve Change-Control Evidence?',excerpt:'A project-coordination study of baseline identity, change requests, impact evidence, authority, implementation, testing, rollback, communication, and closure.',published:'2026-10-06',hero,
  statistic:'NIST SP 800-128 describes configuration change control as a documented process covering proposal, justification, impact evaluation, testing, approval, implementation, review, and disposition.',
  methodology:'This control-design study reviewed NIST Special Publication 800-128 and its official CSRC publication record on October 5, 2026. It adapts configuration-management concepts into a bounded project-coordination evidence model while keeping security, technical, budget, schedule, and acceptance decisions with accountable owners. It is not a security certification or a universal project method.',
  body:[
@@ -54,7 +54,7 @@ export const oct5ResearchPosts:ReadonlyArray<ResearchPost>=[
 },
 {
  slug:'philippines-ecommerce-shipping-delay-refund-research',title:'Can Ecommerce Teams Reproduce Shipping-Delay and Refund Decisions?',
- excerpt:'An ecommerce-operations study of shipment promises, delay notices, customer choices, cancellations, refunds, partial shipments, and channel verification.',published:'2026-10-05',hero,
+ excerpt:'An ecommerce-operations study of shipment promises, delay notices, customer choices, cancellations, refunds, partial shipments, and channel verification.',published:'2026-10-06',hero,
  statistic:'FTC guidance for mail, internet, and telephone orders ties shipment promises to a reasonable basis and describes delay notices, cancellation choices, prompt refunds, and order-level records.',
  methodology:'This order-state study reviewed the Federal Trade Commission business guide to the Mail, Internet, or Telephone Order Merchandise Rule and its prompt-delivery guidance on October 5, 2026. It follows each order from the promise shown before purchase through fulfillment evidence, delay communication, customer choice, cancellation, refund, and verification. It does not decide legal coverage or customer entitlement.',
  body:[
@@ -76,7 +76,7 @@ export const oct5ResearchPosts:ReadonlyArray<ResearchPost>=[
  sources:['https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule','https://www.ftc.gov/business-guidance/resources/selling-internet-prompt-delivery-rules'],related:['philippines-return-refund-operations-research','philippines-ecommerce-customer-care-research'],serviceHandoff:{slug:'ecommerce-operations',label:'Plan ecommerce operations support',text:'Pilot one storefront with captured promise versions, order event timelines, approved delay notices, and settlement-verified refund closure.'}
 },
 {
- slug:'philippines-executive-travel-disruption-evidence-research',title:'How Should Executive Support Document Air-Travel Disruptions?',excerpt:'An executive-administration study of itinerary versions, airline notices, traveler choices, merchant identity, rebooking, refunds, expenses, and communication boundaries.',published:'2026-10-05',hero,
+ slug:'philippines-executive-travel-disruption-evidence-research',title:'How Should Executive Support Document Air-Travel Disruptions?',excerpt:'An executive-administration study of itinerary versions, airline notices, traveler choices, merchant identity, rebooking, refunds, expenses, and communication boundaries.',published:'2026-10-06',hero,
  statistic:'U.S. Department of Transportation guidance distinguishes cancelled or significantly changed flights, alternative transportation, traveler choice, merchant-of-record responsibility, and refund timing.',
  methodology:'This case-sequence study reviewed the U.S. Department of Transportation refund guidance and airline cancellation and delay dashboard on October 5, 2026. It maps one disrupted itinerary from the booked version through carrier changes, traveler choices, rebooking, refund state, ancillary services, and meeting impacts. It does not decide legal entitlement or make travel choices for the traveler.',
  body:[
@@ -100,7 +100,7 @@ export const oct5ResearchPosts:ReadonlyArray<ResearchPost>=[
  slug:'philippines-bookkeeping-expense-substantiation-research',
  title:'What Makes an Expense Reimbursement Packet Reviewable?',
  excerpt:'A bookkeeping-support study of business purpose, timing, receipts, allocation, approvals, repayments, exceptions, and accountant-owned classification.',
- published:'2026-10-05',hero,
+ published:'2026-10-06',hero,
  statistic:'IRS Publication 463 says travel, gift, and transportation expenses require records supporting specified elements and that estimated amounts generally do not substitute for adequate substantiation.',
  methodology:'This evidence-design study reviewed IRS Publication 463 for 2025 on October 5, 2026. It traces reimbursement claims from submission through evidence, policy tests, exception routing, approval, payment, and return of excess amounts. It does not determine deductibility, employment status, taxable treatment, or the correct accounting entry.',
  body:[

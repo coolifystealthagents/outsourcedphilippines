@@ -1,11 +1,11 @@
 {
   "family": "research",
   "required": 5,
-  "publicationDate": "2026-10-05",
+  "publicationDate": "2026-10-06",
   "timezone": "UTC",
   "repository": "coolifystealthagents/outsourcedphilippines",
   "productionBranch": "main",
-  "sourceBranch": "routine/research-2026-10-05-out81",
+  "sourceBranch": "routine/research-2026-10-06-out81",
   "baseRemoteSha": "3e92c65fb8f890642e228d3c641efc4021e446a2",
   "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
   "integratedByBlog": false,
@@ -20,14 +20,14 @@
       "family": "research",
       "slug": "philippines-sales-do-not-call-screening-research",
       "topic": "Pre-call do-not-call screening evidence",
-      "contentHash": "9c8f7c27f76a6306b47d131521830c700fb9f7f4c2380954dae991ea57e9417f",
+      "contentHash": "8ced2e68a5dff286cb0c579d67b85dc60d06ca9ccb98622aadfa55ce91414d58",
       "sources": [
         "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule",
         "https://www.ftc.gov/business-guidance/resources/qa-telemarketers-sellers-about-dnc-provisions-tsr-0"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-sales-do-not-call-screening-research",
       "liveVerified": false,
-      "publicationDate": "2026-10-05",
+      "publicationDate": "2026-10-06",
       "verificationTime": null,
       "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
@@ -36,14 +36,14 @@
       "family": "research",
       "slug": "philippines-project-change-control-evidence-research",
       "topic": "Project change-control evidence chain",
-      "contentHash": "410569236b89f3586efc8bc0e3ca71f401b53afc899e2d0648b0379f7e6ac8d1",
+      "contentHash": "0492a5a0439dcbc50210757d0e682b0825cf1e9cec1de0abac80a41d77e5553a",
       "sources": [
         "https://csrc.nist.gov/pubs/sp/800/128/upd1/final",
         "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-128.pdf"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-project-change-control-evidence-research",
       "liveVerified": false,
-      "publicationDate": "2026-10-05",
+      "publicationDate": "2026-10-06",
       "verificationTime": null,
       "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
@@ -52,14 +52,14 @@
       "family": "research",
       "slug": "philippines-ecommerce-shipping-delay-refund-research",
       "topic": "Ecommerce shipping-delay and refund evidence",
-      "contentHash": "128291c2e041847ae0b99fcd81eed0591030ce22c3f1c89cefff8e316433fb85",
+      "contentHash": "9362a68cea8d1715d4779b46c8f37c4d576162e9cd8b111b05e059eab6391ff3",
       "sources": [
         "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule",
         "https://www.ftc.gov/business-guidance/resources/selling-internet-prompt-delivery-rules"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-ecommerce-shipping-delay-refund-research",
       "liveVerified": false,
-      "publicationDate": "2026-10-05",
+      "publicationDate": "2026-10-06",
       "verificationTime": null,
       "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
@@ -68,14 +68,14 @@
       "family": "research",
       "slug": "philippines-executive-travel-disruption-evidence-research",
       "topic": "Executive air-travel disruption evidence",
-      "contentHash": "25116b42156583842010d0ae3f43292c1dc6f4e041e7396e5ace0d16f120b821",
+      "contentHash": "7f096972a36c02e3ccc061a9144f5772232365bbf60a4fe91a616a21870b4f75",
       "sources": [
         "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds",
         "https://www.transportation.gov/airconsumer/airline-cancellation-delay-dashboard"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-executive-travel-disruption-evidence-research",
       "liveVerified": false,
-      "publicationDate": "2026-10-05",
+      "publicationDate": "2026-10-06",
       "verificationTime": null,
       "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
@@ -84,14 +84,14 @@
       "family": "research",
       "slug": "philippines-bookkeeping-expense-substantiation-research",
       "topic": "Expense reimbursement substantiation evidence",
-      "contentHash": "d2930a6016db38119d64f8a2383f01b1714a3f025a6d30c00ce21871fad103c9",
+      "contentHash": "9da67fd29728f776c7ce93b2bb6f5d57b2aef57e1f11ede601f4c5d633d6ef53",
       "sources": [
         "https://www.irs.gov/publications/p463",
         "https://www.irs.gov/pub/irs-pdf/p463.pdf"
       ],
       "liveUrl": "https://outsourcedphilippines.com/research/philippines-bookkeeping-expense-substantiation-research",
       "liveVerified": false,
-      "publicationDate": "2026-10-05",
+      "publicationDate": "2026-10-06",
       "verificationTime": null,
       "commitSha": "24144e61b9995f387642c72df7ac8d40eef2efa0",
       "deploymentEvidence": "Awaiting combined Blog integration and browser-operator deployment"
