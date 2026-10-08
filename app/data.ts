@@ -18,6 +18,7 @@ import { sep25BlogBasics, sep25BlogPosts } from './blog/sep25-blog-batch';
 import { sep28BlogBasics, sep28BlogPosts } from './blog/sep28-blog-batch';
 import { oct2BlogBasics, oct2BlogPosts } from './blog/oct2-blog-batch';
 import { oct5BlogBasics, oct5BlogPosts } from './blog/oct5-blog-batch';
+import { oct8BlogBasics, oct8BlogPosts } from './oct8-batch';
 
 export const site = {
   domain: 'OutsourcedPhilippines.com',
@@ -135,7 +136,7 @@ const legacyBlogPosts = [
     minutes: 8,
   },] as const;
 
-export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts, ...aug31BlogPosts, ...sep1BlogPosts, ...sep2BlogPosts, ...sep3BlogPosts, ...sep4BlogPosts, ...sep7BlogPosts, ...sep8BlogPosts, ...sep9BlogPosts, ...sep10BlogPosts, ...sep11BlogPosts, ...sep14BlogPosts, ...sep18BlogPosts, ...sep22BlogPosts, ...sep23BlogPosts, ...sep24BlogPosts, ...sep25BlogPosts, ...sep28BlogPosts, ...oct2BlogPosts, ...oct5BlogPosts].sort((a, b) => {
+export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts, ...aug31BlogPosts, ...sep1BlogPosts, ...sep2BlogPosts, ...sep3BlogPosts, ...sep4BlogPosts, ...sep7BlogPosts, ...sep8BlogPosts, ...sep9BlogPosts, ...sep10BlogPosts, ...sep11BlogPosts, ...sep14BlogPosts, ...sep18BlogPosts, ...sep22BlogPosts, ...sep23BlogPosts, ...sep24BlogPosts, ...sep25BlogPosts, ...sep28BlogPosts, ...oct2BlogPosts, ...oct5BlogPosts, ...oct8BlogPosts].sort((a, b) => {
   const aDate = 'publishedAt' in a && a.publishedAt ? a.publishedAt : '';
   const bDate = 'publishedAt' in b && b.publishedAt ? b.publishedAt : '';
   return bDate.localeCompare(aDate) || a.slug.localeCompare(b.slug);
@@ -321,7 +322,7 @@ export const blogDetails = {
   },
 } as const;
 
-export const blogBasics = { ...legacyBlogBasics, ...allDailyBlogBasics, ...aug31BlogBasics, ...sep1BlogBasics, ...sep2BlogBasics, ...sep3BlogBasics, ...sep4BlogBasics, ...sep7BlogBasics, ...sep8BlogBasics, ...sep9BlogBasics, ...sep10BlogBasics, ...sep11BlogBasics, ...sep14BlogBasics, ...sep18BlogBasics, ...sep22BlogBasics, ...sep23BlogBasics, ...sep24BlogBasics, ...sep25BlogBasics, ...sep28BlogBasics, ...oct2BlogBasics, ...oct5BlogBasics };
+export const blogBasics = { ...legacyBlogBasics, ...allDailyBlogBasics, ...aug31BlogBasics, ...sep1BlogBasics, ...sep2BlogBasics, ...sep3BlogBasics, ...sep4BlogBasics, ...sep7BlogBasics, ...sep8BlogBasics, ...sep9BlogBasics, ...sep10BlogBasics, ...sep11BlogBasics, ...sep14BlogBasics, ...sep18BlogBasics, ...sep22BlogBasics, ...sep23BlogBasics, ...sep24BlogBasics, ...sep25BlogBasics, ...sep28BlogBasics, ...oct2BlogBasics, ...oct5BlogBasics, ...oct8BlogBasics };
 
 export const stats = [
   { label: 'Talent source', value: 'Philippines', note: 'the staffing model is limited to Filipino talent based in the Philippines' },
