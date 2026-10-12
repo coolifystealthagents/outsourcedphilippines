@@ -1,0 +1,115 @@
+{
+  "site": "OutsourcedPhilippines.com",
+  "date": "2026-10-12",
+  "blog": [
+    {
+      "slug": "philippines-shared-mailbox-delegation-map",
+      "title": "Map Shared Mailbox Delegation for a Philippines Support Team",
+      "route": "/blog/philippines-shared-mailbox-delegation-map",
+      "thumbnail": "/oct12/blog/philippines-shared-mailbox-delegation-map.png"
+    },
+    {
+      "slug": "philippines-customer-master-data-change-log",
+      "title": "Control Customer Master Data Changes With a Reviewable Log",
+      "route": "/blog/philippines-customer-master-data-change-log",
+      "thumbnail": "/oct12/blog/philippines-customer-master-data-change-log.png"
+    },
+    {
+      "slug": "philippines-contract-renewal-obligation-calendar",
+      "title": "Build a Contract Renewal Calendar Without Making Legal Decisions",
+      "route": "/blog/philippines-contract-renewal-obligation-calendar",
+      "thumbnail": "/oct12/blog/philippines-contract-renewal-obligation-calendar.png"
+    },
+    {
+      "slug": "philippines-service-desk-identity-verification",
+      "title": "Set Identity Verification Boundaries for an Outsourced Service Desk",
+      "route": "/blog/philippines-service-desk-identity-verification",
+      "thumbnail": "/oct12/blog/philippines-service-desk-identity-verification.png"
+    },
+    {
+      "slug": "philippines-procurement-conflict-disclosure-routing",
+      "title": "Route Procurement Conflict Disclosures Without Judging Them",
+      "route": "/blog/philippines-procurement-conflict-disclosure-routing",
+      "thumbnail": "/oct12/blog/philippines-procurement-conflict-disclosure-routing.png"
+    },
+    {
+      "slug": "philippines-payroll-input-cutoff-control",
+      "title": "Use a Payroll Input Cutoff Control for Distributed Teams",
+      "route": "/blog/philippines-payroll-input-cutoff-control",
+      "thumbnail": "/oct12/blog/philippines-payroll-input-cutoff-control.png"
+    },
+    {
+      "slug": "philippines-training-record-expiry-tracker",
+      "title": "Track Training Record Expiry Without Certifying Competence",
+      "route": "/blog/philippines-training-record-expiry-tracker",
+      "thumbnail": "/oct12/blog/philippines-training-record-expiry-tracker.png"
+    },
+    {
+      "slug": "philippines-field-service-photo-evidence-qa",
+      "title": "Review Field Service Photo Evidence With Privacy Limits",
+      "route": "/blog/philippines-field-service-photo-evidence-qa",
+      "thumbnail": "/oct12/blog/philippines-field-service-photo-evidence-qa.png"
+    },
+    {
+      "slug": "philippines-subscription-renewal-notice-queue",
+      "title": "Operate a Subscription Renewal Notice Queue With Source Control",
+      "route": "/blog/philippines-subscription-renewal-notice-queue",
+      "thumbnail": "/oct12/blog/philippines-subscription-renewal-notice-queue.png"
+    },
+    {
+      "slug": "philippines-chargeback-response-document-index",
+      "title": "Create a Chargeback Response Document Index Before Submission",
+      "route": "/blog/philippines-chargeback-response-document-index",
+      "thumbnail": "/oct12/blog/philippines-chargeback-response-document-index.png"
+    },
+    {
+      "slug": "philippines-recall-contact-list-readiness",
+      "title": "Prepare a Recall Contact List Without Authorizing the Recall",
+      "route": "/blog/philippines-recall-contact-list-readiness",
+      "thumbnail": "/oct12/blog/philippines-recall-contact-list-readiness.png"
+    },
+    {
+      "slug": "philippines-board-packet-source-control",
+      "title": "Apply Source Control to Board Packet Preparation",
+      "route": "/blog/philippines-board-packet-source-control",
+      "thumbnail": "/oct12/blog/philippines-board-packet-source-control.png"
+    }
+  ],
+  "research": [
+    {
+      "slug": "philippines-work-queue-sampling-reliability-study",
+      "title": "Philippines Work Queue Sampling: A Reliability Study",
+      "route": "/research/philippines-work-queue-sampling-reliability-study",
+      "thumbnail": "/oct12/research/philippines-work-queue-sampling-reliability-study.png"
+    },
+    {
+      "slug": "philippines-source-record-aging-study",
+      "title": "Source Record Aging in Outsourced Operations: A Study Protocol",
+      "route": "/research/philippines-source-record-aging-study",
+      "thumbnail": "/oct12/research/philippines-source-record-aging-study.png"
+    },
+    {
+      "slug": "philippines-decision-rights-drift-analysis",
+      "title": "Decision-Rights Drift in Outsourced Teams: An Operations Analysis",
+      "route": "/research/philippines-decision-rights-drift-analysis",
+      "thumbnail": "/oct12/research/philippines-decision-rights-drift-analysis.png"
+    },
+    {
+      "slug": "philippines-backup-coverage-evidence-study",
+      "title": "Backup Coverage for Philippines Support Lanes: An Evidence Study",
+      "route": "/research/philippines-backup-coverage-evidence-study",
+      "thumbnail": "/oct12/research/philippines-backup-coverage-evidence-study.png"
+    },
+    {
+      "slug": "philippines-correction-loop-effectiveness-study",
+      "title": "Correction Loops in Outsourced Operations: Measuring Effectiveness",
+      "route": "/research/philippines-correction-loop-effectiveness-study",
+      "thumbnail": "/oct12/research/philippines-correction-loop-effectiveness-study.png"
+    }
+  ],
+  "expected": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  }
+}
