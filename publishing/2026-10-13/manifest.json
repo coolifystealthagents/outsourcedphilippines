@@ -1,0 +1,118 @@
+{
+  "site": "OutsourcedPhilippines.com",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "branch": "main",
+  "baseSha": "891c5810f5931044fe820edb0babc27efc1194bd",
+  "date": "2026-10-13",
+  "blog": [
+    {
+      "slug": "philippines-cross-border-holiday-calendar-control",
+      "title": "Control a Cross-Border Holiday Calendar for Philippines Operations",
+      "route": "/blog/philippines-cross-border-holiday-calendar-control",
+      "thumbnail": "/oct13/blog/philippines-cross-border-holiday-calendar-control.png"
+    },
+    {
+      "slug": "philippines-shift-end-cash-application-handoff",
+      "title": "Design a Shift-End Cash Application Handoff for Distributed Teams",
+      "route": "/blog/philippines-shift-end-cash-application-handoff",
+      "thumbnail": "/oct13/blog/philippines-shift-end-cash-application-handoff.png"
+    },
+    {
+      "slug": "philippines-customer-address-change-verification",
+      "title": "Verify Customer Address Changes Without Expanding Authority",
+      "route": "/blog/philippines-customer-address-change-verification",
+      "thumbnail": "/oct13/blog/philippines-customer-address-change-verification.png"
+    },
+    {
+      "slug": "philippines-inventory-count-variance-packet",
+      "title": "Assemble Inventory Count Variance Packets for Owner Review",
+      "route": "/blog/philippines-inventory-count-variance-packet",
+      "thumbnail": "/oct13/blog/philippines-inventory-count-variance-packet.png"
+    },
+    {
+      "slug": "philippines-recruiter-candidate-consent-log",
+      "title": "Maintain a Candidate Consent Log for Philippines Recruiting Support",
+      "route": "/blog/philippines-recruiter-candidate-consent-log",
+      "thumbnail": "/oct13/blog/philippines-recruiter-candidate-consent-log.png"
+    },
+    {
+      "slug": "philippines-supplier-bank-detail-change-hold",
+      "title": "Place Supplier Bank Detail Changes on a Verification Hold",
+      "route": "/blog/philippines-supplier-bank-detail-change-hold",
+      "thumbnail": "/oct13/blog/philippines-supplier-bank-detail-change-hold.png"
+    },
+    {
+      "slug": "philippines-returns-warehouse-photo-index",
+      "title": "Index Returns Warehouse Photos With Privacy and Evidence Controls",
+      "route": "/blog/philippines-returns-warehouse-photo-index",
+      "thumbnail": "/oct13/blog/philippines-returns-warehouse-photo-index.png"
+    },
+    {
+      "slug": "philippines-remote-work-device-return-chain",
+      "title": "Build a Device Return Chain for Philippines Remote Work",
+      "route": "/blog/philippines-remote-work-device-return-chain",
+      "thumbnail": "/oct13/blog/philippines-remote-work-device-return-chain.png"
+    },
+    {
+      "slug": "philippines-order-cancellation-cutoff-routing",
+      "title": "Route Order Cancellations Against a Verifiable Cutoff",
+      "route": "/blog/philippines-order-cancellation-cutoff-routing",
+      "thumbnail": "/oct13/blog/philippines-order-cancellation-cutoff-routing.png"
+    },
+    {
+      "slug": "philippines-service-credit-evidence-packet",
+      "title": "Prepare Service Credit Evidence Without Deciding the Remedy",
+      "route": "/blog/philippines-service-credit-evidence-packet",
+      "thumbnail": "/oct13/blog/philippines-service-credit-evidence-packet.png"
+    },
+    {
+      "slug": "philippines-multichannel-contact-preference-sync",
+      "title": "Synchronize Contact Preferences Across Customer Channels",
+      "route": "/blog/philippines-multichannel-contact-preference-sync",
+      "thumbnail": "/oct13/blog/philippines-multichannel-contact-preference-sync.png"
+    },
+    {
+      "slug": "philippines-expense-receipt-correction-queue",
+      "title": "Operate an Expense Receipt Correction Queue With Clear Ownership",
+      "route": "/blog/philippines-expense-receipt-correction-queue",
+      "thumbnail": "/oct13/blog/philippines-expense-receipt-correction-queue.png"
+    }
+  ],
+  "research": [
+    {
+      "slug": "philippines-shift-handoff-acceptance-latency-study",
+      "title": "Shift Handoff Acceptance Latency in Philippines Operations",
+      "route": "/research/philippines-shift-handoff-acceptance-latency-study",
+      "thumbnail": "/oct13/research/philippines-shift-handoff-acceptance-latency-study.png"
+    },
+    {
+      "slug": "philippines-source-record-correction-recurrence-study",
+      "title": "Source Record Correction Recurrence in Outsourced Workflows",
+      "route": "/research/philippines-source-record-correction-recurrence-study",
+      "thumbnail": "/oct13/research/philippines-source-record-correction-recurrence-study.png"
+    },
+    {
+      "slug": "philippines-access-revocation-evidence-completeness-study",
+      "title": "Access Revocation Evidence Completeness for Philippines Teams",
+      "route": "/research/philippines-access-revocation-evidence-completeness-study",
+      "thumbnail": "/oct13/research/philippines-access-revocation-evidence-completeness-study.png"
+    },
+    {
+      "slug": "philippines-queue-ownership-disagreement-study",
+      "title": "Queue Ownership Disagreement in Cross-Border Support",
+      "route": "/research/philippines-queue-ownership-disagreement-study",
+      "thumbnail": "/oct13/research/philippines-queue-ownership-disagreement-study.png"
+    },
+    {
+      "slug": "philippines-bilingual-instruction-agreement-study",
+      "title": "Bilingual Instruction Agreement in Philippines Support Work",
+      "route": "/research/philippines-bilingual-instruction-agreement-study",
+      "thumbnail": "/oct13/research/philippines-bilingual-instruction-agreement-study.png"
+    }
+  ],
+  "expected": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  }
+}
