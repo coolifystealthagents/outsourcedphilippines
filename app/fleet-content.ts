@@ -234,6 +234,27 @@ export const fleetServices = [
       "Document the finish line and escalation rule",
       "Review the first work batch together"
     ]
+  },
+  {
+    "slug": "operations-support",
+    "title": "Operations Support",
+    "summary": "Philippines-based operations support for recurring admin queues, vendor follow-up, SOP upkeep, and status reporting, with the client owner keeping exceptions and approvals.",
+    "tasks": [
+      "daily task-board cleanup from approved sources",
+      "vendor follow-up and reminder preparation",
+      "SOP updates from recorded process steps",
+      "weekly status reports with blocked work shown"
+    ],
+    "controls": [
+      "A client owner decides exceptions and priority changes",
+      "Access stays limited to the first task set",
+      "The owner reviews sample work before more volume is added"
+    ],
+    "launch": [
+      "Choose five repeating admin tasks",
+      "Provide one finished example for each task",
+      "Review the first completed batch with the owner"
+    ]
   }
 ] as const;
 type ResearchPost = { slug:string; title:string; excerpt:string; published:string; updated?:string; statistic:string; methodology:string; body:readonly string[]; dataSections:readonly {heading:string; text:string}[]; faqs:readonly {question:string; answer:string}[]; sources:readonly string[]; related:readonly string[]; hero?:string; serviceHandoff?: { slug:string; label:string; text:string } };
