@@ -1,4 +1,5 @@
 import { JsonLd } from '../../components';
+import { EditorialArticle } from '../../editorial';
 
 export const incidentResponseSlug = 'philippines-outsourced-support-incident-response-checklist';
 export const incidentResponseTitle = 'Philippines outsourced support incident response checklist';
@@ -21,18 +22,6 @@ const faqs = [
   { question: 'How often should the team practice the plan?', answer: 'Run a short drill when a person starts and after the tools or contacts change. A quarterly five-minute test is a useful house rule, not a legal standard.' },
 ] as const;
 
-function SafeHeader() {
-  return <header className="nav fleet-nav"><div className="nav-inner"><a className="logo" href="/" aria-label="Outsourced Philippines home"><span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="" aria-hidden="true"/><span className="logo-name">Outsourced Philippines</span></span></a><nav className="links fleet-links" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav><details className="mobile-menu"><summary aria-label="Open navigation">Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav></details></div></header>;
-}
-
-function SafeFooter() {
-  return <footer className="footer legit-footer"><div className="footer-grid"><div><a className="footer-logo" href="/">Outsourced Philippines</a><p>Practical role planning for companies hiring Filipino talent based in the Philippines.</p></div><div><h3>Explore</h3><div className="footer-links"><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a></div></div><div><h3>Company</h3><div className="footer-links"><a href="/contact">Contact Us</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div></div></div><div className="footer-bottom"><span>© 2026 Outsourced Philippines. All rights reserved.</span><span>OutsourcedPhilippines.com</span></div></footer>;
-}
-
-function Banner({ label, title, body, href, link }: { label: string; title: string; body: string; href: string; link: string }) {
-  return <aside className="article-banner" aria-label={label}><div><p className="eyebrow">{label}</p><h2>{title}</h2><p>{body}</p></div><a className="btn primary" href={href}>{link}</a></aside>;
-}
-
 export function PhilippinesIncidentResponseArticle() {
   const schema = {
     '@context': 'https://schema.org',
@@ -48,21 +37,9 @@ export function PhilippinesIncidentResponseArticle() {
     ],
   };
 
-  return <>
-    <SafeHeader />
-    <main className="article-page strict-article-page">
-      <JsonLd data={schema} />
-      <article data-article-marker="ph-outsourced-support-incident-response-v1">
-        <header className="article-hero">
-          <div className="article-shell">
-            <p className="eyebrow">Philippines staffing guide</p>
-            <h1>{incidentResponseTitle}</h1>
-            <p className="lead">Give support staff a fast way to report trouble without asking them to make security, legal, or customer-notice decisions.</p>
-            <p className="article-intro narrative">A good plan tells a Philippines-based support worker whom to contact, what facts to save, and which safe actions they may take. It also names the company manager who can disable accounts, restore systems, and decide what happens next.</p>
-          </div>
-        </header>
-
-        <div className="article-shell article-body">
+  return <EditorialArticle family="Blog" title={incidentResponseTitle} dek={incidentResponseDescription} slug={incidentResponseSlug} published="2026-07-26" readMinutes={13} hero="/illustrations/role-gallery/role-art-32.webp" heroAlt="Incident response planning illustration" sections={[]} schema={<JsonLd data={schema} />}>
+        <div className="article-body bespoke-article-body" data-article-marker="ph-outsourced-support-incident-response-v1">
+          <p className="article-intro narrative">A good plan tells a Philippines-based support worker whom to contact, what facts to save, and which safe actions they may take. It also names the company manager who can disable accounts, restore systems, and decide what happens next.</p>
           <section className="takeaway-box" aria-labelledby="short-list-title">
             <p className="eyebrow">The short list</p>
             <h2 id="short-list-title">Five rules for the first report</h2>
@@ -98,7 +75,7 @@ export function PhilippinesIncidentResponseArticle() {
           </div>
           <p className="methods-note">Methods note: Verizon based the 2025 DBIR on incident records from its team, global contributors, and public disclosures. The three measures describe different parts of that dataset, and the report does not isolate Philippines-based outsourced support.</p>
 
-          <Banner label="Set the access rules" title="Match every account to a task" body="Use named accounts, small permissions, and a manager-owned removal list before live support begins." href="/blog/philippines-remote-staff-data-access-checklist" link="Open the access checklist" />
+
 
           <section className="article-section" aria-labelledby="matrix-title">
             <h2 id="matrix-title">Use a first-action matrix</h2>
@@ -140,7 +117,7 @@ export function PhilippinesIncidentResponseArticle() {
             <p className="narrative">Do not ask the worker to paste passwords, full customer records, or private files into a chat message. The incident lead can direct a safer transfer if the evidence itself contains sensitive data.</p>
           </section>
 
-          <Banner label="Review real support work" title="Build checks into the role" body="Use a small sample, an issue log, and one manager who can turn mistakes into clear corrections." href="/services/reporting-and-qa" link="See reporting and QA" />
+
 
           <section className="article-section" aria-labelledby="path-title">
             <h2 id="path-title">Use a four-step response path</h2>
@@ -183,7 +160,7 @@ export function PhilippinesIncidentResponseArticle() {
             <p className="narrative">Record the result in one line and fix the plan the same day. Repeat the drill after a tool change, manager change, or major role change, and use a quarterly test only as a company house rule.</p>
           </section>
 
-          <Banner label="Turn the plan into a role brief" title="Set the limits before hiring" body="Share the tasks, tools, working hours, incident contacts, and manager-only decisions for the role." href="/contact" link="Contact us" />
+
 
           <section className="article-section" id="faq" aria-labelledby="faq-title">
             <p className="eyebrow">Common questions</p>
@@ -206,8 +183,5 @@ export function PhilippinesIncidentResponseArticle() {
             <ol>{sources.map((source, index) => <li key={source.url}><span className="source-number">{index + 1}.</span> <a href={source.url} rel="noreferrer">{source.name}</a></li>)}</ol>
           </section>
         </div>
-      </article>
-    </main>
-    <SafeFooter />
-  </>;
+  </EditorialArticle>;
 }

@@ -1,4 +1,5 @@
 import { JsonLd } from '../../components';
+import { EditorialArticle } from '../../editorial';
 
 export const paymentChangeSlug = 'philippines-outsourced-staff-payment-change-verification-checklist';
 export const paymentChangeTitle = 'Philippines outsourced staff payment change verification checklist';
@@ -21,18 +22,6 @@ const faqs = [
   { question: 'What should happen after a suspicious transfer?', answer: 'Contact the financial institution at once, alert the company incident owner, preserve the request and approval record, and report the event through the company plan. The outsourced worker should not investigate or contact the suspected sender alone.' },
 ] as const;
 
-function SafeHeader() {
-  return <header className="nav fleet-nav"><div className="nav-inner"><a className="logo" href="/" aria-label="Outsourced Philippines home"><span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="" aria-hidden="true"/><span className="logo-name">Outsourced Philippines</span></span></a><nav className="links fleet-links" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav><details className="mobile-menu"><summary aria-label="Open navigation">Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav></details></div></header>;
-}
-
-function SafeFooter() {
-  return <footer className="footer legit-footer"><div className="footer-grid"><div><a className="footer-logo" href="/">Outsourced Philippines</a><p>Practical role planning for companies hiring Filipino talent based in the Philippines.</p></div><div><h3>Explore</h3><div className="footer-links"><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a></div></div><div><h3>Company</h3><div className="footer-links"><a href="/contact">Contact Us</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div></div></div><div className="footer-bottom"><span>© 2026 Outsourced Philippines. All rights reserved.</span><span>OutsourcedPhilippines.com</span></div></footer>;
-}
-
-function Banner({ label, title, body, href, link }: { label: string; title: string; body: string; href: string; link: string }) {
-  return <aside className="article-banner" aria-label={label}><div><p className="eyebrow">{label}</p><h2>{title}</h2><p>{body}</p></div><a className="btn primary" href={href}>{link}</a></aside>;
-}
-
 export function PhilippinesPaymentChangeArticle() {
   const schema = {
     '@context': 'https://schema.org',
@@ -48,21 +37,9 @@ export function PhilippinesPaymentChangeArticle() {
     ],
   };
 
-  return <>
-    <SafeHeader />
-    <main className="article-page strict-article-page">
-      <JsonLd data={schema} />
-      <article data-article-marker="ph-payment-change-verification-v1">
-        <header className="article-hero">
-          <div className="article-shell">
-            <p className="eyebrow">Philippines staffing guide</p>
-            <h1>{paymentChangeTitle}</h1>
-            <p className="lead">Give Philippines-based staff a safe way to handle vendor, payroll, reimbursement, and bank-detail changes without asking them to trust the message that started the request.</p>
-            <p className="article-intro narrative">A small change to a bank account can send money to the wrong place. The safest plan keeps the worker who receives or enters the request apart from the company owner who verifies and approves it.</p>
-          </div>
-        </header>
-
-        <div className="article-shell article-body">
+  return <EditorialArticle family="Blog" title={paymentChangeTitle} dek={paymentChangeDescription} slug={paymentChangeSlug} published="2026-07-27" readMinutes={13} hero="/illustrations/role-gallery/role-art-24.webp" heroAlt="Payment change review illustration" sections={[]} schema={<JsonLd data={schema} />}>
+        <div className="article-body bespoke-article-body" data-article-marker="ph-payment-change-verification-v1">
+          <p className="article-intro narrative">A small change to a bank account can send money to the wrong place. The safest plan keeps the worker who receives or enters the request apart from the company owner who verifies and approves it.</p>
           <section className="takeaway-box" aria-labelledby="payment-short-list-title">
             <p className="eyebrow">The short list</p>
             <h2 id="payment-short-list-title">Five rules for every change request</h2>
@@ -98,7 +75,7 @@ export function PhilippinesPaymentChangeArticle() {
           </div>
           <p className="methods-note">Methods note: The chart uses three 2024 counts from the FBI IC3 report. The bars use a square-root scale so the smaller values remain visible; the categories have different meanings and must not be added or used to estimate fraud in Philippines outsourcing.</p>
 
-          <Banner label="Lock down the account path" title="Match access to the work" body="Use named accounts, small permissions, and a manager-owned removal list before a worker handles change requests." href="/blog/philippines-remote-staff-data-access-checklist" link="Open the access checklist" />
+
 
           <section className="article-section" aria-labelledby="payment-table-title">
             <h2 id="payment-table-title">Use one verification table for the team</h2>
@@ -141,7 +118,7 @@ export function PhilippinesPaymentChangeArticle() {
             <p className="narrative">The worker should never read a full bank number aloud or ask the caller for a password or sign-in code. Only the minimum detail needed for the match belongs in the verification note.</p>
           </section>
 
-          <Banner label="Keep the finance lane narrow" title="Set manager-only decisions" body="Let Philippines-based bookkeeping support prepare records while your company keeps bank changes and money movement with named owners." href="/services/bookkeeping-support" link="Plan bookkeeping support" />
+
 
           <section className="article-section" aria-labelledby="payment-path-title">
             <h2 id="payment-path-title">Use a four-step change path</h2>
@@ -191,7 +168,7 @@ export function PhilippinesPaymentChangeArticle() {
             <p className="narrative">Repeat the test when staff, bank instructions, company tools, or approval owners change. The goal is a boring, repeatable check that still works when the message sounds urgent.</p>
           </section>
 
-          <Banner label="Turn the control into a role brief" title="Name the tasks and approval owners" body="Share the work lane, known contact routes, hold rule, approval limits, and incident contact before the role begins." href="/contact" link="Contact us" />
+
 
           <section className="article-section" id="faq" aria-labelledby="payment-faq-title">
             <p className="eyebrow">Common questions</p>
@@ -214,8 +191,5 @@ export function PhilippinesPaymentChangeArticle() {
             <ol>{sources.map((source, index) => <li key={source.url}><span className="source-number">{index + 1}.</span> <a href={source.url} rel="noreferrer">{source.name}</a></li>)}</ol>
           </section>
         </div>
-      </article>
-    </main>
-    <SafeFooter />
-  </>;
+  </EditorialArticle>;
 }

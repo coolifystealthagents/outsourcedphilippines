@@ -18,6 +18,7 @@ export default function ThankYouPage() {
             <p className="sa-booking-kicker">You’re one step away.</p>
             <h1>Step 2 - Book A Meeting</h1>
             <p className="sa-booking-lead">No commitment. No risk. Just expert guidance.</p>
+            <p>After you finish booking, continue to <a href="/thanks-whats-next"><strong>booking confirmation and next steps</strong></a>.</p>
             <img className="sa-booking-image" src="/thank-you-hero.png" alt="Stealth Agents team ready to help" width="619" height="402" />
             <TestimonialsRail />
           </div>

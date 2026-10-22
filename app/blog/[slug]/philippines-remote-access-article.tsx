@@ -1,4 +1,5 @@
 import { JsonLd } from '../../components';
+import { EditorialArticle } from '../../editorial';
 
 export const remoteAccessSlug = 'philippines-remote-staff-data-access-checklist';
 export const remoteAccessTitle = 'Philippines remote staff data access checklist';
@@ -21,18 +22,6 @@ const faqs = [
   { question: 'How often should access be reviewed?', answer: 'Check access after the first week, when duties change, and when the role ends. A short monthly review also helps catch old permissions that no longer match the work.' },
 ] as const;
 
-function SafeHeader() {
-  return <header className="nav fleet-nav"><div className="nav-inner"><a className="logo" href="/" aria-label="Outsourced Philippines home"><span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="" aria-hidden="true"/><span className="logo-name">Outsourced Philippines</span></span></a><nav className="links fleet-links" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav><details className="mobile-menu"><summary aria-label="Open navigation">Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav></details></div></header>;
-}
-
-function SafeFooter() {
-  return <footer className="footer legit-footer"><div className="footer-grid"><div><a className="footer-logo" href="/">Outsourced Philippines</a><p>Practical role planning for companies hiring Filipino talent based in the Philippines.</p></div><div><h3>Explore</h3><div className="footer-links"><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a></div></div><div><h3>Company</h3><div className="footer-links"><a href="/contact">Contact Us</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div></div></div><div className="footer-bottom"><span>© 2026 Outsourced Philippines. All rights reserved.</span><span>OutsourcedPhilippines.com</span></div></footer>;
-}
-
-function Banner({ label, title, body, href, link }: { label: string; title: string; body: string; href: string; link: string }) {
-  return <aside className="article-banner" aria-label={label}><div><p className="eyebrow">{label}</p><h2>{title}</h2><p>{body}</p></div><a className="btn primary" href={href}>{link}</a></aside>;
-}
-
 export function PhilippinesRemoteAccessArticle() {
   const schema = {
     '@context': 'https://schema.org',
@@ -48,21 +37,9 @@ export function PhilippinesRemoteAccessArticle() {
     ],
   };
 
-  return <>
-    <SafeHeader />
-    <main className="article-page strict-article-page">
-      <JsonLd data={schema} />
-      <article data-article-marker="ph-remote-access-checklist-v1">
-        <header className="article-hero">
-          <div className="article-shell">
-            <p className="eyebrow">Philippines staffing guide</p>
-            <h1>{remoteAccessTitle}</h1>
-            <p className="lead">Give a new remote staff member enough access to do the work, but keep account ownership and sensitive approvals with your company.</p>
-            <p className="article-intro narrative">A safe setup starts with the task, not the person. List what the Philippines-based staff member must do, then open only the records and actions needed for those tasks.</p>
-          </div>
-        </header>
-
-        <div className="article-shell article-body">
+  return <EditorialArticle family="Blog" title={remoteAccessTitle} dek={remoteAccessDescription} slug={remoteAccessSlug} published="2026-07-25" readMinutes={12} hero="/illustrations/role-gallery/role-art-18.webp" heroAlt="Secure remote access planning illustration" sections={[]} schema={<JsonLd data={schema} />}>
+        <div className="article-body bespoke-article-body" data-article-marker="ph-remote-access-checklist-v1">
+          <p className="article-intro narrative">A safe setup starts with the task, not the person. List what the Philippines-based staff member must do, then open only the records and actions needed for those tasks.</p>
           <section className="takeaway-box" aria-labelledby="short-list-title">
             <p className="eyebrow">The short list</p>
             <h2 id="short-list-title">Five rules to set before day one</h2>
@@ -98,7 +75,7 @@ export function PhilippinesRemoteAccessArticle() {
           </div>
           <p className="methods-note">Methods note: These are three separate measures from the Verizon 2024 DBIR, not parts of one total. Verizon revised its human-element measure and used incident data supplied by participating organizations; the figures describe its dataset, not every company.</p>
 
-          <Banner label="Plan the role first" title="Match access to a real task list" body="Write the first tasks, tools, approval limits, and review owner before accounts are created." href="/services/operations-support" link="See operations support" />
+
 
           <section className="article-section" aria-labelledby="access-table-title">
             <h2 id="access-table-title">Use a task-to-access table</h2>
@@ -139,7 +116,7 @@ export function PhilippinesRemoteAccessArticle() {
             <p className="narrative">Practice with two or three examples from your own inbox. Show where the sender address appears, how to report the message in the mail tool, and which channel to use if the mailbox itself may be unsafe.</p>
           </section>
 
-          <Banner label="First-week setup" title="Teach one narrow work lane" body="Use examples, limited permissions, and one reviewer while the new team member learns the job." href="/blog" link="Open the onboarding checklist" />
+
 
           <section className="article-section" aria-labelledby="flow-title">
             <h2 id="flow-title">Use this four-step access path</h2>
@@ -183,7 +160,7 @@ export function PhilippinesRemoteAccessArticle() {
             <p className="narrative">Run a five-minute practice before live work begins. Send a harmless sample message, ask the worker to report it, and check whether the notice reaches the right person with enough detail to act.</p>
           </section>
 
-          <Banner label="Build the handoff" title="Turn this checklist into a role brief" body="Share the tasks, tools, working hours, and approval rules so the first access plan fits the real job." href="/contact" link="Contact us" />
+
 
           <section className="article-section" id="faq" aria-labelledby="faq-title">
             <p className="eyebrow">Common questions</p>
@@ -206,8 +183,5 @@ export function PhilippinesRemoteAccessArticle() {
             <ol>{sources.map((source, index) => <li key={source.url}><span className="source-number">{index + 1}.</span> <a href={source.url} rel="noreferrer">{source.name}</a></li>)}</ol>
           </section>
         </div>
-      </article>
-    </main>
-    <SafeFooter />
-  </>;
+  </EditorialArticle>;
 }

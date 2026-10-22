@@ -7,6 +7,9 @@ import { businessContinuityDescription, businessContinuitySlug, businessContinui
 import { paymentChangeDescription, paymentChangeSlug, paymentChangeTitle, paymentChangeUrl, PhilippinesPaymentChangeArticle } from './philippines-payment-change-article';
 import { accountRecoveryDescription, accountRecoverySlug, accountRecoveryTitle, accountRecoveryUrl, PhilippinesAccountRecoveryArticle } from './philippines-account-recovery-article';
 import { topVirtualAssistantCompaniesDescription, topVirtualAssistantCompaniesSlug, topVirtualAssistantCompaniesTitle, topVirtualAssistantCompaniesUrl, TopVirtualAssistantCompaniesArticle } from './top-virtual-assistant-companies-article';
+import { EditorialAutoNavigator } from '../../editorial-toc';
+import { resolveArticleHero } from '../../editorial';
+import { resolveBlogPublishedDate } from '../blog-listing';
 const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const formatReaderDate = (value: string) => readerDate.format(new Date(`${value}T00:00:00Z`));
 
@@ -83,9 +86,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url,
       siteName: site.brand,
       type: 'article',
-      images: [{ url: `${baseUrl}/research-batch-thumbnail.jpg`, width: 1200, height: 630, alt: post.title }],
+      images: [{ url: `${baseUrl}${resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug)}`, width: 1200, height: 630, alt: post.title }],
     },
-    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt, images: [`${baseUrl}/research-batch-thumbnail.jpg`] },
+    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt, images: [`${baseUrl}${resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug)}`] },
   };
 }
 
@@ -102,22 +105,22 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const detail = blogDetails[post.slug as DetailSlug];
   const basic = blogBasics[post.slug as BasicSlug];
   const articleUrl = `${baseUrl}/blog/${post.slug}`;
-  const publishedAt = 'publishedAt' in post ? post.publishedAt : undefined;
+  const publishedAt = resolveBlogPublishedDate(post);
 
   if (!detail && basic) {
-    const heroImage = 'heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : '/research-batch-thumbnail.jpg';
-    const omitHero = publishedAt === '2026-08-23' && !('heroImage' in post);
+    const heroImage = resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug);
     return (
       <>
         <Header />
         <main className="section">
+          <EditorialAutoNavigator title={post.title} slug={post.slug} family="Blog" published={publishedAt} readMinutes={post.minutes} />
           <article className="container" style={{ maxWidth: 880 }}>
             {publishedAt && <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: publishedAt, dateModified: publishedAt, url: articleUrl }} />}
             <p className="eyebrow">{site.brand} guide</p>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
             {publishedAt && <time dateTime={publishedAt}>Published: {formatReaderDate(publishedAt)}</time>}
-            {!omitHero && <img src={heroImage} alt="Illustration of a remote content workflow" width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />}
+            <img src={heroImage} alt={`Editorial illustration for ${post.title}`} width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
             {Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) && <section className="article-section" aria-labelledby="route-local-guide">
               <h2 id="route-local-guide">The route-local operating guide</h2>
@@ -220,6 +223,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     <>
       <Header />
       <main className="article-page">
+        <EditorialAutoNavigator title={post.title} slug={post.slug} family="Blog" published={publishedAt} readMinutes={post.minutes} />
         <JsonLd data={schema} />
         <article>
           <header className="article-hero">
@@ -228,6 +232,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <h1>{post.title}</h1>
               <p className="lead">{post.excerpt}</p>
               {publishedAt && <time dateTime={publishedAt}>Published: {formatReaderDate(publishedAt)}</time>}
+              <img src={resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug)} alt={`Editorial illustration for ${post.title}`} width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
               <p className="article-intro">A provider should be able to explain who owns the worker relationship, how work is checked, and what happens when something goes wrong. Use this guide to move the sales call past promises and into the details you will rely on after hiring.</p>
             </div>
           </header>

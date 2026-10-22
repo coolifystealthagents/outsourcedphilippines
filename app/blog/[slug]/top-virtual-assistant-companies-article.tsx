@@ -1,5 +1,6 @@
-import { CTA, Footer, Header, JsonLd } from '../../components';
+import { JsonLd } from '../../components';
 import { site } from '../../data';
+import { EditorialArticle } from '../../editorial';
 
 export const topVirtualAssistantCompaniesSlug = 'top-50-virtual-assistant-companies';
 export const topVirtualAssistantCompaniesTitle = 'Top 50 Virtual Assistant Companies for Specialized Remote Support';
@@ -535,25 +536,13 @@ export function TopVirtualAssistantCompaniesArticle() {
   };
 
   return (
-    <>
-      <Header />
-      <main className="va-company-article" data-content-profile="outsourcedphilippines-human-v3" data-article-template="editorial-ledger">
-        <JsonLd data={schema} />
-        <article>
-          <header className="va-company-hero">
-            <div className="article-shell">
-              <p className="eyebrow light">Philippines virtual assistant comparison</p>
-              <h1>Top 50 companies to review for a Philippines-based virtual assistant</h1>
-              <p className="lead">Start with a role that can be done from the Philippines. This guide sorts managed assistants, phone support, bookkeeping, development, and other remote skills. Confirm that any shortlisted company can supply and manage Filipino talent for your hours.</p>
-              <div className="va-hero-facts" aria-label="Article facts">
-                <span><b>50</b> companies</span>
-                <span><b>{new Set(companies.map((company) => company.category)).size}</b> service categories</span>
-                <span><b>Website-based</b> editorial notes</span>
-              </div>
+    <EditorialArticle family="Blog" title={topVirtualAssistantCompaniesTitle} dek={topVirtualAssistantCompaniesDescription} slug={topVirtualAssistantCompaniesSlug} published="2026-07-28" readMinutes={24} hero="/illustrations/admin-support.svg" heroAlt="Virtual assistant services comparison illustration" sections={[]} schema={<JsonLd data={schema} />}>
+          <div className="va-company-body bespoke-article-body" data-content-profile="outsourcedphilippines-human-v3" data-article-template="editorial-ledger">
+            <div className="va-hero-facts" aria-label="Article facts">
+              <span><b>50</b> companies</span>
+              <span><b>{new Set(companies.map((company) => company.category)).size}</b> service categories</span>
+              <span><b>Website-based</b> editorial notes</span>
             </div>
-          </header>
-
-          <div className="article-shell va-company-body">
             <section className="va-editor-note" aria-labelledby="method-title">
               <p className="eyebrow">Method and disclosure</p>
               <h2 id="method-title">How we built a Philippines hiring shortlist</h2>
@@ -622,10 +611,6 @@ export function TopVirtualAssistantCompaniesArticle() {
               <p>Each listing links to the company website used to understand its public niche and service focus. Company services and claims can change. Visit the linked site and request current details before you build a final shortlist.</p>
             </section>
           </div>
-        </article>
-        <CTA />
-      </main>
-      <Footer />
-    </>
+    </EditorialArticle>
   );
 }

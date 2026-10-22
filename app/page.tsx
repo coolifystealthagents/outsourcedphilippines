@@ -1,8 +1,22 @@
+import type { Metadata } from 'next';
 import { Header, Footer, JsonLd } from './components';
-import { services, staffingProcess } from './data';
-import { roleGallery } from './role-gallery-data';
+import { staffingProcess } from './data';
+import { fleetServices } from './fleet-content';
+import './home.css';
 
-const roles = services.slice(0, 4);
+export const metadata: Metadata = {
+  title: 'Outsourcing to the Philippines',
+  description: 'Plan clear, reviewable roles for Filipino talent with practical service scopes, handoff guidance, and Philippines staffing support.',
+  alternates: { canonical: 'https://outsourcedphilippines.com' },
+  openGraph: {
+    title: 'Outsourcing to the Philippines | Outsourced Philippines',
+    description: 'Plan clear, reviewable roles for Filipino talent with practical service scopes, handoff guidance, and Philippines staffing support.',
+    url: 'https://outsourcedphilippines.com',
+    type: 'website',
+  },
+};
+
+const roles = fleetServices.slice(0, 4).map((service) => ({ ...service, href: `/services/${service.slug}` }));
 const roleIllustrations = [
   '/illustrations/operations-support.svg',
   '/illustrations/customer-support.svg',
@@ -43,7 +57,7 @@ export default function Home() {
             <h1>Build a Filipino team around the work you already know.</h1>
             <p className="hero-lead">Start with the role, not a stack of resumes. Map the tasks, access limits, working hours, and review owner before you hire talent from the Philippines.</p>
             <div className="actions">
-              <a className="btn lilac" href="/contact">Request a role brief</a>
+              <a className="btn lilac" href="/contact-us">Request a role brief</a>
               <a className="text-link" href="#role-desk">See the role desk <span aria-hidden="true">↓</span></a>
             </div>
             <p className="route-note">This is an independent guide. Requests may be sent to a Philippines staffing partner that can follow up on the role.</p>
@@ -53,7 +67,7 @@ export default function Home() {
               <img src="/illustrations/getillustrations/goodle-team/filipino-team-collaboration.svg" alt="Illustrated Filipino team collaborating at their desks" />
             </div>
             <aside className="role-slip">
-              <span>Role brief / 01</span>
+              <span>Working role brief</span>
               <strong>One owner.<br />One first lane.</strong>
               <small>Tasks · tools · limits · review</small>
             </aside>
@@ -70,9 +84,7 @@ export default function Home() {
           <div className="section-intro visual-intro">
             <div><p className="eyebrow">The role desk</p><h2>Turn a busy job into a clean handoff.</h2></div>
             <div className="intro-support">
-              <object type="image/webp" data="/illustrations/aurora/clean-handoff.webp" aria-label="Two coworkers confirming a clear handoff">
-                <img src="/illustrations/customer-support.svg" alt="Customer support work illustration" width="700" height="700" loading="lazy" />
-              </object>
+              <img src="/illustrations/customer-support.svg" alt="Customer support work illustration" width="700" height="700" loading="lazy" />
               <p>Most hiring trouble starts before the interview. If the role covers everything, no candidate can know what good work looks like. Give the first month a smaller shape.</p>
             </div>
           </div>
@@ -81,10 +93,10 @@ export default function Home() {
               <div className="desk-top"><span>Working brief</span><span>Philippines talent</span></div>
               <h3>What should leave your desk first?</h3>
               <div className="task-lines">
-                <p><i>01</i><span>Recurring work with a finished example</span><b>Ready</b></p>
-                <p><i>02</i><span>A task with one clear approval owner</span><b>Ready</b></p>
-                <p><i>03</i><span>Work that can be checked without another meeting</span><b>Ready</b></p>
-                <p className="hold"><i>04</i><span>Unwritten decisions only you can make</span><b>Hold</b></p>
+                <p><span>Recurring work with a finished example</span><b>Ready</b></p>
+                <p><span>A task with one clear approval owner</span><b>Ready</b></p>
+                <p><span>Work that can be checked without another meeting</span><b>Ready</b></p>
+                <p className="hold"><span>Unwritten decisions only you can make</span><b>Hold</b></p>
               </div>
             </article>
             <aside className="desk-side">
@@ -101,12 +113,11 @@ export default function Home() {
         <div className="container">
           <div className="library-head"><div><p className="eyebrow">Starting lanes</p><h2>Choose work that can be seen, checked, and handed back.</h2></div><p>These are sensible places to begin with a Filipino team member. The service pages spell out the first tasks and the controls to keep.</p></div>
           <div className="role-grid">
-            {roles.map((role, index) => <a className="role-card" href="/services" key={role.slug}>
-              <span className="role-card-number">{String(index + 1).padStart(2, '0')}</span>
+            {roles.map((role, index) => <a className="role-card" href={role.href} key={role.slug}>
               <span className="role-card-art">
                 <img src={roleIllustrations[index]} alt={`${role.title} support illustration`} />
               </span>
-              <h3>{role.title}</h3><p>{role.buyerProblem}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
+              <h3>{role.title}</h3><p>{role.summary}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
             </a>)}
           </div>
         </div>
@@ -114,46 +125,36 @@ export default function Home() {
 
       <section className="process-field" id="process">
         <div className="container process-grid">
-          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p><object className="process-illustration" type="image/webp" data="/illustrations/aurora/one-lane-target.webp" aria-label="A hand placing one clear target at the center"><img src="/illustrations/operations-support.svg" alt="Operations support work illustration" width="700" height="700" loading="lazy" /></object></div>
+          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p><img className="process-illustration" src="/illustrations/operations-support.svg" alt="Operations support work illustration" width="700" height="700" loading="lazy" /></div>
           <div className="process-list">
-            {staffingProcess.map((item) => <article key={item.step}><span>{item.step}</span><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}
+            {staffingProcess.map((item) => <article key={item.step}><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}
           </div>
         </div>
       </section>
 
       <section className="room-section handoff-section">
         <div className="container">
-          <div className="section-intro visual-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><div className="intro-support"><object type="image/webp" data="/illustrations/aurora/working-documents.webp" aria-label="Coworkers reviewing a working document together"><img src="/illustrations/admin-support.svg" alt="Administrative support work illustration" width="700" height="700" loading="lazy" /></object><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div></div>
-          <div className="handoff-grid">{handoffNotes.map((note, index) => <article key={note.label}><span>0{index + 1}</span><h3>{note.label}</h3><p>{note.text}</p></article>)}</div>
+          <div className="section-intro visual-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><div className="intro-support"><img src="/illustrations/admin-support.svg" alt="Administrative support work illustration" width="700" height="700" loading="lazy" /><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div></div>
+          <div className="handoff-grid">{handoffNotes.map((note) => <article key={note.label}><h3>{note.label}</h3><p>{note.text}</p></article>)}</div>
         </div>
       </section>
 
-      <section className="role-atlas-section" aria-labelledby="role-atlas-title">
+      <section className="decision-compass" aria-labelledby="decision-title">
         <div className="container">
-          <div className="role-atlas-head">
-            <div>
-              <p className="eyebrow">The wider role map</p>
-              <h2 id="role-atlas-title">There is more than one way to shape a useful role.</h2>
-            </div>
-            <div>
-              <p>Browse more work themes from the Philippines role desk. Start with the tasks your team can explain, check, and hand back.</p>
-              <span>Swipe or scroll sideways through all 46 themes <b aria-hidden="true">→</b></span>
-            </div>
+          <div className="compass-heading"><p className="eyebrow">Decision guidance</p><h2 id="decision-title">Choose the lane by what must stay visible.</h2><p>A useful starting role is not necessarily the busiest one. Pick the work your team can explain, sample, and stop safely when an exception appears.</p></div>
+          <div className="compass-grid">
+            <article><h3>Records must agree</h3><p>Start with a source-led lane when the core problem is keeping fields, documents, dates, or transactions current.</p><a href="/services/bookkeeping-support">Explore bookkeeping support →</a></article>
+            <article><h3>Conversations need a route</h3><p>Start with a response lane when approved answers are stable and unusual cases have a named escalation owner.</p><a href="/services/customer-experience">Explore customer experience →</a></article>
+            <article><h3>Owners need follow-through</h3><p>Start with coordination when decisions already have owners but actions, dependencies, and evidence are becoming scattered.</p><a href="/services/project-coordination">Explore project coordination →</a></article>
           </div>
-          <div className="role-atlas-window" tabIndex={0} aria-label="More occupation and work illustrations">
-            {roleGallery.map((item, index) => <figure className="role-atlas-card" key={item.src}>
-              <img src={item.src} alt={`${item.label} work theme`} width="320" height="320" loading="lazy" />
-              <figcaption><span>{String(index + 5).padStart(2, '0')}</span><strong>{item.label}</strong></figcaption>
-            </figure>)}
-          </div>
-          <p className="role-atlas-note">These pictures show ways to think about work. A role brief still needs clear tasks, access rules, hours, and one review owner.</p>
+          <a className="compass-all" href="/services">Compare all eleven service lanes →</a>
         </div>
       </section>
 
       <section className="container closing-card">
         <div><p className="eyebrow light">Put the role on paper</p><h2>Send the messy task list. Get a cleaner starting point.</h2><p>Tell us what repeats, what needs approval, and when the work must happen. The brief stays focused on Filipino talent from the Philippines.</p></div>
-        <object className="closing-illustration" type="image/webp" data="/illustrations/aurora/messy-to-clear.webp" aria-label="A team turning a stack of work into one clear next step"><img src="/illustrations/reporting-qa.svg" alt="Reporting and quality assurance work illustration" width="700" height="700" loading="lazy" /></object>
-        <a className="btn lilac" href="/contact">Request a role brief</a>
+        <img className="closing-illustration" src="/illustrations/reporting-qa.svg" alt="Reporting and quality assurance work illustration" width="700" height="700" loading="lazy" />
+        <a className="btn lilac" href="/contact-us">Request a role brief</a>
       </section>
     </main>
     <Footer />

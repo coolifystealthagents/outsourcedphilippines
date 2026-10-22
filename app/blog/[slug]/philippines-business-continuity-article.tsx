@@ -1,4 +1,5 @@
 import { JsonLd } from '../../components';
+import { EditorialArticle } from '../../editorial';
 
 export const businessContinuitySlug = 'philippines-remote-team-business-continuity-checklist';
 export const businessContinuityTitle = 'Philippines remote team business continuity checklist';
@@ -21,18 +22,6 @@ const faqs = [
   { question: 'How often should the continuity plan be tested?', answer: 'Test each backup before the role goes live and after a tool, manager, or location changes. A short quarterly check is a useful company rule, but it is not a legal standard.' },
 ] as const;
 
-function SafeHeader() {
-  return <header className="nav fleet-nav"><div className="nav-inner"><a className="logo" href="/" aria-label="Outsourced Philippines home"><span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="" aria-hidden="true"/><span className="logo-name">Outsourced Philippines</span></span></a><nav className="links fleet-links" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav><details className="mobile-menu"><summary aria-label="Open navigation">Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav></details></div></header>;
-}
-
-function SafeFooter() {
-  return <footer className="footer legit-footer"><div className="footer-grid"><div><a className="footer-logo" href="/">Outsourced Philippines</a><p>Practical role planning for companies hiring Filipino talent based in the Philippines.</p></div><div><h3>Explore</h3><div className="footer-links"><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a></div></div><div><h3>Company</h3><div className="footer-links"><a href="/contact">Contact Us</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div></div></div><div className="footer-bottom"><span>© 2026 Outsourced Philippines. All rights reserved.</span><span>OutsourcedPhilippines.com</span></div></footer>;
-}
-
-function Banner({ label, title, body, href, link }: { label: string; title: string; body: string; href: string; link: string }) {
-  return <aside className="article-banner" aria-label={label}><div><p className="eyebrow">{label}</p><h2>{title}</h2><p>{body}</p></div><a className="btn primary" href={href}>{link}</a></aside>;
-}
-
 export function PhilippinesBusinessContinuityArticle() {
   const schema = {
     '@context': 'https://schema.org',
@@ -48,21 +37,9 @@ export function PhilippinesBusinessContinuityArticle() {
     ],
   };
 
-  return <>
-    <SafeHeader />
-    <main className="article-page strict-article-page">
-      <JsonLd data={schema} />
-      <article data-article-marker="ph-remote-team-continuity-v1">
-        <header className="article-hero">
-          <div className="article-shell">
-            <p className="eyebrow">Philippines staffing guide</p>
-            <h1>{businessContinuityTitle}</h1>
-            <p className="lead">Keep the work moving when a Philippines-based team member loses power, internet access, a work tool, or the company contact they need.</p>
-            <p className="article-intro narrative">A useful continuity plan is short enough to use during a real interruption. It names the work that cannot wait, the person who can make decisions, and the safe backup path for each task.</p>
-          </div>
-        </header>
-
-        <div className="article-shell article-body">
+  return <EditorialArticle family="Blog" title={businessContinuityTitle} dek={businessContinuityDescription} slug={businessContinuitySlug} published="2026-07-26" readMinutes={13} hero="/illustrations/operations-support.svg" heroAlt="Business continuity planning illustration" sections={[]} schema={<JsonLd data={schema} />}>
+        <div className="article-body bespoke-article-body" data-article-marker="ph-remote-team-continuity-v1">
+          <p className="article-intro narrative">A useful continuity plan is short enough to use during a real interruption. It names the work that cannot wait, the person who can make decisions, and the safe backup path for each task.</p>
           <section className="takeaway-box" aria-labelledby="continuity-short-list-title">
             <p className="eyebrow">The short list</p>
             <h2 id="continuity-short-list-title">Five rules to settle before work begins</h2>
@@ -98,7 +75,7 @@ export function PhilippinesBusinessContinuityArticle() {
           </div>
           <p className="methods-note">Methods note: The chart uses the latest 2024 Philippines values returned by the World Bank for three different indicators. Internet use is a share of people, while fixed and mobile values count subscriptions per 100 people; a person may hold more than one subscription, so these measures should not be added or treated as proof of backup access.</p>
 
-          <Banner label="Start with the work lane" title="Write the tasks before the backup plan" body="List the first duties, manager-only decisions, work hours, and proof that the task is complete." href="/services/operations-support" link="See operations support" />
+
 
           <section className="article-section" aria-labelledby="continuity-table-title">
             <h2 id="continuity-table-title">Use one interruption table for the role</h2>
@@ -139,7 +116,7 @@ export function PhilippinesBusinessContinuityArticle() {
             <p className="narrative">Test the tree with a harmless message that includes Philippines time and the company team's time. If the backup cannot answer or does not know the job, fix the list before live work begins.</p>
           </section>
 
-          <Banner label="Protect customer work" title="Pair the backup with clear access limits" body="Use named accounts, small permissions, and manager-owned recovery steps on every approved connection." href="/blog/philippines-remote-staff-data-access-checklist" link="Open the access checklist" />
+
 
           <section className="article-section" aria-labelledby="continuity-path-title">
             <h2 id="continuity-path-title">Use a four-step continuity path</h2>
@@ -182,7 +159,7 @@ export function PhilippinesBusinessContinuityArticle() {
             <p className="narrative">Record the start time, the first successful contact, and the point when the urgent item was ready to move. Fix one weak step, test it again, and keep the final plan beside the role guide.</p>
           </section>
 
-          <Banner label="Turn the plan into a role brief" title="Set the owner, hours, and handoff rules" body="Share the first tasks, normal tools, backup contacts, and decisions that stay with your company." href="/contact" link="Contact us" />
+
 
           <section className="article-section" id="faq" aria-labelledby="continuity-faq-title">
             <p className="eyebrow">Common questions</p>
@@ -205,8 +182,5 @@ export function PhilippinesBusinessContinuityArticle() {
             <ol>{sources.map((source, index) => <li key={source.url}><span className="source-number">{index + 1}.</span> <a href={source.url} rel="noreferrer">{source.name}</a></li>)}</ol>
           </section>
         </div>
-      </article>
-    </main>
-    <SafeFooter />
-  </>;
+  </EditorialArticle>;
 }

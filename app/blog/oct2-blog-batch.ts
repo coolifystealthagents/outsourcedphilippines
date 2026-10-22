@@ -419,7 +419,7 @@ export const oct2BlogBasics={
     ],
     "sources": [
       {
-        "name": "FTC: Selling on the Internet—Prompt Delivery Rules",
+        "name": "FTC: Selling on the Internet-Prompt Delivery Rules",
         "url": "https://www.ftc.gov/business-guidance/resources/selling-internet-prompt-delivery-rules"
       }
     ],

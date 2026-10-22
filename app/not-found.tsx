@@ -1,0 +1,3 @@
+import { Header, Footer } from './components';
+
+export default function NotFound() { return <><Header/><main className="confirmation-page"><section className="confirmation-card"><img src="/logo.svg" alt="" className="confirmation-mark"/><p className="eyebrow">404: Page not found</p><h1>This page is not part of the plan.</h1><p>The address may have changed or the page may no longer be available. Return home, browse our services, or start a staffing conversation.</p><div className="not-found-actions"><a className="btn primary" href="/">Return home</a><a className="btn lilac" href="/contact-us">Contact Us</a></div></section></main><Footer/></>; }

@@ -1,23 +1,22 @@
-import type { Metadata } from "next";
-import { Header, Footer } from "../components";
-import { services, site } from "../data";
-import StandardContactForm from "./StandardContactForm";
-import styles from "./contact.module.css";
-import "./mobile-fix.css";
+import type { Metadata } from 'next';
+import { Header, Footer } from '../components';
+import { services, site } from '../data';
+import { stealthAgentsReviews } from '../reviews';
+import StandardContactForm from './StandardContactForm';
+import styles from './contact.module.css';
 
-
-const canonical = "https://outsourcedphilippines.com/contact-us";
-const description = "Plan a Philippines-based outsourced team around clear work, schedules, access boundaries, and manager review.";
-export const metadata: Metadata = { title: "Contact Outsourced Philippines | Plan Your Team", description, alternates: { canonical }, robots: { index: true, follow: true }, openGraph: { title: "Plan Your Philippines Outsourcing Team", description, url: canonical, type: "website", images: [{ url: "/philippines-team-workroom.jpg", width: 1600, height: 1067, alt: site.alt }] } };
-const brief = [["Repeatable work", "List the tasks, frequency, source material, and one example your reviewer already trusts."], ["Schedule and systems", "Share working hours, communication channels, tools, and the access that should remain restricted."], ["Decisions and quality", "Name the manager for approvals, exceptions, escalations, and the first quality review."]];
-
+const canonical = 'https://outsourcedphilippines.com/contact-us';
+const description = 'Talk with Stealth Agents about a managed Philippines-based team, including role scope, recruiting, onboarding, and ongoing support.';
+export const metadata: Metadata = { title: 'Contact Outsourced Philippines | Plan Your Team', description, alternates: { canonical }, robots: { index: true, follow: true }, openGraph: { title: 'Plan Your Philippines Outsourcing Team', description, url: canonical, type: 'website', images: [{ url: '/brand/stealth-agents-team-bacolod.jpg', alt: site.alt }] } };
 
 export default function ContactUsPage() { return <><Header/><main className={styles.page}>
-  <section className={styles.hero}><div className={styles.grid}><div className={styles.copy}><p className={styles.kicker}>Philippines outsourcing, clearly planned</p><h1>Build a Philippines-based team around work you can explain.</h1><p>Share the recurring responsibilities, tools, schedule, and review points behind the role. We’ll use that context to make the staffing conversation practical from the start.</p><ul><li>Roles grounded in your real task list</li><li>Access and approval limits recorded upfront</li><li>Early work reviewed before scope expands</li></ul><a href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Powered by StealthAgents</a></div><div id="consultation"><StandardContactForm endpoint="/api/contact" encoding="form"/></div></div></section>
-  <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>Prepare for the call</p><h2>Bring the details that turn a title into a workable role.</h2><div className={styles.cards}>{brief.map(([title,body],i)=><article key={title}><b>0{i+1}</b><h3>{title}</h3><p>{body}</p></article>)}</div></div></section>
-  <section className={styles.about}><div className={styles.grid}><img src="/philippines-team-workroom.jpg" width="1600" height="1067" alt="Philippines-based team members planning work around office monitors"/><div><p className={styles.kicker}>The staffing partner</p><h2>About Stealth Agents</h2><p className={styles.trust}>Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p><p>That broad experience supports the staffing process. Your business still defines the work lane, safeguards, and manager-owned decisions for the role.</p><a href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Powered by StealthAgents</a></div></div></section>
-  <section className={`${styles.section} ${styles.dark}`}><div className={styles.shell}><p className={styles.kicker}>Role possibilities</p><h2>Start with useful work that has an owner and a review path.</h2><div className={styles.tags}>{services.slice(0,8).map(service=><span key={service.slug}>✓ {service.title}</span>)}</div></div></section>
-  <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>A deliberate first week</p><h2>Keep the launch narrow enough to learn safely.</h2><div className={styles.steps}><article><b>1</b><div><h3>Show the work</h3><p>Provide examples, source records, and the expected finished result.</p></div></article><article><b>2</b><div><h3>Set the boundaries</h3><p>Keep financial, policy, access, and exception decisions with accountable managers.</p></div></article><article><b>3</b><div><h3>Review a sample</h3><p>Use specific feedback before adding more tools or responsibilities.</p></div></article></div></div></section>
-  <section className={styles.close}><div><p className={styles.kicker}>Ready to define the role?</p><h2>Plan your Philippines outsourcing conversation.</h2><p>Use the form to share the work, schedule, tools, and review needs.</p></div><a href="#consultation">Book a free consultation</a></section>
+  <section className={styles.hero} aria-labelledby="contact-title"><div className={styles.heroGrid}>
+    <div className={styles.copy}><p className={styles.kicker}>Managed Philippines staffing</p><h1 id="contact-title">Tell us what your team needs to get done.</h1><p className={styles.lead}>Share the role, schedule, and systems involved. Stealth Agents can help recruit, onboard, and support a dedicated virtual assistant around a clearly defined scope.</p><ul><li>A practical role and task conversation</li><li>Clear access, review, and escalation boundaries</li><li>No obligation to move forward</li></ul>
+      <section className={styles.reviews} aria-labelledby="review-heading"><div className={styles.reviewHead}><div className={styles.stars} aria-label="Five out of five stars">★★★★★</div><h2 id="review-heading">Stealth Agents reviews</h2></div><div className={styles.marquee} tabIndex={0}><div className={styles.reviewTrack}>{stealthAgentsReviews.map(review => <article key={review.name}><blockquote>“{review.quote}”</blockquote><p><strong>{review.name}</strong><span>{review.role}</span></p></article>)}</div></div></section>
+    </div>
+    <div id="consultation" className={styles.form}><StandardContactForm endpoint="/api/contact" encoding="form"/></div>
+  </div></section>
+  <section className={styles.team}><div className={styles.teamGrid}><figure><img src="/brand/stealth-agents-team-bacolod.jpg" width="1600" height="1067" alt="Stealth Agents team in Bacolod"/><figcaption>Official team, Bacolod</figcaption></figure><div><p className={styles.kicker}>Your managed-service partner</p><img className={styles.saLogo} src="/brand/stealth-agents-logo.png" alt="Stealth Agents"/><h2>Support that continues after the match.</h2><p>Stealth Agents is the managed-service partner behind your staffing conversation. The team helps translate your requirements into a role, identify suitable talent, coordinate onboarding, and provide an ongoing point of contact as the work develops.</p><p>You retain ownership of business decisions, permissions, and approvals. The managed model adds recruiting and operational support around the dedicated assistant working with your company.</p></div></div></section>
+  <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>Start with a defined lane</p><h2>Useful roles begin with repeatable work and a clear reviewer.</h2><div className={styles.cards}>{services.map((service)=><article key={service.slug}><h3>{service.title}</h3><p>{service.desc}</p></article>)}</div></div></section>
+  <section className={styles.close}><div><p className={styles.kicker}>Ready to define the role?</p><h2>Start your staffing conversation.</h2><p>Complete the form with the work, schedule, and team context you already know.</p></div><a href="#consultation">Go to contact form</a></section>
 </main><Footer/></>; }
-

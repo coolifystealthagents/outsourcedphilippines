@@ -1,4 +1,5 @@
 import { JsonLd } from '../../components';
+import { EditorialArticle } from '../../editorial';
 
 export const accountRecoverySlug = 'philippines-outsourced-customer-support-account-recovery-checklist';
 export const accountRecoveryTitle = 'Philippines outsourced customer support account recovery checklist';
@@ -21,18 +22,6 @@ const faqs = [
   { question: 'What should happen after recovery is approved?', answer: 'Send a notice through the contact routes already stored on the account, end older sessions when the product allows it, record the decision, and give the customer a clear way to report an action they did not request.' },
 ] as const;
 
-function SafeHeader() {
-  return <header className="nav fleet-nav"><div className="nav-inner"><a className="logo" href="/" aria-label="Outsourced Philippines home"><span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="" aria-hidden="true"/><span className="logo-name">Outsourced Philippines</span></span></a><nav className="links fleet-links" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav><details className="mobile-menu"><summary aria-label="Open navigation">Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav></details></div></header>;
-}
-
-function SafeFooter() {
-  return <footer className="footer legit-footer"><div className="footer-grid"><div><a className="footer-logo" href="/">Outsourced Philippines</a><p>Practical role planning for companies hiring Filipino talent based in the Philippines.</p></div><div><h3>Explore</h3><div className="footer-links"><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a></div></div><div><h3>Company</h3><div className="footer-links"><a href="/contact">Contact Us</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div></div></div><div className="footer-bottom"><span>© 2026 Outsourced Philippines. All rights reserved.</span><span>OutsourcedPhilippines.com</span></div></footer>;
-}
-
-function Banner({ label, title, body, href, link }: { label: string; title: string; body: string; href: string; link: string }) {
-  return <aside className="article-banner" aria-label={label}><div><p className="eyebrow">{label}</p><h2>{title}</h2><p>{body}</p></div><a className="btn primary" href={href}>{link}</a></aside>;
-}
-
 export function PhilippinesAccountRecoveryArticle() {
   const schema = {
     '@context': 'https://schema.org',
@@ -48,21 +37,9 @@ export function PhilippinesAccountRecoveryArticle() {
     ],
   };
 
-  return <>
-    <SafeHeader />
-    <main className="article-page strict-article-page">
-      <JsonLd data={schema} />
-      <article data-article-marker="ph-account-recovery-support-v1">
-        <header className="article-hero">
-          <div className="article-shell">
-            <p className="eyebrow">Philippines staffing guide</p>
-            <h1>{accountRecoveryTitle}</h1>
-            <p className="lead">Give Philippines-based support staff a clear way to help a locked-out customer without letting one message, one caller, or one worker take control of the account.</p>
-            <p className="article-intro narrative">Account recovery is a sensitive support task because the person asking for help may be the customer or someone trying to become the customer. The safest plan gives the Filipino support worker a fixed check, a firm stop point, and a named company owner for approval.</p>
-          </div>
-        </header>
-
-        <div className="article-shell article-body">
+  return <EditorialArticle family="Blog" title={accountRecoveryTitle} dek={accountRecoveryDescription} slug={accountRecoverySlug} published="2026-07-28" readMinutes={13} hero="/illustrations/customer-support.svg" heroAlt="Customer account recovery illustration" sections={[]} schema={<JsonLd data={schema} />}>
+        <div className="article-body bespoke-article-body" data-article-marker="ph-account-recovery-support-v1">
+          <p className="article-intro narrative">Account recovery is a sensitive support task because the person asking for help may be the customer or someone trying to become the customer. The safest plan gives the Filipino support worker a fixed check, a firm stop point, and a named company owner for approval.</p>
           <section className="takeaway-box" aria-labelledby="recovery-short-list-title">
             <p className="eyebrow">The short list</p>
             <h2 id="recovery-short-list-title">Five rules for a recovery request</h2>
@@ -99,7 +76,7 @@ export function PhilippinesAccountRecoveryArticle() {
           </div>
           <p className="methods-note">Methods note: The chart uses four complaint counts from the FBI IC3 2024 annual report. The bars use a square-root scale, with the smallest bar widened so its label stays readable; the categories can overlap and must not be added or treated as Philippines outsourcing figures.</p>
 
-          <Banner label="Protect the worker account first" title="Set safe access before support begins" body="Give each Philippines-based support worker a named account, small permissions, and a manager-owned removal path." href="/blog/philippines-remote-staff-data-access-checklist" link="Open the access checklist" />
+
 
           <section className="article-section" aria-labelledby="recovery-table-title">
             <h2 id="recovery-table-title">Give the team one decision table</h2>
@@ -142,7 +119,7 @@ export function PhilippinesAccountRecoveryArticle() {
             <p className="narrative">The worker should not promise that access will return during the same chat or call. They can give the case number, explain the next review step, and say where an approved notice will arrive.</p>
           </section>
 
-          <Banner label="Keep the support lane clear" title="Write the escalation line" body="Let Philippines-based support staff collect and route the case while your company keeps sensitive access decisions with named owners." href="/services/customer-support" link="Plan customer support" />
+
 
           <section className="article-section" aria-labelledby="recovery-path-title">
             <h2 id="recovery-path-title">Use a five-step recovery handoff</h2>
@@ -194,7 +171,7 @@ export function PhilippinesAccountRecoveryArticle() {
             <p className="narrative">Repeat the drill after the product, support tool, account owner, or customer verification process changes. The goal is a calm handoff that still works when the requester is angry, rushed, or convincing.</p>
           </section>
 
-          <Banner label="Turn the checklist into a role brief" title="Name the queue, checks, and owners" body="Share the support lane, stop rules, approval owners, and customer notice path before a Philippines-based worker starts." href="/contact" link="Contact us" />
+
 
           <section className="article-section" id="faq" aria-labelledby="recovery-faq-title">
             <p className="eyebrow">Common questions</p>
@@ -217,8 +194,5 @@ export function PhilippinesAccountRecoveryArticle() {
             <ol>{sources.map((source, index) => <li key={source.url}><span className="source-number">{index + 1}.</span> <a href={source.url} rel="noreferrer">{source.name}</a></li>)}</ol>
           </section>
         </div>
-      </article>
-    </main>
-    <SafeFooter />
-  </>;
+  </EditorialArticle>;
 }

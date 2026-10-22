@@ -60,14 +60,8 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
       window.location.assign("/thank-you");
     } catch {
-      try {
-        const tracker = (window as TrackerWindow).acrTracker?.trackLead;
-        if (tracker) {
-          tracker(payload);
-          window.location.assign("/thank-you");
-          return;
-        }
-      } catch {}
+      // Analytics is not lead delivery. Never present a tracker-only event as success.
+      try { (window as TrackerWindow).acrTracker?.trackLead?.({ ...payload, deliveryStatus: "failed" }); } catch {}
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);
     }
@@ -82,8 +76,8 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
           <label>Last Name *<input name="lastName" required autoComplete="family-name" /></label>
         </div>
-        <label>Business Email *<input name="email" type="email" required autoComplete="email" /><small>Not Accepting Personal Email</small></label>
-        <label>Phone Number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        <label>Business Email *<input name="email" type="email" required autoComplete="email" /><small>Where we can reply to your request</small></label>
+        <label>Phone Number *<span className="sa-phone"><select name="countryCode" aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
         <div className="sa-grid">
           <label>Company Name *<input name="companyName" required autoComplete="organization" /></label>
           <label>Website / URL<input name="website" placeholder="example.com" autoComplete="url" /></label>
@@ -99,15 +93,15 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book a Free Consultation"}</button>
       </form>
       <style jsx>{`
-        .sa-form-card{box-sizing:border-box;width:100%;min-width:0;max-width:876px;margin:0 auto;background:#fff;border:1px solid #e3e8ef;border-radius:22px;padding:34px 48px 48px;box-shadow:0 18px 48px rgba(15,34,58,.16);color:#34415a;text-align:left}
-        h2{margin:0 0 30px;color:#111827;font-size:30px;line-height:1.35;font-weight:800;letter-spacing:-.02em;max-width:700px}
-        form{display:flex;min-width:0;flex-direction:column;gap:22px}.sa-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
-        label{display:flex;min-width:0;flex-direction:column;gap:8px;font-size:18px;line-height:1.3;font-weight:500;color:#34415a}
-        input,select,textarea{box-sizing:border-box;width:100%;min-width:0;max-width:100%;border:1px solid #cfd7e3;border-radius:12px;background:#fff;color:#1f2937;font:inherit;font-size:17px;padding:15px 17px;outline:none;min-height:58px}
+        .sa-form-card{box-sizing:border-box;width:100%;min-width:0;max-width:876px;margin:0 auto;background:#fff;border:1px solid #e3e8ef;border-radius:18px;padding:18px 24px 20px;box-shadow:0 18px 48px rgba(15,34,58,.16);color:#34415a;text-align:left}
+        h2{margin:0 0 12px;color:#111827;font-size:20px;line-height:1.2;font-weight:800;letter-spacing:-.02em;max-width:700px}
+        form{display:flex;min-width:0;flex-direction:column;gap:8px}.sa-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+        label{display:flex;min-width:0;flex-direction:column;gap:3px;font-size:12px;line-height:1.2;font-weight:700;color:#34415a}
+        input,select,textarea{box-sizing:border-box;width:100%;min-width:0;max-width:100%;border:1px solid #cfd7e3;border-radius:8px;background:#fff;color:#1f2937;font:inherit;font-size:13px;padding:7px 10px;outline:none;min-height:35px}
         input:focus,select:focus,textarea:focus{border-color:#00adf4;box-shadow:0 0 0 3px rgba(0,173,244,.14)}
-        small{margin-top:-3px;color:#7b869b;font-size:15px;font-weight:400}.sa-phone{display:grid;grid-template-columns:146px 1fr;border:1px solid #cfd7e3;border-radius:12px;overflow:hidden}.sa-phone:focus-within{border-color:#00adf4;box-shadow:0 0 0 3px rgba(0,173,244,.14)}
+        small{margin-top:-2px;color:#7b869b;font-size:10px;font-weight:400}.sa-phone{display:grid;grid-template-columns:110px 1fr;border:1px solid #cfd7e3;border-radius:8px;overflow:hidden}.sa-phone:focus-within{border-color:#00adf4;box-shadow:0 0 0 3px rgba(0,173,244,.14)}
         .sa-phone select,.sa-phone input{border:0;border-radius:0;box-shadow:none!important}.sa-phone select{border-right:1px solid #dbe1ea;padding-right:8px}.sa-phone input{min-width:0}
-        textarea{resize:vertical;min-height:150px}button{width:100%;border:0;border-radius:12px;background:linear-gradient(100deg,#05acec,#79cdf1);color:#fff;padding:20px 24px;font-size:21px;font-weight:700;cursor:pointer;box-shadow:0 7px 16px rgba(0,173,244,.22)}
+        textarea{resize:vertical;min-height:56px}button{width:100%;border:0;border-radius:9px;background:linear-gradient(100deg,#05acec,#79cdf1);color:#fff;padding:11px 18px;font-size:15px;font-weight:800;cursor:pointer;box-shadow:0 7px 16px rgba(0,173,244,.22)}
         button:hover{filter:brightness(.98)}button:disabled{cursor:wait;opacity:.65}.sa-error{margin:0;color:#b42318;font-size:14px}.sa-hp{display:none!important}
         @media(max-width:700px){.sa-form-card{padding:26px 20px 30px;border-radius:18px}h2{font-size:25px;overflow-wrap:anywhere}.sa-grid{grid-template-columns:minmax(0,1fr);gap:22px}label{font-size:17px}.sa-phone{grid-template-columns:minmax(0,122px) minmax(0,1fr)}button{font-size:19px}}
       `}</style>
