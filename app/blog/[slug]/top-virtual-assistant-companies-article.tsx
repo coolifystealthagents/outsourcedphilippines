@@ -591,10 +591,10 @@ export function TopVirtualAssistantCompaniesArticle() {
               <p className="eyebrow light">Buyer checklist</p>
               <h2 id="compare-title">What to check before you hire</h2>
               <div className="va-check-grid">
-                <article><span>01</span><h3>Write the Filipino VA role</h3><p>List five weekly tasks and one good example for each. State the Philippine shift hours and tools too.</p></article>
-                <article><span>02</span><h3>Name the daily quality lead</h3><p>Ask who reviews work and handles a missed shift. Put correction and replacement steps in the role plan.</p></article>
-                <article><span>03</span><h3>Count the full Philippines service</h3><p>Include setup, software, management, overtime, holidays, and replacement costs. Compare the work received, not only the hourly price.</p></article>
-                <article><span>04</span><h3>Open only needed accounts</h3><p>Give each Filipino VA a separate login with small permissions. Keep payments, legal judgment, clinical choices, and risky approvals with your manager.</p></article>
+                <article><h3>Write the Filipino VA role</h3><p>List five weekly tasks and one good example for each. State the Philippine shift hours and tools too.</p></article>
+                <article><h3>Name the daily quality lead</h3><p>Ask who reviews work and handles a missed shift. Put correction and replacement steps in the role plan.</p></article>
+                <article><h3>Count the full Philippines service</h3><p>Include setup, software, management, overtime, holidays, and replacement costs. Compare the work received, not only the hourly price.</p></article>
+                <article><h3>Open only needed accounts</h3><p>Give each Filipino VA a separate login with small permissions. Keep payments, legal judgment, clinical choices, and risky approvals with your manager.</p></article>
               </div>
             </section>
 

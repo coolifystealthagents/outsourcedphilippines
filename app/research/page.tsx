@@ -2,7 +2,7 @@ import { Footer, Header } from '../components';
 import { researchPosts } from '../fleet-content';
 import { estimateReadMinutes, formatEditorialDate, resolveArticleHero } from '../editorial';
 
-export const metadata = { title: 'Research', description: 'Research notes about Philippines-based staffing and operations.' };
+export const metadata = { title: 'Research', description: 'Research notes about Philippines-based staffing and operations.', alternates: { canonical: '/research' } };
 const frozenAug10 = new Set(['philippines-appointment-setting-research', 'philippines-ecommerce-customer-care-research', 'philippines-executive-travel-support-research', 'philippines-finance-reconciliation-support-research', 'philippines-healthcare-privacy-admin-research', 'philippines-legal-records-admin-research', 'philippines-project-status-reporting-research', 'philippines-real-estate-transaction-admin-research', 'philippines-recruitment-sourcing-research', 'philippines-sales-development-research', 'philippines-social-media-operations-research', 'philippines-sop-audit-research']);
 export default function Research() {
   const newestFirst = [...researchPosts].sort((a, b) => b.published.localeCompare(a.published) || Number(frozenAug10.has(b.slug)) - Number(frozenAug10.has(a.slug)));

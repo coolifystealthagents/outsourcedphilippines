@@ -5,7 +5,16 @@ const canonicalHost = 'outsourcedphilippines.com';
 export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
   const forwardedHost = (request.headers.get('x-forwarded-host') || request.headers.get('host') || '').split(':')[0].toLowerCase();
-  const forwardedProto = (request.headers.get('x-forwarded-proto') || url.protocol.replace(':', '')).split(',')[0].trim();
+  const cfVisitor = request.headers.get('cf-visitor');
+  let visitorProto = '';
+  if (cfVisitor) {
+    try {
+      visitorProto = String(JSON.parse(cfVisitor).scheme || '').toLowerCase();
+    } catch {
+      visitorProto = '';
+    }
+  }
+  const forwardedProto = (visitorProto || request.headers.get('x-forwarded-proto') || url.protocol.replace(':', '')).split(',')[0].trim().toLowerCase();
   const isProductionHost = forwardedHost === canonicalHost || forwardedHost === `www.${canonicalHost}`;
 
   if (url.pathname === '/contact') {
