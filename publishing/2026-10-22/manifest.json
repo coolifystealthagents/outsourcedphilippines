@@ -1,118 +1,205 @@
 {
+  "date": "2026-10-22",
   "site": "OutsourcedPhilippines.com",
+  "canonicalDomain": "https://outsourcedphilippines.com",
   "repository": "coolifystealthagents/outsourcedphilippines",
   "branch": "main",
-  "baseSha": "891c5810f5931044fe820edb0babc27efc1194bd",
-  "date": "2026-10-22",
-  "blog": [
+  "baseSha": "c611d5ba4245a6012f226f637a7ac9666438ce65",
+  "blogCount": 12,
+  "researchCount": 5,
+  "blogRegistry": "app/data.ts",
+  "researchRegistry": "app/fleet-content.ts",
+  "blogIndex": "app/blog/blog-listing.tsx",
+  "researchIndex": "app/research/page.tsx",
+  "blogRoute": "app/blog/[slug]/page.tsx",
+  "researchRoute": "app/research/[slug]/page.tsx",
+  "items": [
     {
-      "slug": "philippines-client-visit-logistics-packet",
-      "title": "Prepare a Philippines Client Visit Logistics Packet",
-      "route": "/blog/philippines-client-visit-logistics-packet",
-      "thumbnail": "/oct22/blog/philippines-client-visit-logistics-packet.webp"
+      "system": "Blog",
+      "slug": "philippines-hiring-scorecard-evidence",
+      "title": "Build a Hiring Scorecard That Holds Up to Review",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-hiring-scorecard-evidence",
+      "thumbnail": "/oct22/blog/philippines-hiring-scorecard-evidence.png",
+      "thumbnailTitle": "Build a Hiring Scorecard That Holds Up to Review",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-team-equipment-replacement",
-      "title": "Coordinate Philippines Team Equipment Replacement",
-      "route": "/blog/philippines-team-equipment-replacement",
-      "thumbnail": "/oct22/blog/philippines-team-equipment-replacement.webp"
+      "system": "Blog",
+      "slug": "philippines-timezone-overlap-planning",
+      "title": "Plan Philippines Time Zone Overlap Without Guesswork",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-timezone-overlap-planning",
+      "thumbnail": "/oct22/blog/philippines-timezone-overlap-planning.png",
+      "thumbnailTitle": "Plan Philippines Time Zone Overlap Without Guesswork",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-bilingual-email-qa",
-      "title": "QA Bilingual Customer Emails Without Changing Meaning",
-      "route": "/blog/philippines-bilingual-email-qa",
-      "thumbnail": "/oct22/blog/philippines-bilingual-email-qa.webp"
+      "system": "Blog",
+      "slug": "philippines-payroll-cutoff-calendar",
+      "title": "Run a Payroll Cutoff Calendar With Named Owners",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-payroll-cutoff-calendar",
+      "thumbnail": "/oct22/blog/philippines-payroll-cutoff-calendar.png",
+      "thumbnailTitle": "Run a Payroll Cutoff Calendar With Named Owners",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-shift-swap-coverage",
-      "title": "Accept a Philippines Shift Swap Without Hidden Overtime",
-      "route": "/blog/philippines-shift-swap-coverage",
-      "thumbnail": "/oct22/blog/philippines-shift-swap-coverage.webp"
+      "system": "Blog",
+      "slug": "philippines-thirteenth-month-input-checklist",
+      "title": "Prepare a Thirteenth Month Input Checklist for Payroll Review",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-thirteenth-month-input-checklist",
+      "thumbnail": "/oct22/blog/philippines-thirteenth-month-input-checklist.png",
+      "thumbnailTitle": "Prepare a Thirteenth Month Input Checklist for Payroll Review",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-vendor-invoice-receipt-intake",
-      "title": "Intake Vendor Invoices Without Approving Payment",
-      "route": "/blog/philippines-vendor-invoice-receipt-intake",
-      "thumbnail": "/oct22/blog/philippines-vendor-invoice-receipt-intake.webp"
+      "system": "Blog",
+      "slug": "philippines-holiday-premium-verification",
+      "title": "Verify Holiday Premium Inputs Without Recalculating the Law",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-holiday-premium-verification",
+      "thumbnail": "/oct22/blog/philippines-holiday-premium-verification.png",
+      "thumbnailTitle": "Verify Holiday Premium Inputs Without Recalculating the Law",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-records-retention-purge",
-      "title": "Apply a Records Retention Purge Hold in Philippines Operations",
-      "route": "/blog/philippines-records-retention-purge",
-      "thumbnail": "/oct22/blog/philippines-records-retention-purge.webp"
+      "system": "Blog",
+      "slug": "philippines-home-office-internet-resilience",
+      "title": "Test Home Office Internet Resilience Before It Fails",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-home-office-internet-resilience",
+      "thumbnail": "/oct22/blog/philippines-home-office-internet-resilience.png",
+      "thumbnailTitle": "Test Home Office Internet Resilience Before It Fails",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-new-client-workspace-provisioning",
-      "title": "Provision a New Client Workspace With Least Access",
-      "route": "/blog/philippines-new-client-workspace-provisioning",
-      "thumbnail": "/oct22/blog/philippines-new-client-workspace-provisioning.webp"
+      "system": "Blog",
+      "slug": "philippines-background-check-consent-log",
+      "title": "Keep a Background Check Consent Log That Can Survive an Audit",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-background-check-consent-log",
+      "thumbnail": "/oct22/blog/philippines-background-check-consent-log.png",
+      "thumbnailTitle": "Keep a Background Check Consent Log That Can Survive an Audit",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-quality-calibration-scheduling",
-      "title": "Schedule Quality Calibration Across Philippines Shifts",
-      "route": "/blog/philippines-quality-calibration-scheduling",
-      "thumbnail": "/oct22/blog/philippines-quality-calibration-scheduling.webp"
+      "system": "Blog",
+      "slug": "philippines-offboarding-final-pay-checklist",
+      "title": "Coordinate Offboarding and Final Pay Inputs With One Checklist",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-offboarding-final-pay-checklist",
+      "thumbnail": "/oct22/blog/philippines-offboarding-final-pay-checklist.png",
+      "thumbnailTitle": "Coordinate Offboarding and Final Pay Inputs With One Checklist",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-customer-refund-evidence",
-      "title": "Route Customer Refund Evidence Without Promising the Remedy",
-      "route": "/blog/philippines-customer-refund-evidence",
-      "thumbnail": "/oct22/blog/philippines-customer-refund-evidence.webp"
+      "system": "Blog",
+      "slug": "philippines-team-lead-span-of-control",
+      "title": "Set a Team Lead Span of Control You Can Defend",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-team-lead-span-of-control",
+      "thumbnail": "/oct22/blog/philippines-team-lead-span-of-control.png",
+      "thumbnailTitle": "Set a Team Lead Span of Control You Can Defend",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-incident-bridge-communication",
-      "title": "Run an Incident Bridge Communication Log",
-      "route": "/blog/philippines-incident-bridge-communication",
-      "thumbnail": "/oct22/blog/philippines-incident-bridge-communication.webp"
+      "system": "Blog",
+      "slug": "philippines-shift-differential-review",
+      "title": "Review Shift Differential Inputs as a Controlled Process",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-shift-differential-review",
+      "thumbnail": "/oct22/blog/philippines-shift-differential-review.png",
+      "thumbnailTitle": "Review Shift Differential Inputs as a Controlled Process",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-recognition-data-handling",
-      "title": "Handle Philippines Team Recognition Data With Care",
-      "route": "/blog/philippines-recognition-data-handling",
-      "thumbnail": "/oct22/blog/philippines-recognition-data-handling.webp"
+      "system": "Blog",
+      "slug": "philippines-performance-review-evidence",
+      "title": "Collect Performance Review Evidence Without Surprises",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-performance-review-evidence",
+      "thumbnail": "/oct22/blog/philippines-performance-review-evidence.png",
+      "thumbnailTitle": "Collect Performance Review Evidence Without Surprises",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
     },
     {
-      "slug": "philippines-service-report-delivery",
-      "title": "Verify Philippines Service Report Delivery",
-      "route": "/blog/philippines-service-report-delivery",
-      "thumbnail": "/oct22/blog/philippines-service-report-delivery.webp"
+      "system": "Blog",
+      "slug": "philippines-replacement-handoff-plan",
+      "title": "Write a Replacement Handoff Plan Before the Seat Empties",
+      "date": "2026-10-22",
+      "source": "app/blog/oct22-blog-batch.ts",
+      "route": "/blog/philippines-replacement-handoff-plan",
+      "thumbnail": "/oct22/blog/philippines-replacement-handoff-plan.png",
+      "thumbnailTitle": "Write a Replacement Handoff Plan Before the Seat Empties",
+      "sha256": "d03f818a16e12e6ae19d047ff7174506b4978c8b438df4af636a575bfebd635d"
+    },
+    {
+      "system": "Research",
+      "slug": "philippines-time-zone-overlap-observation-study",
+      "title": "Observing Time Zone Overlap in Philippines Service Lanes",
+      "date": "2026-10-22",
+      "source": "app/oct22-research-batch.ts",
+      "route": "/research/philippines-time-zone-overlap-observation-study",
+      "thumbnail": "/oct22/research/philippines-time-zone-overlap-observation-study.webp",
+      "thumbnailTitle": "Observing Time Zone Overlap in Philippines Service Lanes",
+      "sha256": "002352b12ea1199fb43e5382fee4833284122cf76f71c7c166bbff3f17670577"
+    },
+    {
+      "system": "Research",
+      "slug": "philippines-onboarding-time-to-independence-protocol",
+      "title": "Measuring Time to Independence in Philippines Onboarding",
+      "date": "2026-10-22",
+      "source": "app/oct22-research-batch.ts",
+      "route": "/research/philippines-onboarding-time-to-independence-protocol",
+      "thumbnail": "/oct22/research/philippines-onboarding-time-to-independence-protocol.webp",
+      "thumbnailTitle": "Measuring Time to Independence in Philippines Onboarding",
+      "sha256": "002352b12ea1199fb43e5382fee4833284122cf76f71c7c166bbff3f17670577"
+    },
+    {
+      "system": "Research",
+      "slug": "philippines-attrition-signal-review-method",
+      "title": "Reviewing Attrition Signals Without Predicting Individuals",
+      "date": "2026-10-22",
+      "source": "app/oct22-research-batch.ts",
+      "route": "/research/philippines-attrition-signal-review-method",
+      "thumbnail": "/oct22/research/philippines-attrition-signal-review-method.webp",
+      "thumbnailTitle": "Reviewing Attrition Signals Without Predicting Individuals",
+      "sha256": "002352b12ea1199fb43e5382fee4833284122cf76f71c7c166bbff3f17670577"
+    },
+    {
+      "system": "Research",
+      "slug": "philippines-payroll-exception-ownership-audit",
+      "title": "Auditing Payroll Exception Ownership in Philippines Operations",
+      "date": "2026-10-22",
+      "source": "app/oct22-research-batch.ts",
+      "route": "/research/philippines-payroll-exception-ownership-audit",
+      "thumbnail": "/oct22/research/philippines-payroll-exception-ownership-audit.webp",
+      "thumbnailTitle": "Auditing Payroll Exception Ownership in Philippines Operations",
+      "sha256": "002352b12ea1199fb43e5382fee4833284122cf76f71c7c166bbff3f17670577"
+    },
+    {
+      "system": "Research",
+      "slug": "philippines-holiday-calendar-version-control-study",
+      "title": "Version Control for Philippines Holiday Calendars",
+      "date": "2026-10-22",
+      "source": "app/oct22-research-batch.ts",
+      "route": "/research/philippines-holiday-calendar-version-control-study",
+      "thumbnail": "/oct22/research/philippines-holiday-calendar-version-control-study.webp",
+      "thumbnailTitle": "Version Control for Philippines Holiday Calendars",
+      "sha256": "002352b12ea1199fb43e5382fee4833284122cf76f71c7c166bbff3f17670577"
     }
-  ],
-  "research": [
-    {
-      "slug": "philippines-handoff-evidence-completeness-study",
-      "title": "Philippines Shift Handoff Evidence Completeness Study",
-      "route": "/research/philippines-handoff-evidence-completeness-study",
-      "thumbnail": "/oct22/research/philippines-handoff-evidence-completeness-study.webp"
-    },
-    {
-      "slug": "philippines-bilingual-email-agreement-study",
-      "title": "Bilingual Email Review Agreement Study",
-      "route": "/research/philippines-bilingual-email-agreement-study",
-      "thumbnail": "/oct22/research/philippines-bilingual-email-agreement-study.webp"
-    },
-    {
-      "slug": "philippines-equipment-downtime-study",
-      "title": "Remote Equipment Replacement Downtime Study",
-      "route": "/research/philippines-equipment-downtime-study",
-      "thumbnail": "/oct22/research/philippines-equipment-downtime-study.webp"
-    },
-    {
-      "slug": "philippines-workspace-provisioning-latency-study",
-      "title": "Client Workspace Provisioning Latency Study",
-      "route": "/research/philippines-workspace-provisioning-latency-study",
-      "thumbnail": "/oct22/research/philippines-workspace-provisioning-latency-study.webp"
-    },
-    {
-      "slug": "philippines-report-delivery-evidence-study",
-      "title": "Service Report Delivery Evidence Study",
-      "route": "/research/philippines-report-delivery-evidence-study",
-      "thumbnail": "/oct22/research/philippines-report-delivery-evidence-study.webp"
-    }
-  ],
-  "expected": {
-    "blog": 12,
-    "research": 5,
-    "thumbnails": 17
-  }
+  ]
 }

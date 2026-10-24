@@ -168,7 +168,7 @@ export function EditorialToc({ items, auto = false, title, slug, family, publish
     <details className="editorial-mobile-toc">
       <summary>On this page <span aria-hidden="true">+</span></summary>
       <nav aria-label="Table of contents"><TocLinks items={sections} active={active} /></nav>
-      <p className="editorial-mobile-meta">Outsourced Philippines{date ? ` · ${date}` : ''} · {readMinutes} min read</p>
+      <p className="editorial-mobile-meta">Outsourced Philippines · {readMinutes} min read</p>
     </details>
     <aside className="editorial-sidebar" aria-label={`Article information for ${title}`}>
       <div className="editorial-sidebar-scroll">
@@ -176,7 +176,7 @@ export function EditorialToc({ items, auto = false, title, slug, family, publish
         <nav aria-label="Table of contents"><TocLinks items={sections} active={active} /></nav>
         <div className="editorial-sidebar-block">
           <b>Published by Outsourced Philippines</b>
-          {date && <time dateTime={published}>{date}</time>}
+          
           <span>{readMinutes} min read</span>
           <p>Resources selected for “{title}”.</p>
         </div>

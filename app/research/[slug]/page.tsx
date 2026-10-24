@@ -19,7 +19,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
   const post = researchPosts.find((item) => item.slug === slug);
   if (!post) notFound();
   const headings = ['Key stats', 'Methodology', 'Key takeaways', ...post.dataSections.map((section) => section.heading), ...(post.serviceHandoff ? ['Next step'] : []), 'FAQs', 'Sources', 'Related research'];
-  const sections = headings.map((label, index) => ({ id: `${slugifyHeading(label)}-${index + 1}`, label }));
+  const sections = headings.map((label, index) => ({ id: label === 'Sources' ? 'sources' : `${slugifyHeading(label)}-${index + 1}`, label }));
   let sectionIndex = 0;
   const next = () => sections[sectionIndex++].id;
   const allText = [post.excerpt, post.statistic, post.methodology, ...post.body, ...post.dataSections.map((section) => section.text), ...post.faqs.flatMap((faq) => [faq.question, faq.answer])].join(' ');

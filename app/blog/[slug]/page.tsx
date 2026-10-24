@@ -120,7 +120,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <p className="eyebrow">{site.brand} guide</p>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
-            {publishedAt && <time dateTime={publishedAt}>Published: {formatReaderDate(publishedAt)}</time>}
+            {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
             <img src={heroImage} alt={`Editorial illustration for ${post.title}`} width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
             <StickyArticleToc scope="article" />
@@ -139,7 +139,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               </section>
             ))}
             <section className="source-box" aria-labelledby="daily-guide-sources">
-              <h2 id="daily-guide-sources">Sources and next steps</h2>
+              <span id="sources-title" /><h2 id="daily-guide-sources">Sources and next steps</h2>
               {'servicePath' in basic && typeof basic.servicePath === 'string'
                 ? <p>Continue with <a href={basic.servicePath}>{'serviceLabel' in basic && typeof basic.serviceLabel === 'string' ? basic.serviceLabel : 'the relevant service lane'}</a>, then confirm scope, authority, and review ownership before expanding the role.</p>
                 : <p>Use the <a href="/services/operations-support">operations support work lane</a> as a practical starting point, then review <a href="/blog/outsourced-Philippines-staffing-onboarding-checklist">the onboarding checklist</a> before expanding the role.</p>}
@@ -233,7 +233,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <p className="eyebrow">Provider checklist</p>
               <h1>{post.title}</h1>
               <p className="lead">{post.excerpt}</p>
-              {publishedAt && <time dateTime={publishedAt}>Published: {formatReaderDate(publishedAt)}</time>}
+              {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
               <img src={resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug)} alt={`Editorial illustration for ${post.title}`} width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
               <p className="article-intro">A provider should be able to explain who owns the worker relationship, how work is checked, and what happens when something goes wrong. Use this guide to move the sales call past promises and into the details you will rely on after hiring.</p>
             </div>

@@ -77,3 +77,4 @@ body{overflow-x:clip}
   .hat-toc-mobile{display:block}
   .hat-toc ol{grid-template-columns:1fr;margin-top:10px}
 }
+.hat-toc-mobile{position:sticky;top:78px;z-index:40;max-height:60vh;overflow:auto;background:#fff}
