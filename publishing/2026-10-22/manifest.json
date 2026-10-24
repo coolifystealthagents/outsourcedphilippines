@@ -1,0 +1,118 @@
+{
+  "site": "OutsourcedPhilippines.com",
+  "repository": "coolifystealthagents/outsourcedphilippines",
+  "branch": "main",
+  "baseSha": "891c5810f5931044fe820edb0babc27efc1194bd",
+  "date": "2026-10-22",
+  "blog": [
+    {
+      "slug": "philippines-client-visit-logistics-packet",
+      "title": "Prepare a Philippines Client Visit Logistics Packet",
+      "route": "/blog/philippines-client-visit-logistics-packet",
+      "thumbnail": "/oct22/blog/philippines-client-visit-logistics-packet.webp"
+    },
+    {
+      "slug": "philippines-team-equipment-replacement",
+      "title": "Coordinate Philippines Team Equipment Replacement",
+      "route": "/blog/philippines-team-equipment-replacement",
+      "thumbnail": "/oct22/blog/philippines-team-equipment-replacement.webp"
+    },
+    {
+      "slug": "philippines-bilingual-email-qa",
+      "title": "QA Bilingual Customer Emails Without Changing Meaning",
+      "route": "/blog/philippines-bilingual-email-qa",
+      "thumbnail": "/oct22/blog/philippines-bilingual-email-qa.webp"
+    },
+    {
+      "slug": "philippines-shift-swap-coverage",
+      "title": "Accept a Philippines Shift Swap Without Hidden Overtime",
+      "route": "/blog/philippines-shift-swap-coverage",
+      "thumbnail": "/oct22/blog/philippines-shift-swap-coverage.webp"
+    },
+    {
+      "slug": "philippines-vendor-invoice-receipt-intake",
+      "title": "Intake Vendor Invoices Without Approving Payment",
+      "route": "/blog/philippines-vendor-invoice-receipt-intake",
+      "thumbnail": "/oct22/blog/philippines-vendor-invoice-receipt-intake.webp"
+    },
+    {
+      "slug": "philippines-records-retention-purge",
+      "title": "Apply a Records Retention Purge Hold in Philippines Operations",
+      "route": "/blog/philippines-records-retention-purge",
+      "thumbnail": "/oct22/blog/philippines-records-retention-purge.webp"
+    },
+    {
+      "slug": "philippines-new-client-workspace-provisioning",
+      "title": "Provision a New Client Workspace With Least Access",
+      "route": "/blog/philippines-new-client-workspace-provisioning",
+      "thumbnail": "/oct22/blog/philippines-new-client-workspace-provisioning.webp"
+    },
+    {
+      "slug": "philippines-quality-calibration-scheduling",
+      "title": "Schedule Quality Calibration Across Philippines Shifts",
+      "route": "/blog/philippines-quality-calibration-scheduling",
+      "thumbnail": "/oct22/blog/philippines-quality-calibration-scheduling.webp"
+    },
+    {
+      "slug": "philippines-customer-refund-evidence",
+      "title": "Route Customer Refund Evidence Without Promising the Remedy",
+      "route": "/blog/philippines-customer-refund-evidence",
+      "thumbnail": "/oct22/blog/philippines-customer-refund-evidence.webp"
+    },
+    {
+      "slug": "philippines-incident-bridge-communication",
+      "title": "Run an Incident Bridge Communication Log",
+      "route": "/blog/philippines-incident-bridge-communication",
+      "thumbnail": "/oct22/blog/philippines-incident-bridge-communication.webp"
+    },
+    {
+      "slug": "philippines-recognition-data-handling",
+      "title": "Handle Philippines Team Recognition Data With Care",
+      "route": "/blog/philippines-recognition-data-handling",
+      "thumbnail": "/oct22/blog/philippines-recognition-data-handling.webp"
+    },
+    {
+      "slug": "philippines-service-report-delivery",
+      "title": "Verify Philippines Service Report Delivery",
+      "route": "/blog/philippines-service-report-delivery",
+      "thumbnail": "/oct22/blog/philippines-service-report-delivery.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "philippines-handoff-evidence-completeness-study",
+      "title": "Philippines Shift Handoff Evidence Completeness Study",
+      "route": "/research/philippines-handoff-evidence-completeness-study",
+      "thumbnail": "/oct22/research/philippines-handoff-evidence-completeness-study.webp"
+    },
+    {
+      "slug": "philippines-bilingual-email-agreement-study",
+      "title": "Bilingual Email Review Agreement Study",
+      "route": "/research/philippines-bilingual-email-agreement-study",
+      "thumbnail": "/oct22/research/philippines-bilingual-email-agreement-study.webp"
+    },
+    {
+      "slug": "philippines-equipment-downtime-study",
+      "title": "Remote Equipment Replacement Downtime Study",
+      "route": "/research/philippines-equipment-downtime-study",
+      "thumbnail": "/oct22/research/philippines-equipment-downtime-study.webp"
+    },
+    {
+      "slug": "philippines-workspace-provisioning-latency-study",
+      "title": "Client Workspace Provisioning Latency Study",
+      "route": "/research/philippines-workspace-provisioning-latency-study",
+      "thumbnail": "/oct22/research/philippines-workspace-provisioning-latency-study.webp"
+    },
+    {
+      "slug": "philippines-report-delivery-evidence-study",
+      "title": "Service Report Delivery Evidence Study",
+      "route": "/research/philippines-report-delivery-evidence-study",
+      "thumbnail": "/oct22/research/philippines-report-delivery-evidence-study.webp"
+    }
+  ],
+  "expected": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  }
+}

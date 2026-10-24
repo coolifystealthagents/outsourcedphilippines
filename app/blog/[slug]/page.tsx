@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
+import { StickyArticleToc } from '../../sticky-article-toc';
 import { blogBasics, blogDetails, blogPosts, site } from '../../data';
 import { PhilippinesRemoteAccessArticle, remoteAccessDescription, remoteAccessSlug, remoteAccessTitle, remoteAccessUrl } from './philippines-remote-access-article';
 import { incidentResponseDescription, incidentResponseSlug, incidentResponseTitle, incidentResponseUrl, PhilippinesIncidentResponseArticle } from './philippines-incident-response-article';
@@ -122,6 +123,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             {publishedAt && <time dateTime={publishedAt}>Published: {formatReaderDate(publishedAt)}</time>}
             <img src={heroImage} alt={`Editorial illustration for ${post.title}`} width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
+            <StickyArticleToc scope="article" />
             {Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) && <section className="article-section" aria-labelledby="route-local-guide">
               <h2 id="route-local-guide">The route-local operating guide</h2>
               {(basic as unknown as { routeBody: readonly string[] }).routeBody.filter((paragraph: string) => !paragraph.startsWith('Route-local closeout.')).map((paragraph: string) => <p key={paragraph}>{paragraph}</p>)}

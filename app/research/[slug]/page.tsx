@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import {StickyArticleToc} from '../../sticky-article-toc';
 import { researchPosts } from '../../fleet-content';
 import { EditorialArticle, estimateReadMinutes, resolveArticleHero, slugifyHeading } from '../../editorial';
 
