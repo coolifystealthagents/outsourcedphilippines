@@ -23,7 +23,7 @@ for (const entry of manifest.entries) {
   parent.includes(`makeResearch('${entry.slug}'`) && fail(`frozen identity existed before introduction: ${entry.slug}`);
 }
 const route = fs.readFileSync(path.join(root, 'app/research/[slug]/page.tsx'), 'utf8');
-route.includes('datePublished:post.published') && route.includes('post.published') || fail('renderer does not expose published date');
+/datePublished\s*:\s*post\.published\b/.test(route) || fail('renderer does not expose post.published as Article datePublished');
 const index = fs.readFileSync(path.join(root, 'app/research/page.tsx'), 'utf8');
 index.includes('frozenAug10') && index.includes('b.published.localeCompare(a.published)') || fail('index tie ordering is not explicit');
 fs.existsSync(path.join(root, '.next/server/app/research')) || fail('production build output is missing');
