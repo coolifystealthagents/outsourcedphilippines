@@ -4,7 +4,7 @@ Status: source-only planning record. It does not add reader-facing links or clai
 
 ## Scope and rules
 
-This map covers the ten generated Philippines-only service pages in `app/fleet-content.ts`. Each supporting research route answers a narrower planning question for the same service pillar. A future editor may add only one contextual handoff after checking the rendered source, target route, service scope, and deployment routine.
+This map covers the eleven generated Philippines-only service pages in `app/fleet-content.ts`. Each supporting research route answers a narrower planning question for the same service pillar. A future editor may add only one contextual handoff after checking the rendered source, target route, service scope, and deployment routine.
 
 - Do not duplicate the existing project-coordination handoff.
 - Keep Philippines-based staffing context and the stated owner-approval boundaries.
@@ -25,6 +25,7 @@ This map covers the ten generated Philippines-only service pages in `app/fleet-c
 | `/services/digital-marketing-operations` | `/research/philippines-marketing-operations-research` | Which campaign preparation and QA tasks can proceed before a brand owner approves publication? | Existing route-specific handoff: `Plan digital marketing operations support` | Do not add another handoff. The source route keeps publication and change approval with the brand owner. |
 | `/services/sales-development-support` | `/research/philippines-sales-development-support-research` | Which prospecting and record-hygiene tasks can be measured without making sales claims? | Locally verified route-specific handoff: `Plan sales development support`; public verification pending | Do not add another handoff. Recheck the saved route after an authorized rollout. |
 | `/services/project-coordination` | `/research/philippines-project-coordination-research` | How can a manager define a project queue, review owner, and exception path? | Existing route-specific handoff: `Plan Philippines project coordination support` | Do not add another handoff. Recheck the existing source and target only if the renderer changes. |
+| `/services/operations-support` | `/research/oph-aged-backlog-evidence`, `/research/oph-duplicate-request-rate`, `/research/oph-role-change-continuity`, `/research/oph-document-expiry-risk`, and `/research/oph-shared-inbox-coverage` | Which routine queue needs a bounded evidence lane before an owner decides what to change? | Locally verified October 26 cohort: each source has one `Plan Philippines operations support` handoff | Do not add another handoff to these five sources. Preserve their distinct reader questions; recheck only after a renderer or service-scope change. |
 
 ## Registration prerequisites — non-generated handoff targets
 
