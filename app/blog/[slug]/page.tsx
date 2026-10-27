@@ -138,10 +138,10 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <section className="article-section" key={section.title}>
                 <h2 id={`section-${sectionIndex + 1}`}>{section.title}</h2>
                 {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-                <div className="check-panel">
+                {section.checks.length > 0 && <div className="check-panel">
                   <h3>Questions to settle</h3>
                   <ul>{section.checks.map((check) => <li key={check}>{check}</li>)}</ul>
-                </div>
+                </div>}
               </section>
             ))}
             <section className="source-box" aria-labelledby="daily-guide-sources">
