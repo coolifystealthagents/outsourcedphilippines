@@ -110,6 +110,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
   if (!detail && basic) {
     const heroImage = resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug);
+    const basicToc = [
+      ...(Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) ? [{ id: 'route-local-guide', label: 'The route-local operating guide', level: 2 as const }] : []),
+      ...basic.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.title, level: 2 as const })),
+      { id: 'daily-guide-sources', label: 'Sources and next steps', level: 2 as const },
+      { id: 'daily-guide-related', label: 'Related Articles', level: 2 as const },
+    ];
     return (
       <>
         <Header />
@@ -123,14 +129,14 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
             <img src={heroImage} alt={`Editorial illustration for ${post.title}`} width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
-            <StickyArticleToc scope="article" />
+            <StickyArticleToc scope="article" initialItems={basicToc} />
             {Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) && <section className="article-section" aria-labelledby="route-local-guide">
               <h2 id="route-local-guide">The route-local operating guide</h2>
               {(basic as unknown as { routeBody: readonly string[] }).routeBody.filter((paragraph: string) => !paragraph.startsWith('Route-local closeout.')).map((paragraph: string) => <p key={paragraph}>{paragraph}</p>)}
             </section>}
-            {basic.sections.map((section) => (
+            {basic.sections.map((section, sectionIndex) => (
               <section className="article-section" key={section.title}>
-                <h2>{section.title}</h2>
+                <h2 id={`section-${sectionIndex + 1}`}>{section.title}</h2>
                 {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
                 <div className="check-panel">
                   <h3>Questions to settle</h3>
