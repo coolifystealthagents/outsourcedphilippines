@@ -29,7 +29,7 @@ This map covers the eleven generated Philippines-only service pages in `app/flee
 
 ## Registration prerequisites — non-generated handoff targets
 
-The research renderer emits `serviceHandoff.slug` as `/services/{slug}`. The services route, service static parameters, and sitemap instead derive only from the ten `fleetServices` entries. `app/data.ts` has a legacy service list, but it does not register service routes, cards, or sitemap entries. Its presence is not proof that a handoff target exists.
+The research renderer emits `serviceHandoff.slug` as `/services/{slug}`. The services route, service static parameters, and sitemap instead derive only from the eleven `fleetServices` entries. `app/data.ts` has a legacy service list, but it does not register service routes, cards, or sitemap entries. Its presence is not proof that a handoff target exists.
 
 | Non-generated destination | Existing source families | Artifact finding | Controlled next action |
 | --- | --- | --- | --- |
