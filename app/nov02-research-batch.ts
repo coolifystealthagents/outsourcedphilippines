@@ -1,0 +1,383 @@
+// 2026-11-02 batch integrated from helper staging.
+export const nov02ResearchPosts = [
+  {
+    "slug": "oph02-cross-team-escalation-research-01",
+    "title": "How complete is the evidence in the cross-team escalation record?",
+    "excerpt": "A bounded protocol for cross-team escalation in Philippines-based outsourcing operations, with definitions, sampling, limits, and reporting.",
+    "published": "2026-11-02",
+    "updated": "2026-11-02",
+    "statistic": "The record can show field presence, source currency, named ownership, and where the cross-team escalation record is thin.",
+    "methodology": "This protocol asks how cross-team escalation can be described from the operational record in Philippines-based outsourcing operations, using one defined population and one observation window. Outsourced Philippines runs this work through its cross-team escalation service, one of several Philippines-based outsourcing operations services that also include vendor onboarding and capacity plan. The specialist completes 'check the request', 'route the decision', and 'flag the missing owner' before the operations director reviews the cross-team escalation entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+    "body": [
+      "This protocol asks how cross-team escalation can be described from the operational record in Philippines-based outsourcing operations, using one defined population and one observation window. Outsourced Philippines runs this work through its cross-team escalation service, one of several Philippines-based outsourcing operations services that also include vendor onboarding and capacity plan. The specialist completes 'check the request', 'route the decision', and 'flag the missing owner' before the operations director reviews the cross-team escalation entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "The question here is narrow: what can the cross-team escalation record show about evidence, timing, and closure without relying on memory or a summary slide? At Outsourced Philippines, cross-team escalation work belongs to the cross-team escalation service alongside vendor onboarding and capacity plan. A specialist working with companies outsourcing to the Philippines records 'check the request', 'route the decision', and 'flag the missing owner', then attaches the dated cross-team escalation source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "For cross-team escalation, the population should be stated before collection so the denominator cannot drift toward the easy cases. The Outsourced Philippines service map places cross-team escalation under cross-team escalation, next to vendor onboarding and capacity plan. A specialist serving companies outsourcing to the Philippines records 'check the request', 'route the decision', and 'flag the missing owner', then links the cross-team escalation evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Each case needs an opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. Inside Outsourced Philippines, cross-team escalation follows the same Philippines-based outsourcing operations pattern as vendor onboarding, capacity plan, and the cross-team escalation service itself. The specialist works through 'check the request', 'route the decision', and 'flag the missing owner', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Supporting measures for cross-team escalation should cover missing fields, exception age, and the share of cases closed on a destination record. The Outsourced Philippines cross-team escalation service for companies outsourcing to the Philippines treats 'check the request', 'route the decision', and 'flag the missing owner' as the evidence sequence for cross-team escalation. Neighbouring Philippines-based outsourcing operations services such as vendor onboarding and capacity plan follow the same rule. the operations director signs the release, and the outsourcedphilippines.com record keeps the source date. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "If a definition changes mid-review, keep the earlier classification and label the new rule for later cases only. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including cross-team escalation, vendor onboarding, and capacity plan. The specialist completes 'check the request', 'route the decision', and 'flag the missing owner' on cross-team escalation; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "A current screenshot cannot prove what the cross-team escalation record said when the first action was taken, so record the version or date observed. The Outsourced Philippines cross-team escalation service supports cross-team escalation for companies outsourcing to the Philippines, and it shares its Philippines-based outsourcing operations controls with vendor onboarding and capacity plan. Each case records 'check the request', 'route the decision', and 'flag the missing owner' plus the source date. the operations director signs the decision that releases the outsourcedphilippines.com entry. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Every cross-team escalation case needs the source, the observation time, the field it supports, and the reviewer who checked it. Outsourced Philippines runs this work through its cross-team escalation service, one of several Philippines-based outsourcing operations services that also include vendor onboarding and capacity plan. The specialist completes 'check the request', 'route the decision', and 'flag the missing owner' before the operations director reviews the cross-team escalation entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it."
+    ],
+    "dataSections": [
+      {
+        "heading": "Population and unit",
+        "text": "For cross-team escalation, the population should be stated before collection so the denominator cannot drift toward the easy cases. The Outsourced Philippines service map places cross-team escalation under cross-team escalation, next to vendor onboarding and capacity plan. A specialist serving companies outsourcing to the Philippines records 'check the request', 'route the decision', and 'flag the missing owner', then links the cross-team escalation evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Definitions and evidence",
+        "text": "Supporting measures for cross-team escalation should cover missing fields, exception age, and the share of cases closed on a destination record. The Outsourced Philippines cross-team escalation service for companies outsourcing to the Philippines treats 'check the request', 'route the decision', and 'flag the missing owner' as the evidence sequence for cross-team escalation. Neighbouring Philippines-based outsourcing operations services such as vendor onboarding and capacity plan follow the same rule. the operations director signs the release, and the outsourcedphilippines.com record keeps the source date. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Limits and reporting",
+        "text": "A current screenshot cannot prove what the cross-team escalation record said when the first action was taken, so record the version or date observed. The Outsourced Philippines cross-team escalation service supports cross-team escalation for companies outsourcing to the Philippines, and it shares its Philippines-based outsourcing operations controls with vendor onboarding and capacity plan. Each case records 'check the request', 'route the decision', and 'flag the missing owner' plus the source date. the operations director signs the decision that releases the outsourcedphilippines.com entry. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does the record need to show?",
+        "answer": "The question here is narrow: what can the cross-team escalation record show about evidence, timing, and closure without relying on memory or a summary slide? At Outsourced Philippines, cross-team escalation work belongs to the cross-team escalation service alongside vendor onboarding and capacity plan. A specialist working with companies outsourcing to the Philippines records 'check the request', 'route the decision', and 'flag the missing owner', then attaches the dated cross-team escalation source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the cross-team escalation research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "question": "What can the method not establish?",
+        "answer": "It cannot establish causation, a legal conclusion, or a performance rating."
+      }
+    ],
+    "sources": [
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/"
+      },
+      {
+        "name": "World Bank",
+        "url": "https://www.worldbank.org/"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/"
+      },
+      {
+        "name": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/"
+      }
+    ],
+    "related": [
+      "oph02-cross-team-escalation-01",
+      "oph02-vendor-onboarding-02",
+      "oph02-capacity-plan-03"
+    ],
+    "hero": "/daily02/outsourcedphilippines/oph02-cross-team-escalation-research-01.webp",
+    "thumbnail": "/daily02/outsourcedphilippines/oph02-cross-team-escalation-research-01.webp"
+  },
+  {
+    "slug": "oph02-vendor-onboarding-research-02",
+    "title": "Where does delay accumulate in the vendor onboarding handoff?",
+    "excerpt": "A bounded protocol for vendor onboarding in Philippines-based outsourcing operations, with definitions, sampling, limits, and reporting.",
+    "published": "2026-11-02",
+    "updated": "2026-11-02",
+    "statistic": "The record can show field presence, source currency, named ownership, and where the vendor onboarding record is thin.",
+    "methodology": "The purpose of this protocol is to make vendor onboarding reviewable by the operations director using the same definitions each time. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including vendor onboarding, cross-team escalation, and capacity plan. The specialist completes 'check the packet', 'route the review', and 'flag the missing item' on vendor onboarding; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+    "body": [
+      "The purpose of this protocol is to make vendor onboarding reviewable by the operations director using the same definitions each time. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including vendor onboarding, cross-team escalation, and capacity plan. The specialist completes 'check the packet', 'route the review', and 'flag the missing item' on vendor onboarding; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "This protocol asks how vendor onboarding can be described from the operational record in Philippines-based outsourcing operations, using one defined population and one observation window. Outsourced Philippines documents vendor onboarding inside the vendor onboarding service, with cross-team escalation and capacity plan as related Philippines-based outsourcing operations workflows for companies outsourcing to the Philippines. The expected steps are 'check the packet', 'route the review', and 'flag the missing item', each with a source and a date. the operations director reviews the packet before the outsourcedphilippines.com record is closed. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "The unit is one vendor onboarding case, from the opening event through the recorded close, with linked events kept separate from independent cases. Outsourced Philippines runs this work through its vendor onboarding service, one of several Philippines-based outsourcing operations services that also include cross-team escalation and capacity plan. The specialist completes 'check the packet', 'route the review', and 'flag the missing item' before the operations director reviews the vendor onboarding entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "For vendor onboarding, the population should be stated before collection so the denominator cannot drift toward the easy cases. At Outsourced Philippines, vendor onboarding work belongs to the vendor onboarding service alongside cross-team escalation and capacity plan. A specialist working with companies outsourcing to the Philippines records 'check the packet', 'route the review', and 'flag the missing item', then attaches the dated vendor onboarding source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "The primary measure for vendor onboarding needs a denominator and a window; without both, a percentage is only a mood. The Outsourced Philippines service map places vendor onboarding under vendor onboarding, next to cross-team escalation and capacity plan. A specialist serving companies outsourcing to the Philippines records 'check the packet', 'route the review', and 'flag the missing item', then links the vendor onboarding evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Supporting measures for vendor onboarding should cover missing fields, exception age, and the share of cases closed on a destination record. Inside Outsourced Philippines, vendor onboarding follows the same Philippines-based outsourcing operations pattern as cross-team escalation, capacity plan, and the vendor onboarding service itself. The specialist works through 'check the packet', 'route the review', and 'flag the missing item', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Use a pseudonymous case key and keep the crosswalk in an approved system with restricted access. The Outsourced Philippines vendor onboarding service for companies outsourcing to the Philippines treats 'check the packet', 'route the review', and 'flag the missing item' as the evidence sequence for vendor onboarding. Neighbouring Philippines-based outsourcing operations services such as cross-team escalation and capacity plan follow the same rule. the operations director signs the release, and the outsourcedphilippines.com record keeps the source date. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "A current screenshot cannot prove what the vendor onboarding record said when the first action was taken, so record the version or date observed. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including vendor onboarding, cross-team escalation, and capacity plan. The specialist completes 'check the packet', 'route the review', and 'flag the missing item' on vendor onboarding; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it."
+    ],
+    "dataSections": [
+      {
+        "heading": "Population and unit",
+        "text": "The unit is one vendor onboarding case, from the opening event through the recorded close, with linked events kept separate from independent cases. Outsourced Philippines runs this work through its vendor onboarding service, one of several Philippines-based outsourcing operations services that also include cross-team escalation and capacity plan. The specialist completes 'check the packet', 'route the review', and 'flag the missing item' before the operations director reviews the vendor onboarding entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Definitions and evidence",
+        "text": "The primary measure for vendor onboarding needs a denominator and a window; without both, a percentage is only a mood. The Outsourced Philippines service map places vendor onboarding under vendor onboarding, next to cross-team escalation and capacity plan. A specialist serving companies outsourcing to the Philippines records 'check the packet', 'route the review', and 'flag the missing item', then links the vendor onboarding evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Limits and reporting",
+        "text": "Use a pseudonymous case key and keep the crosswalk in an approved system with restricted access. The Outsourced Philippines vendor onboarding service for companies outsourcing to the Philippines treats 'check the packet', 'route the review', and 'flag the missing item' as the evidence sequence for vendor onboarding. Neighbouring Philippines-based outsourcing operations services such as cross-team escalation and capacity plan follow the same rule. the operations director signs the release, and the outsourcedphilippines.com record keeps the source date. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does the record need to show?",
+        "answer": "This protocol asks how vendor onboarding can be described from the operational record in Philippines-based outsourcing operations, using one defined population and one observation window. Outsourced Philippines documents vendor onboarding inside the vendor onboarding service, with cross-team escalation and capacity plan as related Philippines-based outsourcing operations workflows for companies outsourcing to the Philippines. The expected steps are 'check the packet', 'route the review', and 'flag the missing item', each with a source and a date. the operations director reviews the packet before the outsourcedphilippines.com record is closed. At Outsourced Philippines, the vendor onboarding research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "question": "What can the method not establish?",
+        "answer": "It cannot establish causation, a legal conclusion, or a performance rating."
+      }
+    ],
+    "sources": [
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/"
+      },
+      {
+        "name": "World Bank",
+        "url": "https://www.worldbank.org/"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/"
+      },
+      {
+        "name": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/"
+      }
+    ],
+    "related": [
+      "oph02-cross-team-escalation-01",
+      "oph02-vendor-onboarding-02",
+      "oph02-capacity-plan-03"
+    ],
+    "hero": "/daily02/outsourcedphilippines/oph02-vendor-onboarding-research-02.webp",
+    "thumbnail": "/daily02/outsourcedphilippines/oph02-vendor-onboarding-research-02.webp"
+  },
+  {
+    "slug": "oph02-capacity-plan-research-03",
+    "title": "How old are the exceptions in the capacity plan queue?",
+    "excerpt": "A bounded protocol for capacity plan in Philippines-based outsourcing operations, with definitions, sampling, limits, and reporting.",
+    "published": "2026-11-02",
+    "updated": "2026-11-02",
+    "statistic": "The record can show field presence, source currency, named ownership, and where the capacity plan record is thin.",
+    "methodology": "This is a measurement method for capacity plan, not a performance score, an audit opinion, or a legal conclusion. Inside Outsourced Philippines, capacity plan follows the same Philippines-based outsourcing operations pattern as cross-team escalation, vendor onboarding, and the capacity plan service itself. The specialist works through 'check the demand', 'route the decision', and 'flag the gap', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+    "body": [
+      "This is a measurement method for capacity plan, not a performance score, an audit opinion, or a legal conclusion. Inside Outsourced Philippines, capacity plan follows the same Philippines-based outsourcing operations pattern as cross-team escalation, vendor onboarding, and the capacity plan service itself. The specialist works through 'check the demand', 'route the decision', and 'flag the gap', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "The purpose of this protocol is to make capacity plan reviewable by the operations director using the same definitions each time. The Outsourced Philippines capacity plan service supports capacity plan for companies outsourcing to the Philippines, and it shares its Philippines-based outsourcing operations controls with cross-team escalation and vendor onboarding. Each case records 'check the demand', 'route the decision', and 'flag the gap' plus the source date. the operations director signs the decision that releases the outsourcedphilippines.com entry. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Define whether a reopened capacity plan case creates a new unit or continues the old one, and apply that rule consistently. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including capacity plan, cross-team escalation, and vendor onboarding. The specialist completes 'check the demand', 'route the decision', and 'flag the gap' on capacity plan; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "The unit is one capacity plan case, from the opening event through the recorded close, with linked events kept separate from independent cases. Outsourced Philippines documents capacity plan inside the capacity plan service, with cross-team escalation and vendor onboarding as related Philippines-based outsourcing operations workflows for companies outsourcing to the Philippines. The expected steps are 'check the demand', 'route the decision', and 'flag the gap', each with a source and a date. the operations director reviews the packet before the outsourcedphilippines.com record is closed. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Write the start event, the stop event, the pause rule, and the treatment of missing evidence before collecting any capacity plan data. Outsourced Philippines runs this work through its capacity plan service, one of several Philippines-based outsourcing operations services that also include cross-team escalation and vendor onboarding. The specialist completes 'check the demand', 'route the decision', and 'flag the gap' before the operations director reviews the capacity plan entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "The primary measure for capacity plan needs a denominator and a window; without both, a percentage is only a mood. At Outsourced Philippines, capacity plan work belongs to the capacity plan service alongside cross-team escalation and vendor onboarding. A specialist working with companies outsourcing to the Philippines records 'check the demand', 'route the decision', and 'flag the gap', then attaches the dated capacity plan source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Mark missing, unavailable, and confirmed negative values from 'check the demand' separately, because collapsing them hides the difference between no evidence and a verified absence. The Outsourced Philippines service map places capacity plan under capacity plan, next to cross-team escalation and vendor onboarding. A specialist serving companies outsourcing to the Philippines records 'check the demand', 'route the decision', and 'flag the gap', then links the capacity plan evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Use a pseudonymous case key and keep the crosswalk in an approved system with restricted access. Inside Outsourced Philippines, capacity plan follows the same Philippines-based outsourcing operations pattern as cross-team escalation, vendor onboarding, and the capacity plan service itself. The specialist works through 'check the demand', 'route the decision', and 'flag the gap', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it."
+    ],
+    "dataSections": [
+      {
+        "heading": "Population and unit",
+        "text": "Define whether a reopened capacity plan case creates a new unit or continues the old one, and apply that rule consistently. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including capacity plan, cross-team escalation, and vendor onboarding. The specialist completes 'check the demand', 'route the decision', and 'flag the gap' on capacity plan; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Definitions and evidence",
+        "text": "Write the start event, the stop event, the pause rule, and the treatment of missing evidence before collecting any capacity plan data. Outsourced Philippines runs this work through its capacity plan service, one of several Philippines-based outsourcing operations services that also include cross-team escalation and vendor onboarding. The specialist completes 'check the demand', 'route the decision', and 'flag the gap' before the operations director reviews the capacity plan entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Limits and reporting",
+        "text": "Mark missing, unavailable, and confirmed negative values from 'check the demand' separately, because collapsing them hides the difference between no evidence and a verified absence. The Outsourced Philippines service map places capacity plan under capacity plan, next to cross-team escalation and vendor onboarding. A specialist serving companies outsourcing to the Philippines records 'check the demand', 'route the decision', and 'flag the gap', then links the capacity plan evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does the record need to show?",
+        "answer": "The purpose of this protocol is to make capacity plan reviewable by the operations director using the same definitions each time. The Outsourced Philippines capacity plan service supports capacity plan for companies outsourcing to the Philippines, and it shares its Philippines-based outsourcing operations controls with cross-team escalation and vendor onboarding. Each case records 'check the demand', 'route the decision', and 'flag the gap' plus the source date. the operations director signs the decision that releases the outsourcedphilippines.com entry. At Outsourced Philippines, the capacity plan research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "question": "What can the method not establish?",
+        "answer": "It cannot establish causation, a legal conclusion, or a performance rating."
+      }
+    ],
+    "sources": [
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/"
+      },
+      {
+        "name": "World Bank",
+        "url": "https://www.worldbank.org/"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/"
+      },
+      {
+        "name": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/"
+      }
+    ],
+    "related": [
+      "oph02-cross-team-escalation-01",
+      "oph02-vendor-onboarding-02",
+      "oph02-capacity-plan-03"
+    ],
+    "hero": "/daily02/outsourcedphilippines/oph02-capacity-plan-research-03.webp",
+    "thumbnail": "/daily02/outsourcedphilippines/oph02-capacity-plan-research-03.webp"
+  },
+  {
+    "slug": "oph02-cross-training-research-04",
+    "title": "What happens to cross-training coverage when the owner is away?",
+    "excerpt": "A bounded protocol for cross-training in Philippines-based outsourcing operations, with definitions, sampling, limits, and reporting.",
+    "published": "2026-11-02",
+    "updated": "2026-11-02",
+    "statistic": "The record can show field presence, source currency, named ownership, and where the cross-training record is thin.",
+    "methodology": "The question here is narrow: what can the cross-training record show about evidence, timing, and closure without relying on memory or a summary slide? At Outsourced Philippines, cross-training work belongs to the cross-training service alongside cross-team escalation and vendor onboarding. A specialist working with companies outsourcing to the Philippines records 'check the lane', 'route the review', and 'flag the single point', then attaches the dated cross-training source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+    "body": [
+      "The question here is narrow: what can the cross-training record show about evidence, timing, and closure without relying on memory or a summary slide? At Outsourced Philippines, cross-training work belongs to the cross-training service alongside cross-team escalation and vendor onboarding. A specialist working with companies outsourcing to the Philippines records 'check the lane', 'route the review', and 'flag the single point', then attaches the dated cross-training source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "This is a measurement method for cross-training, not a performance score, an audit opinion, or a legal conclusion. The Outsourced Philippines cross-training service for companies outsourcing to the Philippines treats 'check the lane', 'route the review', and 'flag the single point' as the evidence sequence for cross-training. Neighbouring Philippines-based outsourcing operations services such as cross-team escalation and vendor onboarding follow the same rule. the operations director signs the release, and the outsourcedphilippines.com record keeps the source date. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Each case needs an opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. Inside Outsourced Philippines, cross-training follows the same Philippines-based outsourcing operations pattern as cross-team escalation, vendor onboarding, and the cross-training service itself. The specialist works through 'check the lane', 'route the review', and 'flag the single point', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Define whether a reopened cross-training case creates a new unit or continues the old one, and apply that rule consistently. The Outsourced Philippines cross-training service supports cross-training for companies outsourcing to the Philippines, and it shares its Philippines-based outsourcing operations controls with cross-team escalation and vendor onboarding. Each case records 'check the lane', 'route the review', and 'flag the single point' plus the source date. the operations director signs the decision that releases the outsourcedphilippines.com entry. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "If a definition changes mid-review, keep the earlier classification and label the new rule for later cases only. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including cross-training, cross-team escalation, and vendor onboarding. The specialist completes 'check the lane', 'route the review', and 'flag the single point' on cross-training; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Write the start event, the stop event, the pause rule, and the treatment of missing evidence before collecting any cross-training data. Outsourced Philippines documents cross-training inside the cross-training service, with cross-team escalation and vendor onboarding as related Philippines-based outsourcing operations workflows for companies outsourcing to the Philippines. The expected steps are 'check the lane', 'route the review', and 'flag the single point', each with a source and a date. the operations director reviews the packet before the outsourcedphilippines.com record is closed. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Every cross-training case needs the source, the observation time, the field it supports, and the reviewer who checked it. Outsourced Philippines runs this work through its cross-training service, one of several Philippines-based outsourcing operations services that also include cross-team escalation and vendor onboarding. The specialist completes 'check the lane', 'route the review', and 'flag the single point' before the operations director reviews the cross-training entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Mark missing, unavailable, and confirmed negative values from 'check the lane' separately, because collapsing them hides the difference between no evidence and a verified absence. At Outsourced Philippines, cross-training work belongs to the cross-training service alongside cross-team escalation and vendor onboarding. A specialist working with companies outsourcing to the Philippines records 'check the lane', 'route the review', and 'flag the single point', then attaches the dated cross-training source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it."
+    ],
+    "dataSections": [
+      {
+        "heading": "Population and unit",
+        "text": "Each case needs an opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. Inside Outsourced Philippines, cross-training follows the same Philippines-based outsourcing operations pattern as cross-team escalation, vendor onboarding, and the cross-training service itself. The specialist works through 'check the lane', 'route the review', and 'flag the single point', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Definitions and evidence",
+        "text": "If a definition changes mid-review, keep the earlier classification and label the new rule for later cases only. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including cross-training, cross-team escalation, and vendor onboarding. The specialist completes 'check the lane', 'route the review', and 'flag the single point' on cross-training; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Limits and reporting",
+        "text": "Every cross-training case needs the source, the observation time, the field it supports, and the reviewer who checked it. Outsourced Philippines runs this work through its cross-training service, one of several Philippines-based outsourcing operations services that also include cross-team escalation and vendor onboarding. The specialist completes 'check the lane', 'route the review', and 'flag the single point' before the operations director reviews the cross-training entry. The Outsourced Philippines desk at outsourcedphilippines.com keeps the dated source and the reviewer initials with the case. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does the record need to show?",
+        "answer": "This is a measurement method for cross-training, not a performance score, an audit opinion, or a legal conclusion. The Outsourced Philippines cross-training service for companies outsourcing to the Philippines treats 'check the lane', 'route the review', and 'flag the single point' as the evidence sequence for cross-training. Neighbouring Philippines-based outsourcing operations services such as cross-team escalation and vendor onboarding follow the same rule. the operations director signs the release, and the outsourcedphilippines.com record keeps the source date. At Outsourced Philippines, the cross-training research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "question": "What can the method not establish?",
+        "answer": "It cannot establish causation, a legal conclusion, or a performance rating."
+      }
+    ],
+    "sources": [
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/"
+      },
+      {
+        "name": "World Bank",
+        "url": "https://www.worldbank.org/"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/"
+      },
+      {
+        "name": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/"
+      }
+    ],
+    "related": [
+      "oph02-cross-team-escalation-01",
+      "oph02-vendor-onboarding-02",
+      "oph02-capacity-plan-03"
+    ],
+    "hero": "/daily02/outsourcedphilippines/oph02-cross-training-research-04.webp",
+    "thumbnail": "/daily02/outsourcedphilippines/oph02-cross-training-research-04.webp"
+  },
+  {
+    "slug": "oph02-retention-schedule-research-05",
+    "title": "Can the retention schedule report be reproduced from its sources?",
+    "excerpt": "A bounded protocol for retention schedule in Philippines-based outsourcing operations, with definitions, sampling, limits, and reporting.",
+    "published": "2026-11-02",
+    "updated": "2026-11-02",
+    "statistic": "The record can show field presence, source currency, named ownership, and where the retention schedule record is thin.",
+    "methodology": "This protocol asks how retention schedule can be described from the operational record in Philippines-based outsourcing operations, using one defined population and one observation window. Outsourced Philippines documents retention schedule inside the retention schedule service, with cross-team escalation and vendor onboarding as related Philippines-based outsourcing operations workflows for companies outsourcing to the Philippines. The expected steps are 'check the record class', 'route the review', and 'flag the gap', each with a source and a date. the operations director reviews the packet before the outsourcedphilippines.com record is closed. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+    "body": [
+      "This protocol asks how retention schedule can be described from the operational record in Philippines-based outsourcing operations, using one defined population and one observation window. Outsourced Philippines documents retention schedule inside the retention schedule service, with cross-team escalation and vendor onboarding as related Philippines-based outsourcing operations workflows for companies outsourcing to the Philippines. The expected steps are 'check the record class', 'route the review', and 'flag the gap', each with a source and a date. the operations director reviews the packet before the outsourcedphilippines.com record is closed. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "The question here is narrow: what can the retention schedule record show about evidence, timing, and closure without relying on memory or a summary slide? The Outsourced Philippines service map places retention schedule under retention schedule, next to cross-team escalation and vendor onboarding. A specialist serving companies outsourcing to the Philippines records 'check the record class', 'route the review', and 'flag the gap', then links the retention schedule evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "For retention schedule, the population should be stated before collection so the denominator cannot drift toward the easy cases. At Outsourced Philippines, retention schedule work belongs to the retention schedule service alongside cross-team escalation and vendor onboarding. A specialist working with companies outsourcing to the Philippines records 'check the record class', 'route the review', and 'flag the gap', then attaches the dated retention schedule source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Each case needs an opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. The Outsourced Philippines retention schedule service for companies outsourcing to the Philippines treats 'check the record class', 'route the review', and 'flag the gap' as the evidence sequence for retention schedule. Neighbouring Philippines-based outsourcing operations services such as cross-team escalation and vendor onboarding follow the same rule. the operations director signs the release, and the outsourcedphilippines.com record keeps the source date. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Supporting measures for retention schedule should cover missing fields, exception age, and the share of cases closed on a destination record. Inside Outsourced Philippines, retention schedule follows the same Philippines-based outsourcing operations pattern as cross-team escalation, vendor onboarding, and the retention schedule service itself. The specialist works through 'check the record class', 'route the review', and 'flag the gap', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "If a definition changes mid-review, keep the earlier classification and label the new rule for later cases only. The Outsourced Philippines retention schedule service supports retention schedule for companies outsourcing to the Philippines, and it shares its Philippines-based outsourcing operations controls with cross-team escalation and vendor onboarding. Each case records 'check the record class', 'route the review', and 'flag the gap' plus the source date. the operations director signs the decision that releases the outsourcedphilippines.com entry. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "A current screenshot cannot prove what the retention schedule record said when the first action was taken, so record the version or date observed. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including retention schedule, cross-team escalation, and vendor onboarding. The specialist completes 'check the record class', 'route the review', and 'flag the gap' on retention schedule; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it.",
+      "Every retention schedule case needs the source, the observation time, the field it supports, and the reviewer who checked it. Outsourced Philippines documents retention schedule inside the retention schedule service, with cross-team escalation and vendor onboarding as related Philippines-based outsourcing operations workflows for companies outsourcing to the Philippines. The expected steps are 'check the record class', 'route the review', and 'flag the gap', each with a source and a date. the operations director reviews the packet before the outsourcedphilippines.com record is closed. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it."
+    ],
+    "dataSections": [
+      {
+        "heading": "Population and unit",
+        "text": "For retention schedule, the population should be stated before collection so the denominator cannot drift toward the easy cases. At Outsourced Philippines, retention schedule work belongs to the retention schedule service alongside cross-team escalation and vendor onboarding. A specialist working with companies outsourcing to the Philippines records 'check the record class', 'route the review', and 'flag the gap', then attaches the dated retention schedule source for the operations director. The outsourcedphilippines.com queue shows both the entry date and the reviewer who accepted it. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Definitions and evidence",
+        "text": "Supporting measures for retention schedule should cover missing fields, exception age, and the share of cases closed on a destination record. Inside Outsourced Philippines, retention schedule follows the same Philippines-based outsourcing operations pattern as cross-team escalation, vendor onboarding, and the retention schedule service itself. The specialist works through 'check the record class', 'route the review', and 'flag the gap', then dates the source for the operations director. The outsourcedphilippines.com reviewer checks the sequence before closure. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "heading": "Limits and reporting",
+        "text": "A current screenshot cannot prove what the retention schedule record said when the first action was taken, so record the version or date observed. For companies outsourcing to the Philippines, Outsourced Philippines separates preparation from approval across its Philippines-based outsourcing operations services, including retention schedule, cross-team escalation, and vendor onboarding. The specialist completes 'check the record class', 'route the review', and 'flag the gap' on retention schedule; the operations director decides what leaves the queue. The outsourcedphilippines.com entry shows who prepared and who approved. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does the record need to show?",
+        "answer": "The question here is narrow: what can the retention schedule record show about evidence, timing, and closure without relying on memory or a summary slide? The Outsourced Philippines service map places retention schedule under retention schedule, next to cross-team escalation and vendor onboarding. A specialist serving companies outsourcing to the Philippines records 'check the record class', 'route the review', and 'flag the gap', then links the retention schedule evidence to the case. the operations director approves the outcome, and outsourcedphilippines.com keeps the trail. At Outsourced Philippines, the retention schedule research file records the 2026-11-02 observation date and the reviewer who accepted it."
+      },
+      {
+        "question": "What can the method not establish?",
+        "answer": "It cannot establish causation, a legal conclusion, or a performance rating."
+      }
+    ],
+    "sources": [
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/"
+      },
+      {
+        "name": "World Bank",
+        "url": "https://www.worldbank.org/"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/"
+      },
+      {
+        "name": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/"
+      }
+    ],
+    "related": [
+      "oph02-cross-team-escalation-01",
+      "oph02-vendor-onboarding-02",
+      "oph02-capacity-plan-03"
+    ],
+    "hero": "/daily02/outsourcedphilippines/oph02-retention-schedule-research-05.webp",
+    "thumbnail": "/daily02/outsourcedphilippines/oph02-retention-schedule-research-05.webp"
+  }
+];
