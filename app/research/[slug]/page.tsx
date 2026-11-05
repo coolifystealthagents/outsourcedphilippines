@@ -18,7 +18,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
   const { slug } = await params;
   const post = researchPosts.find((item) => item.slug === slug);
   if (!post) notFound();
-  const headings = ['Key stats', 'Methodology', 'Key takeaways', ...post.dataSections.map((section) => section.heading), ...(post.serviceHandoff ? ['Next step'] : []), 'FAQs', 'Sources', 'Related research'];
+  const headings = ['Key stats', 'Methodology', 'Evidence summary', ...post.dataSections.map((section) => section.heading), ...(post.serviceHandoff ? ['Next step'] : []), 'FAQs', 'Sources', 'Related research'];
   const sections = headings.map((label, index) => ({ id: label === 'Sources' ? 'sources' : `${slugifyHeading(label)}-${index + 1}`, label }));
   let sectionIndex = 0;
   const next = () => sections[sectionIndex++].id;
@@ -27,7 +27,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
   return <EditorialArticle family="Research" title={post.title} dek={post.excerpt} slug={post.slug} published={post.published} readMinutes={estimateReadMinutes(allText)} hero={post.hero} sections={sections} schema={<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />}>
     <section><h2 id={next()}>Key stats</h2><p>{post.statistic}</p></section>
     <section><h2 id={next()}>Methodology</h2><p>{post.methodology}</p></section>
-    <section><h2 id={next()}>Key takeaways</h2>{post.body.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</section>
+    <section><h2 id={next()}>Evidence summary</h2>{post.body.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</section>
     {post.dataSections.map((section) => <section key={section.heading}><h2 id={next()}>{section.heading}</h2><p>{section.text}</p></section>)}
     {post.serviceHandoff&&<section><h2 id={next()}>Next step</h2><p>{post.serviceHandoff.text}</p><p><a href={`/services/${post.serviceHandoff.slug}`}>{post.serviceHandoff.label}</a></p></section>}
     <section><h2 id={next()}>FAQs</h2>{post.faqs.map((faq) => <div key={faq.question}><h3>{faq.question}</h3><p>{faq.answer}</p></div>)}</section>

@@ -120,8 +120,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       <>
         <Header />
         <main className="section">
-          <EditorialAutoNavigator title={post.title} slug={post.slug} family="Blog" published={publishedAt} readMinutes={post.minutes} />
-          <article className="container" style={{ maxWidth: 880 }}>
+          <article className="container basic-article">
             {publishedAt && <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: publishedAt, dateModified: publishedAt, url: articleUrl }} />}
             <p className="eyebrow">{site.brand} guide</p>
             <h1>{post.title}</h1>
@@ -129,7 +128,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             {publishedAt && <time dateTime={publishedAt}>Published {formatReaderDate(publishedAt)}</time>}
             <img src={heroImage} alt={`Editorial illustration for ${post.title}`} width={1200} height={630} style={{ width: '100%', height: 'auto', borderRadius: 18, margin: '1.5rem 0' }} />
             <p className="article-intro">{basic.intro}</p>
-            <nav className="hat-toc-desktop sticky" aria-label="On this page"><strong>On this page</strong>{basicToc.map((item) => <a key={item.id} href={`#${item.id}`}>{item.label}</a>)}</nav>
+            <nav className="hat-toc-desktop" aria-label="On this page"><strong>On this page</strong>{basicToc.map((item) => <a key={item.id} href={`#${item.id}`}>{item.label}</a>)}</nav>
+            <details className="hat-toc-mobile"><summary>On this page</summary><nav aria-label="On this page">{basicToc.map((item) => <a key={item.id} href={`#${item.id}`}>{item.label}</a>)}</nav></details>
             {Array.isArray((basic as { routeBody?: readonly string[] }).routeBody) && <section className="article-section" aria-labelledby="route-local-guide">
               <h2 id="route-local-guide">The route-local operating guide</h2>
               {(basic as unknown as { routeBody: readonly string[] }).routeBody.filter((paragraph: string) => !paragraph.startsWith('Route-local closeout.')).map((paragraph: string) => <p key={paragraph}>{paragraph}</p>)}
