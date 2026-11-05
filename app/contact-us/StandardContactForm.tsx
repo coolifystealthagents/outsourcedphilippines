@@ -69,7 +69,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
 
   return (
     <div className="sa-form-card">
-      <h2>Find Growth In Your Business By Hiring Industry Experienced Virtual Assistants</h2>
+      <h2>Plan your Philippines support role</h2>
       <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
         <input className="sa-hp" name="website_url" type="hidden" tabIndex={-1} autoComplete="off" aria-label="Leave this field empty" />
         <div className="sa-grid">
