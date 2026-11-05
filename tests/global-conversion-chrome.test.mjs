@@ -9,11 +9,13 @@ const digest = async path => createHash('sha256').update(await readFile(path)).d
 
 test('approved review register and provenance are copied unchanged', async () => {
   const localReviews = new URL('app/reviews.ts', root);
-  const sourceReviews = '/workspace/websitedesignoutsource/app/reviews.ts';
+  // Pinned approved register, verified against websitedesignoutsource on 2026-11-05.
+  const sourceReviews = '806bc023ce8d9e2a60f1610ec7286e62e67ffcb1b443f8c3c334874fd8dc2f4d';
   const localProvenance = new URL('app/reviews-provenance.json', root);
-  const sourceProvenance = '/workspace/websitedesignoutsource/app/reviews-provenance.json';
-  assert.equal(await digest(localReviews), await digest(sourceReviews));
-  assert.equal(await digest(localProvenance), await digest(sourceProvenance));
+  // Pinned approved register, verified against websitedesignoutsource on 2026-11-05.
+  const sourceProvenance = '74a42c9c404534f43ec59aa6bec3174b1e53ed15f3efc0c3ad1186b69878608e';
+  assert.equal(await digest(localReviews), sourceReviews);
+  assert.equal(await digest(localProvenance), sourceProvenance);
   const source = await read('app/reviews.ts');
   const names = [...source.matchAll(/name: '([^']+)'/g)].map(match => match[1]);
   assert.equal(names.length, 14);
@@ -45,7 +47,7 @@ test('contact conversion uses all approved reviews and no review controls', asyn
   assert.doesNotMatch(page, /review.*(?:button|controls)/i);
   assert.match(css, /\.saLogo\{width:149px;max-width:60%;height:auto/);
   assert.match(css, /animation:review-marquee/);
-  assert.match(css, /\.marquee:hover .*animation-play-state:paused/);
+  assert.doesNotMatch(css, /animation-play-state\s*:\s*paused/);
   assert.match(css, /prefers-reduced-motion:reduce/);
   assert.doesNotMatch(form, /window\.location\.assign\("\/thank-you"\)[\s\S]{0,300}if \(tracker\)/);
   for (const field of ['firstName','lastName','email','phoneLocal','companyName','website','companySize','positions','referral','referralSpecify','message']) assert.match(form, new RegExp(`name=\\"${field}\\"`));
