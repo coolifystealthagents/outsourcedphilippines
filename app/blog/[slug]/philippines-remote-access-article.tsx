@@ -171,7 +171,7 @@ export function PhilippinesRemoteAccessArticle() {
           <section className="related-box" aria-labelledby="related-title">
             <h2 id="related-title">Keep planning the role</h2>
             <ul>
-              <li><a href="/services/admin-support">See the admin support work lane</a></li>
+              <li><a href="/services/executive-administration">See the admin support work lane</a></li>
               <li><a href="/services/reporting-and-qa">Plan reporting and QA checks</a></li>
               <li><a href="/blog">Choose the first tasks to hand off</a></li>
               <li><a href="/blog/outsourced-Philippines-staffing-provider-questions">Ask a staffing provider about access and ownership</a></li>

@@ -172,7 +172,7 @@ export function PhilippinesIncidentResponseArticle() {
             <h2 id="related-title">Keep planning the support role</h2>
             <ul>
               <li><a href="/blog/philippines-remote-staff-data-access-checklist">Set safe account access</a></li>
-              <li><a href="/services/customer-support">Plan the customer support lane</a></li>
+              <li><a href="/services/customer-experience">Plan the customer support lane</a></li>
               <li><a href="/services/reporting-and-qa">Add reporting and QA checks</a></li>
               <li><a href="/blog/outsourced-Philippines-staffing-provider-questions">Ask a provider about ownership and escalation</a></li>
             </ul>

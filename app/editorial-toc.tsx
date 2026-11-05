@@ -33,7 +33,7 @@ const topicSidebars: Record<string, EditorialSidebarData> = {
     cta: { href: '/contact-us?topic=finance-role', label: 'Scope a finance role' },
   },
   customer: {
-    service: { href: '/services/customer-support', label: 'Customer support' },
+    service: { href: '/services/customer-experience', label: 'Customer support' },
     resources: [
       { href: '/blog/philippines-outsourced-customer-support-account-recovery-checklist', label: 'Account recovery checklist' },
       { href: '/blog/philippines-customer-complaint-escalation-packet', label: 'Complaint escalation packet' },
@@ -42,7 +42,7 @@ const topicSidebars: Record<string, EditorialSidebarData> = {
     cta: { href: '/contact-us?topic=customer-support', label: 'Plan a support team' },
   },
   people: {
-    service: { href: '/services/admin-support', label: 'Admin support' },
+    service: { href: '/services/executive-administration', label: 'Admin support' },
     resources: [
       { href: '/blog/top-50-virtual-assistant-companies', label: 'Compare virtual assistant companies' },
       { href: '/blog/outsourced-Philippines-staffing-onboarding-checklist', label: 'Staff onboarding checklist' },

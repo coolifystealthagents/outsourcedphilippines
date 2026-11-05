@@ -184,7 +184,7 @@ export function PhilippinesAccountRecoveryArticle() {
             <ul>
               <li><a href="/blog/philippines-remote-staff-data-access-checklist">Set safe worker account access</a></li>
               <li><a href="/blog/philippines-outsourced-support-incident-response-checklist">Write the incident reporting path</a></li>
-              <li><a href="/services/customer-support">Plan the customer support role</a></li>
+              <li><a href="/services/customer-experience">Plan the customer support role</a></li>
               <li><a href="/services/reporting-and-qa">Add support QA checks</a></li>
             </ul>
           </section>

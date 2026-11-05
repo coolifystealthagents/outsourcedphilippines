@@ -172,7 +172,7 @@ export function PhilippinesBusinessContinuityArticle() {
             <ul>
               <li><a href="/blog/philippines-remote-staff-data-access-checklist">Set safe tool and data access</a></li>
               <li><a href="/blog/philippines-outsourced-support-incident-response-checklist">Write the incident reporting path</a></li>
-              <li><a href="/services/customer-support">Plan the customer support lane</a></li>
+              <li><a href="/services/customer-experience">Plan the customer support lane</a></li>
               <li><a href="/services/reporting-and-qa">Add reporting and QA checks</a></li>
             </ul>
           </section>
