@@ -126,7 +126,7 @@ export const sep4ResearchPosts: readonly ResearchPost[] = [
       { question: 'Does agreement prove a project is well controlled?', answer: 'No. Agreement measures shared interpretation of the scenarios, not the quality of source data or the decision itself.' },
     ],
     sources: ['https://www.iso.org/iso-31000-risk-management.html', 'https://www.gao.gov/products/gao-16-89g', 'https://www.gov.uk/government/publications/orange-book'],
-    related: ['philippines-project-status-reporting-research', 'philippines-project-dependency-research'],
+    related: ['philippines-project-status-reporting-research', 'philippines-project-schedule-dependency-logic-research'],
     hero,
     serviceHandoff: { slug: 'project-coordination', label: 'Plan project reporting support', text: 'Calibrate risk evidence and labels while project owners retain acceptance and priority decisions.' },
   },

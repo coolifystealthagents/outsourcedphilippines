@@ -18,7 +18,10 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
   const { slug } = await params;
   const post = researchPosts.find((item) => item.slug === slug);
   if (!post) notFound();
-  const headings = ['Key stats', 'Methodology', 'Evidence summary', ...post.dataSections.map((section) => section.heading), ...(post.serviceHandoff ? ['Next step'] : []), 'FAQs', 'Sources', 'Related research'];
+  const relatedPosts = [...new Set(post.related)]
+    .filter((relatedSlug) => relatedSlug !== slug)
+    .flatMap((relatedSlug) => researchPosts.filter((candidate) => candidate.slug === relatedSlug));
+  const headings = ['Key stats', 'Methodology', 'Evidence summary', ...post.dataSections.map((section) => section.heading), ...(post.serviceHandoff ? ['Next step'] : []), 'FAQs', 'Sources', ...(relatedPosts.length ? ['Related research'] : [])];
   const sections = headings.map((label, index) => ({ id: label === 'Sources' ? 'sources' : `${slugifyHeading(label)}-${index + 1}`, label }));
   let sectionIndex = 0;
   const next = () => sections[sectionIndex++].id;
@@ -32,6 +35,6 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
     {post.serviceHandoff&&<section><h2 id={next()}>Next step</h2><p>{post.serviceHandoff.text}</p><p><a href={`/services/${post.serviceHandoff.slug}`}>{post.serviceHandoff.label}</a></p></section>}
     <section><h2 id={next()}>FAQs</h2>{post.faqs.map((faq) => <div key={faq.question}><h3>{faq.question}</h3><p>{faq.answer}</p></div>)}</section>
     <section><h2 id={next()}>Sources</h2><ol>{post.sources.map((source) => <li key={source}><a href={source} rel="noreferrer">{source}</a></li>)}</ol></section>
-    <section><h2 id={next()}>Related research</h2><ul>{post.related.map((relatedSlug) => <li key={relatedSlug}><a href={`/research/${relatedSlug}`}>{relatedSlug}</a></li>)}</ul></section>
+    {relatedPosts.length > 0 && <section><h2 id={next()}>Related research</h2><ul>{relatedPosts.map((related) => <li key={related.slug}><a href={`/research/${related.slug}`}>{related.title}</a></li>)}</ul></section>}
   </EditorialArticle>;
 }

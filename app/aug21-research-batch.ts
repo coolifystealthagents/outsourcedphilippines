@@ -133,7 +133,7 @@ export const aug21ResearchPosts: readonly Post[] = [
     ],
     related: [
       "philippines-outsourcing-exception-aging-patterns-research",
-      "philippines-outsourcing-escalation-path-design",
+      "philippines-operations-escalation-research",
     ],
     hero: "/aug21-research-heroes/exception-aging.png",
   },
@@ -234,7 +234,7 @@ export const aug21ResearchPosts: readonly Post[] = [
     ],
     related: [
       "philippines-outsourcing-handoff-reliability-research",
-      "philippines-outsourcing-work-queue-ownership",
+      "philippines-queue-ownership-disagreement-study",
     ],
     hero: "/aug21-research-heroes/project-dependencies.png",
   },
