@@ -103,6 +103,12 @@ export const services = [
 
 const legacyBlogPosts = [
   {
+    slug: 'outsourced-Philippines-staffing-onboarding-checklist',
+    title: 'A first-week onboarding checklist for Philippines staffing',
+    excerpt: 'Prepare task examples, individual access, a named reviewer, and an end-of-week scope decision before adding work.',
+    minutes: 4,
+  },
+  {
     slug: 'philippines-outsourced-customer-support-account-recovery-checklist',
     title: 'Philippines outsourced customer support account recovery checklist',
     excerpt: 'Help locked-out customers through clear identity checks, manager approvals, safe account changes, and separate recovery notices.',

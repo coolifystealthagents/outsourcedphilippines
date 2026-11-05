@@ -22,7 +22,14 @@ const securityHeaders = [
 
 const nextConfig = {
   async redirects() {
-    return [{ source: '/pricing', destination: '/contact-us', permanent: true }];
+    return [
+      { source: '/pricing', destination: '/contact-us', permanent: true },
+      {"source": "/research/oph02-cross-team-escalation-01", "destination": "/research/oph02-cross-team-escalation-research-01", "permanent": true},
+      {"source": "/research/oph02-vendor-onboarding-02", "destination": "/research/oph02-vendor-onboarding-research-02", "permanent": true},
+      {"source": "/research/oph02-capacity-plan-03", "destination": "/research/oph02-capacity-plan-research-03", "permanent": true},
+      {"source": "/services/philippines-outsourcing", "destination": "/services", "permanent": true},
+      {"source": "/services/reporting-and-qa", "destination": "/services/operations-support", "permanent": true},
+    ];
   },
   async headers() {
     return [{ source: '/(.*)', headers: securityHeaders }];
