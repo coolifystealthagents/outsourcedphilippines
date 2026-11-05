@@ -1,3 +1,5 @@
+
+import { journalThumbnail } from "../journal-thumbnail";
 import { Footer, Header } from '../components';
 import { researchPosts } from '../fleet-content';
 import { estimateReadMinutes, formatEditorialDate, resolveArticleHero } from '../editorial';
@@ -11,7 +13,7 @@ export default function Research() {
     <section className="section"><div className="container">
       <p className="editorial-index-context">This library translates public evidence into questions an operator can test inside a real work lane. Each note states its method and limits, links its sources, and closes with a practical next step. The findings are planning inputs, not promises about individual workers or automatic proof of compliance.</p>
       <div className="fleet-card-grid">{newestFirst.map((post) => { const text = [post.excerpt, post.statistic, post.methodology, ...post.body, ...post.dataSections.map((section) => section.text)].join(' '); return <a className="fleet-card editorial-card" href={`/research/${post.slug}`} key={post.slug}>
-        <img src={resolveArticleHero(post.hero, post.slug, 'research')} alt="" width="640" height="360" loading="lazy" />
+        <img src={journalThumbnail(resolveArticleHero(post.hero, post.slug, 'research'))} alt="" width="640" height="360" loading="lazy" />
         <div className="editorial-card-meta"><time dateTime={post.published}>{formatEditorialDate(post.published)}</time><span>{estimateReadMinutes(text)} min read</span></div>
         <h2>{post.title}</h2><p>{post.excerpt}</p>
       </a>; })}</div>

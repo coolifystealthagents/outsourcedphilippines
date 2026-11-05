@@ -88,5 +88,29 @@
     "source": "https://www.pexels.com/photo/diverse-business-team-working-on-laptop-in-modern-office-3931504/",
     "file": "3931504.webp",
     "description": "diverse business team working on laptop in modern office"
+  },
+  {
+    "id": "8101573",
+    "file": "8101573.webp",
+    "source": "https://www.pexels.com/photo/female-colleagues-working-on-a-project-together-8101573/",
+    "placement": "journal thumbnail"
+  },
+  {
+    "id": "5453808",
+    "file": "5453808.webp",
+    "source": "https://www.pexels.com/photo/people-working-in-the-office-5453808/",
+    "placement": "journal thumbnail"
+  },
+  {
+    "id": "7652178",
+    "file": "7652178.webp",
+    "source": "https://www.pexels.com/photo/a-group-of-people-having-a-meeting-in-the-office-7652178/",
+    "placement": "journal thumbnail"
+  },
+  {
+    "id": "7709215",
+    "source": "https://www.pexels.com/photo/photo-of-a-man-and-a-woman-putting-on-their-headsets-7709215/",
+    "file": "7709215.webp",
+    "placement": "homepage field note"
   }
 ]

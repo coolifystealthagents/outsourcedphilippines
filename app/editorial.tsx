@@ -79,7 +79,7 @@ export function EditorialArticle({ family, title, dek, slug, published, readMinu
               <span>{readMinutes} min read</span>
             </div>
           </div>
-          <img src={image} alt={heroAlt ?? `Editorial illustration for ${title}`} width="1200" height="630" />
+          <></>
         </header>
         <div className="editorial-layout">
           <EditorialToc items={sections} title={title} slug={slug} family={family} published={published} readMinutes={readMinutes} sidebar={sidebar} />

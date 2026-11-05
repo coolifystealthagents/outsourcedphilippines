@@ -68,6 +68,8 @@ export default function Home() {
           {confidenceItems.map(([label, icon]) => <span key={label}><img src={icon} alt={`${label} icon`} />{label}</span>)}
         </div>
       </section>
+<section className="field-story" aria-labelledby="field-story-title"><img src="/design-photography/7709215.webp" alt="photo of a man and a woman putting on their headsets" width={1200} height={800} loading="lazy"/><div><h2 id="field-story-title">Design the handoff around the time difference</h2><p className="field-intro">A shared queue works when the person starting a shift can see what changed after the previous one ended.</p><p>Leave the open customer request, last reply, promised deadline, and next action together in the handoff.</p><p>Agree on a short overlap for exceptions. Routine work can move asynchronously; a changed refund or delivery promise goes back to its owner.</p><a href="/services/customer-experience">Explore customer experience <span aria-hidden="true">→</span></a></div></section>
+
 
       <section className="room-section" id="role-desk">
         <div className="container">

@@ -1,3 +1,5 @@
+
+import { journalThumbnail } from "../journal-thumbnail";
 import { notFound } from 'next/navigation';
 import { Footer, Header } from '../components';
 import { blogPosts } from '../data';
@@ -30,7 +32,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
     <section className="section"><div className="container">
       <p className="editorial-index-context">Use this library to turn a broad hiring idea into a specific work lane. Each guide focuses on tasks a Philippines-based specialist can own, decisions that should stay with your company, and evidence a manager can review. Start with the problem closest to your current bottleneck, then follow the related reading and service links.</p>
       <div className="fleet-card-grid">{posts.map((post) => { const date = resolveBlogPublishedDate(post); return <a className="fleet-card editorial-card" href={`/blog/${post.slug}`} key={post.slug}>
-        <img src={resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug)} alt="" width="640" height="360" loading="lazy" />
+        <img src={journalThumbnail(resolveArticleHero('heroImage' in post && typeof post.heroImage === 'string' ? post.heroImage : undefined, post.slug))} alt="" width="640" height="360" loading="lazy" />
         <div className="editorial-card-meta"><time dateTime={date}>{formatEditorialDate(date)}</time><span>{post.minutes} min read</span></div>
         <h2>{post.title}</h2><p>{post.excerpt}</p>
       </a>; })}</div>
