@@ -1,3 +1,4 @@
+import { SectorScenarios } from "../sector-scenarios";
 import type { Metadata } from 'next';
 import { Footer, Header, JsonLd } from '../components';
 import { fleetServices } from '../fleet-content';
@@ -58,7 +59,7 @@ export default function Services() {
       <section className="service-section paper"><div className="service-shell"><div className="service-heading"><div><p className="service-kicker">Common questions</p><h2>Before you select a lane.</h2></div></div><div className="service-faqs">{indexFaqs.map((faq) => <details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div></div></section>
 
       <section className="service-shell service-final"><div><p className="service-kicker" style={{ color: '#fff' }}>Start with the evidence</p><h2>Bring one recurring task and one awkward exception.</h2><p>That is enough to begin a useful conversation about scope, access, quality review, and a Philippines-based support lane.</p></div><a className="btn lilac" href="/contact-us">Request a role brief</a></section>
-    </main>
+    <SectorScenarios /></main>
     <Footer />
   </>;
 }

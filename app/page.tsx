@@ -54,7 +54,7 @@ export default function Home() {
         <div className="container room-hero-grid">
           <div className="room-copy">
             <p className="eyebrow light">Philippines-only staffing guide</p>
-            <h1>Build a Filipino team around the work you already know.</h1>
+            <h1>Build Philippines-based support around your daily work queues.</h1>
             <p className="hero-lead">Start with the role, not a stack of resumes. Map the tasks, access limits, working hours, and review owner before you hire talent from the Philippines.</p>
             <div className="actions">
               <a className="btn lilac" href="/contact-us">Request a role brief</a>
