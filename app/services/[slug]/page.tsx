@@ -1,3 +1,4 @@
+const fieldPhotos: Record<string,[string,string]> = {"executive-administration": ["/design-photography/8133880.webp", "a woman in black blazer holding a notebook"], "ecommerce-operations": ["/design-photography/7857553.webp", "woman standing next to a desk with a laptop and cardboard boxes and writing on paper"], "real-estate-administration": ["/design-photography/7652176.webp", "a group of people having a meeting in the office"], "healthcare-administration": ["/design-photography/7709185.webp", "a woman working in a call center"], "legal-administrative-support": ["/design-photography/9052297.webp", "woman holding a notebook and talking"], "bookkeeping-support": ["/design-photography/35029019.webp", "business desk with financial documents and cash"], "customer-experience": ["/design-photography/8867267.webp", "call center agent working"], "digital-marketing-operations": ["/design-photography/5710191.webp", "concentrated asian women working on laptop in cafe"], "sales-development-support": ["/design-photography/7163386.webp", "employees using a laptop in the office"], "project-coordination": ["/design-photography/7693730.webp", "group of men and women looking at a laptop and working together"], "operations-support": ["/design-photography/3931504.webp", "diverse business team working on laptop in modern office"]};
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Footer, Header, JsonLd } from '../../components';
@@ -61,7 +62,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
             </div>
           </div>
           <div className="service-hero-art">
-            <img src={service.hero.src} alt={service.hero.alt} width={service.hero.width} height={service.hero.height} loading="eager" fetchPriority="high" style={{ objectPosition: service.hero.position }} />
+            <img src={fieldPhotos[service.slug][0]} alt={fieldPhotos[service.slug][1]} width={service.hero.width} height={service.hero.height} loading="eager" fetchPriority="high" style={{ objectPosition: service.hero.position }} />
             <p className="service-hero-note">A role brief should name the work, evidence, owner, and stop rule.</p>
           </div>
         </div>

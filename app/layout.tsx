@@ -1,6 +1,7 @@
 import { AcrClient } from './acr-client';
 import Script from 'next/script';
 import './globals.css';
+import "./field-design.css";
 import './article.css';
 import type { Metadata } from 'next';
 

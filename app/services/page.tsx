@@ -34,7 +34,7 @@ export default function Services() {
       <section className="service-hero-stage service-index-hero">
         <div className="service-shell service-hero-grid">
           <div><p className="service-kicker">The Philippines role atlas</p><h1>Choose a work lane before you choose a job title.</h1><p className="service-lead">Explore eleven practical service families. Each page names the inputs, working scope, outputs, review controls, and human decisions that should not disappear into delegation.</p><div className="service-hero-actions"><a className="btn lilac" href="#service-atlas">Browse the service atlas</a><a className="service-text-link" href="/contact-us">Bring us a task list →</a></div></div>
-          <div className="service-hero-art"><img src="/illustrations/getillustrations/goodle-team/filipino-team-collaboration.svg" alt="Illustrated Philippines-based team collaborating around a shared work plan" width="750" height="750" loading="eager" fetchPriority="high" /><p className="service-hero-note">Eleven starting lanes. One rule: keep decisions with a named human owner.</p></div>
+          <div className="service-hero-art"><img className="field-photo" src="/design-photography/8519081.webp" alt="a people looking the laptop together" width={1440} height={960} loading="eager" fetchPriority="high" /><p className="service-hero-note">Eleven starting lanes. One rule: keep decisions with a named human owner.</p></div>
         </div>
       </section>
 
@@ -42,7 +42,7 @@ export default function Services() {
 
       <section className="service-section" id="service-atlas">
         <div className="service-shell"><div className="service-heading"><div><p className="service-kicker">Service atlas</p><h2>Find the queue that resembles your actual work.</h2></div><p>Every service opens into a page-specific role desk with scenarios, controls, FAQs, and neighboring lanes-not a generic task list.</p></div>
-          <div className="service-family-grid">{fleetServices.map((service) => <a className="service-family-card" href={`/services/${service.slug}`} key={service.slug}><img src={service.hero.src} alt={service.hero.alt} width={service.hero.width} height={service.hero.height} loading="lazy" /><h2>{service.title}</h2><p>{service.summary}</p><b>Open the role desk →</b></a>)}</div>
+          <div className="service-family-grid">{fleetServices.map((service) => <a className="service-family-card" href={`/services/${service.slug}`} key={service.slug}><h2>{service.title}</h2><p>{service.summary}</p><b>Open the role desk →</b></a>)}</div>
         </div>
       </section>
 

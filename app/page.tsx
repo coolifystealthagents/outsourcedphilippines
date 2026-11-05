@@ -54,7 +54,7 @@ export default function Home() {
         <div className="container room-hero-grid">
           <div className="room-copy">
             <p className="eyebrow light">Philippines-only staffing guide</p>
-            <h1>Build Philippines-based support around your daily work queues.</h1>
+            <h1>Build your team in the Philippines.</h1>
             <p className="hero-lead">Start with the role, not a stack of resumes. Map the tasks, access limits, working hours, and review owner before you hire talent from the Philippines.</p>
             <div className="actions">
               <a className="btn lilac" href="/contact-us">Request a role brief</a>
@@ -62,17 +62,7 @@ export default function Home() {
             </div>
             <p className="route-note">This is an independent guide. Requests may be sent to a Philippines staffing partner that can follow up on the role.</p>
           </div>
-          <div className="hero-visual">
-            <div className="photo-shell">
-              <img src="/illustrations/getillustrations/goodle-team/filipino-team-collaboration.svg" alt="Illustrated Filipino team collaborating at their desks" />
-            </div>
-            <aside className="role-slip">
-              <span>Working role brief</span>
-              <strong>One owner.<br />One first lane.</strong>
-              <small>Tasks · tools · limits · review</small>
-            </aside>
-            <div className="ph-seal" aria-label="Talent sourced only from the Philippines"><b>PH</b><span>only</span></div>
-          </div>
+          <figure className="hero-visual field-frame"><img className="field-photo" src="/design-photography/7964511.webp" alt="poeple working with laptops on office" width={1440} height={960} loading="eager" fetchPriority="high" /></figure>
         </div>
         <div className="container confidence-row" aria-label="Staffing approach">
           {confidenceItems.map(([label, icon]) => <span key={label}><img src={icon} alt={`${label} icon`} />{label}</span>)}
@@ -84,7 +74,7 @@ export default function Home() {
           <div className="section-intro visual-intro">
             <div><p className="eyebrow">The role desk</p><h2>Turn a busy job into a clean handoff.</h2></div>
             <div className="intro-support">
-              <img src="/illustrations/customer-support.svg" alt="Customer support work illustration" width="700" height="700" loading="lazy" />
+              <img className="field-photo" src="/design-photography/8867185.webp" alt="four people working in the office" width={1440} height={960} loading="lazy" />
               <p>Most hiring trouble starts before the interview. If the role covers everything, no candidate can know what good work looks like. Give the first month a smaller shape.</p>
             </div>
           </div>
@@ -100,7 +90,7 @@ export default function Home() {
               </div>
             </article>
             <aside className="desk-side">
-              <img className="supporting-illustration" src="/illustrations/getillustrations/inkdex-team/role-handoff.svg" alt="Team securely sharing a role document" />
+              <img className="field-photo" src="/design-photography/7653580.webp" alt="colleagues in an office" width={1440} height={960} loading="lazy" />
               <p className="eyebrow light">Before access</p>
               <h3>Draw the boundary.</h3>
               <ul><li>Individual account</li><li>Smallest useful permission set</li><li>Approval rule for exceptions</li><li>Access removal owner</li></ul>
@@ -115,7 +105,7 @@ export default function Home() {
           <div className="role-grid">
             {roles.map((role, index) => <a className="role-card" href={role.href} key={role.slug}>
               <span className="role-card-art">
-                <img src={roleIllustrations[index]} alt={`${role.title} support illustration`} />
+
               </span>
               <h3>{role.title}</h3><p>{role.summary}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
             </a>)}
@@ -125,7 +115,7 @@ export default function Home() {
 
       <section className="process-field" id="process">
         <div className="container process-grid">
-          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p><img className="process-illustration" src="/illustrations/operations-support.svg" alt="Operations support work illustration" width="700" height="700" loading="lazy" /></div>
+          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p></div>
           <div className="process-list">
             {staffingProcess.map((item) => <article key={item.step}><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}
           </div>
@@ -134,7 +124,7 @@ export default function Home() {
 
       <section className="room-section handoff-section">
         <div className="container">
-          <div className="section-intro visual-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><div className="intro-support"><img src="/illustrations/admin-support.svg" alt="Administrative support work illustration" width="700" height="700" loading="lazy" /><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div></div>
+          <div className="section-intro visual-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><div className="intro-support"><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div></div>
           <div className="handoff-grid">{handoffNotes.map((note) => <article key={note.label}><h3>{note.label}</h3><p>{note.text}</p></article>)}</div>
         </div>
       </section>
@@ -153,7 +143,7 @@ export default function Home() {
 
       <section className="container closing-card">
         <div><p className="eyebrow light">Put the role on paper</p><h2>Send the messy task list. Get a cleaner starting point.</h2><p>Tell us what repeats, what needs approval, and when the work must happen. The brief stays focused on Filipino talent from the Philippines.</p></div>
-        <img className="closing-illustration" src="/illustrations/reporting-qa.svg" alt="Reporting and quality assurance work illustration" width="700" height="700" loading="lazy" />
+
         <a className="btn lilac" href="/contact-us">Request a role brief</a>
       </section>
     </main>
