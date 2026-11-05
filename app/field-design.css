@@ -31,3 +31,12 @@ main .field-frame{min-height:0;max-height:none;background:transparent}
 @media(max-width:760px){.field-story{grid-template-columns:1fr;gap:18px}.field-story img{aspect-ratio:16/9;max-height:265px}}
 
 .service-system .service-section{padding-block:clamp(26px,3.4vw,52px)}.service-system .service-hero-art{min-height:0;overflow:hidden}.service-system .service-hero-art img{padding:0;object-fit:cover;min-height:0}.service-system .service-family-card{min-height:0;padding:20px}.service-system .service-heading{gap:clamp(16px,3vw,42px)}
+
+main.role-room .room-hero{padding:0}
+main.role-room .room-hero-grid{padding-block:clamp(20px,2.25vw,36px)!important}
+main.role-room .room-copy{padding-block:0}
+main.role-room .room-copy h1{font-size:clamp(39px,4.55vw,66px);line-height:1.03;max-width:18ch;margin-bottom:16px}
+.service-system .service-hero-stage{padding-block:clamp(24px,3vw,44px)}
+.service-system .service-hero-art{border-radius:6px;background:transparent;min-height:0;height:auto}
+.service-system .service-hero-art img{width:100%;height:auto;aspect-ratio:3/2;max-height:380px;padding:0;object-fit:cover;border-radius:6px;display:block}
+.service-system .service-hero-art .service-hero-note{position:static;max-width:none;margin:0;padding:8px 0;background:transparent;color:inherit;box-shadow:none}
