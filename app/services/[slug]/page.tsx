@@ -62,7 +62,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
             </div>
           </div>
           <div className="service-hero-art">
-            <img src={fieldPhotos[service.slug][0]} alt={fieldPhotos[service.slug][1]} width={service.hero.width} height={service.hero.height} loading="eager" fetchPriority="high" style={{ objectPosition: service.hero.position }} />
+            <img src={fieldPhotos[service.slug][0]} alt={fieldPhotos[service.slug][1]} width={service.hero.width} height={service.hero.height} loading="eager" fetchPriority="high" style={{ objectPosition: service.slug === "legal-administrative-support" ? "center top" : service.hero.position }} />
             <p className="service-hero-note">Practical support. Clear responsibilities.</p>
           </div>
         </div>
