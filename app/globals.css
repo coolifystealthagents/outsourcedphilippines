@@ -97,3 +97,7 @@ body{overflow-x:clip}
 /* Text-led role cards follow the content height. */
 .role-card { min-height: 0; gap: 0; }
 .role-card b { padding-top: 1rem; }
+
+/* Policy pages: compact opening and readable mobile measure. */
+.legal-hero{padding:32px 0}.legal-hero h1{margin:16px 0 22px;font-size:clamp(38px,4.4vw,60px);line-height:1.05}.legal-card{margin:28px auto 36px;border-radius:8px}.legal-card a{text-decoration:underline;text-underline-offset:3px}.legal-card>p:last-child{margin-bottom:0}
+@media(max-width:600px){.legal-hero{padding:26px 0}.legal-card{padding:22px 20px;margin:24px auto}.legal-hero .lead{font-size:18px}}
