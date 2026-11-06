@@ -148,3 +148,7 @@ main.role-room{padding:0}.role-room .room-hero{padding:0}.role-room .library-hea
 /* Keep directory pagination within the viewport. */
 .pagination{flex-wrap:wrap;padding-inline:14px;max-width:1160px;margin-inline:auto}
 .pagination a{flex:0 0 auto}
+
+/* Live directory review: remove stacked section padding and preserve thumbnail ratio. */
+.editorial-index .editorial-index-hero{padding-block:32px}.editorial-index>.section{padding-block:28px}.editorial-index-context{margin-bottom:24px}.editorial-index .fleet-card{padding:24px;border-radius:8px}.editorial-index .editorial-card img{height:auto;aspect-ratio:16/9;border-radius:4px}.editorial-index .editorial-index-cta{margin-top:28px;padding:28px;border-radius:8px}
+@media(max-width:760px){.editorial-index .editorial-index-hero{padding-block:24px}.editorial-index>.section{padding-block:24px}.editorial-index .fleet-card{padding:20px}.editorial-index .editorial-index-cta{padding:22px}}
