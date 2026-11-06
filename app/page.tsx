@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <p className="route-note">This is an independent guide. Requests may be sent to a Philippines staffing partner that can follow up on the role.</p>
           </div>
-          <figure className="hero-visual field-frame"><img className="field-photo" src="/design-photography/7964511.webp" alt="poeple working with laptops on office" width={1440} height={960} loading="eager" fetchPriority="high" /></figure>
+          <figure className="hero-visual field-frame"><img className="field-photo" src="/design-photography/7964511.webp" alt="People working with laptops in an office" width={1440} height={960} loading="eager" fetchPriority="high" /></figure>
         </div>
         <div className="container confidence-row" aria-label="Staffing approach">
           {confidenceItems.map(([label, icon]) => <span key={label}><img src={icon} alt={`${label} icon`} />{label}</span>)}
