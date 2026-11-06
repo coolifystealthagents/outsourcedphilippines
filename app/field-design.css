@@ -132,3 +132,15 @@ main.role-room{padding:0}.role-room .room-hero{padding:0}.role-room .library-hea
 /* Match the mobile photo frame to the image; keep service actions aligned. */
 .role-room .role-card{display:flex;flex-direction:column}.role-room .role-card b{margin-top:auto}.role-room .hero-loop{display:none}
 @media(max-width:960px){.role-room .hero-visual.field-frame{aspect-ratio:16/9;height:auto!important}.role-room .hero-visual.field-frame img{height:auto;max-height:none}}
+
+/* About: remove tall blank bands and preserve the whole team photograph. */
+.about-page .utility-hero{padding-block:36px;min-height:0}
+.about-page .utility-hero h1{font-size:clamp(36px,4.5vw,62px);line-height:1.08;margin-bottom:20px}
+.about-page .utility-hero .lead{margin-bottom:0}
+.about-page .section{padding-block:32px}
+.about-page h2{font-size:clamp(28px,3vw,42px);line-height:1.15;margin-bottom:20px}
+.about-page .two{gap:28px;align-items:center}
+.about-page .utility-photo{height:auto;max-height:none;aspect-ratio:1600/1067;object-fit:contain;border-radius:6px}
+.about-page .card{padding:22px;border-radius:6px}.about-page .card p:last-child{margin-bottom:0}
+.about-page .about-sa-logo{width:180px;margin-bottom:14px}
+@media(max-width:760px){.about-page .utility-hero{padding-block:26px}.about-page .section{padding-block:26px}.about-page .two{gap:20px}.about-page .utility-hero .lead{font-size:18px;line-height:1.6}.about-page .card{padding:20px}}
