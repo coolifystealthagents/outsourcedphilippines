@@ -26,3 +26,9 @@
 @media(max-width:640px){.service-system .service-hero-stage{padding-block:24px}.service-system .service-hero-grid{gap:20px}.service-system .service-hero-art img{max-height:240px}.service-system .service-heading{gap:16px}.service-system .service-family-card{padding:20px}.service-system .service-final{padding:24px}}
 
 .service-system .service-boundary-card.quality,.service-system .service-final{background:#ad4028;color:#fff}.service-system .service-boundary-card.quality .eyebrow,.service-system .service-final .eyebrow{color:#fff}.service-system .service-hero-stage .eyebrow,.service-system .dark .eyebrow{color:#f4b69b}
+
+/* Keep the final invitation proportional to the service content. */
+.service-system .service-final{gap:24px;margin-bottom:0;padding:28px 32px;border-radius:8px 8px 0 0}
+.service-system .service-final h2{font-size:clamp(30px,3.2vw,42px);line-height:1.12;max-width:26ch}
+.service-system .service-hero-stage .service-kicker{color:#f4b69b}
+@media(max-width:640px){.service-system .service-final{padding:24px;gap:20px}.service-system .service-hero-stage .service-lead{font-size:17px;line-height:1.55}}
