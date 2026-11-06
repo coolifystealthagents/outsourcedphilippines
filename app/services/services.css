@@ -24,3 +24,5 @@
 .service-system .service-final{padding:32px;margin-bottom:32px;border-radius:8px}
 @media(max-width:960px){.service-system .service-family-grid>a:last-child:nth-child(3n + 2){grid-column:auto}.service-system .service-family-grid>a:last-child:nth-child(odd){grid-column:1/-1}}
 @media(max-width:640px){.service-system .service-hero-stage{padding-block:24px}.service-system .service-hero-grid{gap:20px}.service-system .service-hero-art img{max-height:240px}.service-system .service-heading{gap:16px}.service-system .service-family-card{padding:20px}.service-system .service-final{padding:24px}}
+
+.service-system .service-boundary-card.quality,.service-system .service-final{background:#ad4028;color:#fff}.service-system .service-boundary-card.quality .eyebrow,.service-system .service-final .eyebrow{color:#fff}.service-system .service-hero-stage .eyebrow,.service-system .dark .eyebrow{color:#f4b69b}
