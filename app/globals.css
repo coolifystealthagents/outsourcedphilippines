@@ -93,3 +93,7 @@ body{overflow-x:clip}
  .nav-inner .brand-with-parent .sa-attribution { justify-content:flex-start; }
  .nav-inner .brand-with-parent .sa-attribution img { width:70px; }
 }
+
+/* Text-led role cards follow the content height. */
+.role-card { min-height: 0; gap: 0; }
+.role-card b { padding-top: 1rem; }

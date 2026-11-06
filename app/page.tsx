@@ -105,10 +105,7 @@ export default function Home() {
         <div className="container">
           <div className="library-head"><div><p className="eyebrow">Starting lanes</p><h2>Choose work that can be seen, checked, and handed back.</h2></div><p>These are sensible places to begin with a Filipino team member. The service pages spell out the first tasks and the controls to keep.</p></div>
           <div className="role-grid">
-            {roles.map((role, index) => <a className="role-card" href={role.href} key={role.slug}>
-              <span className="role-card-art">
-
-              </span>
+            {roles.map((role) => <a className="role-card" href={role.href} key={role.slug}>
               <h3>{role.title}</h3><p>{role.summary}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
             </a>)}
           </div>
