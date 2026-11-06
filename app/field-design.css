@@ -66,3 +66,7 @@ main.section:has(.basic-article) {
 .sa-booking-calendar .sa-oncehub-frame { height: clamp(32rem, 76svh, 47.5rem); }
 
 .pagination a[aria-current="page"] { color: #241a14; background-color: #f97316; }
+
+.role-room,.room-section,.role-library,.process-field,.decision-compass{padding-block:clamp(28px,3.8vw,52px)}
+.section-intro,.library-head{margin-bottom:24px}
+.closing-card{margin-block:32px;padding:clamp(24px,4vw,48px)}
