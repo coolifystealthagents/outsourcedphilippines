@@ -68,8 +68,29 @@ export default function Home() {
           {confidenceItems.map(([label, icon]) => <span key={label}><img src={icon} alt={`${label} icon`} />{label}</span>)}
         </div>
       </section>
-<section className="field-story" aria-labelledby="field-story-title"><img src="/design-photography/7709215.webp" alt="photo of a man and a woman putting on their headsets" width={1200} height={800} loading="lazy"/><div><h2 id="field-story-title">Design the handoff around the time difference</h2><p className="field-intro">A shared queue works when the person starting a shift can see what changed after the previous one ended.</p><p>Leave the open customer request, last reply, promised deadline, and next action together in the handoff.</p><p>Agree on a short overlap for exceptions. Routine work can move asynchronously; a changed refund or delivery promise goes back to its owner.</p><a href="/services/customer-experience">Explore customer experience <span aria-hidden="true">→</span></a></div></section>
 
+
+
+      <section className="role-library" id="roles">
+        <div className="container">
+          <div className="library-head"><div><p className="eyebrow">Services</p><h2>Specialist support for your daily operations.</h2></div><p>These are sensible places to begin with a Filipino team member. The service pages spell out the first tasks and the controls to keep.</p></div>
+          <div className="role-grid">
+            {roles.map((role) => <a className="role-card" href={role.href} key={role.slug}>
+              <h3>{role.title}</h3><p>{role.summary}</p><b>Explore service <i aria-hidden="true">↗</i></b>
+            </a>)}
+          </div>
+        </div>
+      </section>
+
+<section className="field-story" aria-labelledby="field-story-title"><img src="/design-photography/7709215.webp" alt="photo of a man and a woman putting on their headsets" width={1200} height={800} loading="lazy"/><div><h2 id="field-story-title">Design the handoff around the time difference</h2><p className="field-intro">A shared queue works when the person starting a shift can see what changed after the previous one ended.</p><p>Leave the open customer request, last reply, promised deadline, and next action together in the handoff.</p><p>Agree on a short overlap for exceptions. Routine work can move asynchronously; a changed refund or delivery promise goes back to its owner.</p><a href="/services/customer-experience">Explore customer experience <span aria-hidden="true">→</span></a></div></section>
+      <section className="process-field" id="process">
+        <div className="container process-grid">
+          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p></div>
+          <div className="process-list">
+            {staffingProcess.map((item) => <article key={item.step}><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}
+          </div>
+        </div>
+      </section>
 
       <section className="room-section" id="role-desk">
         <div className="container">
@@ -101,33 +122,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="role-library" id="roles">
-        <div className="container">
-          <div className="library-head"><div><p className="eyebrow">Starting lanes</p><h2>Choose work that can be seen, checked, and handed back.</h2></div><p>These are sensible places to begin with a Filipino team member. The service pages spell out the first tasks and the controls to keep.</p></div>
-          <div className="role-grid">
-            {roles.map((role) => <a className="role-card" href={role.href} key={role.slug}>
-              <h3>{role.title}</h3><p>{role.summary}</p><b>Open the role notes <i aria-hidden="true">↗</i></b>
-            </a>)}
-          </div>
-        </div>
-      </section>
-
-      <section className="process-field" id="process">
-        <div className="container process-grid">
-          <div className="process-title"><p className="eyebrow light">A quieter launch</p><h2>Get one lane working before you add another.</h2><p>Start with a small set of tasks for Filipino talent. Add the next lane only after the first one is steady.</p></div>
-          <div className="process-list">
-            {staffingProcess.map((item) => <article key={item.step}><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}
-          </div>
-        </div>
-      </section>
-
-      <section className="room-section handoff-section">
-        <div className="container">
-          <div className="section-intro visual-intro"><div><p className="eyebrow">Proof without theater</p><h2>Ask to see the working documents.</h2></div><div className="intro-support"><p>A real process is easier to trust when you can inspect it. Blank templates tell you more than borrowed logos or a perfect testimonial.</p></div></div>
-          <div className="handoff-grid">{handoffNotes.map((note) => <article key={note.label}><h3>{note.label}</h3><p>{note.text}</p></article>)}</div>
-        </div>
-      </section>
-
       <section className="decision-compass" aria-labelledby="decision-title">
         <div className="container">
           <div className="compass-heading"><p className="eyebrow">Decision guidance</p><h2 id="decision-title">Choose the lane by what must stay visible.</h2><p>A useful starting role is not necessarily the busiest one. Pick the work your team can explain, sample, and stop safely when an exception appears.</p></div>
@@ -136,7 +130,7 @@ export default function Home() {
             <article><h3>Conversations need a route</h3><p>Start with a response lane when approved answers are stable and unusual cases have a named escalation owner.</p><a href="/services/customer-experience">Explore customer experience →</a></article>
             <article><h3>Owners need follow-through</h3><p>Start with coordination when decisions already have owners but actions, dependencies, and evidence are becoming scattered.</p><a href="/services/project-coordination">Explore project coordination →</a></article>
           </div>
-          <a className="compass-all" href="/services">Compare all eleven service lanes →</a>
+          <a className="compass-all" href="/services">Compare all eleven services →</a>
         </div>
       </section>
 

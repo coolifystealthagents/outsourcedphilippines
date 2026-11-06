@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
     title: service.title,
     description: service.summary,
     alternates: { canonical: url },
-    openGraph: { title: service.title, description: service.summary, url, type: 'website', images: [{ url: service.hero.src, width: service.hero.width, height: service.hero.height, alt: service.hero.alt }] },
+    openGraph: { title: service.title, description: service.summary, url, type: 'website', images: [{ url: fieldPhotos[service.slug][0], width: service.hero.width, height: service.hero.height, alt: fieldPhotos[service.slug][1] }] },
   };
 }
 
@@ -53,69 +53,26 @@ export default async function ServicePage({ params }: ServicePageProps) {
       <section className="service-hero-stage">
         <div className="service-shell service-hero-grid">
           <div>
-            <p className="service-kicker">Philippines-based role planning</p>
+            <p className="service-kicker">Specialist support from the Philippines</p>
             <h1>{service.title}</h1>
             <p className="service-lead">{service.summary}</p>
             <div className="service-hero-actions">
-              <a className="btn lilac" href="/contact-us">Discuss this role</a>
-              <a className="service-text-link" href="#scope">Read the working scope ↓</a>
+              <a className="btn lilac" href="/contact-us">Discuss your requirements</a>
+              <a className="service-text-link" href="#scope">See responsibilities ↓</a>
             </div>
           </div>
           <div className="service-hero-art">
             <img src={fieldPhotos[service.slug][0]} alt={fieldPhotos[service.slug][1]} width={service.hero.width} height={service.hero.height} loading="eager" fetchPriority="high" style={{ objectPosition: service.hero.position }} />
-            <p className="service-hero-note">A role brief should name the work, evidence, owner, and stop rule.</p>
+            <p className="service-hero-note">Practical support. Clear responsibilities.</p>
           </div>
         </div>
       </section>
 
-      <section className="service-intro-band">
-        <div className="service-shell service-intro-grid">
-          <article><p className="service-kicker">Who this is for</p><h2>A lane with an accountable owner</h2><p>{service.audience}</p></article>
-          <article><p className="service-kicker">The operating problem</p><h2>Delegation needs a visible edge</h2><p>{service.problem}</p></article>
-        </div>
-      </section>
-
-      <section className="service-section" id="scope">
-        <div className="service-shell">
-          <div className="service-heading"><div><p className="service-kicker">Role desk</p><h2>Inputs first. Then a bounded scope.</h2></div><p>Useful support begins with source material and decision rights-not a broad job title. These are the items to settle before access is issued.</p></div>
-          <div className="service-list-grid">
-            <article className="service-list-card"><h3>What the client provides</h3><ul>{service.inputs.map((item) => <li key={item}>{item}</li>)}</ul></article>
-            <article className="service-list-card"><h3>Work inside the lane</h3><ul>{service.scope.map((item) => <li key={item}>{item}</li>)}</ul></article>
-          </div>
-        </div>
-      </section>
-
-      <section className="service-section dark">
-        <div className="service-shell">
-          <div className="service-heading"><div><p className="service-kicker">Working rhythm</p><h2>Move from examples to a reviewable queue.</h2></div><p>The launch sequence is deliberately narrow. It exposes unclear instructions and exception paths before the role takes on more volume.</p></div>
-          <div className="service-workflow">{service.workflow.map((step) => <article key={step.title}><h3>{step.title}</h3><p>{step.body}</p></article>)}</div>
-          <div className="service-heading" style={{ marginTop: 58 }}><div><p className="service-kicker">What comes back</p><h2>Working artifacts, not invisible activity.</h2></div></div>
-          <div className="service-deliverables">{service.deliverables.map((item) => <span key={item}><b>Reviewable output</b>{item}</span>)}</div>
-        </div>
-      </section>
-
-      <section className="service-section">
-        <div className="service-shell service-boundary-grid">
-          <article className="service-boundary-card"><p className="service-kicker">Human decision boundary</p><h2>What stays with the owner</h2><ul>{service.boundaries.map((item) => <li key={item}>{item}</li>)}</ul></article>
-          <article className="service-boundary-card quality"><p className="service-kicker" style={{ color: '#fff' }}>Quality controls</p><h2>How work is checked</h2><ul>{service.qualityControls.map((item) => <li key={item}>{item}</li>)}</ul></article>
-        </div>
-      </section>
-
-      <section className="service-section paper">
-        <div className="service-shell">
-          <div className="service-heading"><div><p className="service-kicker">In practice</p><h2>Ordinary work and the exception beside it.</h2></div><p>Scenarios make a role boundary easier to test than a list of traits. They show where preparation ends and accountable judgment begins.</p></div>
-          <div className="service-scenarios">{service.scenarios.map((scenario) => <article className="service-scenario" key={scenario.title}><h3>{scenario.title}</h3><p><strong>Situation:</strong> {scenario.situation}</p><p><strong>Approach:</strong> {scenario.approach}</p></article>)}</div>
-        </div>
-      </section>
-
-      <section className="service-section">
-        <div className="service-shell">
-          <div className="service-heading"><div><p className="service-kicker">Decision support</p><h2>Questions to resolve before launch.</h2></div></div>
-          <div className="service-faqs">{service.faqs.map((faq) => <details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div>
-          <div style={{ marginTop: 48 }}><p className="service-kicker">Related service lanes</p><div className="service-related">{related.map((item) => item && <a key={item.slug} href={`/services/${item.slug}`}>{item.title} →</a>)}<a href="/services">View all services →</a></div></div>
-        </div>
-      </section>
-
+      <nav className="brief-nav" aria-label="On this page"><a href="#scope">Responsibilities</a><a href="#process">Working together</a><a href="#checks">Quality & approvals</a><a href="#questions">Questions</a></nav>
+      <section className="brief-section" id="scope"><div className="brief-shell"><div className="brief-context"><p className="service-kicker">Where support helps</p><p>{service.problem}</p><p className="brief-audience">{service.audience}</p></div><div className="brief-columns"><article><h2>What the specialist handles</h2><ul>{service.scope.map(item=><li key={item}>{item}</li>)}</ul><h3>What you provide</h3><ul>{service.inputs.map(item=><li key={item}>{item}</li>)}</ul></article><aside className="brief-output"><p className="service-kicker">The finished handoff</p><h2>What you receive</h2><ul>{service.deliverables.map(item=><li key={item}>{item}</li>)}</ul></aside></div></div></section>
+      <section className="brief-section brief-tint" id="process"><div className="brief-shell"><div className="brief-heading"><p className="service-kicker">A practical starting point</p><h2>From first sample to routine work</h2></div><ol className="brief-steps">{service.workflow.map((step,i)=><li key={step.title}><span aria-hidden="true">0{i+1}</span><h3>{step.title}</h3><p>{step.body}</p></li>)}</ol><div className="brief-examples">{service.scenarios.map(scenario=><article key={scenario.title}><h3>{scenario.title}</h3><p>{scenario.situation}</p><p><strong>The response:</strong> {scenario.approach}</p></article>)}</div></div></section>
+      <section className="brief-section" id="checks"><div className="brief-shell brief-columns"><article><p className="service-kicker">Your team remains in control</p><h2>Decisions you keep</h2><ul>{service.boundaries.map(item=><li key={item}>{item}</li>)}</ul></article><article><p className="service-kicker">Review before expanding</p><h2>How the work is checked</h2><ul>{service.qualityControls.map(item=><li key={item}>{item}</li>)}</ul></article></div></section>
+      <section className="brief-section brief-tint" id="questions"><div className="brief-shell"><div className="brief-heading"><p className="service-kicker">Before you begin</p><h2>Questions about this service</h2></div><div className="brief-faq">{service.faqs.map(faq=><details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div><nav className="brief-related" aria-label="Related services"><strong>Also explore</strong>{related.map(item=>item&&<a key={item.slug} href={`/services/${item.slug}`}>{item.title} ↗</a>)}<a href="/services">All services ↗</a></nav></div></section>
       <section className="service-shell service-final">
         <div><p className="service-kicker" style={{ color: '#fff' }}>Put the lane on paper</p><h2>Bring the recurring work and one real exception.</h2><p>We can use them to frame the inputs, permissions, review owner, and first sample for a Philippines-based role.</p></div>
         <a className="btn lilac" href="/contact-us">Request a role brief</a>
