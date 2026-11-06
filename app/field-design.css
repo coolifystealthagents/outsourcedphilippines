@@ -128,3 +128,7 @@ main.role-room{padding:0}.role-room .room-hero{padding:0}.role-room .library-hea
 /* Remove the empty footer buffer and excessive navigation column gaps. */
 .footer.legit-footer{margin-top:0;padding-top:32px}.footer.legit-footer .footer-grid{gap:32px}.footer.legit-footer .footer-bottom{margin-top:28px}
 @media(max-width:760px){.footer.legit-footer .footer-grid{gap:28px}.footer.legit-footer .footer-bottom{margin-top:24px}}
+
+/* Match the mobile photo frame to the image; keep service actions aligned. */
+.role-room .role-card{display:flex;flex-direction:column}.role-room .role-card b{margin-top:auto}.role-room .hero-loop{display:none}
+@media(max-width:960px){.role-room .hero-visual.field-frame{aspect-ratio:16/9;height:auto!important}.role-room .hero-visual.field-frame img{height:auto;max-height:none}}
