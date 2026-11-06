@@ -144,3 +144,7 @@ main.role-room{padding:0}.role-room .room-hero{padding:0}.role-room .library-hea
 .about-page .card{padding:22px;border-radius:6px}.about-page .card p:last-child{margin-bottom:0}
 .about-page .about-sa-logo{width:180px;margin-bottom:14px}
 @media(max-width:760px){.about-page .utility-hero{padding-block:26px}.about-page .section{padding-block:26px}.about-page .two{gap:20px}.about-page .utility-hero .lead{font-size:18px;line-height:1.6}.about-page .card{padding:20px}}
+
+/* Keep directory pagination within the viewport. */
+.pagination{flex-wrap:wrap;padding-inline:14px;max-width:1160px;margin-inline:auto}
+.pagination a{flex:0 0 auto}
