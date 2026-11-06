@@ -121,3 +121,6 @@ main.role-room{padding:0}.role-room .room-hero{padding:0}.role-room .library-hea
 
 /* Section headings carry the hierarchy without decorative numbering. */
 .brief-steps>li{display:block!important}.brief-steps>li>h3,.brief-steps>li>p{grid-column:auto!important}.service-brief-card>header{display:block}.service-number{display:none}
+
+.role-room .intro-support{display:block}.role-room .intro-support p{margin:0;max-width:54ch}.role-room .desk-grid{grid-template-columns:1.2fr 1fr;align-items:start;gap:24px}.role-room .desk-main,.role-room .desk-side{border-radius:8px;box-shadow:none}.role-room .desk-side h3{margin:12px 0}.role-room .desk-side ul{margin:16px 0 0}.role-room .decision-compass{padding-block:32px}.role-room .compass-grid article{padding:24px;min-height:0;border-radius:8px}.role-room .compass-grid h3{font-size:27px;margin:0 0 14px}.role-room .compass-grid a{margin-top:18px}.role-room .field-story{margin-block:24px;padding-block:24px}
+@media(max-width:760px){.role-room .desk-grid{grid-template-columns:1fr}.role-room .decision-compass{padding-block:24px}}

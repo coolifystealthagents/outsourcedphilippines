@@ -97,7 +97,6 @@ export default function Home() {
           <div className="section-intro visual-intro">
             <div><p className="eyebrow">The role desk</p><h2>Turn a busy job into a clean handoff.</h2></div>
             <div className="intro-support">
-              <img className="field-photo" src="/design-photography/8867185.webp" alt="four people working in the office" width={1440} height={960} loading="lazy" />
               <p>Most hiring trouble starts before the interview. If the role covers everything, no candidate can know what good work looks like. Give the first month a smaller shape.</p>
             </div>
           </div>
@@ -113,7 +112,6 @@ export default function Home() {
               </div>
             </article>
             <aside className="desk-side">
-              <img className="field-photo" src="/design-photography/7653580.webp" alt="colleagues in an office" width={1440} height={960} loading="lazy" />
               <p className="eyebrow light">Before access</p>
               <h3>Draw the boundary.</h3>
               <ul><li>Individual account</li><li>Smallest useful permission set</li><li>Approval rule for exceptions</li><li>Access removal owner</li></ul>
