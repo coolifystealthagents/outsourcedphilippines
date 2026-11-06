@@ -16,3 +16,20 @@
 
 /* Keep the final CTA eyebrow readable against the orange panel. */
 .close .kicker{color:#24342f}
+
+/* Compact supporting information without compressing the intake form. */
+.team,.section{padding:36px 0}
+.teamGrid{gap:32px}
+.team figure>img{border-radius:8px;box-shadow:none}
+.team h2,.section h2,.close h2{font-size:clamp(30px,3.2vw,42px);line-height:1.12}
+.team h2{margin-bottom:16px}
+.team p:last-child{margin-bottom:0}
+.cards{margin-top:22px}
+.cards article{padding:22px;border-radius:8px}
+.cards p:last-child{margin-bottom:0}
+.close{width:min(1180px,calc(100% - 40px));margin-bottom:32px;padding:32px;border-radius:8px}
+@media(max-width:620px){
+ .team,.section{padding:26px 0}
+ .teamGrid{gap:24px}
+ .close{width:calc(100% - 28px);margin-bottom:24px;padding:24px;gap:22px}
+}
