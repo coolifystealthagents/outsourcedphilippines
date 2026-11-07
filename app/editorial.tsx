@@ -75,7 +75,7 @@ export function EditorialArticle({ family, title, dek, slug, published, readMinu
             <p className="lead">{dek}</p>
             <div className="editorial-byline" aria-label="Article details">
               <span>Outsourced Philippines</span>
-              <time dateTime={published}>{formatEditorialDate(published)}</time>
+              <span>Published <time dateTime={published}>{formatEditorialDate(published)}</time></span>
               <span>{readMinutes} min read</span>
             </div>
           </div>
