@@ -78,6 +78,9 @@ body{overflow-x:clip}
   .hat-toc ol{grid-template-columns:1fr;margin-top:10px}
 }
 .hat-toc-mobile{position:sticky;top:78px;z-index:40;max-height:60vh;overflow:auto;background:#fff}
+.hat-toc-mobile nav{display:grid;gap:2px;margin-top:8px}
+.hat-toc-mobile nav a{display:block;padding:5px 8px;border-left:2px solid transparent;color:#3c5360;font-size:13px;line-height:1.4;text-decoration:none}
+.hat-toc-mobile nav a:hover,.hat-toc-mobile nav a:focus-visible{border-left-color:#0f8f73;background:#e9f3f1;color:#075a49;text-decoration:underline}
 
 /* 2026-11-05 basic guide layout: ToC occupies its own sticky grid column beside the article */
 .basic-article{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;max-width:1180px;margin-inline:auto;padding-inline:20px;align-items:start}
