@@ -1,7 +1,7 @@
 // 2026-11-06 batch.
 export const nov06ResearchPosts = [
   {
-    "slug": "philippines-outsourcing-data-privacy-boundaries-research",
+    "slug": "data-privacy-boundaries-for-philippines-based-support-work",
     "title": "Data Privacy Boundaries for Philippines-Based Support Work",
     "excerpt": "How the Philippine Data Privacy Act, minimum-necessary access, and controller-processor roles shape a defensible offshore support lane.",
     "published": "2026-11-06",
@@ -76,14 +76,14 @@ export const nov06ResearchPosts = [
       "https://psa.gov.ph/"
     ],
     "related": [
-      "philippines-outsourcing-segregation-of-duties-research",
-      "philippines-outsourcing-public-labor-statistics-research"
+      "segregation-of-duties-for-outsourced-finance-coordinators",
+      "what-public-labor-statistics-can-tell-a-philippines-hiring-team"
     ],
-    "hero": "/daily06/outsourcedphilippines/philippines-outsourcing-data-privacy-boundaries-research.webp",
-    "thumbnail": "/daily06/outsourcedphilippines/philippines-outsourcing-data-privacy-boundaries-research.webp"
+    "hero": "/daily06/outsourcedphilippines/data-privacy-boundaries-for-philippines-based-support-work.webp",
+    "thumbnail": "/daily06/outsourcedphilippines/data-privacy-boundaries-for-philippines-based-support-work.webp"
   },
   {
-    "slug": "philippines-outsourcing-holiday-coverage-research",
+    "slug": "holiday-coverage-and-rest-periods-in-philippines-outsourcing",
     "title": "Holiday Coverage and Rest Periods in Philippines Outsourcing",
     "excerpt": "A research note on Philippine holiday categories, rest-day design, client service levels, and the records that make holiday coverage defensible.",
     "published": "2026-11-06",
@@ -158,14 +158,14 @@ export const nov06ResearchPosts = [
       "https://www.worldbank.org/en/country/philippines/overview"
     ],
     "related": [
-      "philippines-outsourcing-continuity-disruptions-research",
-      "philippines-outsourcing-data-privacy-boundaries-research"
+      "continuity-planning-for-philippines-weather-and-holiday-disruptions",
+      "data-privacy-boundaries-for-philippines-based-support-work"
     ],
-    "hero": "/daily06/outsourcedphilippines/philippines-outsourcing-holiday-coverage-research.webp",
-    "thumbnail": "/daily06/outsourcedphilippines/philippines-outsourcing-holiday-coverage-research.webp"
+    "hero": "/daily06/outsourcedphilippines/holiday-coverage-and-rest-periods-in-philippines-outsourcing.webp",
+    "thumbnail": "/daily06/outsourcedphilippines/holiday-coverage-and-rest-periods-in-philippines-outsourcing.webp"
   },
   {
-    "slug": "philippines-outsourcing-segregation-of-duties-research",
+    "slug": "segregation-of-duties-for-outsourced-finance-coordinators",
     "title": "Segregation of Duties for Outsourced Finance Coordinators",
     "excerpt": "How to split initiation, approval, recording, custody, and reconciliation in a small offshore finance lane without losing speed.",
     "published": "2026-11-06",
@@ -240,14 +240,14 @@ export const nov06ResearchPosts = [
       "https://www.worldbank.org/en/country/philippines/overview"
     ],
     "related": [
-      "philippines-outsourcing-data-privacy-boundaries-research",
-      "philippines-outsourcing-public-labor-statistics-research"
+      "data-privacy-boundaries-for-philippines-based-support-work",
+      "what-public-labor-statistics-can-tell-a-philippines-hiring-team"
     ],
-    "hero": "/daily06/outsourcedphilippines/philippines-outsourcing-segregation-of-duties-research.webp",
-    "thumbnail": "/daily06/outsourcedphilippines/philippines-outsourcing-segregation-of-duties-research.webp"
+    "hero": "/daily06/outsourcedphilippines/segregation-of-duties-for-outsourced-finance-coordinators.webp",
+    "thumbnail": "/daily06/outsourcedphilippines/segregation-of-duties-for-outsourced-finance-coordinators.webp"
   },
   {
-    "slug": "philippines-outsourcing-public-labor-statistics-research",
+    "slug": "what-public-labor-statistics-can-tell-a-philippines-hiring-team",
     "title": "What Public Labor Statistics Can Tell a Philippines Hiring Team",
     "excerpt": "A careful reading of Philippine labor-force data: what participation, employment, and underemployment measure, and what they cannot say about your role.",
     "published": "2026-11-06",
@@ -323,14 +323,14 @@ export const nov06ResearchPosts = [
       "https://psa.gov.ph/"
     ],
     "related": [
-      "philippines-outsourcing-holiday-coverage-research",
-      "philippines-outsourcing-segregation-of-duties-research"
+      "holiday-coverage-and-rest-periods-in-philippines-outsourcing",
+      "segregation-of-duties-for-outsourced-finance-coordinators"
     ],
-    "hero": "/daily06/outsourcedphilippines/philippines-outsourcing-public-labor-statistics-research.webp",
-    "thumbnail": "/daily06/outsourcedphilippines/philippines-outsourcing-public-labor-statistics-research.webp"
+    "hero": "/daily06/outsourcedphilippines/what-public-labor-statistics-can-tell-a-philippines-hiring-team.webp",
+    "thumbnail": "/daily06/outsourcedphilippines/what-public-labor-statistics-can-tell-a-philippines-hiring-team.webp"
   },
   {
-    "slug": "philippines-outsourcing-continuity-disruptions-research",
+    "slug": "continuity-planning-for-philippines-weather-and-holiday-disruptions",
     "title": "Continuity Planning for Philippines Weather and Holiday Disruptions",
     "excerpt": "A bounded continuity plan for typhoons, flooding, power outages, and holiday clusters, with criticality tiers, alternate channels, and a pause rule.",
     "published": "2026-11-06",
@@ -405,10 +405,10 @@ export const nov06ResearchPosts = [
       "https://www.ilo.org/"
     ],
     "related": [
-      "philippines-outsourcing-holiday-coverage-research",
-      "philippines-outsourcing-data-privacy-boundaries-research"
+      "holiday-coverage-and-rest-periods-in-philippines-outsourcing",
+      "data-privacy-boundaries-for-philippines-based-support-work"
     ],
-    "hero": "/daily06/outsourcedphilippines/philippines-outsourcing-continuity-disruptions-research.webp",
-    "thumbnail": "/daily06/outsourcedphilippines/philippines-outsourcing-continuity-disruptions-research.webp"
+    "hero": "/daily06/outsourcedphilippines/continuity-planning-for-philippines-weather-and-holiday-disruptions.webp",
+    "thumbnail": "/daily06/outsourcedphilippines/continuity-planning-for-philippines-weather-and-holiday-disruptions.webp"
   }
 ];

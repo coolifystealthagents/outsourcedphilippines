@@ -1,49 +1,49 @@
 // 2026-11-06 batch.
 export const nov06BlogPosts = [
   {
-    "slug": "philippines-holiday-coverage-calendar",
+    "slug": "run-a-philippines-holiday-coverage-calendar-without-last-minute-scramble",
     "title": "Run a Philippines Holiday Coverage Calendar Without Last-Minute Scramble",
     "excerpt": "A practical holiday calendar for a Philippines-based team, with named backups, client notice, rest-day rules, and a review after each cycle.",
     "minutes": 5,
     "publishedAt": "2026-11-06",
-    "heroImage": "/daily06/outsourcedphilippines/philippines-holiday-coverage-calendar.webp"
+    "heroImage": "/daily06/outsourcedphilippines/run-a-philippines-holiday-coverage-calendar-without-last-minute-scramble.webp"
   },
   {
-    "slug": "philippines-refund-authority-limits",
+    "slug": "set-a-written-refund-authority-for-philippines-support-agents",
     "title": "Set a Written Refund Authority for Philippines Support Agents",
     "excerpt": "Define refund tiers, evidence requirements, payment separation, exception handling, and a sampling routine that keeps support decisions consistent.",
     "minutes": 5,
     "publishedAt": "2026-11-06",
-    "heroImage": "/daily06/outsourcedphilippines/philippines-refund-authority-limits.webp"
+    "heroImage": "/daily06/outsourcedphilippines/set-a-written-refund-authority-for-philippines-support-agents.webp"
   },
   {
-    "slug": "philippines-paid-trial-batch-hiring",
+    "slug": "use-a-paid-trial-batch-before-hiring-a-philippines-specialist",
     "title": "Use a Paid Trial Batch Before Hiring a Philippines Specialist",
     "excerpt": "Turn a hiring decision into a small paid work sample with a written brief, a scoring rubric, and a review conversation that predicts real performance.",
     "minutes": 5,
     "publishedAt": "2026-11-06",
-    "heroImage": "/daily06/outsourcedphilippines/philippines-paid-trial-batch-hiring.webp"
+    "heroImage": "/daily06/outsourcedphilippines/use-a-paid-trial-batch-before-hiring-a-philippines-specialist.webp"
   },
   {
-    "slug": "philippines-shared-drive-filing-standard",
+    "slug": "make-a-shared-drive-readable-to-a-new-philippines-hire",
     "title": "Make a Shared Drive Readable to a New Philippines Hire",
     "excerpt": "A practical filing standard for distributed teams: fewer folders, descriptive names, version labels, an archive rule, and a finding guide a new hire can use.",
     "minutes": 5,
     "publishedAt": "2026-11-06",
-    "heroImage": "/daily06/outsourcedphilippines/philippines-shared-drive-filing-standard.webp"
+    "heroImage": "/daily06/outsourcedphilippines/make-a-shared-drive-readable-to-a-new-philippines-hire.webp"
   },
   {
-    "slug": "philippines-customer-reply-tone-sample",
+    "slug": "check-customer-reply-tone-against-a-written-sample",
     "title": "Check Customer Reply Tone Against a Written Sample",
     "excerpt": "Build a small approved reply library, name observable tone rules, review real messages, and coach the gap without rewriting every response.",
     "minutes": 5,
     "publishedAt": "2026-11-06",
-    "heroImage": "/daily06/outsourcedphilippines/philippines-customer-reply-tone-sample.webp"
+    "heroImage": "/daily06/outsourcedphilippines/check-customer-reply-tone-against-a-written-sample.webp"
   }
 ];
 
 export const nov06BlogBasics = {
-  "philippines-holiday-coverage-calendar": {
+  "run-a-philippines-holiday-coverage-calendar-without-last-minute-scramble": {
     "intro": "Philippine holidays arrive on two tracks: nationwide dates set by proclamation and local observances that vary by city or province. A calendar that only marks red days on a shared wall planner leaves a coordinator hunting for cover the morning a queue goes quiet. The fix is a written coverage calendar that ties every critical task to a named primary, a named backup, and a client-approved service level. Without that record, the team cannot tell whether a quiet queue is planned or forgotten.",
     "sections": [
       {
@@ -96,7 +96,7 @@ export const nov06BlogBasics = {
       }
     ]
   },
-  "philippines-refund-authority-limits": {
+  "set-a-written-refund-authority-for-philippines-support-agents": {
     "intro": "Refund authority is one of the first boundaries a growing support team gets wrong. A new agent wants to help a frustrated customer, a supervisor is offline, and the quickest path looks like a refund issued from the same screen used to read the order. A written authority schedule gives the agent a clear answer before the customer is waiting, and it gives the business a record of who could approve what. The written schedule should answer the common case before the customer asks.",
     "sections": [
       {
@@ -149,7 +149,7 @@ export const nov06BlogBasics = {
       }
     ]
   },
-  "philippines-paid-trial-batch-hiring": {
+  "use-a-paid-trial-batch-before-hiring-a-philippines-specialist": {
     "intro": "A résumé and a pleasant interview cannot show whether a candidate will notice a missing invoice reference or ask the right question when a client instruction is vague. A paid trial batch gives both sides a realistic look at the work. It also respects the candidate’s time, which matters when the best specialists have several offers and remember how a company behaved during hiring. It also gives the candidate a fair look at the actual work before either side commits.",
     "sections": [
       {
@@ -202,7 +202,7 @@ export const nov06BlogBasics = {
       }
     ]
   },
-  "philippines-shared-drive-filing-standard": {
+  "make-a-shared-drive-readable-to-a-new-philippines-hire": {
     "intro": "A new Philippines-based hire can lose a week inside a shared drive that grew one folder at a time. Files sit under people’s names, the current contract shares a folder with three superseded drafts, and the only map is a message in someone’s inbox. A simple filing standard turns the drive from a personal archive into a place where a new colleague can find the current version without asking. The standard does not need to be elaborate, but it does need to be visible and enforced.",
     "sections": [
       {
@@ -255,7 +255,7 @@ export const nov06BlogBasics = {
       }
     ]
   },
-  "philippines-customer-reply-tone-sample": {
+  "check-customer-reply-tone-against-a-written-sample": {
     "intro": "Tone is easy to praise and hard to review. A supervisor says a reply felt cold, the agent hears a personality judgment, and the next message overcorrects into phrases the brand never uses. A written tone sample gives the team something concrete to compare against, and it turns a vague disagreement into a short, specific coaching conversation. A shared sample moves the discussion from taste to evidence.",
     "sections": [
       {
