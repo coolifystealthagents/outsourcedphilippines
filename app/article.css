@@ -14,3 +14,4 @@
 @media(max-width:600px){.editorial-hero,.editorial-layout{width:min(100% - 28px,1180px)}.editorial-hero h1{font-size:40px}.editorial-mobile-toc .editorial-toc-list{columns:1}.editorial-byline>*+*:before{display:none}.editorial-index-cta{padding:25px}}
 
 @media(max-width:1170px){.editorial-mobile-toc{position:sticky;top:78px;z-index:40;max-height:60vh;overflow:auto;background:#fff}}
+@media(max-width:1170px){.editorial-mobile-toc[open]{position:static;max-height:none;overflow:visible}}
