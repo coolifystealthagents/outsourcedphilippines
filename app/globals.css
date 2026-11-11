@@ -78,7 +78,9 @@ body{overflow-x:clip}
   .hat-toc ol{grid-template-columns:1fr;margin-top:10px}
 }
 .hat-toc-mobile{position:sticky;top:78px;z-index:40;max-height:60vh;overflow:auto;background:#fff}
-.hat-toc-mobile[open]{position:static;max-height:none;overflow:visible}
+.hat-toc-mobile[open]{display:contents}
+.hat-toc-mobile[open]>summary{position:sticky;top:78px;z-index:40;display:block;margin:0 0 8px;padding:12px 14px;background:#fff;border:1px solid #cbd7d5;border-radius:10px;box-shadow:0 10px 26px rgba(7,28,44,.09)}
+.hat-toc-mobile[open]>nav{margin:0 0 18px;padding:8px 14px 14px;background:#fff;border:1px solid #cbd7d5;border-radius:10px}
 .hat-toc-mobile nav{display:grid;gap:2px;margin-top:8px}
 .hat-toc-mobile nav a{display:block;padding:5px 8px;border-left:2px solid transparent;color:#3c5360;font-size:13px;line-height:1.4;text-decoration:none}
 .hat-toc-mobile nav a:hover,.hat-toc-mobile nav a:focus-visible{border-left-color:#0f8f73;background:#e9f3f1;color:#075a49;text-decoration:underline}
