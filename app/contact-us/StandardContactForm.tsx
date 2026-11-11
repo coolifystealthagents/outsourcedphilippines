@@ -53,15 +53,15 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
     setError("");
     try {
       const request = encoding === "form"
-        ? { method: "POST", body: new URLSearchParams(payload) }
+        ? { method: "POST", headers: { Accept: "application/json" }, body: new URLSearchParams(payload) }
         : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) };
       const response = await fetch(endpoint, request);
       if (!response.ok) throw new Error("Lead endpoint rejected the request");
-      try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
+      try { /* ACR captures the native submit event once. */ } catch {}
       window.location.assign("/thank-you");
     } catch {
       // Analytics is not lead delivery. Never present a tracker-only event as success.
-      try { (window as TrackerWindow).acrTracker?.trackLead?.({ ...payload, deliveryStatus: "failed" }); } catch {}
+      try { /* ACR captures the native submit event once. */ } catch {}
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);
     }
@@ -70,7 +70,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <h2>Plan your Philippines support role</h2>
-      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
+      <form data-acr-managed="react" action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
         <input className="sa-hp" name="website_url" type="hidden" tabIndex={-1} autoComplete="off" aria-label="Leave this field empty" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>

@@ -79,7 +79,7 @@ export async function POST(request: NextRequest) {
   const origin = request.headers.get('origin');
   const supportedType = contentType.includes('application/x-www-form-urlencoded') || contentType.includes('multipart/form-data');
 
-  if ((origin && origin !== request.nextUrl.origin)
+  if ((origin && origin !== 'https://outsourcedphilippines.com' && origin !== 'https://www.outsourcedphilippines.com')
     || (declaredLength !== null && (!Number.isFinite(length) || length <= 0 || length > MAX_BODY_BYTES))
     || !supportedType) return errorPage(400);
   if (limited(`ip:${ip(request)}`, 10)) return errorPage(429);
@@ -156,5 +156,5 @@ export async function POST(request: NextRequest) {
   }
 
   void sendLeadFallbackToMattermost({ name, email, phone, business, message, companySize, positions, referral: heard, pageUrl, userAgent: request.headers.get('user-agent') || '' });
-  return NextResponse.redirect(new URL('/thank-you?lead=accepted', request.url), 303);
+  if (request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ok:true,redirect:'/thank-you?lead=accepted'}, {headers:{'cache-control':'no-store'}});return NextResponse.redirect(new URL('/thank-you?lead=accepted', 'https://outsourcedphilippines.com'), 303);
 }
