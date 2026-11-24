@@ -40,6 +40,7 @@ import { nov20BlogBasics, nov20BlogPosts } from './blog/nov20-blog-batch';
 import { nov21BlogBasics, nov21BlogPosts } from './blog/nov21-blog-batch';
 import { nov22BlogBasics, nov22BlogPosts } from './blog/nov22-blog-batch';
 import { nov23BlogBasics, nov23BlogPosts } from './blog/nov23-blog-batch';
+import { nov24BlogBasics, nov24BlogPosts } from './blog/nov24-blog-batch';
 import { nov04BlogBasics, nov04BlogPosts } from './blog/nov04-blog-batch';
 import { nov03BlogBasics, nov03BlogPosts } from './blog/nov03-blog-batch';
 
@@ -165,7 +166,7 @@ const legacyBlogPosts = [
     minutes: 8,
   },] as const;
 
-export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts, ...aug31BlogPosts, ...sep1BlogPosts, ...sep2BlogPosts, ...sep3BlogPosts, ...sep4BlogPosts, ...sep7BlogPosts, ...sep8BlogPosts, ...sep9BlogPosts, ...sep10BlogPosts, ...sep11BlogPosts, ...sep14BlogPosts, ...sep18BlogPosts, ...sep22BlogPosts, ...sep23BlogPosts, ...sep24BlogPosts, ...sep25BlogPosts, ...sep28BlogPosts, ...oct2BlogPosts, ...oct5BlogPosts, ...oct8BlogPosts, ...oct12BlogPosts, ...oct13BlogPosts, ...oct22BlogPosts, ...oct26BlogPosts, ...nov08BlogPosts, ...nov09BlogPosts, ...nov10BlogPosts, ...nov11BlogPosts, ...nov16BlogPosts, ...nov17BlogPosts, ...nov18BlogPosts, ...nov19BlogPosts, ...nov20BlogPosts, ...nov23BlogPosts, ...nov22BlogPosts, ...nov21BlogPosts, ...nov07BlogPosts, ...nov06BlogPosts, ...nov05BlogPosts, ...nov04BlogPosts, ...nov03BlogPosts, ...nov02BlogPosts, ...oct27BlogPosts].sort((a, b) => {
+export const blogPosts = [...legacyBlogPosts, ...allDailyBlogPosts, ...aug31BlogPosts, ...sep1BlogPosts, ...sep2BlogPosts, ...sep3BlogPosts, ...sep4BlogPosts, ...sep7BlogPosts, ...sep8BlogPosts, ...sep9BlogPosts, ...sep10BlogPosts, ...sep11BlogPosts, ...sep14BlogPosts, ...sep18BlogPosts, ...sep22BlogPosts, ...sep23BlogPosts, ...sep24BlogPosts, ...sep25BlogPosts, ...sep28BlogPosts, ...oct2BlogPosts, ...oct5BlogPosts, ...oct8BlogPosts, ...oct12BlogPosts, ...oct13BlogPosts, ...oct22BlogPosts, ...oct26BlogPosts, ...nov08BlogPosts, ...nov09BlogPosts, ...nov10BlogPosts, ...nov11BlogPosts, ...nov16BlogPosts, ...nov17BlogPosts, ...nov18BlogPosts, ...nov19BlogPosts, ...nov20BlogPosts, ...nov24BlogPosts, ...nov23BlogPosts, ...nov22BlogPosts, ...nov21BlogPosts, ...nov07BlogPosts, ...nov06BlogPosts, ...nov05BlogPosts, ...nov04BlogPosts, ...nov03BlogPosts, ...nov02BlogPosts, ...oct27BlogPosts].sort((a, b) => {
   const aDate = 'publishedAt' in a && a.publishedAt ? a.publishedAt : '';
   const bDate = 'publishedAt' in b && b.publishedAt ? b.publishedAt : '';
   return bDate.localeCompare(aDate) || a.slug.localeCompare(b.slug);
@@ -351,7 +352,7 @@ export const blogDetails = {
   },
 } as const;
 
-export const blogBasics = { ...legacyBlogBasics, ...allDailyBlogBasics, ...aug31BlogBasics, ...sep1BlogBasics, ...sep2BlogBasics, ...sep3BlogBasics, ...sep4BlogBasics, ...sep7BlogBasics, ...sep8BlogBasics, ...sep9BlogBasics, ...sep10BlogBasics, ...sep11BlogBasics, ...sep14BlogBasics, ...sep18BlogBasics, ...sep22BlogBasics, ...sep23BlogBasics, ...sep24BlogBasics, ...sep25BlogBasics, ...sep28BlogBasics, ...oct2BlogBasics, ...oct5BlogBasics, ...oct8BlogBasics, ...oct12BlogBasics, ...oct13BlogBasics, ...oct22BlogBasics, ...oct26BlogBasics, ...nov08BlogBasics, ...nov09BlogBasics, ...nov10BlogBasics, ...nov11BlogBasics, ...nov16BlogBasics, ...nov17BlogBasics, ...nov18BlogBasics, ...nov19BlogBasics, ...nov20BlogBasics, ...nov23BlogBasics, ...nov22BlogBasics, ...nov21BlogBasics, ...nov07BlogBasics, ...nov06BlogBasics, ...nov05BlogBasics, ...nov04BlogBasics, ...nov03BlogBasics, ...nov02BlogBasics, ...oct27BlogBasics };
+export const blogBasics = { ...legacyBlogBasics, ...allDailyBlogBasics, ...aug31BlogBasics, ...sep1BlogBasics, ...sep2BlogBasics, ...sep3BlogBasics, ...sep4BlogBasics, ...sep7BlogBasics, ...sep8BlogBasics, ...sep9BlogBasics, ...sep10BlogBasics, ...sep11BlogBasics, ...sep14BlogBasics, ...sep18BlogBasics, ...sep22BlogBasics, ...sep23BlogBasics, ...sep24BlogBasics, ...sep25BlogBasics, ...sep28BlogBasics, ...oct2BlogBasics, ...oct5BlogBasics, ...oct8BlogBasics, ...oct12BlogBasics, ...oct13BlogBasics, ...oct22BlogBasics, ...oct26BlogBasics, ...nov08BlogBasics, ...nov09BlogBasics, ...nov10BlogBasics, ...nov11BlogBasics, ...nov16BlogBasics, ...nov17BlogBasics, ...nov18BlogBasics, ...nov19BlogBasics, ...nov20BlogBasics, ...nov24BlogBasics, ...nov23BlogBasics, ...nov22BlogBasics, ...nov21BlogBasics, ...nov07BlogBasics, ...nov06BlogBasics, ...nov05BlogBasics, ...nov04BlogBasics, ...nov03BlogBasics, ...nov02BlogBasics, ...oct27BlogBasics };
 
 export const stats = [
   { label: 'Talent source', value: 'Philippines', note: 'the staffing model is limited to Filipino talent based in the Philippines' },
