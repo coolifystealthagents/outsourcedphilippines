@@ -5,6 +5,8 @@ import "./field-design.css";
 import './article.css';
 import type { Metadata } from 'next';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://outsourcedphilippines.com'),
   title: { default: 'Outsourced Philippines | Plan roles for Filipino talent', template: '%s | Outsourced Philippines' },
